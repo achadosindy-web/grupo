@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#5A4032">
+<link rel="icon" href="logo-indy.png">
+<title>Garimpo da Indy</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap">
+<style>
+/* Layout: painel de loja no celular. Topo fixo com filtros em fileira rolável, grade de cartões de produto (2 colunas no celular), barra inferior com "Postar algo que vi". Paleta "Indy natural". */
+:root{
+  --bg:#F4EFE7; --papel:#FFFDF9; --fio:#E4DACB; --campo:#F7F3EC;
+  --cafe:#5A4032; --caramelo:#A9784F; --salvia:#8E9880; --salvia-claro:#E6E9DE;
+  --texto:#2B2420; --texto-2:#6B5F57; --ok:#3E7B53; --ok-claro:#E3F0E6;
+  --amazon:#1F2937; --ml:#2D3277; --shopee:#C2410C;
+  --f-titulo:"Playfair Display",Georgia,serif;
+  --f-texto:"Montserrat",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#1A1714; --papel:#25201C; --fio:#3A322B; --campo:#2E2823;
+  --cafe:#EBDCCB; --caramelo:#D9A77C; --salvia:#A9B39A; --salvia-claro:#2F3429;
+  --texto:#EFE6DC; --texto-2:#B4A79B; --ok:#8BC79E; --ok-claro:#21342A;
+  --amazon:#E5E7EB; --ml:#B9BEF5; --shopee:#FDBA74; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1A1714; --papel:#25201C; --fio:#3A322B; --campo:#2E2823;
+  --cafe:#EBDCCB; --caramelo:#D9A77C; --salvia:#A9B39A; --salvia-claro:#2F3429;
+  --texto:#EFE6DC; --texto-2:#B4A79B; --ok:#8BC79E; --ok-claro:#21342A;
+  --amazon:#E5E7EB; --ml:#B9BEF5; --shopee:#FDBA74; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--texto);font-family:var(--f-texto);font-size:14px;line-height:1.45;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,input,select{font:inherit}
+:focus-visible{outline:2px solid var(--caramelo);outline-offset:2px}
+
+.topo{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--fio);padding:12px 16px 10px;display:grid;gap:10px}
+.topo>*{min-width:0}
+.linha1{display:flex;align-items:baseline;justify-content:space-between;gap:12px;max-width:1100px;margin:0 auto;width:100%}
+h1{font-family:var(--f-titulo);font-weight:600;font-size:22px;color:var(--cafe);margin:0}
+.status{font-size:12px;color:var(--texto-2);text-align:right}
+.busca{max-width:1100px;margin:0 auto;width:100%;display:flex;gap:8px}
+.busca input{flex:1;min-width:0;border:1px solid var(--fio);background:var(--papel);color:var(--texto);border-radius:12px;padding:10px 12px}
+.busca select{flex:none;border:1px solid var(--fio);background:var(--papel);color:var(--texto);border-radius:12px;padding:10px 8px;max-width:44%}
+.chips{max-width:1100px;margin:0 auto;width:100%;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--fio);background:var(--papel);color:var(--texto-2);border-radius:999px;padding:6px 12px;font-size:12.5px;font-weight:600;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--cafe);border-color:var(--cafe);color:var(--papel)}
+.sep{flex:none;width:1px;background:var(--fio);margin:4px 2px}
+
+main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
+.resumo{font-size:12.5px;color:var(--texto-2);margin:0 0 12px}
+.grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.card{background:var(--papel);border:1px solid var(--fio);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.card.aprovado{border-color:var(--ok)}
+.foto{position:relative;aspect-ratio:1/1;background:var(--campo);display:grid;place-items:center;max-width:100%}
+.foto img{width:100%;height:100%;object-fit:contain;display:block}
+.foto .semfoto{font-size:12px;color:var(--texto-2)}
+.off{position:absolute;top:8px;left:8px;background:var(--caramelo);color:#fff;font-weight:700;font-size:12px;border-radius:999px;padding:3px 8px}
+.selo-ok{position:absolute;top:8px;right:8px;background:var(--ok);color:#fff;font-weight:700;font-size:11px;border-radius:999px;padding:3px 8px}
+.corpo{padding:10px 10px 12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:11px;color:var(--texto-2)}
+.loja{font-weight:700;letter-spacing:.02em}
+.loja.Amazon{color:var(--amazon)} .loja.Mercado{color:var(--ml)} .loja.Shopee{color:var(--shopee)}
+.nome{font-size:13px;font-weight:600;line-height:1.35;color:var(--texto);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.7em}
+.precos{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+.preco{font-size:17px;font-weight:700;color:var(--cafe);font-variant-numeric:tabular-nums}
+.de{font-size:12px;color:var(--texto-2);text-decoration:line-through}
+.cupom{font-size:11.5px;font-weight:600;color:var(--caramelo)}
+.acoes{display:grid;gap:6px;margin-top:auto;padding-top:4px}
+.btn{display:flex;align-items:center;justify-content:center;gap:6px;border-radius:10px;padding:9px 10px;font-weight:700;font-size:13px;text-decoration:none;border:0;cursor:pointer;text-align:center}
+.btn.postar{background:var(--cafe);color:var(--papel)}
+.btn.postar[aria-disabled="true"]{opacity:.45;pointer-events:none}
+.btn.sec{background:var(--campo);color:var(--cafe);border:1px solid var(--fio)}
+.linha-btn{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px}
+.linha-btn .btn{min-width:0;padding-inline:6px}
+.colar{border:1px dashed var(--caramelo);background:var(--campo);color:var(--texto);border-radius:10px;padding:8px 10px;font-size:12.5px;width:100%;min-width:0}
+.dica{font-size:11px;color:var(--texto-2)}
+.dica.erro{color:var(--shopee)}
+.aprovado-txt{font-size:12px;font-weight:700;color:var(--ok);text-align:center;background:var(--ok-claro);border-radius:10px;padding:8px}
+
+.vazio{background:var(--papel);border:1px dashed var(--fio);border-radius:16px;padding:28px 18px;text-align:center;color:var(--texto-2);display:grid;gap:8px}
+.vazio b{color:var(--cafe);font-size:15px}
+
+.barra{position:fixed;left:0;right:0;bottom:0;z-index:6;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:linear-gradient(to top,var(--bg) 70%,transparent);display:flex;justify-content:center}
+.barra a{width:100%;max-width:440px;background:var(--salvia);color:#fff;text-decoration:none;font-weight:700;border-radius:999px;padding:13px 16px;text-align:center;box-shadow:0 8px 20px rgba(0,0,0,.15)}
+.exemplo{max-width:1100px;margin:0 auto 10px;background:var(--salvia-claro);color:var(--cafe);border-radius:12px;padding:10px 12px;font-size:12.5px}
+@media (min-width:700px){.grade{grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="topo">
+  <div class="linha1">
+    <h1>Garimpo da Indy</h1>
+    <div class="status" id="status">carregando…</div>
+  </div>
+  <div class="busca">
+    <input id="q" type="search" placeholder="Buscar: legging, panela, perfume…" aria-label="Buscar no garimpo">
+    <select id="ordem" aria-label="Ordenar">
+      <option value="novos">Mais novos</option>
+      <option value="desconto">Maior desconto</option>
+      <option value="preco">Menor preço</option>
+    </select>
+  </div>
+  <div class="chips" id="chips-loja" role="group" aria-label="Loja"></div>
+  <div class="chips" id="chips-cat" role="group" aria-label="Categoria"></div>
+</header>
+
+<main>
+  <div class="exemplo" id="aviso-exemplo" hidden>Prévia com achados de exemplo. No celular, o painel de verdade mostra o que o robô garimpou de fato.</div>
+  <p class="resumo" id="resumo"></p>
+  <div class="grade" id="grade"></div>
+  <div class="vazio" id="vazio" hidden>
+    <b>Nenhum achado com esses filtros</b>
+    <span>O robô atualiza o garimpo às 9h, 12h, 15h, 19h e 21h. Tente outra categoria ou tire o filtro de desconto.</span>
+  </div>
+</main>
+
+<div class="barra"><a id="vi" href="#" target="_blank" rel="noopener">＋ Postar algo que eu vi</a></div>
+
+<script>
+const EXEMPLO = null;
+const LOJAS = ["Todas", "Amazon", "Mercado Livre", "Shopee"];
+const CATS = ["Todas", "Fitness", "Moda", "Casa", "Beleza", "Eletrônicos", "Outros"];
+const PREFIXO = { "meli.la": "ml", "s.shopee.com.br": "sp", "shope.ee": "sp", "amzn.to": "az" };
+const estado = { loja: "Todas", cat: "Todas", desc20: false, esconder: false, q: "", ordem: "novos" };
+let dados = { itens: [], bot: "", atualizado: "" };
+
+const lerLocal = (k, padrao) => { try { return JSON.parse(localStorage.getItem(k)) ?? padrao; } catch { return padrao; } };
+const gravarLocal = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+let descartados = new Set(lerLocal("garimpo-descartados", []));
+let colados = lerLocal("garimpo-colados", {});
+
+const brl = v => Number(v).toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+function ha(iso) {
+  const d = new Date(iso); if (isNaN(d)) return "";
+  const min = Math.max(0, Math.round((Date.now() - d) / 60000));
+  if (min < 60) return `há ${min} min`;
+  const h = Math.round(min / 60); return h < 24 ? `há ${h} h` : `há ${Math.round(h / 24)} d`;
+}
+const tg = start => dados.bot ? `https://t.me/${dados.bot}${start ? "?start=" + start : ""}` : "#";
+
+function codigoDoLink(texto) {
+  const m = String(texto).trim().match(/https?:\/\/(meli\.la|s\.shopee\.com\.br|shope\.ee|amzn\.to)\/([A-Za-z0-9]+)/i);
+  return m ? { tipo: PREFIXO[m[1].toLowerCase()], codigo: m[2] } : null;
+}
+
+function chips(id, valores, chave) {
+  const el = document.getElementById(id);
+  el.innerHTML = valores.map(v => `<button class="chip" type="button" data-v="${esc(v)}" aria-pressed="${estado[chave] === v}">${esc(v)}</button>`).join("") +
+    (chave === "cat" ? `<span class="sep"></span><button class="chip" type="button" id="f-desc" aria-pressed="${estado.desc20}">20%+ off</button><button class="chip" type="button" id="f-esc" aria-pressed="${estado.esconder}">Esconder postados</button>` : "");
+  el.querySelectorAll("[data-v]").forEach(b => b.addEventListener("click", () => { estado[chave] = b.dataset.v; desenhar(); }));
+  if (chave === "cat") {
+    el.querySelector("#f-desc").addEventListener("click", () => { estado.desc20 = !estado.desc20; desenhar(); });
+    el.querySelector("#f-esc").addEventListener("click", () => { estado.esconder = !estado.esconder; desenhar(); });
+  }
+}
+
+function filtrados() {
+  const q = estado.q.toLowerCase();
+  let l = dados.itens.filter(i => !descartados.has(i.gid)
+    && (estado.loja === "Todas" || i.loja === estado.loja)
+    && (estado.cat === "Todas" || i.categoria === estado.cat)
+    && (!estado.desc20 || (i.desconto || 0) >= 20)
+    && (!estado.esconder || !i.aprovado)
+    && (!q || i.nome.toLowerCase().includes(q)));
+  if (estado.ordem === "desconto") l.sort((a, b) => (b.desconto || 0) - (a.desconto || 0));
+  else if (estado.ordem === "preco") l.sort((a, b) => a.preco - b.preco);
+  return l;
+}
+
+function cartao(i) {
+  const lojaCls = i.loja.split(" ")[0];
+  const foto = i.imagem ? `<img src="${esc(i.imagem)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'semfoto',textContent:'sem foto'}))">` : `<span class="semfoto">sem foto</span>`;
+  let acoes;
+  if (i.aprovado) {
+    acoes = `<div class="aprovado-txt">✓ Aprovado, vai pro grupo</div>`;
+  } else if (i.converter) {
+    acoes = `<a class="btn postar" href="${tg("ok_" + i.gid)}" target="_blank" rel="noopener" data-postar="${i.gid}">Postar no grupo</a>
+      <div class="linha-btn"><a class="btn sec" href="${esc(i.link)}" target="_blank" rel="noopener">Ver produto</a><button class="btn sec" type="button" data-desc="${i.gid}">Descartar</button></div>`;
+  } else {
+    const c = colados[i.gid] || "";
+    const cod = codigoDoLink(c);
+    acoes = `<a class="btn sec" href="${esc(i.link)}" target="_blank" rel="noopener">1. Abrir e gerar meu link</a>
+      <input class="colar" type="url" inputmode="url" id="c-${i.gid}" data-colar="${i.gid}" placeholder="2. Cole aqui o seu link" value="${esc(c)}">
+      <span class="dica ${c && !cod ? "erro" : ""}" id="d-${i.gid}">${c && !cod ? "Esse link não parece ser meli.la, shopee ou amzn.to" : "O link que começa com meli.la/…"}</span>
+      <div class="linha-btn"><a class="btn postar" id="p-${i.gid}" href="${cod ? tg(cod.tipo + "_" + i.gid + "_" + cod.codigo) : "#"}" aria-disabled="${!cod}" target="_blank" rel="noopener" data-postar="${i.gid}">3. Postar</a><button class="btn sec" type="button" data-desc="${i.gid}">Descartar</button></div>`;
+  }
+  return `<article class="card ${i.aprovado ? "aprovado" : ""}">
+    <div class="foto">${foto}${i.desconto ? `<span class="off">-${i.desconto}%</span>` : ""}${i.aprovado ? `<span class="selo-ok">✓</span>` : ""}</div>
+    <div class="corpo">
+      <div class="meta"><span class="loja ${lojaCls}">${esc(i.loja)}</span>·<span>${esc(i.categoria)}</span>·<span>${ha(i.achado_em || i.quando)}</span></div>
+      <div class="nome">${esc(i.nome)}</div>
+      <div class="precos"><span class="preco">${brl(i.preco)}</span>${i.preco_antes ? `<span class="de">${brl(i.preco_antes)}</span>` : ""}</div>
+      ${i.cupom ? `<div class="cupom">Cupom: ${esc(i.cupom)}</div>` : ""}
+      <div class="acoes">${acoes}</div>
+    </div>
+  </article>`;
+}
+
+function desenhar() {
+  chips("chips-loja", LOJAS, "loja");
+  chips("chips-cat", CATS, "cat");
+  const l = filtrados();
+  document.getElementById("grade").innerHTML = l.map(cartao).join("");
+  document.getElementById("vazio").hidden = l.length > 0;
+  const total = dados.itens.length, aprov = dados.itens.filter(i => i.aprovado).length;
+  document.getElementById("resumo").textContent = `${l.length} de ${total} achados · ${aprov} aprovados · toque em Postar e depois em "Iniciar" no Telegram`;
+  ligarCartoes();
+}
+
+function ligarCartoes() {
+  document.querySelectorAll("[data-desc]").forEach(b => b.addEventListener("click", () => {
+    descartados.add(b.dataset.desc); gravarLocal("garimpo-descartados", [...descartados].slice(-600)); desenhar();
+  }));
+  document.querySelectorAll("[data-colar]").forEach(inp => inp.addEventListener("input", () => {
+    const gid = inp.dataset.colar, cod = codigoDoLink(inp.value);
+    colados[gid] = inp.value; gravarLocal("garimpo-colados", colados);
+    const p = document.getElementById("p-" + gid), d = document.getElementById("d-" + gid);
+    p.href = cod ? tg(cod.tipo + "_" + gid + "_" + cod.codigo) : "#";
+    p.setAttribute("aria-disabled", String(!cod));
+    d.textContent = inp.value && !cod ? "Esse link não parece ser meli.la, shopee ou amzn.to" : (cod ? "Pronto: toque em Postar" : "O link que começa com meli.la/…");
+    d.classList.toggle("erro", !!inp.value && !cod);
+  }));
+  document.querySelectorAll("[data-postar]").forEach(a => a.addEventListener("click", e => {
+    if (a.getAttribute("aria-disabled") === "true" || a.getAttribute("href") === "#") { e.preventDefault(); return; }
+    const i = dados.itens.find(x => x.gid === a.dataset.postar);
+    if (i) { i.aprovado = true; setTimeout(desenhar, 400); }
+  }));
+}
+
+document.getElementById("q").addEventListener("input", e => { estado.q = e.target.value; desenhar(); });
+document.getElementById("ordem").addEventListener("change", e => { estado.ordem = e.target.value; desenhar(); });
+
+async function carregar() {
+  try {
+    const r = await fetch("garimpo.json?v=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) throw new Error(r.status);
+    dados = await r.json();
+  } catch (e) {
+    if (EXEMPLO) { dados = EXEMPLO; document.getElementById("aviso-exemplo").hidden = false; }
+  }
+  document.getElementById("vi").href = tg("");
+  document.getElementById("status").textContent = dados.atualizado ? `atualizado ${ha(dados.atualizado)}` : "sem dados ainda";
+  desenhar();
+}
+carregar();
+</script>
+</body>
+</html>
