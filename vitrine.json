@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Haiz Monitor Gamer 25'' 144hz 0.5ms 1920x1080 Adaptative...",
+  "loja": "Amazon",
+  "preco": 458.0,
+  "preco_antes": 0,
+  "quando": "2026-10-06T09:02-03:00"
+ },
+ {
+  "nome": "Produto vendido pela loja oficial do Mercado Livre",
+  "loja": "Mercado Livre",
+  "preco": 84.9,
+  "preco_antes": 119.0,
+  "quando": "2026-10-06T09:01-03:00"
+ },
+ {
   "nome": "Z2 SALTZ 500MG TANGERINA ELETRÓLITOS 10 STICKS",
   "loja": "Mercado Livre",
   "preco": 52.0,
@@ -68,19 +82,5 @@
   "preco": 33.23,
   "preco_antes": 59.9,
   "quando": "2026-10-05T19:51-03:00"
- },
- {
-  "nome": "Vestido Esportivo Rush Preto - menor preço do ano",
-  "loja": "Amazon",
-  "preco": 119.0,
-  "preco_antes": 259.0,
-  "quando": "2026-10-05T19:37-03:00"
- },
- {
-  "nome": "Calça Legging Sem Costura Cós Alto Selene",
-  "loja": "Amazon",
-  "preco": 75.02,
-  "preco_antes": 99.99,
-  "quando": "2026-10-05T19:12-03:00"
  }
 ]
