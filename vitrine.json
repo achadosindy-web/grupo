@@ -1,5 +1,12 @@
 [
  {
+  "nome": "VESTIDO INSIDER TUBE DRESS",
+  "loja": "Mercado Livre",
+  "preco": 271.15,
+  "preco_antes": 355.0,
+  "quando": "2026-10-06T12:58-03:00"
+ },
+ {
   "nome": "Smart TV 4K 55\" LG QNED Mini LED AI QNED70 2026 55QNED70BSA",
   "loja": "Mercado Livre",
   "preco": 2667.0,
@@ -75,12 +82,5 @@
   "preco": 44.0,
   "preco_antes": 78.9,
   "quando": "2026-10-05T21:08-03:00"
- },
- {
-  "nome": "CONJUNTO FINTESS TOP + SHORTS CINTURA ALTA",
-  "loja": "Mercado Livre",
-  "preco": 37.07,
-  "preco_antes": 78.9,
-  "quando": "2026-10-05T21:07-03:00"
  }
 ]
