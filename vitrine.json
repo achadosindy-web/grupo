@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Kit 3 Legging Com Bolso Fitness Feminino Atletyca",
+  "loja": "Mercado Livre",
+  "preco": 129.58,
+  "preco_antes": 0,
+  "quando": "2026-10-06T15:38-03:00"
+ },
+ {
   "nome": "Kit 3 Shorts Feminino Basico Cintura Alta Confortável",
   "loja": "Mercado Livre",
   "preco": 38.99,
@@ -74,13 +81,6 @@
   "loja": "Mercado Livre",
   "preco": 52.0,
   "preco_antes": 84.0,
-  "quando": "2026-10-06T08:31-03:00"
- },
- {
-  "nome": "TOP LUPO LOBA FITNESS (3 CORES DISPONÍVEIS)",
-  "loja": "Mercado Livre",
-  "preco": 39.89,
-  "preco_antes": 89.56,
   "quando": "2026-10-06T08:31-03:00"
  }
 ]
