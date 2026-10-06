@@ -84,8 +84,19 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
 .vazio{background:var(--papel);border:1px dashed var(--fio);border-radius:16px;padding:28px 18px;text-align:center;color:var(--texto-2);display:grid;gap:8px}
 .vazio b{color:var(--cafe);font-size:15px}
 
-.barra{position:fixed;left:0;right:0;bottom:0;z-index:6;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:linear-gradient(to top,var(--bg) 70%,transparent);display:flex;justify-content:center}
-.barra a{width:100%;max-width:440px;background:var(--salvia);color:#fff;text-decoration:none;font-weight:700;border-radius:999px;padding:13px 16px;text-align:center;box-shadow:0 8px 20px rgba(0,0,0,.15)}
+.barra{position:fixed;left:0;right:0;bottom:0;z-index:6;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:linear-gradient(to top,var(--bg) 70%,transparent);display:flex;justify-content:center;gap:8px}
+.barra a,.barra button{flex:1;min-width:0;max-width:220px;background:var(--salvia);color:#fff;text-decoration:none;font:inherit;font-weight:700;border:0;border-radius:999px;padding:13px 12px;text-align:center;box-shadow:0 8px 20px rgba(0,0,0,.15);cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.barra button{background:var(--cafe);color:var(--papel)}
+.barra button[disabled]{opacity:.55;cursor:default}
+.aviso-envio{position:fixed;left:16px;right:16px;bottom:calc(76px + env(safe-area-inset-bottom,0px));z-index:7;max-width:440px;margin:0 auto;background:var(--texto);color:var(--bg);border-radius:14px;padding:12px 14px;font-size:13px;font-weight:600;box-shadow:0 10px 26px rgba(0,0,0,.25)}
+.folha{position:fixed;inset:0;z-index:8;background:rgba(0,0,0,.45);display:flex;align-items:flex-end;justify-content:center;padding:16px}
+.folha[hidden]{display:none}
+.folha>div{background:var(--papel);color:var(--texto);border-radius:18px;padding:18px 16px calc(16px + env(safe-area-inset-bottom,0px));width:100%;max-width:460px;display:grid;gap:10px}
+.folha h2{font-family:var(--f-titulo);font-size:19px;font-weight:600;color:var(--cafe);margin:0}
+.folha p,.folha ol{margin:0;font-size:13px;color:var(--texto-2)}
+.folha ol{padding-left:18px;display:grid;gap:3px}
+.folha input{border:1px solid var(--fio);background:var(--campo);color:var(--texto);border-radius:10px;padding:10px 12px;font-size:13px;width:100%;min-width:0}
+.folha .linha-btn .btn{padding:11px 8px}
 .exemplo{max-width:1100px;margin:0 auto 10px;background:var(--salvia-claro);color:var(--cafe);border-radius:12px;padding:10px 12px;font-size:12.5px}
 @media (min-width:700px){.grade{grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
@@ -120,7 +131,21 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
   </div>
 </main>
 
-<div class="barra"><a id="vi" href="#" target="_blank" rel="noopener">＋ Postar algo que eu vi</a></div>
+<div class="barra"><a id="vi" href="#" target="_blank" rel="noopener">＋ Postar algo que vi</a><button type="button" id="enviar">🚀 Enviar agora</button></div>
+<div class="aviso-envio" id="aviso-envio" role="status" hidden></div>
+<div class="folha" id="folha-chave" hidden>
+  <div role="dialog" aria-modal="true" aria-labelledby="t-chave">
+    <h2 id="t-chave">Ligar o "Enviar agora"</h2>
+    <p>Só na primeira vez neste celular. A chave fica guardada só aqui, não vai pra página.</p>
+    <ol>
+      <li>Peça a chave do botão pro Yuri (começa com <b>github_pat_</b>).</li>
+      <li>Cole aqui embaixo e toque em Salvar.</li>
+    </ol>
+    <input type="password" id="chave" autocomplete="off" placeholder="github_pat_…">
+    <div class="linha-btn"><button class="btn sec" type="button" id="chave-cancelar">Cancelar</button><button class="btn postar" type="button" id="chave-salvar">Salvar e enviar</button></div>
+    <p>Sem chave? <a id="abrir-actions" href="https://github.com/achadosindy-web/achadinhosbot/actions/workflows/postar.yml" target="_blank" rel="noopener">Abrir no GitHub</a> e tocar em "Run workflow".</p>
+  </div>
+</div>
 
 <script>
 const EXEMPLO = null;
@@ -209,6 +234,60 @@ function cartao(i) {
     </div>
   </article>`;
 }
+
+/* ===== Enviar agora: aciona o robô (mesmo que "Run workflow") ===== */
+const WORKFLOW = "https://api.github.com/repos/achadosindy-web/achadinhosbot/actions/workflows/postar.yml/dispatches";
+const ESPERA_MS = 3 * 60e3;
+function avisoEnvio(txt, ms = 7000) {
+  const el = document.getElementById("aviso-envio");
+  el.textContent = txt; el.hidden = false;
+  clearTimeout(avisoEnvio.t); avisoEnvio.t = setTimeout(() => { el.hidden = true; }, ms);
+}
+function travarBotao() {
+  const b = document.getElementById("enviar");
+  const falta = (lerLocal("envio-ultimo", 0) + ESPERA_MS) - Date.now();
+  if (falta > 0) {
+    b.disabled = true; b.textContent = "⏳ Enviando…";
+    setTimeout(travarBotao, Math.min(falta, 30e3));
+  } else { b.disabled = false; b.textContent = "🚀 Enviar agora"; }
+}
+async function enviarAgora() {
+  const chave = lerLocal("envio-chave", "");
+  if (!chave) { document.getElementById("folha-chave").hidden = false; document.getElementById("chave").focus(); return; }
+  const b = document.getElementById("enviar");
+  b.disabled = true; b.textContent = "⏳ Chamando…";
+  try {
+    const r = await fetch(WORKFLOW, { method: "POST",
+      headers: { "Authorization": "Bearer " + chave, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
+      body: JSON.stringify({ ref: "main" }) });
+    if (r.status === 204) {
+      gravarLocal("envio-ultimo", Date.now());
+      avisoEnvio("🚀 Robô acionado! Em 2 a 3 minutos o que vocês aprovaram vai pro grupo.", 9000);
+      travarBotao();
+      return;
+    }
+    if (r.status === 401 || r.status === 403 || r.status === 404) {
+      gravarLocal("envio-chave", "");
+      avisoEnvio("⚠️ A chave não funcionou (venceu ou está errada). Toque de novo e cole a chave nova.", 9000);
+    } else {
+      avisoEnvio(`⚠️ O GitHub não respondeu direito (erro ${r.status}). Tente de novo em 1 minuto.`);
+    }
+  } catch (e) {
+    avisoEnvio("⚠️ Sem conexão com o GitHub agora. Tente de novo em 1 minuto.");
+  }
+  b.disabled = false; b.textContent = "🚀 Enviar agora";
+}
+document.getElementById("enviar").addEventListener("click", enviarAgora);
+document.getElementById("chave-cancelar").addEventListener("click", () => { document.getElementById("folha-chave").hidden = true; });
+document.getElementById("chave-salvar").addEventListener("click", () => {
+  const v = document.getElementById("chave").value.trim();
+  if (!/^(github_pat_|ghp_)[A-Za-z0-9_]{20,}$/.test(v)) { avisoEnvio("⚠️ Essa chave não parece certa. Ela começa com github_pat_"); return; }
+  gravarLocal("envio-chave", v);
+  document.getElementById("chave").value = "";
+  document.getElementById("folha-chave").hidden = true;
+  enviarAgora();
+});
+travarBotao();
 
 function desenhar() {
   chips("chips-loja", LOJAS, "loja");
