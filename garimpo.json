@@ -1,7 +1,26 @@
 {
- "atualizado": "2026-10-06T07:25-03:00",
+ "atualizado": "2026-10-06T08:30-03:00",
  "bot": "achadinhosdaindy_bot",
  "itens": [
+  {
+   "gid": "275fea",
+   "id": "garimpo-hipercalóricodarkmass3kgchocolatebrancoc",
+   "loja": "Mercado Livre",
+   "nome": "Hipercalórico Dark Mass 3kg Chocolate Branco c/ Morango Dark Lab",
+   "preco": 78.9,
+   "preco_antes": 0,
+   "desconto": 0,
+   "cupom": "",
+   "imagem": "https://cdn4.telesco.pe/file/nGGYfyImMCRCQ1JZyLAymAvmOhfuSItwR_JpsTsuQLuGpFBP5aiTXWlkaed8qxBb_VGo4AqjzoEMcxanugSI0Tk1FY2kNonzo1DeaRcg6tWAst1lrLeW1oqgfcq1DfN69NTjkfhlgXZvePoqKmCuwDnk2u-OIshlSpk9h8nIy-2Ix8JIAHU5bm7cvRgNfzqvPSwpMf3hHDoP6WvJrNaT8cSEp37EWjS0xNM4PykeNJL-Z-M1_qOsPTMf30Pi6r02wKKOSDyugu8PlV3tNjxm02Et-2PwMJMP9Rgg2YHGZfUpP-cnH9ZTLCeKsc-7BXAjMmUKDUA6TBnyfId-o5X5sA.jpg",
+   "link": "https://meli.la/2VqsjLU",
+   "converter": false,
+   "categoria": "Outros",
+   "fonte": "@ofertafitness",
+   "post": "https://t.me/ofertafitness/18259",
+   "quando": "2026-10-06T11:11:13+00:00",
+   "achado_em": "2026-10-06T08:30-03:00",
+   "aprovado": false
+  },
   {
    "gid": "710de7",
    "id": "garimpo-achadinhofitness",
@@ -57,7 +76,7 @@
    "post": "https://t.me/promotop/259742",
    "quando": "2026-10-05T23:59:03+00:00",
    "achado_em": "2026-10-05T21:01-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "5d6908",
@@ -475,7 +494,7 @@
    "post": "https://t.me/achadinhosdavava/10887",
    "quando": "2026-10-05T16:02:02+00:00",
    "achado_em": "2026-10-05T20:51-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "95cec6",
