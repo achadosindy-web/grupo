@@ -1,7 +1,45 @@
 {
- "atualizado": "2026-10-06T15:01-03:00",
+ "atualizado": "2026-10-06T15:30-03:00",
  "bot": "achadinhosdaindy_bot",
  "itens": [
+  {
+   "gid": "42c2a3",
+   "id": "garimpo-kit3leggingcombolsofitnessfemininoatlety",
+   "loja": "Mercado Livre",
+   "nome": "Kit 3 Legging Com Bolso Fitness Feminino Atletyca",
+   "preco": 129.58,
+   "preco_antes": 0,
+   "desconto": 0,
+   "cupom": "MODA0610",
+   "imagem": "https://cdn4.telesco.pe/file/s5UI6kqEAPXC8H0R4cvLdINawL0O9YyPmcmVYsACjpBHq7G7Pj1xm9Ge2tmkNkzMjyhkJNspyv6wfEwSwteR3gKi3B7fDmQ48r202ro2CY95nPJ6yY0yrekDsQNJX2e6iiDRCRTvcZUrzBYimoXuJth8V4nbFQH99uzZBSg3T0sakp6OTpq-f4HGoTkwLi12vTW1aLeujhrdInDWuTPOQ1KUYDi5uulU2grqkVMlRBsRsV13ce207cj8lWDuy_KVII3GAZsg0zRH5GjolOhrdbTyf6Ly1oCx8-tDn8LUf5u9fZP5fmGuz8ViHedx_m0OCzqRaxDhwisUKgeyTbtFOA.jpg",
+   "link": "https://meli.la/2JoSAXf",
+   "converter": false,
+   "categoria": "Fitness",
+   "fonte": "@ofertafitness",
+   "post": "https://t.me/ofertafitness/18287",
+   "quando": "2026-10-06T18:12:09+00:00",
+   "achado_em": "2026-10-06T15:30-03:00",
+   "aprovado": false
+  },
+  {
+   "gid": "09d2e7",
+   "id": "garimpo-kitgarrafatérmicavacuumbottleinox500mlxí",
+   "loja": "Mercado Livre",
+   "nome": "KIT GARRAFA TÉRMICA VACUUM BOTTLE INOX - 500ML + XÍCARAS (5 CORES DISPONÍVEIS)",
+   "preco": 27.92,
+   "preco_antes": 50.9,
+   "desconto": 45,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/kQR_mPMqD8vZ1rTi4vLyO_sxxc-9oVGWtm_6M7FViH6nRoLsX08RuAotRTi3TzBXu6lf_AJFsoaZHDTC-SOozyHcmKG7X5lg3oaEv7MVUWzsUm_m0_Z2xA3Q3Murw3ZDRW8LtYqqq6BlaeMDKOx4P_p0NkKZBR1yzrD_dHf3YaeqUMiB39PsPi-Bk1oDfERkvo5ccEzA2cTejJoBkV3jHBU1bL6R7F13Frf8tvxAL56uZaLJqnn-bHlDB40zB4PnBQ0ugfTViOSSq8REf4Bc0BHIvkNdUzp1GICDumdxQJn5Sblml-MhIIYsbUXAURdu4SDaA8YB0m0hqOsjHTvOfQ.jpg",
+   "link": "https://meli.la/1i1D1f9",
+   "converter": false,
+   "categoria": "Casa",
+   "fonte": "@achadinhosdavava",
+   "post": "https://t.me/achadinhosdavava/10959",
+   "quando": "2026-10-06T18:24:13+00:00",
+   "achado_em": "2026-10-06T15:30-03:00",
+   "aprovado": false
+  },
   {
    "gid": "d1ce3a",
    "id": "garimpo-máquinaacabamentokemeikm032barbacabelobi",
@@ -1083,7 +1121,7 @@
    "post": "https://t.me/achadinhosdavava/10904",
    "quando": "2026-10-05T18:37:22+00:00",
    "achado_em": "2026-10-05T20:51-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "79b67b",
