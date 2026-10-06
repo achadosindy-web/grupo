@@ -127,13 +127,18 @@ const EXEMPLO = null;
 const LOJAS = ["Todas", "Amazon", "Mercado Livre", "Shopee"];
 const CATS = ["Todas", "Fitness", "Moda", "Casa", "Beleza", "Eletrônicos", "Outros"];
 const PREFIXO = { "meli.la": "ml", "s.shopee.com.br": "sp", "shope.ee": "sp", "amzn.to": "az" };
-const estado = { loja: "Todas", cat: "Todas", desc20: false, esconder: false, q: "", ordem: "novos" };
+const estado = { loja: "Todas", cat: "Todas", desc20: false, esconder: false, q: "", ordem: "novos", mulher: false };
+/* "Só pra mulheres": reconhece pelo nome do produto */
+const RE_MULHER = /feminin|mulher|\bdamas?\b|\bgirl|vestido|\bsaia\b|blusa|cropped|\btop\b|legging|\bleg\b|suti[ãa]|biqu[ií]ni|mai[ôo]\b|calcinha|lingerie|\bbody\b|macaquinho|macac[ãa]o|bolsa|maquiagem|batom|r[ií]mel|blush|skin ?care|s[ée]rum|hidratante|cabelo|capilar|chapinha|secador|babyliss|esmalte|\bunhas?\b|brinco|rasteirinha|sand[áa]lia|salto alto|scarpin|gestante|amamenta/i;
+const RE_HOMEM = /masculin|\bhomens?\b|\bmen\b|barba|cueca/i;
+const ehMulher = i => RE_MULHER.test(i.nome || "") && !RE_HOMEM.test(i.nome || "");
 let dados = { itens: [], bot: "", atualizado: "" };
 
 const lerLocal = (k, padrao) => { try { return JSON.parse(localStorage.getItem(k)) ?? padrao; } catch { return padrao; } };
 const gravarLocal = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
 let descartados = new Set(lerLocal("garimpo-descartados", []));
 let colados = lerLocal("garimpo-colados", {});
+estado.mulher = !!lerLocal("garimpo-mulher", false);
 
 const brl = v => Number(v).toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -153,11 +158,12 @@ function codigoDoLink(texto) {
 function chips(id, valores, chave) {
   const el = document.getElementById(id);
   el.innerHTML = valores.map(v => `<button class="chip" type="button" data-v="${esc(v)}" aria-pressed="${estado[chave] === v}">${esc(v)}</button>`).join("") +
-    (chave === "cat" ? `<span class="sep"></span><button class="chip" type="button" id="f-desc" aria-pressed="${estado.desc20}">20%+ off</button><button class="chip" type="button" id="f-esc" aria-pressed="${estado.esconder}">Esconder postados</button>` : "");
+    (chave === "cat" ? `<span class="sep"></span><button class="chip" type="button" id="f-desc" aria-pressed="${estado.desc20}">20%+ off</button><button class="chip" type="button" id="f-esc" aria-pressed="${estado.esconder}">Esconder postados</button><button class="chip" type="button" id="f-mulher" aria-pressed="${estado.mulher}">♀ Só pra mulheres</button>` : "");
   el.querySelectorAll("[data-v]").forEach(b => b.addEventListener("click", () => { estado[chave] = b.dataset.v; desenhar(); }));
   if (chave === "cat") {
     el.querySelector("#f-desc").addEventListener("click", () => { estado.desc20 = !estado.desc20; desenhar(); });
     el.querySelector("#f-esc").addEventListener("click", () => { estado.esconder = !estado.esconder; desenhar(); });
+    el.querySelector("#f-mulher").addEventListener("click", () => { estado.mulher = !estado.mulher; gravarLocal("garimpo-mulher", estado.mulher); desenhar(); });
   }
 }
 
@@ -168,6 +174,7 @@ function filtrados() {
     && (estado.cat === "Todas" || i.categoria === estado.cat)
     && (!estado.desc20 || (i.desconto || 0) >= 20)
     && (!estado.esconder || !i.aprovado)
+    && (!estado.mulher || ehMulher(i))
     && (!q || i.nome.toLowerCase().includes(q)));
   if (estado.ordem === "desconto") l.sort((a, b) => (b.desconto || 0) - (a.desconto || 0));
   else if (estado.ordem === "preco") l.sort((a, b) => a.preco - b.preco);
