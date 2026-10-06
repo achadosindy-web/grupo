@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Pokémon TCG: 30th Celebration - Binder Collection PT-BR",
+  "loja": "Amazon",
+  "preco": 230.0,
+  "preco_antes": 0,
+  "quando": "2026-10-06T12:02-03:00"
+ },
+ {
+  "nome": "Cadeira Ergonômica Genebra B500 Luvinco Cor Preto Com Sup...",
+  "loja": "Mercado Livre",
+  "preco": 437.0,
+  "preco_antes": 0,
+  "quando": "2026-10-06T12:01-03:00"
+ },
+ {
   "nome": "Haiz Monitor Gamer 25'' 144hz 0.5ms 1920x1080 Adaptative...",
   "loja": "Amazon",
   "preco": 458.0,
@@ -68,19 +82,5 @@
   "preco": 93.82,
   "preco_antes": 149.99,
   "quando": "2026-10-05T20:13-03:00"
- },
- {
-  "nome": "Daily T-shirt Feminina - 1º mais vendido  menor preço do ano",
-  "loja": "Amazon",
-  "preco": 59.0,
-  "preco_antes": 139.0,
-  "quando": "2026-10-05T20:06-03:00"
- },
- {
-  "nome": "Bermuda Masculina Sandrini Linho Elástico - menor preço d...",
-  "loja": "Amazon",
-  "preco": 33.23,
-  "preco_antes": 59.9,
-  "quando": "2026-10-05T19:51-03:00"
  }
 ]
