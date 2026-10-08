@@ -1,5 +1,12 @@
 [
  {
+  "nome": "L'Oréal Paris Elseve Liso dos Sonhos (Shampoo, Condiciona...",
+  "loja": "Amazon",
+  "preco": 77.9,
+  "preco_antes": 0,
+  "quando": "2026-10-08T11:32-03:00"
+ },
+ {
   "nome": "Kit 3 Legging Com Bolso Fitness Feminino Atletyca",
   "loja": "Mercado Livre",
   "preco": 129.58,
@@ -75,12 +82,5 @@
   "preco": 84.9,
   "preco_antes": 119.0,
   "quando": "2026-10-06T09:01-03:00"
- },
- {
-  "nome": "Z2 SALTZ 500MG TANGERINA ELETRÓLITOS 10 STICKS",
-  "loja": "Mercado Livre",
-  "preco": 52.0,
-  "preco_antes": 84.0,
-  "quando": "2026-10-06T08:31-03:00"
  }
 ]
