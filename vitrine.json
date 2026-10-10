@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Conjunto Top + Short Feminino - Time Fitness (9 Cores)",
+  "loja": "Mercado Livre",
+  "preco": 77.0,
+  "preco_antes": 115.0,
+  "quando": "2026-10-10T19:04-03:00"
+ },
+ {
   "nome": "L'Oréal Paris Elseve Liso dos Sonhos (Shampoo, Condiciona...",
   "loja": "Amazon",
   "preco": 77.9,
@@ -75,12 +82,5 @@
   "preco": 458.0,
   "preco_antes": 0,
   "quando": "2026-10-06T09:02-03:00"
- },
- {
-  "nome": "Produto vendido pela loja oficial do Mercado Livre",
-  "loja": "Mercado Livre",
-  "preco": 84.9,
-  "preco_antes": 119.0,
-  "quando": "2026-10-06T09:01-03:00"
  }
 ]
