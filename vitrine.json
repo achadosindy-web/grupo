@@ -1,5 +1,19 @@
 [
  {
+  "nome": "GOKOCO Secador De Cabelo Profissional 110v",
+  "loja": "Amazon",
+  "preco": 186.79,
+  "preco_antes": 0,
+  "quando": "2026-10-12T15:04-03:00"
+ },
+ {
+  "nome": "L'OREAL PARIS SÉRUM LEAVE IN LISO POR UMA SEMANA",
+  "loja": "Amazon",
+  "preco": 30.9,
+  "preco_antes": 49.9,
+  "quando": "2026-10-12T15:03-03:00"
+ },
+ {
   "nome": "Conjunto Top + Short Feminino - Time Fitness (9 Cores)",
   "loja": "Mercado Livre",
   "preco": 77.0,
@@ -68,19 +82,5 @@
   "preco": 230.0,
   "preco_antes": 0,
   "quando": "2026-10-06T12:02-03:00"
- },
- {
-  "nome": "Cadeira Ergonômica Genebra B500 Luvinco Cor Preto Com Sup...",
-  "loja": "Mercado Livre",
-  "preco": 437.0,
-  "preco_antes": 0,
-  "quando": "2026-10-06T12:01-03:00"
- },
- {
-  "nome": "Haiz Monitor Gamer 25'' 144hz 0.5ms 1920x1080 Adaptative...",
-  "loja": "Amazon",
-  "preco": 458.0,
-  "preco_antes": 0,
-  "quando": "2026-10-06T09:02-03:00"
  }
 ]
