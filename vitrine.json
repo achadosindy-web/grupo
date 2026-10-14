@@ -1,5 +1,19 @@
 [
  {
+  "nome": "LUPO CALÇA LEGGING FEMININA",
+  "loja": "Amazon",
+  "preco": 125.3,
+  "preco_antes": 186.0,
+  "quando": "2026-10-14T15:04-03:00"
+ },
+ {
+  "nome": "Conjunto Virginia Top + Short Feminino Poliamida - Adtn (...",
+  "loja": "Mercado Livre",
+  "preco": 75.0,
+  "preco_antes": 139.0,
+  "quando": "2026-10-14T15:04-03:00"
+ },
+ {
   "nome": "Conjunto Fitness Top + Legging Feminino - Manalinda",
   "loja": "Mercado Livre",
   "preco": 119.0,
@@ -68,19 +82,5 @@
   "preco": 129.58,
   "preco_antes": 0,
   "quando": "2026-10-06T15:38-03:00"
- },
- {
-  "nome": "Kit 3 Shorts Feminino Basico Cintura Alta Confortável",
-  "loja": "Mercado Livre",
-  "preco": 38.99,
-  "preco_antes": 0,
-  "quando": "2026-10-06T15:35-03:00"
- },
- {
-  "nome": "REGATA INSIDER COMFY INLOUNGE FEMININO",
-  "loja": "Mercado Livre",
-  "preco": 58.0,
-  "preco_antes": 135.0,
-  "quando": "2026-10-06T15:34-03:00"
  }
 ]
