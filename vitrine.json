@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Conjunto Fitness Top + Short Suplex Feminino - Vert Sport...",
+  "loja": "Mercado Livre",
+  "preco": 76.0,
+  "preco_antes": 114.0,
+  "quando": "2026-10-21T10:25-03:00"
+ },
+ {
+  "nome": "CONJUNTO ACADEMIA ESPORTE FEMININO",
+  "loja": "Mercado Livre",
+  "preco": 78.54,
+  "preco_antes": 130.9,
+  "quando": "2026-10-21T10:24-03:00"
+ },
+ {
   "nome": "LUPO CALÇA LEGGING FEMININA",
   "loja": "Amazon",
   "preco": 125.3,
@@ -68,19 +82,5 @@
   "preco": 77.0,
   "preco_antes": 115.0,
   "quando": "2026-10-10T19:04-03:00"
- },
- {
-  "nome": "L'Oréal Paris Elseve Liso dos Sonhos (Shampoo, Condiciona...",
-  "loja": "Amazon",
-  "preco": 77.9,
-  "preco_antes": 0,
-  "quando": "2026-10-08T11:32-03:00"
- },
- {
-  "nome": "Kit 3 Legging Com Bolso Fitness Feminino Atletyca",
-  "loja": "Mercado Livre",
-  "preco": 129.58,
-  "preco_antes": 0,
-  "quando": "2026-10-06T15:38-03:00"
  }
 ]
