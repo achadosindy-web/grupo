@@ -1,7 +1,26 @@
 {
- "atualizado": "2026-10-22T14:28-03:00",
+ "atualizado": "2026-10-22T14:33-03:00",
  "bot": "achadinhosdaindy_bot",
  "itens": [
+  {
+   "gid": "088786",
+   "id": "radar-B076B95YMM",
+   "loja": "Amazon",
+   "nome": "Mor - Lixeira Ágata 5 Litros",
+   "preco": 35.9,
+   "preco_antes": 0,
+   "desconto": 0,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/TQeU55HtA7dWP0oZlh7BED9at36LbQBTgPrsW3hTPy_SYL_W3kUpr5bGKdwwOXeSkpWoKjlHAn8dCYlLMTt7KriCuAVgNuKZKFrseYh6IfEGnf88ps80U8bSAIIxo45M7iuyevVZqTOoV0uJrT_VIoZkMlJ5-1nojMohyCd2BqYrM8Tks99BHuPupu4Oe1SzjcrHtb1Ah0gW0DH6EIf7t4RNOWQhScpwu7GbzLZtobOf0aYt8rl0WIYVjMEhciiDj-BJ1fT661mipJEXclaG6_pNH-FSIPoNXkE5P2HLasRcZ5Wl4N-DvVPraaD0PJgBPcEr345RN2Ufcg03y8MQyg.jpg",
+   "link": "https://www.amazon.com.br/dp/B076B95YMM?tag=achadinh084ca-20",
+   "converter": true,
+   "categoria": "Outros",
+   "fonte": "@promotop",
+   "post": "https://t.me/promotop/260654",
+   "quando": "2026-10-22T17:26:29+00:00",
+   "achado_em": "2026-10-22T14:33-03:00",
+   "aprovado": false
+  },
   {
    "gid": "77e1e3",
    "id": "radar-B0FG1QCRDK",
@@ -4730,25 +4749,6 @@
    "fonte": "@urubupromo",
    "post": "https://t.me/urubupromo/41958",
    "quando": "2026-10-21T13:00:50+00:00",
-   "achado_em": "2026-10-21T10:24-03:00",
-   "aprovado": false
-  },
-  {
-   "gid": "fff45e",
-   "id": "garimpo-impressoramultifuncionalhpdeskjetinkadva",
-   "loja": "Mercado Livre",
-   "nome": "Impressora Multifuncional HP DeskJet Ink Advantage 2975",
-   "preco": 349.06,
-   "preco_antes": 0,
-   "desconto": 0,
-   "cupom": "OFFSEMPREMELI",
-   "imagem": "https://cdn1.telesco.pe/file/OWcxr0RF4KDaVpOc16Teu1FUyqRx5tVGmwxpvidCvQMEKCjiF1K40SBISvsp1AjRwWNoGjU5d1xMd4qfAQW4znRigaR9DBMauyhRU-Zp2DMkLeJ6U8kbqayhoP7ocwd5PurZnn7uDbe_yDUk2NkpRaNMoDMAXObBflOzCTFUCcCBAJRo5YW6foh79rwJPCkDc5yGlAOBFcu9xfUVPIBZ_tM13G9yY6CXttb2YsV7WoMlhOkkn3j6uDsYWcAPshYWBkSWC-dJgVDve1_GBTjfxA1fQaXqDsmeNyjZipi3r_cF1JPtLbg5x1Smq9o9jHIDeiVzPn8mkAWHErj-yMGY2g.jpg",
-   "link": "https://meli.la/1Famd1s",
-   "converter": false,
-   "categoria": "Outros",
-   "fonte": "@urubupromo",
-   "post": "https://t.me/urubupromo/41959",
-   "quando": "2026-10-21T13:12:57+00:00",
    "achado_em": "2026-10-21T10:24-03:00",
    "aprovado": false
   }
