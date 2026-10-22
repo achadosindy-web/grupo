@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#5A4032">
 <link rel="icon" href="logo-indy.png">
-<title>Garimpo da Indy</title>
+<title>Garimpo</title>
 <meta name="robots" content="noindex,nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,6 +40,9 @@ button,input,select{font:inherit}
 .topo>*{min-width:0}
 .linha1{display:flex;align-items:baseline;justify-content:space-between;gap:12px;max-width:1100px;margin:0 auto;width:100%}
 h1{font-family:var(--f-titulo);font-weight:600;font-size:22px;color:var(--cafe);margin:0}
+.perfis{display:flex;overflow-x:auto;scrollbar-width:none;background:var(--papel);border:1px solid var(--fio);border-radius:999px;padding:3px;gap:2px;width:max-content;max-width:100%}
+.perfis button{border:0;background:none;color:var(--texto-2);font:inherit;font-size:13px;font-weight:700;border-radius:999px;padding:7px 13px;white-space:nowrap;cursor:pointer;min-height:36px}
+.perfis button[aria-pressed="true"]{background:var(--caramelo);color:var(--papel)}
 .status{font-size:12px;color:var(--texto-2);text-align:right}
 .busca{max-width:1100px;margin:0 auto;width:100%;display:flex;gap:8px}
 .busca input{flex:1;min-width:0;border:1px solid var(--fio);background:var(--papel);color:var(--texto);border-radius:12px;padding:10px 12px}
@@ -106,8 +109,13 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
 
 <header class="topo">
   <div class="linha1">
-    <h1>Garimpo da Indy</h1>
+    <h1>Garimpo</h1>
     <div class="status" id="status">carregando…</div>
+  </div>
+  <div class="perfis" role="group" aria-label="Qual grupo">
+    <button type="button" data-perfil="ingrid">Indy · fitness</button>
+    <button type="button" data-perfil="geral">Geral</button>
+    <button type="button" data-perfil="blackfriday">Black Friday</button>
   </div>
   <div class="busca">
     <input id="q" type="search" placeholder="Buscar: legging, panela, perfume…" aria-label="Buscar no garimpo">
@@ -159,11 +167,22 @@ const RE_HOMEM = /masculin|\bhomens?\b|\bmen\b|barba|cueca/i;
 const ehMulher = i => RE_MULHER.test(i.nome || "") && !RE_HOMEM.test(i.nome || "");
 let dados = { itens: [], bot: "", atualizado: "" };
 
+/* Perfil: "ingrid" (grupo fitness) ou "geral" (grupos gerais). Cada um tem seu garimpo, seu bot e seus grupos. */
+const PERFIS = {
+  ingrid: { arquivo: "garimpo.json", titulo: "Garimpo da Indy", busca: "Buscar: legging, panela, perfume…" },
+  geral: { arquivo: "geral/garimpo.json", titulo: "Garimpo Geral", busca: "Buscar: fone, air fryer, perfume…" },
+  blackfriday: { arquivo: "blackfriday/garimpo.json", titulo: "Garimpo Black Friday", busca: "Buscar: tv, notebook, air fryer…" },
+};
+const _pUrl = new URLSearchParams(location.search).get("perfil");
+let PERFIL = PERFIS[_pUrl] ? _pUrl : null;
+const chaveP = k => PERFIL === "ingrid" ? k : `${k}-${PERFIL}`;
+
 const lerLocal = (k, padrao) => { try { return JSON.parse(localStorage.getItem(k)) ?? padrao; } catch { return padrao; } };
 const gravarLocal = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
 let descartados = new Set(lerLocal("garimpo-descartados", []));
 let colados = lerLocal("garimpo-colados", {});
-estado.mulher = !!lerLocal("garimpo-mulher", false);
+if (!PERFIL) PERFIL = PERFIS[lerLocal("garimpo-perfil", "")] ? lerLocal("garimpo-perfil", "") : "ingrid";
+estado.mulher = !!lerLocal(chaveP("garimpo-mulher"), false);
 
 const brl = v => Number(v).toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -188,7 +207,7 @@ function chips(id, valores, chave) {
   if (chave === "cat") {
     el.querySelector("#f-desc").addEventListener("click", () => { estado.desc20 = !estado.desc20; desenhar(); });
     el.querySelector("#f-esc").addEventListener("click", () => { estado.esconder = !estado.esconder; desenhar(); });
-    el.querySelector("#f-mulher").addEventListener("click", () => { estado.mulher = !estado.mulher; gravarLocal("garimpo-mulher", estado.mulher); desenhar(); });
+    el.querySelector("#f-mulher").addEventListener("click", () => { estado.mulher = !estado.mulher; gravarLocal(chaveP("garimpo-mulher"), estado.mulher); desenhar(); });
   }
 }
 
@@ -245,7 +264,7 @@ function avisoEnvio(txt, ms = 7000) {
 }
 function travarBotao() {
   const b = document.getElementById("enviar");
-  const falta = (lerLocal("envio-ultimo", 0) + ESPERA_MS) - Date.now();
+  const falta = (lerLocal(chaveP("envio-ultimo"), 0) + ESPERA_MS) - Date.now();
   if (falta > 0) {
     b.disabled = true; b.textContent = "⏳ Enviando…";
     setTimeout(travarBotao, Math.min(falta, 30e3));
@@ -259,9 +278,9 @@ async function enviarAgora() {
   try {
     const r = await fetch(WORKFLOW, { method: "POST",
       headers: { "Authorization": "Bearer " + chave, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
-      body: JSON.stringify({ ref: "main" }) });
+      body: JSON.stringify({ ref: "main", inputs: { perfil: PERFIL } }) });
     if (r.status === 204) {
-      gravarLocal("envio-ultimo", Date.now());
+      gravarLocal(chaveP("envio-ultimo"), Date.now());
       avisoEnvio("🚀 Robô acionado! Em 2 a 3 minutos o que vocês aprovaram vai pro grupo.", 9000);
       travarBotao();
       return;
@@ -325,16 +344,36 @@ document.getElementById("ordem").addEventListener("change", e => { estado.ordem 
 
 async function carregar() {
   try {
-    const r = await fetch("garimpo.json?v=" + Date.now(), { cache: "no-store" });
+    const r = await fetch(PERFIS[PERFIL].arquivo + "?v=" + Date.now(), { cache: "no-store" });
     if (!r.ok) throw new Error(r.status);
     dados = await r.json();
   } catch (e) {
+    dados = { itens: [], bot: "", atualizado: "" };
     if (EXEMPLO) { dados = EXEMPLO; document.getElementById("aviso-exemplo").hidden = false; }
   }
   document.getElementById("vi").href = tg("");
   document.getElementById("status").textContent = dados.atualizado ? `atualizado ${ha(dados.atualizado)}` : "sem dados ainda";
   desenhar();
 }
+
+function marcarPerfil() {
+  document.querySelectorAll("[data-perfil]").forEach(b => b.setAttribute("aria-pressed", b.dataset.perfil === PERFIL));
+  document.title = PERFIS[PERFIL].titulo;
+  document.getElementById("q").placeholder = PERFIS[PERFIL].busca;
+}
+document.querySelectorAll("[data-perfil]").forEach(b => b.addEventListener("click", () => {
+  if (b.dataset.perfil === PERFIL) return;
+  PERFIL = b.dataset.perfil;
+  gravarLocal("garimpo-perfil", PERFIL);
+  history.replaceState(null, "", "?perfil=" + PERFIL);
+  estado.mulher = !!lerLocal(chaveP("garimpo-mulher"), false);
+  estado.cat = "Todas"; estado.loja = "Todas";
+  dados = { itens: [], bot: "", atualizado: "" };
+  document.getElementById("status").textContent = "carregando…";
+  marcarPerfil(); desenhar(); travarBotao(); carregar();
+  window.scrollTo({ top: 0 });
+}));
+marcarPerfil();
 carregar();
 </script>
 </body>
