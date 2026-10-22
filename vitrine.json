@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Kit 2 Macaquinho Fitness Feminino - Karma Wear",
+  "loja": "Mercado Livre",
+  "preco": 58.0,
+  "preco_antes": 149.0,
+  "quando": "2026-10-22T09:03-03:00"
+ },
+ {
   "nome": "Conjunto Fitness Top + Short Suplex Feminino - Vert Sport...",
   "loja": "Mercado Livre",
   "preco": 76.0,
@@ -75,12 +82,5 @@
   "preco": 30.9,
   "preco_antes": 49.9,
   "quando": "2026-10-12T15:03-03:00"
- },
- {
-  "nome": "Conjunto Top + Short Feminino - Time Fitness (9 Cores)",
-  "loja": "Mercado Livre",
-  "preco": 77.0,
-  "preco_antes": 115.0,
-  "quando": "2026-10-10T19:04-03:00"
  }
 ]

@@ -1,7 +1,26 @@
 {
- "atualizado": "2026-10-22T08:46-03:00",
+ "atualizado": "2026-10-22T09:02-03:00",
  "bot": "achadinhosdaindy_bot",
  "itens": [
+  {
+   "gid": "0230e6",
+   "id": "radar-B0FFHJPHZW",
+   "loja": "Amazon",
+   "nome": "Escova Dental Elétrica OralGos Recarregável + 4 refis",
+   "preco": 112.99,
+   "preco_antes": 0,
+   "desconto": 0,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/ILSD8wuKTu6S8T3eLLWpnB13t2RxNy-zaSQ5Z2vmuWZgO18pd96QZURGqkb3bP4f5wppOIX0s-krvfg8VPFl7yQgtx7tiXt0_4MmRjNd_25lN3zpxPIQGFiapYd2N8ata8txZ0V3NfigUnR0T4MHAdpQlIOB7vAPZEE5XHfqEztXYWU_WGfsq81Qx9bxwjdSoDj-X1yiKNXRE4Uup1kdhJximkdVzgYVOX2sTds70dvm9jRLllkAhfvgx-xDyDwzSl7AOxiylGV2e5oNN6q7YjKJfgxX0laKoElArRQKtSL5foiezwm7069hSspeXjckP8y_JG_DTxdxgpW4BUs5Nw.jpg",
+   "link": "https://www.amazon.com.br/dp/B0FFHJPHZW?tag=achadinh084ca-20",
+   "converter": true,
+   "categoria": "Outros",
+   "fonte": "@pobregram",
+   "post": "https://t.me/pobregram/42337",
+   "quando": "2026-10-22T11:59:00+00:00",
+   "achado_em": "2026-10-22T09:02-03:00",
+   "aprovado": false
+  },
   {
    "gid": "351995",
    "id": "radar-B0C7DNNYVL",
@@ -551,7 +570,7 @@
    "post": "https://t.me/guerradealsfit/13160",
    "quando": "2026-10-21T23:52:55+00:00",
    "achado_em": "2026-10-21T21:04-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "35f890",
@@ -4730,25 +4749,6 @@
    "fonte": "@urubupromo",
    "post": "https://t.me/urubupromo/41931",
    "quando": "2026-10-20T19:50:46+00:00",
-   "achado_em": "2026-10-20T19:03-03:00",
-   "aprovado": false
-  },
-  {
-   "gid": "37315d",
-   "id": "garimpo-aparadoreraspadorphilipsonebladeintimate",
-   "loja": "Mercado Livre",
-   "nome": "Aparador e Raspador Philips OneBlade Intimate Bivolt",
-   "preco": 125.67,
-   "preco_antes": 0,
-   "desconto": 0,
-   "cupom": "FULL2110",
-   "imagem": "https://cdn1.telesco.pe/file/AM0raeuCRgnf6sOPKzxXeCokI0o_IeTJvn9hR3Jdvx2v_HbbOrR999g5gT6KWP2qRBBs6nhJ9RROSQAm-iGVlgts1cmw2vvAlwsWM-iVfwOuf4Bb02Tf1eR9Pll7RlY_NHyGHRSaaoJWWzrNGCtxFhh6AUdxb3MY2yp7EAtPQivUbN-Q-y9JfUKx4jKPsnecsrwmjZdhwRB5oUvm8-OzU7rHPNQ56Ng4YHKMvxAEt2HMnjTjEd7fwOSqiuZMoHKyqIODR6VSEcn-12I7jPDn-guBBpEe_qTB_Rjw3vWCgaQqMOpU4XFUdlui7uvwBe4NSTT4xymVnU_GUbLJ95J-rg.jpg",
-   "link": "https://meli.la/1snt8aj",
-   "converter": false,
-   "categoria": "Outros",
-   "fonte": "@urubupromo",
-   "post": "https://t.me/urubupromo/41932",
-   "quando": "2026-10-20T20:05:46+00:00",
    "achado_em": "2026-10-20T19:03-03:00",
    "aprovado": false
   }
