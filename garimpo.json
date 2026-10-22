@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-22T14:58-03:00",
+ "atualizado": "2026-10-22T15:07-03:00",
  "bot": "achadinhosdaindy_bot",
  "itens": [
   {
@@ -18,7 +18,7 @@
    "fonte": "@pobregram",
    "post": "https://t.me/pobregram/42361",
    "quando": "2026-10-22T17:49:49+00:00",
-   "achado_em": "2026-10-22T14:58-03:00",
+   "achado_em": "2026-10-22T15:07-03:00",
    "aprovado": false
   },
   {
@@ -37,7 +37,45 @@
    "fonte": "@pobregram",
    "post": "https://t.me/pobregram/42362",
    "quando": "2026-10-22T17:50:02+00:00",
-   "achado_em": "2026-10-22T14:58-03:00",
+   "achado_em": "2026-10-22T15:07-03:00",
+   "aprovado": false
+  },
+  {
+   "gid": "c9b062",
+   "id": "garimpo-mochilamochilaclassicdailyadidas",
+   "loja": "Mercado Livre",
+   "nome": "Mochila Mochila Classic Daily adidas",
+   "preco": 110.29,
+   "preco_antes": 0,
+   "desconto": 0,
+   "cupom": "LOJASOFICIAISRESGATE",
+   "imagem": "https://cdn4.telesco.pe/file/FlYKJyGrHXRgyaPbCfZOhAmgkFsgD3wp-_whTn5peDufBXyfM-QSIH7z8XAUkY_p_kILlIRUKYf85rIoiAFN5VzQNHAT6Ws4IBVj3DhScKuGAm1JhpUvddWog5heJwLlOiItOPlD2B0H8oA8uUXQd1EzMoc69CO6v9b43TjYXcM4nQgtcuVX0kBIbz_m2T4vTd-LdUtm2QL5sOAj665mDPO6hhsP0cYKQrJjr2sklsVaeMBEa8g6tmRTjcB9Xs-Nu4jmNKn7p4J5aSdK2ZA0-3nR4X4rP9Rdzu1TrQ-W2_UIGysjA93XubF_wk89EYKgfqKOTSM3nXD1e2isuYx5pg.jpg",
+   "link": "https://meli.la/1FPJRFb",
+   "converter": false,
+   "categoria": "Moda",
+   "fonte": "@ofertafitness",
+   "post": "https://t.me/ofertafitness/19140",
+   "quando": "2026-10-22T18:04:07+00:00",
+   "achado_em": "2026-10-22T15:07-03:00",
+   "aprovado": false
+  },
+  {
+   "gid": "de96a4",
+   "id": "garimpo-prétreinoevolutionsaborlimonadasuíça300g",
+   "loja": "Mercado Livre",
+   "nome": "Pré Treino Evolution Sabor limonada suíça 300g - Soldiers Nutrition",
+   "preco": 43.0,
+   "preco_antes": 99.0,
+   "desconto": 57,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/JIjRa2c5pNc5bb-4Fq3dugmgot3RE4-mhemTTHMKQni7ubRK7EJ8G35-FULJGAnnOwN6MFR2WkEWg-2AewBCeXwXJc9qAin2MmVfbCvmwkNDAb2CNLIozl7RVLv01v5X7zg1hhDHsOzQla83cCFNx1Ct0ER6BfSHXwePC441n_JT8hqYQQ9uAzArGcPhINuCWvEt9dTvW3sxpYaKa6s697gMSCfAgb9m5D71Z42jD2n2i5z0nw7hd4b9jy2Phz0NsEz4Y1wBC-nBSw-YJ1Mdpfhv3XdRPjjHv7cBl-3UEN55iX8zepdL3ZVIp-6bojQrvCffs5CFT1_VTkQaM1SKuA.jpg",
+   "link": "https://meli.la/2m4vnem",
+   "converter": false,
+   "categoria": "Fitness",
+   "fonte": "@guerradealsfit",
+   "post": "https://t.me/guerradealsfit/13176",
+   "quando": "2026-10-22T17:58:57+00:00",
+   "achado_em": "2026-10-22T15:07-03:00",
    "aprovado": false
   },
   {
@@ -4711,44 +4749,6 @@
    "fonte": "@urubupromo",
    "post": "https://t.me/urubupromo/41953",
    "quando": "2026-10-21T12:20:02+00:00",
-   "achado_em": "2026-10-21T10:24-03:00",
-   "aprovado": false
-  },
-  {
-   "gid": "6fdbe9",
-   "id": "garimpo-tablethuaweimatepadse114128gbtelahuaweif",
-   "loja": "Mercado Livre",
-   "nome": "Tablet, Huawei MatePad Se 11, 4+128Gb, Tela Huawei FullView de 11\"",
-   "preco": 764.1,
-   "preco_antes": 0,
-   "desconto": 0,
-   "cupom": "150OFFALLSITE2110",
-   "imagem": "https://cdn1.telesco.pe/file/B02feuKpReR4ZvujR5ZQQC2l0jwzSgYChNdFSMZRcKaToJG7C1Ono9N35HqmKYlg-OghsQ1JY-40zd4WfMxVuj_REehJI3AAWf2HN8Cfrxz4saDdjvWq-NUbLv5V_8wXFWwe8AJ0o03ihW2dyNt0lU-_nW86x_nEFd7un4ad5KxpPR6zEYH6C2o2yZ46YoFDz3i0CV7566QBMmNLbPNiMUANZB_dLvARD_Niq9xkIfL5K9BemOztQC_UN_gLxJmnoNAh2io2GiciFlEc7QEY_7JnkJ5JJmt4_gN03PXc17yIaGecobb6AXY1uNd7pQgqePuzB6IIIqTQvExDP7_ewg.jpg",
-   "link": "https://meli.la/2C6BJ1k",
-   "converter": false,
-   "categoria": "Eletrônicos",
-   "fonte": "@urubupromo",
-   "post": "https://t.me/urubupromo/41954",
-   "quando": "2026-10-21T12:23:29+00:00",
-   "achado_em": "2026-10-21T10:24-03:00",
-   "aprovado": false
-  },
-  {
-   "gid": "bc9f61",
-   "id": "garimpo-smartwatchhuaweiband10",
-   "loja": "Mercado Livre",
-   "nome": "Smartwatch HUAWEI Band 10",
-   "preco": 163.29,
-   "preco_antes": 0,
-   "desconto": 0,
-   "cupom": "OFFSEMPREMELI",
-   "imagem": "https://cdn1.telesco.pe/file/DgpU84H5e3FaLOzrF28P89gNd1iiBnI4bDBgm9qYOIsaws2RpxqlbgCot8QDjqhd9wLqme4Pqj6jTXSmm8VNgjMlDdQgWD05uDvSh4C3K1whKbiCreS8RsslbOZP_pr5YoIpZVg_E8JpSz2_E9dJaNsJ-817qN_eQM918Qc_06zytB1dOc0vKQAfc9NJiBkNJzYYUk2L1oaU9BwyNaVipI14qDEKvdxdZJaFj4HUPPO7PUEWEG5LQ3A33K2m6S7xNvUodewoCGBbfE59Rn6zU0XZ7B4-wY6cjJ-c_SZenYFPdogroJl3zZApX2phuDOp1OfD5RP1q8N_nmkIwebxyQ.jpg",
-   "link": "https://meli.la/2Yj8aXM",
-   "converter": false,
-   "categoria": "Fitness",
-   "fonte": "@urubupromo",
-   "post": "https://t.me/urubupromo/41956",
-   "quando": "2026-10-21T12:36:24+00:00",
    "achado_em": "2026-10-21T10:24-03:00",
    "aprovado": false
   }
