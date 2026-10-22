@@ -1,7 +1,26 @@
 {
- "atualizado": "2026-10-22T14:37-03:00",
+ "atualizado": "2026-10-22T15:03-03:00",
  "bot": "achadinhosbf_indy_bot",
  "itens": [
+  {
+   "gid": "de96a4",
+   "id": "garimpo-prétreinoevolutionsaborlimonadasuíça300g",
+   "loja": "Mercado Livre",
+   "nome": "Pré Treino Evolution Sabor limonada suíça 300g - Soldiers Nutrition",
+   "preco": 43.0,
+   "preco_antes": 99.0,
+   "desconto": 57,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/JIjRa2c5pNc5bb-4Fq3dugmgot3RE4-mhemTTHMKQni7ubRK7EJ8G35-FULJGAnnOwN6MFR2WkEWg-2AewBCeXwXJc9qAin2MmVfbCvmwkNDAb2CNLIozl7RVLv01v5X7zg1hhDHsOzQla83cCFNx1Ct0ER6BfSHXwePC441n_JT8hqYQQ9uAzArGcPhINuCWvEt9dTvW3sxpYaKa6s697gMSCfAgb9m5D71Z42jD2n2i5z0nw7hd4b9jy2Phz0NsEz4Y1wBC-nBSw-YJ1Mdpfhv3XdRPjjHv7cBl-3UEN55iX8zepdL3ZVIp-6bojQrvCffs5CFT1_VTkQaM1SKuA.jpg",
+   "link": "https://meli.la/2m4vnem",
+   "converter": false,
+   "categoria": "Fitness",
+   "fonte": "@guerradealsfit",
+   "post": "https://t.me/guerradealsfit/13176",
+   "quando": "2026-10-22T17:58:57+00:00",
+   "achado_em": "2026-10-22T15:03-03:00",
+   "aprovado": false
+  },
   {
    "gid": "e774e3",
    "id": "radar-B0DMLHXKT3",
@@ -19,7 +38,7 @@
    "post": "https://t.me/guerradealsfit/13166",
    "quando": "2026-10-22T13:26:04+00:00",
    "achado_em": "2026-10-22T14:37-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "1d6331",
@@ -38,7 +57,7 @@
    "post": "https://t.me/guerradealsfit/13172",
    "quando": "2026-10-22T16:05:57+00:00",
    "achado_em": "2026-10-22T14:37-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "9fa78f",

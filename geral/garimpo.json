@@ -1,7 +1,45 @@
 {
- "atualizado": "2026-10-22T14:35-03:00",
+ "atualizado": "2026-10-22T14:59-03:00",
  "bot": "achadinhosgeral_indy_bot",
  "itens": [
+  {
+   "gid": "5e096c",
+   "id": "garimpo-organizadorgiratóriodeacrílico",
+   "loja": "Mercado Livre",
+   "nome": "Organizador Giratório de Acrílico",
+   "preco": 29.98,
+   "preco_antes": 0,
+   "desconto": 0,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/HkkBrJC4yJImngdK1ztoLUuitL9Z6pOVRcvrdbYjmyQQNU9fzq-dQDq3Ag3BmHLBJBhf5QRsta2DD-y8eVRacfd6NPrSTqEkC6pkGEBd6jqxPBJyDv3J_HFSyKA1eVtwHak81oeWdG9P12KF0TjEIS2aJs8p0_4PtrWZNcLN1Xo2Y8OPMPWfm6jZ9pCCpNRjFiE3KNzGVNMBL3WPjSz-3FhfnjZ4sqYWrb6fUgs078NJvo2ySicdLdrcFZXiw5c4ZfNRWZ4oNg9stsSrxqgluLOjs-aVYgBAFkZkTaktnxKDso0aNzkzb8dZ3-f0MfF1VEMFz6ZrahjSCmB3hoOQJw.jpg",
+   "link": "https://meli.la/1RiQmFR",
+   "converter": false,
+   "categoria": "Casa",
+   "fonte": "@pobregram",
+   "post": "https://t.me/pobregram/42361",
+   "quando": "2026-10-22T17:49:49+00:00",
+   "achado_em": "2026-10-22T14:59-03:00",
+   "aprovado": false
+  },
+  {
+   "gid": "f9fa18",
+   "id": "garimpo-perfumetommyhilfigertommygirledt100ml",
+   "loja": "Mercado Livre",
+   "nome": "Perfume Tommy Hilfiger Tommy Girl EDT 100ml",
+   "preco": 221.34,
+   "preco_antes": 0,
+   "desconto": 0,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/di-grwODxlYlN-XHa7eqkXTR8L6LG2RKL98PeIomudKZmh1uQW_Ck73ZZwnOhMhu1GMzefIp5jb7XR2iTsEA2aA22Tgc6sc0tg5z4JpII7R8OAgvo6F-pIAWDN640NY2PbE_Z8hpOv9_rWcHui1e_qhXDbRk5bnbugtSau035EvLfaIQDI98P1dvR3cTpPwOz2yDpWEvIbWb78BNzIaKfW3AB8h2UnPlJ7vhtHpwnqpy9qUPZMsGI5MN-3HLcZUHLUnKtAJVkbzpkQYZpaLiWezQD063C_kgzqsudcZAJWcUKGhuXvvI9MLQOEh_zHJT-fkoLevRtfhsvxQl01bDfA.jpg",
+   "link": "https://meli.la/1rhFpF4",
+   "converter": false,
+   "categoria": "Beleza",
+   "fonte": "@pobregram",
+   "post": "https://t.me/pobregram/42362",
+   "quando": "2026-10-22T17:50:02+00:00",
+   "achado_em": "2026-10-22T14:59-03:00",
+   "aprovado": false
+  },
   {
    "gid": "c7ce1e",
    "id": "radar-B0BFC3T3FW",
@@ -418,7 +456,7 @@
    "post": "https://t.me/promotop/260627",
    "quando": "2026-10-22T12:30:12+00:00",
    "achado_em": "2026-10-22T14:35-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "06959f",
@@ -437,7 +475,7 @@
    "post": "https://t.me/promotop/260631",
    "quando": "2026-10-22T12:51:23+00:00",
    "achado_em": "2026-10-22T14:35-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "3746eb",
@@ -722,7 +760,7 @@
    "post": "https://t.me/urubupromo/42017",
    "quando": "2026-10-22T16:54:29+00:00",
    "achado_em": "2026-10-22T14:35-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "295e64",
