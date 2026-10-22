@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Kit Elseve Colágeno Shampoo 400ml + Condicionador 400ml e...",
+  "loja": "Amazon",
+  "preco": 75.99,
+  "preco_antes": 0,
+  "quando": "2026-10-22T13:37-03:00"
+ },
+ {
+  "nome": "Desodorante Corporal Aerossol Rexona All Body, Fresh Citr...",
+  "loja": "Amazon",
+  "preco": 17.0,
+  "preco_antes": 0,
+  "quando": "2026-10-22T13:36-03:00"
+ },
+ {
   "nome": "Kit 2 Macaquinho Fitness Feminino - Karma Wear",
   "loja": "Mercado Livre",
   "preco": 58.0,
@@ -68,19 +82,5 @@
   "preco": 34.0,
   "preco_antes": 79.0,
   "quando": "2026-10-13T09:02-03:00"
- },
- {
-  "nome": "GOKOCO Secador De Cabelo Profissional 110v",
-  "loja": "Amazon",
-  "preco": 186.79,
-  "preco_antes": 0,
-  "quando": "2026-10-12T15:04-03:00"
- },
- {
-  "nome": "L'OREAL PARIS SÉRUM LEAVE IN LISO POR UMA SEMANA",
-  "loja": "Amazon",
-  "preco": 30.9,
-  "preco_antes": 49.9,
-  "quando": "2026-10-12T15:03-03:00"
  }
 ]
