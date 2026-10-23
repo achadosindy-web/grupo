@@ -1,5 +1,26 @@
 [
  {
+  "nome": "NIVEA Hidratante Labial Morango Shine 4,8g",
+  "loja": "Amazon",
+  "preco": 12.33,
+  "preco_antes": 0,
+  "quando": "2026-10-23T19:07-03:00"
+ },
+ {
+  "nome": "Notebook Lenovo IdeaPad Slim 3 15.3\" Luna Grey - Intel Co...",
+  "loja": "Amazon",
+  "preco": 2802.97,
+  "preco_antes": 2971.55,
+  "quando": "2026-10-23T19:06-03:00"
+ },
+ {
+  "nome": "Sabonete Líquido Refil NIVEA, Erva-Doce, 200ml",
+  "loja": "Amazon",
+  "preco": 5.54,
+  "preco_antes": 6.28,
+  "quando": "2026-10-23T19:06-03:00"
+ },
+ {
   "nome": "sou viciado nesse, muito muito bom",
   "loja": "Amazon",
   "preco": 360.05,
@@ -61,26 +82,5 @@
   "preco": 75.9,
   "preco_antes": 0,
   "quando": "2026-10-23T09:04-03:00"
- },
- {
-  "nome": "Neutrogena Sun Fresh Protetor Solar Corporal FPS 50 200ml",
-  "loja": "Amazon",
-  "preco": 47.2,
-  "preco_antes": 0,
-  "quando": "2026-10-22T21:07-03:00"
- },
- {
-  "nome": "Fritadeira Air Fryer Philco Oven 2 em 1 12L",
-  "loja": "Amazon",
-  "preco": 419.0,
-  "preco_antes": 0,
-  "quando": "2026-10-22T21:06-03:00"
- },
- {
-  "nome": "Kit de Viagem para Bebê Granado 60ml — 4 Unidades",
-  "loja": "Amazon",
-  "preco": 52.78,
-  "preco_antes": 0,
-  "quando": "2026-10-22T21:05-03:00"
  }
 ]
