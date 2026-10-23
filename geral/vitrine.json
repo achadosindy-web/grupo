@@ -1,5 +1,26 @@
 [
  {
+  "nome": "sou viciado nesse, muito muito bom",
+  "loja": "Amazon",
+  "preco": 360.05,
+  "preco_antes": 0,
+  "quando": "2026-10-23T15:07-03:00"
+ },
+ {
+  "nome": "Kit 2 unidades L'Oréal Paris Solar Expertise Protetor Fac...",
+  "loja": "Amazon",
+  "preco": 67.9,
+  "preco_antes": 0,
+  "quando": "2026-10-23T15:07-03:00"
+ },
+ {
+  "nome": "Babá Eletrônica VM481 Tela LCD 2.0 e Zoom Digital - Motorola",
+  "loja": "Amazon",
+  "preco": 284.89,
+  "preco_antes": 299.89,
+  "quando": "2026-10-23T15:06-03:00"
+ },
+ {
   "nome": "Stanley Copo Quencher Cream 1.18ml",
   "loja": "Amazon",
   "preco": 179.7,
@@ -61,26 +82,5 @@
   "preco": 52.78,
   "preco_antes": 0,
   "quando": "2026-10-22T21:05-03:00"
- },
- {
-  "nome": "WAAW by Alok Caixa de Som Bluetooth Boom 110 À Prova D'Ág...",
-  "loja": "Amazon",
-  "preco": 483.55,
-  "preco_antes": 509.0,
-  "quando": "2026-10-22T19:07-03:00"
- },
- {
-  "nome": "Fone De Ouvido Gamer Headset Havit H2015D Pc/Xbox/Ps4/Ps5",
-  "loja": "Amazon",
-  "preco": 121.74,
-  "preco_antes": 128.15,
-  "quando": "2026-10-22T19:06-03:00"
- },
- {
-  "nome": "Controle sem fio DualSense – Edição Limitada Gran Turismo",
-  "loja": "Amazon",
-  "preco": 557.9,
-  "preco_antes": 599.9,
-  "quando": "2026-10-22T19:05-03:00"
  }
 ]
