@@ -1,7 +1,26 @@
 {
- "atualizado": "2026-10-24T16:59-03:00",
+ "atualizado": "2026-10-24T17:09-03:00",
  "bot": "achadinhosbf_indy_bot",
  "itens": [
+  {
+   "gid": "061a7c",
+   "id": "garimpo-shortfitnessfemininocombolsoslateraisatl",
+   "loja": "Mercado Livre",
+   "nome": "Short Fitness Feminino Com Bolsos Laterais - Atletyca (10 Cores)",
+   "preco": 38.0,
+   "preco_antes": 79.0,
+   "desconto": 52,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/ID85peG2jgOWgJ56WAUnlThVhAZG1gcYu7_Xgf2cgEYYl5iCgZESzthkqrHilfq9HyBlIsoa8KWxzZBtnuLzafRRCc4ehGnBN58Vv08bh-JGhVSwd_nnIlUBftG6yKwkbaz3_L_roGV-ZCgIQESLqqrE4H9vJpMoyksxomdH2ZkFU2wyoRLZTKwwTog9IQ-v_63zXS6z6czM8m3wp69_NqhwninCB9Xr-S5_TqT9DckKbRDk4WNpKWaaLnVkfPaOhOJnUUWNqMVVe1Jlr4ABK8Co6Q7CaWjBqTgMnni11QmTOvPsm9AW8qiY2WJdOLt0s6DppBCvgeQPvcAU9rt5rA.jpg",
+   "link": "https://meli.la/1PTvtLu",
+   "converter": false,
+   "categoria": "Fitness",
+   "fonte": "@guerradealsfit",
+   "post": "https://t.me/guerradealsfit/13237",
+   "quando": "2026-10-24T20:03:02+00:00",
+   "achado_em": "2026-10-24T17:09-03:00",
+   "aprovado": false
+  },
   {
    "gid": "650db1",
    "id": "garimpo-ativeaquiepesquisepeloprodutodesejado",

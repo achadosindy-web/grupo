@@ -1,7 +1,26 @@
 {
- "atualizado": "2026-10-24T16:58-03:00",
+ "atualizado": "2026-10-24T17:08-03:00",
  "bot": "achadinhosdaindy_bot",
  "itens": [
+  {
+   "gid": "061a7c",
+   "id": "garimpo-shortfitnessfemininocombolsoslateraisatl",
+   "loja": "Mercado Livre",
+   "nome": "Short Fitness Feminino Com Bolsos Laterais - Atletyca (10 Cores)",
+   "preco": 38.0,
+   "preco_antes": 79.0,
+   "desconto": 52,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/ID85peG2jgOWgJ56WAUnlThVhAZG1gcYu7_Xgf2cgEYYl5iCgZESzthkqrHilfq9HyBlIsoa8KWxzZBtnuLzafRRCc4ehGnBN58Vv08bh-JGhVSwd_nnIlUBftG6yKwkbaz3_L_roGV-ZCgIQESLqqrE4H9vJpMoyksxomdH2ZkFU2wyoRLZTKwwTog9IQ-v_63zXS6z6czM8m3wp69_NqhwninCB9Xr-S5_TqT9DckKbRDk4WNpKWaaLnVkfPaOhOJnUUWNqMVVe1Jlr4ABK8Co6Q7CaWjBqTgMnni11QmTOvPsm9AW8qiY2WJdOLt0s6DppBCvgeQPvcAU9rt5rA.jpg",
+   "link": "https://meli.la/1PTvtLu",
+   "converter": false,
+   "categoria": "Fitness",
+   "fonte": "@guerradealsfit",
+   "post": "https://t.me/guerradealsfit/13237",
+   "quando": "2026-10-24T20:03:02+00:00",
+   "achado_em": "2026-10-24T17:08-03:00",
+   "aprovado": false
+  },
   {
    "gid": "2945af",
    "id": "garimpo-caixadesombluetoothhifiamplificadargbtws",
@@ -4730,25 +4749,6 @@
    "fonte": "@pobregram",
    "post": "https://t.me/pobregram/42405",
    "quando": "2026-10-23T11:26:11+00:00",
-   "achado_em": "2026-10-23T09:02-03:00",
-   "aprovado": false
-  },
-  {
-   "gid": "431a92",
-   "id": "radar-B0H77DSP5P",
-   "loja": "Amazon",
-   "nome": "Geladeira Hisense Duplex Branca 381L Inverter Frost Free RT375N3EWA1 127V",
-   "preco": 2274.0,
-   "preco_antes": 0,
-   "desconto": 0,
-   "cupom": "",
-   "imagem": "https://cdn1.telesco.pe/file/OjJgpNd9M4DX-V3XPbMRsRliEY8efEPGsG94Vq8iiaNSn7TYZMUWXk1zPzGcBOZ39tlrAki0hzfqvy3MvNe1M0hWCePaLMKxNkXEylY80kYQgABnfTcsSveJSn6ZenTiB3CeJXjCkDi0l61VPd52YPnJ0LDvEGrB-C8VzjsGD_Wg4NE5bA0t2K0ZD4GnJqQ3Wj19eanemBMXfxSdzOVx89gLYE9644ztOQiMv44lUEQrQ8GNJ96pLZwpamSw37zfIjeCB687XEhjuP7geM621ZrQHPrRapWIZSEb6P6n_5kgS2GA64WUaDB0IRHVbFUio4ZVx9v_JwUrkY2f_LSniw.jpg",
-   "link": "https://www.amazon.com.br/dp/B0H77DSP5P?tag=achadinh084ca-20",
-   "converter": true,
-   "categoria": "Casa",
-   "fonte": "@promotop",
-   "post": "https://t.me/promotop/260672",
-   "quando": "2026-10-23T01:36:04+00:00",
    "achado_em": "2026-10-23T09:02-03:00",
    "aprovado": false
   }
