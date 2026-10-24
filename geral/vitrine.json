@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Desodorante Alva Stick Cristal Sem Embalagem 120g",
+  "loja": "Amazon",
+  "preco": 50.22,
+  "preco_antes": 0,
+  "quando": "2026-10-24T12:06-03:00"
+ },
+ {
+  "nome": "Dermotivin Salix Sabonete Liquido 70ml",
+  "loja": "Amazon",
+  "preco": 21.74,
+  "preco_antes": 0,
+  "quando": "2026-10-24T12:05-03:00"
+ },
+ {
+  "nome": "Bombom NESTLÉ Especialidades Caixa 220g",
+  "loja": "Amazon",
+  "preco": 10.79,
+  "preco_antes": 0,
+  "quando": "2026-10-24T12:05-03:00"
+ },
+ {
   "nome": "Tênis New Balance 550 (35 ao 40)",
   "loja": "Amazon",
   "preco": 319.9,
@@ -61,26 +82,5 @@
   "preco": 5.54,
   "preco_antes": 6.28,
   "quando": "2026-10-23T19:06-03:00"
- },
- {
-  "nome": "sou viciado nesse, muito muito bom",
-  "loja": "Amazon",
-  "preco": 360.05,
-  "preco_antes": 0,
-  "quando": "2026-10-23T15:07-03:00"
- },
- {
-  "nome": "Kit 2 unidades L'Oréal Paris Solar Expertise Protetor Fac...",
-  "loja": "Amazon",
-  "preco": 67.9,
-  "preco_antes": 0,
-  "quando": "2026-10-23T15:07-03:00"
- },
- {
-  "nome": "Babá Eletrônica VM481 Tela LCD 2.0 e Zoom Digital - Motorola",
-  "loja": "Amazon",
-  "preco": 284.89,
-  "preco_antes": 299.89,
-  "quando": "2026-10-23T15:06-03:00"
  }
 ]
