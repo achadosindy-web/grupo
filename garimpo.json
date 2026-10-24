@@ -1,7 +1,26 @@
 {
- "atualizado": "2026-10-24T17:08-03:00",
+ "atualizado": "2026-10-24T17:19-03:00",
  "bot": "achadinhosdaindy_bot",
  "itens": [
+  {
+   "gid": "217106",
+   "id": "radar-B07X4GWDZY",
+   "loja": "Amazon",
+   "nome": "Fralda Pampers Supersequinha Tamanho M 90un.",
+   "preco": 85.18,
+   "preco_antes": 0,
+   "desconto": 0,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/RZjZXhZMgva1ry21r1aMekMX_kedtp0IYg1umAjJqDCXQcvQ5A-2PXeKvO0DSWpWGh0iAEEM2bFtlDBr75I-pfKlb4sfJz-lwdbLmc9EN7OYzKXBLPzSEPH12QTSTCGU2EssFTaKL-UvRcEGOwz3lj9Gz-LhLNMfROMoXT0_Kr5uOtHk5bb2E93CEugiKGd9zHzOSsGnu4gGOVRPCrG-P10DhizFaMuA2e8QIP8aLBtgTrcphsYaOJ7swj2tJC1OMsn9cMG6NuXkFBkP-20oq4GqUtMEGi-1ok5cnPURuTj0XGLkCQwdLEEJpkpde-DZ_s0Q7TfkZFDtD9W9CuEk4w.jpg",
+   "link": "https://www.amazon.com.br/dp/B07X4GWDZY?tag=achadinh084ca-20",
+   "converter": true,
+   "categoria": "Outros",
+   "fonte": "@urubupromo",
+   "post": "https://t.me/urubupromo/42104",
+   "quando": "2026-10-24T20:16:15+00:00",
+   "achado_em": "2026-10-24T17:19-03:00",
+   "aprovado": false
+  },
   {
    "gid": "061a7c",
    "id": "garimpo-shortfitnessfemininocombolsoslateraisatl",
@@ -646,7 +665,7 @@
    "post": "https://t.me/pobregram/42454",
    "quando": "2026-10-24T12:38:57+00:00",
    "achado_em": "2026-10-24T12:03-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "0bb9a6",
@@ -3743,7 +3762,7 @@
    "post": "https://t.me/achadinhosdavava/11590",
    "quando": "2026-10-23T14:23:40+00:00",
    "achado_em": "2026-10-23T12:02-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "2a2f88",
@@ -4730,25 +4749,6 @@
    "fonte": "@pobregram",
    "post": "https://t.me/pobregram/42404",
    "quando": "2026-10-23T11:24:31+00:00",
-   "achado_em": "2026-10-23T09:02-03:00",
-   "aprovado": false
-  },
-  {
-   "gid": "d86a3e",
-   "id": "radar-B0DJCF8JV3",
-   "loja": "Amazon",
-   "nome": "selecione Programe e Poupe (cancele quando quiser)",
-   "preco": 34.56,
-   "preco_antes": 0,
-   "desconto": 0,
-   "cupom": "",
-   "imagem": "https://cdn1.telesco.pe/file/KEPuy_IeZx0rpg5dh57K5wqZanuKLDoBk6Ikaqqf5UwGuRCEkaHd95di4ThF668IbxZjUvFJnPvgXU8Zl-4ok-fdOP2G2HnCrZdLV27PkXyMDrQNyEpf1wERbvg35UmT7sNVbFOQc0EpxIDd7Sm_wiDdtgETEpztQGqlAxZIOMhen6WrnjUeLrfUfkF9Kayapt8JdhNoRT2Y0A60WQlxtj8zvLNJcH_b_amShZxXjlBOJTpji4wkPYa7jVRSUVhzxO0QZMskBu3MG8nKYZX3enjtwTcuSIYH5rlCo4IR_vE3XSFskfSYxaQrZUGgEwEXkCOIDydftJ1PJvM5318DTQ.jpg",
-   "link": "https://www.amazon.com.br/dp/B0DJCF8JV3?tag=achadinh084ca-20",
-   "converter": true,
-   "categoria": "Beleza",
-   "fonte": "@pobregram",
-   "post": "https://t.me/pobregram/42405",
-   "quando": "2026-10-23T11:26:11+00:00",
    "achado_em": "2026-10-23T09:02-03:00",
    "aprovado": false
   }

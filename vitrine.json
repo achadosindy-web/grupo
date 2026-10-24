@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Wella Óleo Capilar Oil Reflections 30ml",
+  "loja": "Amazon",
+  "preco": 55.1,
+  "preco_antes": 0,
+  "quando": "2026-10-24T17:21-03:00"
+ },
+ {
+  "nome": "VASENOL GELEIA DE VASELINA HIDRATANTE",
+  "loja": "Amazon",
+  "preco": 24.52,
+  "preco_antes": 33.99,
+  "quando": "2026-10-24T17:20-03:00"
+ },
+ {
   "nome": "NIVEA Hidratante Labial Morango Shine 4,8g",
   "loja": "Amazon",
   "preco": 12.33,
@@ -68,19 +82,5 @@
   "preco": 119.0,
   "preco_antes": 224.0,
   "quando": "2026-10-14T09:03-03:00"
- },
- {
-  "nome": "CAMISA TÉRMICA VOKER FEMININA (diversas cores)",
-  "loja": "Mercado Livre",
-  "preco": 28.04,
-  "preco_antes": 54.9,
-  "quando": "2026-10-14T09:03-03:00"
- },
- {
-  "nome": "Calça Legging Zero Transparência Cintura Alta - Koenig (3...",
-  "loja": "Mercado Livre",
-  "preco": 33.0,
-  "preco_antes": 49.0,
-  "quando": "2026-10-13T12:03-03:00"
  }
 ]
