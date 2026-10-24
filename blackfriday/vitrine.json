@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Frigideira Cerâmica Antiaderente 24cm",
+  "loja": "Amazon",
+  "preco": 32.9,
+  "preco_antes": 0,
+  "quando": "2026-10-24T17:31-03:00"
+ },
+ {
+  "nome": "Nome do produto",
+  "loja": "Amazon",
+  "preco": 199.9,
+  "preco_antes": 399.9,
+  "quando": "2026-10-24T17:30-03:00"
+ },
+ {
+  "nome": "Loja oficial 3VS no Mercado Livre",
+  "loja": "Mercado Livre",
+  "preco": 23.0,
+  "preco_antes": 78.0,
+  "quando": "2026-10-24T17:29-03:00"
+ },
+ {
   "nome": "Bicicleta Ergométrica Vertical Dream Fitness EX 450",
   "loja": "Amazon",
   "preco": 262.0,
