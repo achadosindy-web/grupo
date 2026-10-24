@@ -114,7 +114,7 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
   </div>
   <div class="perfis" role="group" aria-label="Qual grupo">
     <button type="button" data-perfil="ingrid">Indy · fitness</button>
-    <button type="button" data-perfil="geral">Geral</button>
+    <button type="button" data-perfil="geral" hidden>Geral</button>
     <button type="button" data-perfil="blackfriday">Black Friday</button>
   </div>
   <div class="busca">
@@ -158,7 +158,7 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
 <script>
 const EXEMPLO = null;
 const LOJAS = ["Todas", "Amazon", "Mercado Livre", "Shopee"];
-const CATS = ["Todas", "Fitness", "Moda", "Casa", "Beleza", "Eletrônicos", "Outros"];
+const CATS = ["Todas", "Fitness", "Moda", "Casa", "Beleza", "Eletrodomésticos", "Eletrônicos", "Outros"];
 const PREFIXO = { "meli.la": "ml", "s.shopee.com.br": "sp", "shope.ee": "sp", "amzn.to": "az" };
 const estado = { loja: "Todas", cat: "Todas", desc20: false, esconder: false, q: "", ordem: "novos", mulher: false };
 /* "Só pra mulheres": reconhece pelo nome do produto */
@@ -171,7 +171,7 @@ let dados = { itens: [], bot: "", atualizado: "" };
 const PERFIS = {
   ingrid: { arquivo: "garimpo.json", titulo: "Garimpo da Indy", busca: "Buscar: legging, panela, perfume…" },
   geral: { arquivo: "geral/garimpo.json", titulo: "Garimpo Geral", busca: "Buscar: fone, air fryer, perfume…" },
-  blackfriday: { arquivo: "blackfriday/garimpo.json", titulo: "Garimpo Black Friday", busca: "Buscar: tv, notebook, air fryer…" },
+  blackfriday: { arquivo: "blackfriday/garimpo.json", titulo: "Garimpo Black Friday", busca: "Buscar: air fryer, perfume, tv…" },
 };
 const _pUrl = new URLSearchParams(location.search).get("perfil");
 let PERFIL = PERFIS[_pUrl] ? _pUrl : null;
