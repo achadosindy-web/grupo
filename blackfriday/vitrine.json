@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Conjunto de Bowls Tigelas de Inox com Tampa Plástica Elec...",
+  "loja": "Amazon",
+  "preco": 83.9,
+  "preco_antes": 158.3,
+  "quando": "2026-10-24T19:07-03:00"
+ },
+ {
+  "nome": "Sparta Maleta de ferramentas Kit com 165 Peças",
+  "loja": "Amazon",
+  "preco": 69.0,
+  "preco_antes": 165.0,
+  "quando": "2026-10-24T19:07-03:00"
+ },
+ {
+  "nome": "Shorts Esportivo Insider Serotonin, Feminino",
+  "loja": "Amazon",
+  "preco": 78.44,
+  "preco_antes": 224.11,
+  "quando": "2026-10-24T19:06-03:00"
+ },
+ {
   "nome": "Lacta Favoritos Caixa de Variedades Chocolates 250,6g",
   "loja": "Amazon",
   "preco": 10.0,
@@ -61,26 +82,5 @@
   "preco": 80.0,
   "preco_antes": 189.0,
   "quando": "2026-10-23T21:09-03:00"
- },
- {
-  "nome": "Whey Carnitech® Beef Protein Sabor Cookies - Atlhetica Nu...",
-  "loja": "Amazon",
-  "preco": 109.0,
-  "preco_antes": 209.0,
-  "quando": "2026-10-23T19:10-03:00"
- },
- {
-  "nome": "Kit 3 Shorts Masculino 2 Em 1 Dry Fit Anti Odor - Mov2On",
-  "loja": "Mercado Livre",
-  "preco": 71.0,
-  "preco_antes": 129.0,
-  "quando": "2026-10-23T09:13-03:00"
- },
- {
-  "nome": "Creatina Monohidratada Hardcore 500g - Integralmedica",
-  "loja": "Amazon",
-  "preco": 55.0,
-  "preco_antes": 149.0,
-  "quando": "2026-10-22T15:05-03:00"
  }
 ]
