@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Tênis New Balance 550 (35 ao 40)",
+  "loja": "Amazon",
+  "preco": 319.9,
+  "preco_antes": 0,
+  "quando": "2026-10-24T09:05-03:00"
+ },
+ {
+  "nome": "Por 25,62 à vista",
+  "loja": "Amazon",
+  "preco": 25.62,
+  "preco_antes": 0,
+  "quando": "2026-10-24T09:04-03:00"
+ },
+ {
+  "nome": "🧊 Geladeira Electrolux Frost Free 490L Efficient com Auto...",
+  "loja": "Amazon",
+  "preco": 367.0,
+  "preco_antes": 427.0,
+  "quando": "2026-10-24T09:04-03:00"
+ },
+ {
   "nome": "Ração Pedigree Nutrição Essencial Carne Ao Leite Para Cãe...",
   "loja": "Amazon",
   "preco": 96.52,
@@ -61,26 +82,5 @@
   "preco": 284.89,
   "preco_antes": 299.89,
   "quando": "2026-10-23T15:06-03:00"
- },
- {
-  "nome": "Stanley Copo Quencher Cream 1.18ml",
-  "loja": "Amazon",
-  "preco": 179.7,
-  "preco_antes": 0,
-  "quando": "2026-10-23T12:06-03:00"
- },
- {
-  "nome": "Amaciante de Roupa Concentrado Downy, Seiva de Alfazema,...",
-  "loja": "Amazon",
-  "preco": 20.93,
-  "preco_antes": 0,
-  "quando": "2026-10-23T12:05-03:00"
- },
- {
-  "nome": "L'Oréal Paris Revitalift Hialurônico Creme Facial, com Ác...",
-  "loja": "Amazon",
-  "preco": 25.15,
-  "preco_antes": 26.47,
-  "quando": "2026-10-23T12:04-03:00"
  }
 ]
