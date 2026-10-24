@@ -1,5 +1,19 @@
 [
  {
+  "nome": "NIVEA Hidratante Labial Morango Shine 4,8g",
+  "loja": "Amazon",
+  "preco": 12.33,
+  "preco_antes": 0,
+  "quando": "2026-10-24T12:27-03:00"
+ },
+ {
+  "nome": "Kit 2 Short Duplo Compressão Feminino - .mm",
+  "loja": "Mercado Livre",
+  "preco": 63.0,
+  "preco_antes": 99.0,
+  "quando": "2026-10-24T12:26-03:00"
+ },
+ {
   "nome": "Kit Elseve Colágeno Shampoo 400ml + Condicionador 400ml e...",
   "loja": "Amazon",
   "preco": 75.99,
@@ -68,19 +82,5 @@
   "preco": 33.0,
   "preco_antes": 49.0,
   "quando": "2026-10-13T12:03-03:00"
- },
- {
-  "nome": "Calça Legging Feminina Cintura Alta - Selene (3 Cores)",
-  "loja": "Mercado Livre",
-  "preco": 57.0,
-  "preco_antes": 115.0,
-  "quando": "2026-10-13T09:03-03:00"
- },
- {
-  "nome": "Top Feminino Alça Cruzada Suplex - Mafit (20 Cores)",
-  "loja": "Mercado Livre",
-  "preco": 34.0,
-  "preco_antes": 79.0,
-  "quando": "2026-10-13T09:02-03:00"
  }
 ]
