@@ -1,7 +1,26 @@
 {
- "atualizado": "2026-10-24T16:37-03:00",
+ "atualizado": "2026-10-24T16:58-03:00",
  "bot": "achadinhosdaindy_bot",
  "itens": [
+  {
+   "gid": "2945af",
+   "id": "garimpo-caixadesombluetoothhifiamplificadargbtws",
+   "loja": "Mercado Livre",
+   "nome": "Caixa De Som Bluetooth Hi-fi Amplificada Rgb Tws",
+   "preco": 88.48,
+   "preco_antes": 0,
+   "desconto": 0,
+   "cupom": "FULL2410",
+   "imagem": "https://cdn1.telesco.pe/file/TLCb74-TFCUVFUb-a9b9_cGj8rPj7yyjed-S0DxbuCy30EmTeWh00NCmnKTWOtlzbQDt3_0vWU2lrZc3UigSI_iytK9T8PC09DpVNlcbxXJxvLWT1br6ntpE1e9xE6O-3bBLpq15Qxwx4mXrN59k_Ta0-KJgzgqfPSp25aUG2wmwnIZX3tjD6NUKyFhBgP7ibmVDV20EQpI3UeVSS2uPjViEA2dpzFEQYAu4yFZmRfbLyZLkTxELfr9PEdTU6rhJ_8BJIwhYhS6gn00jiWmIaKheqx30_Bpq5f2typ7ozfkcgWinQ5djua12IUr3VINUZYobPUP7MXKOPGsQB2weCA.jpg",
+   "link": "https://meli.la/1kK2RQ8",
+   "converter": false,
+   "categoria": "Eletrônicos",
+   "fonte": "@urubupromo",
+   "post": "https://t.me/urubupromo/42103",
+   "quando": "2026-10-24T19:47:33+00:00",
+   "achado_em": "2026-10-24T16:58-03:00",
+   "aprovado": false
+  },
   {
    "gid": "c39e0c",
    "id": "radar-B0HKDNK1R2",
@@ -4730,25 +4749,6 @@
    "fonte": "@promotop",
    "post": "https://t.me/promotop/260672",
    "quando": "2026-10-23T01:36:04+00:00",
-   "achado_em": "2026-10-23T09:02-03:00",
-   "aprovado": false
-  },
-  {
-   "gid": "b02f2f",
-   "id": "radar-B0G2T6MZMG",
-   "loja": "Amazon",
-   "nome": "Manta Liquida Emborrachada Premium Euro Decor Zero Goteira 18KG Contra Fissuras Trincas In",
-   "preco": 66.0,
-   "preco_antes": 0,
-   "desconto": 0,
-   "cupom": "",
-   "imagem": "https://cdn1.telesco.pe/file/I49rhF068_qoM1-OikKA_QvQ7Nb7CT7TxRdiTpd1FQu7YcJ1XB2L2x-sq1erli34yckhMkK9e5YDGRN6iY7KExt4fpbB-1snZbVjBEA1MMlGjWhOEHZ4FGfsyRAhz-tvZCpHJJGH0m6fefSHeGGr1xH7xixVqpDQYSqBo-zIb5qP1tENpLY87M0wg9YJxBKHEjyrfmlewgqqjAwsAnx1jZwsoqghkHP7aQ1StmfIP0Z7563rqwBlMLBiIkvCtoRUpFpHjIV6__LRR9zyi4ImD_iN6RClSGSIrUMhAquCp4tAux_CsoBvRnloY9r8s2Lz-kcy4fRsX9WSBfOLEFJz3w.jpg",
-   "link": "https://www.amazon.com.br/dp/B0G2T6MZMG?tag=achadinh084ca-20",
-   "converter": true,
-   "categoria": "Outros",
-   "fonte": "@promotop",
-   "post": "https://t.me/promotop/260673",
-   "quando": "2026-10-23T01:45:21+00:00",
    "achado_em": "2026-10-23T09:02-03:00",
    "aprovado": false
   }
