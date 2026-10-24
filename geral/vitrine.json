@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Kit 10 Potes Herméticos de Vidro 640ml",
+  "loja": "Amazon",
+  "preco": 84.9,
+  "preco_antes": 0,
+  "quando": "2026-10-24T15:06-03:00"
+ },
+ {
+  "nome": "Philips OneBlade Intimate Aparador de Pelos",
+  "loja": "Amazon",
+  "preco": 139.63,
+  "preco_antes": 0,
+  "quando": "2026-10-24T15:06-03:00"
+ },
+ {
+  "nome": "Tira Manchas em Pó Vanish Oxi Action Pink Refil 2,5kg par...",
+  "loja": "Amazon",
+  "preco": 65.65,
+  "preco_antes": 72.95,
+  "quando": "2026-10-24T15:05-03:00"
+ },
+ {
   "nome": "Desodorante Alva Stick Cristal Sem Embalagem 120g",
   "loja": "Amazon",
   "preco": 50.22,
@@ -61,26 +82,5 @@
   "preco": 37.79,
   "preco_antes": 0,
   "quando": "2026-10-23T21:05-03:00"
- },
- {
-  "nome": "NIVEA Hidratante Labial Morango Shine 4,8g",
-  "loja": "Amazon",
-  "preco": 12.33,
-  "preco_antes": 0,
-  "quando": "2026-10-23T19:07-03:00"
- },
- {
-  "nome": "Notebook Lenovo IdeaPad Slim 3 15.3\" Luna Grey - Intel Co...",
-  "loja": "Amazon",
-  "preco": 2802.97,
-  "preco_antes": 2971.55,
-  "quando": "2026-10-23T19:06-03:00"
- },
- {
-  "nome": "Sabonete Líquido Refil NIVEA, Erva-Doce, 200ml",
-  "loja": "Amazon",
-  "preco": 5.54,
-  "preco_antes": 6.28,
-  "quando": "2026-10-23T19:06-03:00"
  }
 ]
