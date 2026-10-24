@@ -1,5 +1,12 @@
 [
  {
+  "nome": "publi · você me paga um café sem custo extra!",
+  "loja": "Amazon",
+  "preco": 25.0,
+  "preco_antes": 46.0,
+  "quando": "2026-10-24T20:51-03:00"
+ },
+ {
   "nome": "Conjunto de Bowls Tigelas de Inox com Tampa Plástica Elec...",
   "loja": "Amazon",
   "preco": 83.9,
@@ -75,12 +82,5 @@
   "preco": 262.0,
   "preco_antes": 499.0,
   "quando": "2026-10-24T12:08-03:00"
- },
- {
-  "nome": "Kit 10 Potes Herméticos 640ml - Rhead Red",
-  "loja": "Amazon",
-  "preco": 80.0,
-  "preco_antes": 189.0,
-  "quando": "2026-10-23T21:09-03:00"
  }
 ]
