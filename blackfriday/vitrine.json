@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Capsula de Cappuccino Doce De Leite TRES 3 Corações 10 unid",
+  "loja": "Amazon",
+  "preco": 15.1,
+  "preco_antes": 26.96,
+  "quando": "2026-10-25T15:09-03:00"
+ },
+ {
+  "nome": "Wella Professionals Nutri Enrich Shampoo, Tamanho: 250 ml...",
+  "loja": "Amazon",
+  "preco": 61.46,
+  "preco_antes": 104.17,
+  "quando": "2026-10-25T15:08-03:00"
+ },
+ {
+  "nome": "Danos Vorazes Óleo Reparador 50ml, Lola Cosmetics",
+  "loja": "Amazon",
+  "preco": 18.37,
+  "preco_antes": 44.9,
+  "quando": "2026-10-25T15:08-03:00"
+ },
+ {
+  "nome": "Smart TV LG NANO UHD 4K 65\" AI NU850 Ger9 HDR10 webOS 26",
+  "loja": "Mercado Livre",
+  "preco": 3299.0,
+  "preco_antes": 4999.0,
+  "quando": "2026-10-25T15:07-03:00"
+ },
+ {
   "nome": "Sabonete Líquido Antibacteriano Protex Cream 650ml (Packa...",
   "loja": "Amazon",
   "preco": 17.99,
@@ -54,33 +82,5 @@
   "preco": 33.0,
   "preco_antes": 62.9,
   "quando": "2026-10-25T10:53-03:00"
- },
- {
-  "nome": "Body Splash Carmed Nas Nuvens, 200ml Notas de Âmbar, Maçã...",
-  "loja": "Amazon",
-  "preco": 29.87,
-  "preco_antes": 90.52,
-  "quando": "2026-10-25T09:35-03:00"
- },
- {
-  "nome": "Mondial Batedeira Bella Massa, Vermelho/Inox, 500W, 220V...",
-  "loja": "Amazon",
-  "preco": 96.22,
-  "preco_antes": 189.9,
-  "quando": "2026-10-25T09:34-03:00"
- },
- {
-  "nome": "Sanduicheira Elétrica Antiaderente Grill 750w Preto 110/220v",
-  "loja": "Mercado Livre",
-  "preco": 69.99,
-  "preco_antes": 129.99,
-  "quando": "2026-10-25T09:34-03:00"
- },
- {
-  "nome": "Filtro de Linha DPS ICLAMPER Energia 5 Tomadas, 127/220 v...",
-  "loja": "Amazon",
-  "preco": 69.99,
-  "preco_antes": 119.9,
-  "quando": "2026-10-25T09:04-03:00"
  }
 ]
