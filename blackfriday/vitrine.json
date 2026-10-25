@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Garrafa De Tinta Original Epson Ecotank T544 Preto - T544122",
+  "loja": "Amazon",
+  "preco": 33.0,
+  "preco_antes": 62.9,
+  "quando": "2026-10-25T10:53-03:00"
+ },
+ {
   "nome": "Body Splash Carmed Nas Nuvens, 200ml Notas de Âmbar, Maçã...",
   "loja": "Amazon",
   "preco": 29.87,
@@ -75,12 +82,5 @@
   "preco": 136.0,
   "preco_antes": 302.0,
   "quando": "2026-10-25T07:54-03:00"
- },
- {
-  "nome": "WAP Aspirador de Pó e Água Barril GTW INOX 12, Compacto,...",
-  "loja": "Amazon",
-  "preco": 242.25,
-  "preco_antes": 590.85,
-  "quando": "2026-10-25T07:40-03:00"
  }
 ]
