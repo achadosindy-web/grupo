@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Ative as notificações para avisarmos quando tem oferta ch...",
+  "loja": "Amazon",
+  "preco": 18.99,
+  "preco_antes": 32.74,
+  "quando": "2026-10-25T08:33-03:00"
+ },
+ {
   "nome": "Shorts Linho Masculino Sandrini Casual",
   "loja": "Amazon",
   "preco": 27.0,
@@ -75,12 +82,5 @@
   "preco": 96.04,
   "preco_antes": 228.0,
   "quando": "2026-10-25T07:38-03:00"
- },
- {
-  "nome": "Palmilha De Altissimo Conforto 4d Tênis Sapatos Ortopédica",
-  "loja": "Mercado Livre",
-  "preco": 24.0,
-  "preco_antes": 58.0,
-  "quando": "2026-10-25T07:37-03:00"
  }
 ]
