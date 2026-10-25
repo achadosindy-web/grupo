@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Kit Principia Gel De Limpeza GI-03 + Sérum Facial Mix-01",
+  "loja": "Mercado Livre",
+  "preco": 83.3,
+  "preco_antes": 98.0,
+  "quando": "2026-10-25T19:57-03:00"
+ },
+ {
+  "nome": "Shorts de Compressão Feminino - Ciclico (4 Cores)",
+  "loja": "Mercado Livre",
+  "preco": 56.0,
+  "preco_antes": 78.0,
+  "quando": "2026-10-25T19:56-03:00"
+ },
+ {
   "nome": "Mixer Mallory Trikxer Pratic 3 EM 1 127V",
   "loja": "Amazon",
   "preco": 124.26,
@@ -68,19 +82,5 @@
   "preco": 78.54,
   "preco_antes": 130.9,
   "quando": "2026-10-21T10:24-03:00"
- },
- {
-  "nome": "LUPO CALÇA LEGGING FEMININA",
-  "loja": "Amazon",
-  "preco": 125.3,
-  "preco_antes": 186.0,
-  "quando": "2026-10-14T15:04-03:00"
- },
- {
-  "nome": "Conjunto Virginia Top + Short Feminino Poliamida - Adtn (...",
-  "loja": "Mercado Livre",
-  "preco": 75.0,
-  "preco_antes": 139.0,
-  "quando": "2026-10-14T15:04-03:00"
  }
 ]
