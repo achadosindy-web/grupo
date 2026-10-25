@@ -1,7 +1,26 @@
 {
- "atualizado": "2026-10-25T07:50-03:00",
+ "atualizado": "2026-10-25T08:19-03:00",
  "bot": "achadinhosdaindy_bot",
  "itens": [
+  {
+   "gid": "afe720",
+   "id": "radar-B0FG2DG5RH",
+   "loja": "Amazon",
+   "nome": "3 un. Escova Dental Toyadent pro Macias Premium",
+   "preco": 23.92,
+   "preco_antes": 0,
+   "desconto": 0,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/oNQXCA8sPf8O6yo9REDDZlydcdwIalIqTRbA_9o7Yo6fzMh4S9Q1dE60GcyVzldWi9v-gL3b88G5C0n7y4u6OrkFCGqxvyGRjPTrnma3ioiNT8CneIBBginJhmr4-HeZ4SqLW1Elo-HXVGu6T42KiUSmFxkF26zNujZ0DnaVX84aVuLgilLBwAjuC--nJC4HLGG93jkovoThSsJoyMw4JSyDbtI0FG7FCg7eY26AKENsiwqHPWLtyBXn0eopKapCrO1xQalt9eIuN3kOodJpEVRkdW3Pxie_5N2A8-6132TeF_mCmqR00awijCUMF4kdmIJ44YESLH2zkkfjV4W53g.jpg",
+   "link": "https://www.amazon.com.br/dp/B0FG2DG5RH?tag=achadinh084ca-20",
+   "converter": true,
+   "categoria": "Outros",
+   "fonte": "@pobregram",
+   "post": "https://t.me/pobregram/42493",
+   "quando": "2026-10-25T11:08:07+00:00",
+   "achado_em": "2026-10-25T08:19-03:00",
+   "aprovado": false
+  },
   {
    "gid": "a0c69c",
    "id": "radar-B0CZPSD2SC",
@@ -4730,25 +4749,6 @@
    "fonte": "@urubupromo",
    "post": "https://t.me/urubupromo/42050",
    "quando": "2026-10-23T12:20:16+00:00",
-   "achado_em": "2026-10-23T12:02-03:00",
-   "aprovado": false
-  },
-  {
-   "gid": "bff750",
-   "id": "garimpo-caixadesombluetoothjblboombox3preto",
-   "loja": "Mercado Livre",
-   "nome": "Caixa De Som Bluetooth Jbl Boombox 3 Preto",
-   "preco": 1646.0,
-   "preco_antes": 0,
-   "desconto": 0,
-   "cupom": "150TODOSITE2310",
-   "imagem": "https://cdn1.telesco.pe/file/V3aLVJChmx4yomttmO2Lm9eaBXIzCwEmWF0UZLOIg6xIyP67l-RSLt4xXs9HN7-bqD5Ng1Uz5JUj18t_riwUSC0ZahcVekvPwbR5v6vxO-dIZNixybnXYluiBj_eJe8gl2ee-VwYMM1nG8a5ZTQ8OquCXYzVBwLu_C6cl9Ox1hCl49hw5vDEo1LXCsvRI2Sstotzsse4nRAlNg8Abm6l0gOjN8Y1_duI7Cmbr-_IemLZef3jV9jMR9PlH8YF8jZs7W98Wi7IM7QtSL9FOGMyDuNxN3u05vILFLtWcOnAnMxcqo4c1Uev2mV2qD6k_RINYIfGlprjCKTFgLn7GFnaoA.jpg",
-   "link": "https://meli.la/2yrDDTk",
-   "converter": false,
-   "categoria": "Eletrônicos",
-   "fonte": "@urubupromo",
-   "post": "https://t.me/urubupromo/42052",
-   "quando": "2026-10-23T12:30:51+00:00",
    "achado_em": "2026-10-23T12:02-03:00",
    "aprovado": false
   }

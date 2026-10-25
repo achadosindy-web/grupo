@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Shorts Linho Masculino Sandrini Casual",
+  "loja": "Amazon",
+  "preco": 27.0,
+  "preco_antes": 49.0,
+  "quando": "2026-10-25T08:23-03:00"
+ },
+ {
+  "nome": "Desinfetante Líquido Power Plus Lavanda Harpic 500ml",
+  "loja": "Amazon",
+  "preco": 13.01,
+  "preco_antes": 23.65,
+  "quando": "2026-10-25T08:22-03:00"
+ },
+ {
   "nome": "Scalibor Coleira Antiparasitária",
   "loja": "Amazon",
   "preco": 45.73,
@@ -68,19 +82,5 @@
   "preco": 24.0,
   "preco_antes": 58.0,
   "quando": "2026-10-25T07:37-03:00"
- },
- {
-  "nome": "Kit 5 un. Sabonete em Barra Pom Pom c/ Loção Hidratante 70g",
-  "loja": "Amazon",
-  "preco": 11.58,
-  "preco_antes": 24.64,
-  "quando": "2026-10-24T21:07-03:00"
- },
- {
-  "nome": "publi · você me paga um café sem custo extra!",
-  "loja": "Amazon",
-  "preco": 25.0,
-  "preco_antes": 46.0,
-  "quando": "2026-10-24T20:51-03:00"
  }
 ]
