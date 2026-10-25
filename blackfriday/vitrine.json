@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Sabonete Líquido Antibacteriano Protex Cream 650ml (Packa...",
+  "loja": "Amazon",
+  "preco": 17.99,
+  "preco_antes": 28.11,
+  "quando": "2026-10-25T14:00-03:00"
+ },
+ {
   "nome": "Dr. Peanut Pasta de Amendoim Avelã 600G - Com Whey Protein",
   "loja": "Amazon",
   "preco": 39.9,
@@ -75,12 +82,5 @@
   "preco": 69.99,
   "preco_antes": 119.9,
   "quando": "2026-10-25T09:04-03:00"
- },
- {
-  "nome": "Ative as notificações para avisarmos quando tem oferta ch...",
-  "loja": "Amazon",
-  "preco": 18.99,
-  "preco_antes": 32.74,
-  "quando": "2026-10-25T08:33-03:00"
  }
 ]
