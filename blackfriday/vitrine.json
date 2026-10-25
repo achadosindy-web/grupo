@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Tira Manchas em Pó Vanish Oxi Action Pink Refil 2,5kg",
+  "loja": "Amazon",
+  "preco": 72.95,
+  "preco_antes": 109.59,
+  "quando": "2026-10-25T19:10-03:00"
+ },
+ {
+  "nome": "Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encor...",
+  "loja": "Amazon",
+  "preco": 26.0,
+  "preco_antes": 40.0,
+  "quando": "2026-10-25T19:10-03:00"
+ },
+ {
+  "nome": "Bebida Láctea Nutren Protein, Chocolate, 260ml, Pack com...",
+  "loja": "Amazon",
+  "preco": 39.9,
+  "preco_antes": 63.33,
+  "quando": "2026-10-25T19:09-03:00"
+ },
+ {
+  "nome": "Escova de cabelo desembaraçadora The Mini Ultimate Detang...",
+  "loja": "Amazon",
+  "preco": 79.66,
+  "preco_antes": 145.0,
+  "quando": "2026-10-25T19:08-03:00"
+ },
+ {
   "nome": "Hidratante Corporal Neutrogena Body Care Intensive Hidrat...",
   "loja": "Amazon",
   "preco": 25.74,
@@ -54,33 +82,5 @@
   "preco": 18.37,
   "preco_antes": 44.9,
   "quando": "2026-10-25T15:08-03:00"
- },
- {
-  "nome": "Smart TV LG NANO UHD 4K 65\" AI NU850 Ger9 HDR10 webOS 26",
-  "loja": "Mercado Livre",
-  "preco": 3299.0,
-  "preco_antes": 4999.0,
-  "quando": "2026-10-25T15:07-03:00"
- },
- {
-  "nome": "Sabonete Líquido Antibacteriano Protex Cream 650ml (Packa...",
-  "loja": "Amazon",
-  "preco": 17.99,
-  "preco_antes": 28.11,
-  "quando": "2026-10-25T14:00-03:00"
- },
- {
-  "nome": "Dr. Peanut Pasta de Amendoim Avelã 600G - Com Whey Protein",
-  "loja": "Amazon",
-  "preco": 39.9,
-  "preco_antes": 59.9,
-  "quando": "2026-10-25T12:08-03:00"
- },
- {
-  "nome": "Bombom NESTLÉ Especialidades Caixa 220g",
-  "loja": "Amazon",
-  "preco": 11.99,
-  "preco_antes": 18.73,
-  "quando": "2026-10-25T12:08-03:00"
  }
 ]
