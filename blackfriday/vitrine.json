@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Hidratante Corporal Neutrogena Body Care Intensive Hidrat...",
+  "loja": "Amazon",
+  "preco": 25.74,
+  "preco_antes": 47.99,
+  "quando": "2026-10-25T18:02-03:00"
+ },
+ {
+  "nome": "Brilhante Limpeza Total - Lava Roupas Líquido 3L",
+  "loja": "Amazon",
+  "preco": 22.78,
+  "preco_antes": 39.96,
+  "quando": "2026-10-25T18:02-03:00"
+ },
+ {
+  "nome": "L'Oréal Paris Elseve Glycolic Gloss, Sérum Finalizador An...",
+  "loja": "Amazon",
+  "preco": 18.0,
+  "preco_antes": 44.0,
+  "quando": "2026-10-25T18:01-03:00"
+ },
+ {
+  "nome": "Raspador de Língua Aço Inoxidável NO2PROBLEMS Limpeza Buc...",
+  "loja": "Amazon",
+  "preco": 5.3,
+  "preco_antes": 19.99,
+  "quando": "2026-10-25T18:01-03:00"
+ },
+ {
+  "nome": "Kit 10 Potes Bowl 1300ml Plástico com Tampa Preto",
+  "loja": "Shopee",
+  "preco": 23.9,
+  "preco_antes": 53.11,
+  "quando": "2026-10-25T18:00-03:00"
+ },
+ {
   "nome": "Capsula de Cappuccino Doce De Leite TRES 3 Corações 10 unid",
   "loja": "Amazon",
   "preco": 15.1,
@@ -47,40 +82,5 @@
   "preco": 11.99,
   "preco_antes": 18.73,
   "quando": "2026-10-25T12:08-03:00"
- },
- {
-  "nome": "Kit Anasol Protetor Solar FPS 50 Corpo 50g + FPS 50 Kids...",
-  "loja": "Amazon",
-  "preco": 43.65,
-  "preco_antes": 59.79,
-  "quando": "2026-10-25T12:02-03:00"
- },
- {
-  "nome": "Creme Preventivo de Assaduras Para Bebês Bepantol Baby, 100g",
-  "loja": "Amazon",
-  "preco": 39.51,
-  "preco_antes": 59.86,
-  "quando": "2026-10-25T12:01-03:00"
- },
- {
-  "nome": "RECORRÊNCIA] Kit Morte Súbita - Shampoo, Condicionador e...",
-  "loja": "Amazon",
-  "preco": 73.8,
-  "preco_antes": 119.03,
-  "quando": "2026-10-25T12:00-03:00"
- },
- {
-  "nome": "Gabinete Gamer Gamdias Talos E3 Mesh ATX Micro-ATX Mini-I...",
-  "loja": "Amazon",
-  "preco": 270.9,
-  "preco_antes": 398.38,
-  "quando": "2026-10-25T12:00-03:00"
- },
- {
-  "nome": "Garrafa De Tinta Original Epson Ecotank T544 Preto - T544122",
-  "loja": "Amazon",
-  "preco": 33.0,
-  "preco_antes": 62.9,
-  "quando": "2026-10-25T10:53-03:00"
  }
 ]
