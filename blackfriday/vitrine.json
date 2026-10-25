@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Filtro de Linha DPS ICLAMPER Energia 5 Tomadas, 127/220 v...",
+  "loja": "Amazon",
+  "preco": 69.99,
+  "preco_antes": 119.9,
+  "quando": "2026-10-25T09:04-03:00"
+ },
+ {
   "nome": "Ative as notificações para avisarmos quando tem oferta ch...",
   "loja": "Amazon",
   "preco": 18.99,
@@ -74,13 +81,6 @@
   "loja": "Mercado Livre",
   "preco": 23.77,
   "preco_antes": 49.99,
-  "quando": "2026-10-25T07:38-03:00"
- },
- {
-  "nome": "🛍️ Lavadora Pistola De Alta Pressão Portátil Recarregável...",
-  "loja": "Mercado Livre",
-  "preco": 96.04,
-  "preco_antes": 228.0,
   "quando": "2026-10-25T07:38-03:00"
  }
 ]
