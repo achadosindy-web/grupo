@@ -94,12 +94,17 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
 .aviso-envio{position:fixed;left:16px;right:16px;bottom:calc(76px + env(safe-area-inset-bottom,0px));z-index:7;max-width:440px;margin:0 auto;background:var(--texto);color:var(--bg);border-radius:14px;padding:12px 14px;font-size:13px;font-weight:600;box-shadow:0 10px 26px rgba(0,0,0,.25)}
 .folha{position:fixed;inset:0;z-index:8;background:rgba(0,0,0,.45);display:flex;align-items:flex-end;justify-content:center;padding:16px}
 .folha[hidden]{display:none}
-.folha>div{background:var(--papel);color:var(--texto);border-radius:18px;padding:18px 16px calc(16px + env(safe-area-inset-bottom,0px));width:100%;max-width:460px;display:grid;gap:10px}
+.folha>div,.folha>form{background:var(--papel);color:var(--texto);border-radius:18px;padding:18px 16px calc(16px + env(safe-area-inset-bottom,0px));width:100%;max-width:460px;display:grid;gap:10px}
 .folha h2{font-family:var(--f-titulo);font-size:19px;font-weight:600;color:var(--cafe);margin:0}
 .folha p,.folha ol{margin:0;font-size:13px;color:var(--texto-2)}
 .folha ol{padding-left:18px;display:grid;gap:3px}
 .folha input{border:1px solid var(--fio);background:var(--campo);color:var(--texto);border-radius:10px;padding:10px 12px;font-size:13px;width:100%;min-width:0}
 .folha .linha-btn .btn{padding:11px 8px}
+.folha label{display:grid;gap:4px;font-size:12.5px;font-weight:600;color:var(--texto)}
+.folha label small{font-weight:500;color:var(--texto-2)}
+.folha .dois{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.folha .loja-detectada{font-size:12.5px;color:var(--texto-2);min-height:1em}
+.folha .loja-detectada b{color:var(--cafe)}
 .exemplo{max-width:1100px;margin:0 auto 10px;background:var(--salvia-claro);color:var(--cafe);border-radius:12px;padding:10px 12px;font-size:12.5px}
 @media (min-width:700px){.grade{grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
@@ -139,8 +144,28 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
   </div>
 </main>
 
-<div class="barra"><a id="vi" href="#" target="_blank" rel="noopener">＋ Postar algo que vi</a><button type="button" id="enviar">🚀 Enviar agora</button></div>
+<div class="barra"><a id="vi" href="#" role="button">＋ Postar algo que vi</a><button type="button" id="enviar">🚀 Enviar agora</button></div>
 <div class="aviso-envio" id="aviso-envio" role="status" hidden></div>
+<div class="folha" id="folha-vi" hidden>
+  <form role="dialog" aria-modal="true" aria-labelledby="t-vi" id="form-vi">
+    <h2 id="t-vi">Postar algo que vi</h2>
+    <p class="js-vi-destino">Vai direto pro grupo, em 2 a 3 minutos.</p>
+    <label>Link do produto <small>(o SEU link de afiliado: amzn.to, meli.la, s.shopee… ou o link normal da Amazon)</small>
+      <input id="vi-link" type="url" inputmode="url" required placeholder="https://…"></label>
+    <span class="loja-detectada" id="vi-loja"></span>
+    <label>Nome do produto
+      <input id="vi-nome" type="text" required maxlength="90" placeholder="Ex.: Air Fryer Mondial 4L"></label>
+    <div class="dois">
+      <label>Preço agora
+        <input id="vi-preco" type="text" inputmode="decimal" required placeholder="49,90"></label>
+      <label>Preço antes <small>(opcional)</small>
+        <input id="vi-antes" type="text" inputmode="decimal" placeholder="89,90"></label>
+    </div>
+    <label>Cupom <small>(opcional)</small>
+      <input id="vi-cupom" type="text" maxlength="30" placeholder="ACHADO10"></label>
+    <div class="linha-btn"><button class="btn sec" type="button" id="vi-cancelar">Cancelar</button><button class="btn postar" type="submit" id="vi-postar">Postar no grupo</button></div>
+  </form>
+</div>
 <div class="folha" id="folha-chave" hidden>
   <div role="dialog" aria-modal="true" aria-labelledby="t-chave">
     <h2 id="t-chave">Ligar o "Enviar agora"</h2>
@@ -270,18 +295,21 @@ function travarBotao() {
     setTimeout(travarBotao, Math.min(falta, 30e3));
   } else { b.disabled = false; b.textContent = "🚀 Enviar agora"; }
 }
-async function enviarAgora() {
+let pendente = null;   /* oferta do formulário esperando a chave */
+async function enviarAgora(oferta) {
+  oferta = (oferta && oferta.link) ? oferta : null;
   const chave = lerLocal("envio-chave", "");
-  if (!chave) { document.getElementById("folha-chave").hidden = false; document.getElementById("chave").focus(); return; }
+  if (!chave) { pendente = oferta; document.getElementById("folha-chave").hidden = false; document.getElementById("chave").focus(); return; }
   const b = document.getElementById("enviar");
   b.disabled = true; b.textContent = "⏳ Chamando…";
   try {
     const r = await fetch(WORKFLOW, { method: "POST",
       headers: { "Authorization": "Bearer " + chave, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
-      body: JSON.stringify({ ref: "main", inputs: { perfil: PERFIL } }) });
+      body: JSON.stringify({ ref: "main", inputs: Object.assign({ perfil: PERFIL }, oferta || {}) }) });
     if (r.status === 204) {
       gravarLocal(chaveP("envio-ultimo"), Date.now());
-      avisoEnvio("🚀 Robô acionado! Em 2 a 3 minutos o que vocês aprovaram vai pro grupo.", 9000);
+      avisoEnvio(oferta ? `✅ "${oferta.nome}" está indo pro grupo. Em 2 a 3 minutos aparece lá.`
+                        : "🚀 Robô acionado! Em 2 a 3 minutos o que vocês aprovaram vai pro grupo.", 9000);
       travarBotao();
       return;
     }
@@ -296,7 +324,7 @@ async function enviarAgora() {
   }
   b.disabled = false; b.textContent = "🚀 Enviar agora";
 }
-document.getElementById("enviar").addEventListener("click", enviarAgora);
+document.getElementById("enviar").addEventListener("click", () => enviarAgora());
 document.getElementById("chave-cancelar").addEventListener("click", () => { document.getElementById("folha-chave").hidden = true; });
 document.getElementById("chave-salvar").addEventListener("click", () => {
   const v = document.getElementById("chave").value.trim();
@@ -304,7 +332,41 @@ document.getElementById("chave-salvar").addEventListener("click", () => {
   gravarLocal("envio-chave", v);
   document.getElementById("chave").value = "";
   document.getElementById("folha-chave").hidden = true;
-  enviarAgora();
+  const o = pendente; pendente = null;
+  enviarAgora(o);
+});
+
+/* ===== Formulário "Postar algo que vi" ===== */
+const NOME_GRUPO = { ingrid: "Achadinhos da Indy", geral: "Achadinhos geral", blackfriday: "Black Friday" };
+function lojaDoLink(u) {
+  u = (u || "").toLowerCase();
+  if (/amzn\.|amazon\./.test(u)) return "Amazon";
+  if (/meli\.la|mercadolivre|mercadolibre/.test(u)) return "Mercado Livre";
+  if (/shopee|shope\.ee/.test(u)) return "Shopee";
+  if (/magalu|magazinevoce|magazineluiza/.test(u)) return "Magalu";
+  return "";
+}
+document.getElementById("vi").addEventListener("click", e => {
+  e.preventDefault();
+  document.querySelector(".js-vi-destino").innerHTML = `Vai direto pro grupo <b>${esc(NOME_GRUPO[PERFIL] || "")}</b>, em 2 a 3 minutos.`;
+  document.getElementById("folha-vi").hidden = false;
+  document.getElementById("vi-link").focus();
+});
+document.getElementById("vi-link").addEventListener("input", e => {
+  const l = lojaDoLink(e.target.value);
+  document.getElementById("vi-loja").innerHTML = l ? `Loja: <b>${l}</b>${l === "Amazon" ? " · eu coloco a sua tag" : ""}` : "";
+});
+document.getElementById("vi-cancelar").addEventListener("click", () => { document.getElementById("folha-vi").hidden = true; });
+document.getElementById("form-vi").addEventListener("submit", e => {
+  e.preventDefault();
+  const val = id => document.getElementById(id).value.trim();
+  const preco = val("vi-preco").replace(/[^\d,.]/g, ""), antes = val("vi-antes").replace(/[^\d,.]/g, "");
+  if (!/^https?:\/\//.test(val("vi-link"))) { avisoEnvio("⚠️ Cole o link completo, começando com https://"); return; }
+  if (!preco) { avisoEnvio("⚠️ Falta o preço de agora."); return; }
+  const oferta = { link: val("vi-link"), nome: val("vi-nome"), preco, preco_antes: antes, cupom: val("vi-cupom").toUpperCase() };
+  document.getElementById("folha-vi").hidden = true;
+  document.getElementById("form-vi").reset(); document.getElementById("vi-loja").textContent = "";
+  enviarAgora(oferta);
 });
 travarBotao();
 
@@ -351,7 +413,6 @@ async function carregar() {
     dados = { itens: [], bot: "", atualizado: "" };
     if (EXEMPLO) { dados = EXEMPLO; document.getElementById("aviso-exemplo").hidden = false; }
   }
-  document.getElementById("vi").href = tg("");
   document.getElementById("status").textContent = dados.atualizado ? `atualizado ${ha(dados.atualizado)}` : "sem dados ainda";
   desenhar();
 }
