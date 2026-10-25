@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Body Splash Carmed Nas Nuvens, 200ml Notas de Âmbar, Maçã...",
+  "loja": "Amazon",
+  "preco": 29.87,
+  "preco_antes": 90.52,
+  "quando": "2026-10-25T09:35-03:00"
+ },
+ {
+  "nome": "Mondial Batedeira Bella Massa, Vermelho/Inox, 500W, 220V...",
+  "loja": "Amazon",
+  "preco": 96.22,
+  "preco_antes": 189.9,
+  "quando": "2026-10-25T09:34-03:00"
+ },
+ {
+  "nome": "Sanduicheira Elétrica Antiaderente Grill 750w Preto 110/220v",
+  "loja": "Mercado Livre",
+  "preco": 69.99,
+  "preco_antes": 129.99,
+  "quando": "2026-10-25T09:34-03:00"
+ },
+ {
   "nome": "Filtro de Linha DPS ICLAMPER Energia 5 Tomadas, 127/220 v...",
   "loja": "Amazon",
   "preco": 69.99,
@@ -61,26 +82,5 @@
   "preco": 242.25,
   "preco_antes": 590.85,
   "quando": "2026-10-25T07:40-03:00"
- },
- {
-  "nome": "Kit 6 Pote Vidro Porta Temperos Hermético Cozinha Organiz...",
-  "loja": "Mercado Livre",
-  "preco": 39.57,
-  "preco_antes": 74.67,
-  "quando": "2026-10-25T07:40-03:00"
- },
- {
-  "nome": "Porta Condimento Temperos Giratório 9 Potes Vidro Com Tampa",
-  "loja": "Mercado Livre",
-  "preco": 34.0,
-  "preco_antes": 69.0,
-  "quando": "2026-10-25T07:39-03:00"
- },
- {
-  "nome": "Carregador De Bateria Automotiva Inteligente 12v Portátil...",
-  "loja": "Mercado Livre",
-  "preco": 23.77,
-  "preco_antes": 49.99,
-  "quando": "2026-10-25T07:38-03:00"
  }
 ]
