@@ -1,7 +1,64 @@
 {
- "atualizado": "2026-10-25T07:37-03:00",
+ "atualizado": "2026-10-25T07:53-03:00",
  "bot": "achadinhosbf_indy_bot",
  "itens": [
+  {
+   "gid": "122b0a",
+   "id": "radar-B07Y5NF2FZ",
+   "loja": "Amazon",
+   "nome": "Scalibor Coleira Antiparasitária",
+   "preco": 45.73,
+   "preco_antes": 120.34,
+   "desconto": 62,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/mUCZfVFxRYbSrCJRpFYFLEAhIc7nBwroKNMWC1FC2bdCmm0DE_YzJvnZmQ8Gnxwa_7dCh7HDylRJedRo8lQspQFbeKapYV8b--7XavR2Do16eIpBD0M6baTfou7Kh4mgtdD07TswSH85cF-kNM108CC3q2dGVFLmBd4DfxGdqfgWI0kzNhxPtEUuU92TzpP8aqZS7CPp81oRU7gYx3m3JisyXP4yINUxpqyVlmJOH0HFwurOiHY1eVKmTXbkSES8frblxOQDvapC5HamK2-3jUfXd-YU4NSI54krCiOx4MqW7xQjhqb4SMP2B5mt2554lMJ9b3ETjwDQ3qwYrbBT5Q.jpg",
+   "link": "https://www.amazon.com.br/dp/B07Y5NF2FZ?tag=achadinh084ca-20",
+   "converter": true,
+   "categoria": "Outros",
+   "fonte": "@pobregram",
+   "post": "https://t.me/pobregram/42483",
+   "quando": "2026-10-24T23:14:47+00:00",
+   "achado_em": "2026-10-25T07:53-03:00",
+   "aprovado": true
+  },
+  {
+   "gid": "8a992c",
+   "id": "radar-B0CZMDXZ72",
+   "loja": "Amazon",
+   "nome": "Mixer de mão Electrolux Preto 400W com Tecnologia TruFlow 1 velocidade função turbo EIB05 ",
+   "preco": 94.05,
+   "preco_antes": 167.95,
+   "desconto": 44,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/oflkOFfyRKWjPKmwRmy0DygHiNzvkBbO1Bix0zu6b31Lk7xLwzARhfhYEPlkL4MK-d6qx_emnljhMxnPa4wNYMoMnxG0VsL9q0A1av1PNlW9FVqSkD2ENWm7yJcUmVT6bA7PHO0t5jdrPR4tGQosb3GYR3t-1l6ei5i9JSPfUD7W7kYSUsDiHbkj7GT1_7yGTAnmwo3Cu7pSR98fP5gJozyUEZggD751vGEr2QPFYwtIELGK7e2kK2ZBANqdpKsVReY8kD1AZYmTpGykstQXeNmZ2my3HwwITx_w6Q-GelLcfXKFRaxOYa6sJKIRny2mQI7CY72ToqUwgV1Tccf0MA.jpg",
+   "link": "https://www.amazon.com.br/dp/B0CZMDXZ72?tag=achadinh084ca-20",
+   "converter": true,
+   "categoria": "Eletrodomésticos",
+   "fonte": "@gtOFERTAS",
+   "post": "https://t.me/gtOFERTAS/186812",
+   "quando": "2026-10-24T22:56:04+00:00",
+   "achado_em": "2026-10-25T07:53-03:00",
+   "aprovado": true
+  },
+  {
+   "gid": "744cf8",
+   "id": "garimpo-resgtetodositepquemresgatouontem",
+   "loja": "Mercado Livre",
+   "nome": "RESGTETODOSITE (p/quem resgatou ontem)",
+   "preco": 60.0,
+   "preco_antes": 499.0,
+   "desconto": 88,
+   "cupom": "MERCADO",
+   "imagem": "https://cdn1.telesco.pe/file/ium19w1UHHiNfmGt4Lk1JUdMPzi9KG56-xrgO1Gx5xDxiAQIKsTFxerJYFDu8N2unDyTSKQdhX3mZl2mqpLdzDX0RE-OXOCuHzI5MwnpnELuIvlfShGWWWm33AtpZASiG9bPcF7GlDbjpGsv4QDSk5AXf8aUYQp2MuCbGze4m4P2b6LbpzfXtpC4j8ploTaWZalhkR1Hz7EulU3OpVERI2AkIgAiEyZS-2tMBF6UYiXOhjpRklrGgR2MPRoRDlJdhjsrQwE9aABGxTcgd8z-PF5MbdiYsZ6M9mZpT2yW5s_PtP-uP_sEPKCO8-91RAsTyRs6KHJ9t-xLp6JZ8B43iQ.jpg",
+   "link": "https://mercadolivre.com/sec/1F73XXs",
+   "converter": false,
+   "categoria": "Outros",
+   "fonte": "@promo_imperdivel",
+   "post": "https://t.me/promo_imperdivel/148629",
+   "quando": "2026-10-25T10:04:07+00:00",
+   "achado_em": "2026-10-25T07:53-03:00",
+   "aprovado": false
+  },
   {
    "gid": "a335c5",
    "id": "radar-B0756KXRLB",
@@ -608,7 +665,7 @@
    "post": "https://t.me/promocoesecuponsglobais/425386",
    "quando": "2026-10-24T21:35:21+00:00",
    "achado_em": "2026-10-24T19:05-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "473105",
@@ -646,7 +703,7 @@
    "post": "https://t.me/promocoesecuponsglobais/425376",
    "quando": "2026-10-24T21:25:55+00:00",
    "achado_em": "2026-10-24T18:31-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "51a56c",

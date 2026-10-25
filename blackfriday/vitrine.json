@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Scalibor Coleira Antiparasitária",
+  "loja": "Amazon",
+  "preco": 45.73,
+  "preco_antes": 120.34,
+  "quando": "2026-10-25T07:56-03:00"
+ },
+ {
+  "nome": "Mixer de mão Electrolux Preto 400W com Tecnologia TruFlow...",
+  "loja": "Amazon",
+  "preco": 94.05,
+  "preco_antes": 167.95,
+  "quando": "2026-10-25T07:55-03:00"
+ },
+ {
+  "nome": "Kit com 10 Pote De Vidro Marmita Hermético 640ml",
+  "loja": "Mercado Livre",
+  "preco": 75.0,
+  "preco_antes": 149.0,
+  "quando": "2026-10-25T07:54-03:00"
+ },
+ {
+  "nome": "Extrator de Sucos E-10 Turbo Premium Com Potência",
+  "loja": "Mercado Livre",
+  "preco": 136.0,
+  "preco_antes": 302.0,
+  "quando": "2026-10-25T07:54-03:00"
+ },
+ {
   "nome": "WAP Aspirador de Pó e Água Barril GTW INOX 12, Compacto,...",
   "loja": "Amazon",
   "preco": 242.25,
@@ -54,33 +82,5 @@
   "preco": 25.0,
   "preco_antes": 46.0,
   "quando": "2026-10-24T20:51-03:00"
- },
- {
-  "nome": "Conjunto de Bowls Tigelas de Inox com Tampa Plástica Elec...",
-  "loja": "Amazon",
-  "preco": 83.9,
-  "preco_antes": 158.3,
-  "quando": "2026-10-24T19:07-03:00"
- },
- {
-  "nome": "Sparta Maleta de ferramentas Kit com 165 Peças",
-  "loja": "Amazon",
-  "preco": 69.0,
-  "preco_antes": 165.0,
-  "quando": "2026-10-24T19:07-03:00"
- },
- {
-  "nome": "Shorts Esportivo Insider Serotonin, Feminino",
-  "loja": "Amazon",
-  "preco": 78.44,
-  "preco_antes": 224.11,
-  "quando": "2026-10-24T19:06-03:00"
- },
- {
-  "nome": "Lacta Favoritos Caixa de Variedades Chocolates 250,6g",
-  "loja": "Amazon",
-  "preco": 10.0,
-  "preco_antes": 18.0,
-  "quando": "2026-10-24T18:31-03:00"
  }
 ]
