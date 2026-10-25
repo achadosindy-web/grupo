@@ -1,5 +1,54 @@
 [
  {
+  "nome": "Widi Care Creme de Pentear Encaracolando a Juba 500ml",
+  "loja": "Amazon",
+  "preco": 41.49,
+  "preco_antes": 59.27,
+  "quando": "2026-10-25T20:17-03:00"
+ },
+ {
+  "nome": "Lava-Roupas Líquido Omo Ciclo Rápido Ação Cuidado Frasco...",
+  "loja": "Amazon",
+  "preco": 11.76,
+  "preco_antes": 16.11,
+  "quando": "2026-10-25T20:16-03:00"
+ },
+ {
+  "nome": "Panela De Pressão Elétrica Philco Ppp01p 6L 110V",
+  "loja": "Amazon",
+  "preco": 379.0,
+  "preco_antes": 684.0,
+  "quando": "2026-10-25T20:15-03:00"
+ },
+ {
+  "nome": "Fritadeira Air Fryer Philips Walita Série 1000 XL 1700W 6...",
+  "loja": "Amazon",
+  "preco": 330.6,
+  "preco_antes": 612.22,
+  "quando": "2026-10-25T20:15-03:00"
+ },
+ {
+  "nome": "Jogo De Panelas Antiaderente Cerâmico 10 Peças Brinox Fit...",
+  "loja": "Mercado Livre",
+  "preco": 399.99,
+  "preco_antes": 689.9,
+  "quando": "2026-10-25T20:14-03:00"
+ },
+ {
+  "nome": "Liquidificador Britânia 2.6l Diamante 1100 Preto 127V",
+  "loja": "Mercado Livre",
+  "preco": 86.16,
+  "preco_antes": 153.16,
+  "quando": "2026-10-25T20:14-03:00"
+ },
+ {
+  "nome": "Cortador de Cabelos Hair Stylo Mondial Preto/Prata CR-02",
+  "loja": "Mercado Livre",
+  "preco": 2.0,
+  "preco_antes": 76.0,
+  "quando": "2026-10-25T20:13-03:00"
+ },
+ {
   "nome": "Tira Manchas em Pó Vanish Oxi Action Pink Refil 2,5kg",
   "loja": "Amazon",
   "preco": 72.95,
@@ -33,54 +82,5 @@
   "preco": 25.74,
   "preco_antes": 47.99,
   "quando": "2026-10-25T18:02-03:00"
- },
- {
-  "nome": "Brilhante Limpeza Total - Lava Roupas Líquido 3L",
-  "loja": "Amazon",
-  "preco": 22.78,
-  "preco_antes": 39.96,
-  "quando": "2026-10-25T18:02-03:00"
- },
- {
-  "nome": "L'Oréal Paris Elseve Glycolic Gloss, Sérum Finalizador An...",
-  "loja": "Amazon",
-  "preco": 18.0,
-  "preco_antes": 44.0,
-  "quando": "2026-10-25T18:01-03:00"
- },
- {
-  "nome": "Raspador de Língua Aço Inoxidável NO2PROBLEMS Limpeza Buc...",
-  "loja": "Amazon",
-  "preco": 5.3,
-  "preco_antes": 19.99,
-  "quando": "2026-10-25T18:01-03:00"
- },
- {
-  "nome": "Kit 10 Potes Bowl 1300ml Plástico com Tampa Preto",
-  "loja": "Shopee",
-  "preco": 23.9,
-  "preco_antes": 53.11,
-  "quando": "2026-10-25T18:00-03:00"
- },
- {
-  "nome": "Capsula de Cappuccino Doce De Leite TRES 3 Corações 10 unid",
-  "loja": "Amazon",
-  "preco": 15.1,
-  "preco_antes": 26.96,
-  "quando": "2026-10-25T15:09-03:00"
- },
- {
-  "nome": "Wella Professionals Nutri Enrich Shampoo, Tamanho: 250 ml...",
-  "loja": "Amazon",
-  "preco": 61.46,
-  "preco_antes": 104.17,
-  "quando": "2026-10-25T15:08-03:00"
- },
- {
-  "nome": "Danos Vorazes Óleo Reparador 50ml, Lola Cosmetics",
-  "loja": "Amazon",
-  "preco": 18.37,
-  "preco_antes": 44.9,
-  "quando": "2026-10-25T15:08-03:00"
  }
 ]
