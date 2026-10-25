@@ -1,5 +1,47 @@
 [
  {
+  "nome": "WAP Aspirador de Pó e Água Barril GTW INOX 12, Compacto,...",
+  "loja": "Amazon",
+  "preco": 242.25,
+  "preco_antes": 590.85,
+  "quando": "2026-10-25T07:40-03:00"
+ },
+ {
+  "nome": "Kit 6 Pote Vidro Porta Temperos Hermético Cozinha Organiz...",
+  "loja": "Mercado Livre",
+  "preco": 39.57,
+  "preco_antes": 74.67,
+  "quando": "2026-10-25T07:40-03:00"
+ },
+ {
+  "nome": "Porta Condimento Temperos Giratório 9 Potes Vidro Com Tampa",
+  "loja": "Mercado Livre",
+  "preco": 34.0,
+  "preco_antes": 69.0,
+  "quando": "2026-10-25T07:39-03:00"
+ },
+ {
+  "nome": "Carregador De Bateria Automotiva Inteligente 12v Portátil...",
+  "loja": "Mercado Livre",
+  "preco": 23.77,
+  "preco_antes": 49.99,
+  "quando": "2026-10-25T07:38-03:00"
+ },
+ {
+  "nome": "🛍️ Lavadora Pistola De Alta Pressão Portátil Recarregável...",
+  "loja": "Mercado Livre",
+  "preco": 96.04,
+  "preco_antes": 228.0,
+  "quando": "2026-10-25T07:38-03:00"
+ },
+ {
+  "nome": "Palmilha De Altissimo Conforto 4d Tênis Sapatos Ortopédica",
+  "loja": "Mercado Livre",
+  "preco": 24.0,
+  "preco_antes": 58.0,
+  "quando": "2026-10-25T07:37-03:00"
+ },
+ {
   "nome": "Kit 5 un. Sabonete em Barra Pom Pom c/ Loção Hidratante 70g",
   "loja": "Amazon",
   "preco": 11.58,
@@ -40,47 +82,5 @@
   "preco": 10.0,
   "preco_antes": 18.0,
   "quando": "2026-10-24T18:31-03:00"
- },
- {
-  "nome": "Lola Cosmetics Leave-In Danos Vorazes 200ml",
-  "loja": "Amazon",
-  "preco": 20.17,
-  "preco_antes": 44.82,
-  "quando": "2026-10-24T17:56-03:00"
- },
- {
-  "nome": "Lola Cosmetics Argan Oil 50ml",
-  "loja": "Amazon",
-  "preco": 14.53,
-  "preco_antes": 45.41,
-  "quando": "2026-10-24T17:55-03:00"
- },
- {
-  "nome": "Finish Advanced Detergente Lava Louças em Pó 1kg",
-  "loja": "Amazon",
-  "preco": 45.67,
-  "preco_antes": 83.04,
-  "quando": "2026-10-24T17:55-03:00"
- },
- {
-  "nome": "Frigideira Cerâmica Antiaderente 24cm",
-  "loja": "Amazon",
-  "preco": 32.9,
-  "preco_antes": 0,
-  "quando": "2026-10-24T17:31-03:00"
- },
- {
-  "nome": "Nome do produto",
-  "loja": "Amazon",
-  "preco": 199.9,
-  "preco_antes": 399.9,
-  "quando": "2026-10-24T17:30-03:00"
- },
- {
-  "nome": "Loja oficial 3VS no Mercado Livre",
-  "loja": "Mercado Livre",
-  "preco": 23.0,
-  "preco_antes": 78.0,
-  "quando": "2026-10-24T17:29-03:00"
  }
 ]
