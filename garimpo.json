@@ -1,7 +1,26 @@
 {
- "atualizado": "2026-10-25T11:55-03:00",
+ "atualizado": "2026-10-25T12:03-03:00",
  "bot": "achadinhosdaindy_bot",
  "itens": [
+  {
+   "gid": "3a77aa",
+   "id": "garimpo-hipercalóricodarkmass3kgsaborbiscoitosda",
+   "loja": "Mercado Livre",
+   "nome": "Hipercalórico Dark Mass 3kg Sabor Biscoitos - Dark Lab",
+   "preco": 78.0,
+   "preco_antes": 249.0,
+   "desconto": 69,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/IoxS82ttP_KzDq3OvTHd9HFgYTjGVrvEgiir25ylE6_M2zISLvXpArqtTjyYH0n8Ftnn4BapW_J6orRGPf16UMTIhYIlbK-Tj-TaOpCRYVnm1atSIuLEbb5kHh_rBIRtndxD__QGwf_s-bJcfUFc0q6LTxbhaDAraDXxpu6bGeHFq1_rmyZqjD1UQYHqtV1UaGhsfakqr2uzs2oeORDulL4QDgHD_h1egNpwSWncLdvJiX90dvndMDtCMSEaaxUf17RIJ14LTP-Z5NMXhN1mJKM8M300e2zBgGmducyA_2UNjtBtE7P1c6vMCpFhDTEBRNbAhlMx-VFuTcJn6AdBcQ.jpg",
+   "link": "https://meli.la/2zC9piE",
+   "converter": false,
+   "categoria": "Outros",
+   "fonte": "@guerradealsfit",
+   "post": "https://t.me/guerradealsfit/13251",
+   "quando": "2026-10-25T15:02:03+00:00",
+   "achado_em": "2026-10-25T12:03-03:00",
+   "aprovado": false
+  },
   {
    "gid": "c3b485",
    "id": "garimpo-pulverizadorelétricosnowfoamprofissional",
@@ -4730,25 +4749,6 @@
    "fonte": "@guerradealsfit",
    "post": "https://t.me/guerradealsfit/13202",
    "quando": "2026-10-23T16:46:59+00:00",
-   "achado_em": "2026-10-23T15:04-03:00",
-   "aprovado": false
-  },
-  {
-   "gid": "4b3e28",
-   "id": "garimpo-lojaoficialmunomercadolivre",
-   "loja": "Mercado Livre",
-   "nome": "Loja oficial +Mu no Mercado Livre",
-   "preco": 50.0,
-   "preco_antes": 129.0,
-   "desconto": 61,
-   "cupom": "",
-   "imagem": "https://cdn1.telesco.pe/file/gl9DmuoMXkN57aSLO9xk2tVBxBwcekrUpR0xepOba4NJw5ZHgEnI5hssJ7XtMUBlPtHpuUq2z1zuqNj5dIqb4diY78tmM9CNkYklwtzaWTuhngm0GEzFc_N0ZL7j-u256QuuU4sZLWuzE53BhzjfAV383lwvvnFyf4xTLc30kEMcLYVbCFBbrHU0O_Ip3gLhLeddjbdsGy_mQrDObj6R5n5MMaIGEj4AofawmNB0zMygE_ckGbDJzdppMVYP_Cj0TbNvnpILYkMZxgmrN4Cuq32iwqQJiU7zIw98ks4S9AhaEUYt3hc34YbHPjAo1LMjWyfXual64mSwaHuIF3r3vQ.jpg",
-   "link": "https://meli.la/1dunhZW",
-   "converter": false,
-   "categoria": "Fitness",
-   "fonte": "@guerradealsfit",
-   "post": "https://t.me/guerradealsfit/13203",
-   "quando": "2026-10-23T17:09:19+00:00",
    "achado_em": "2026-10-23T15:04-03:00",
    "aprovado": false
   }

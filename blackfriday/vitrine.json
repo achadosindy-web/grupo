@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Dr. Peanut Pasta de Amendoim Avelã 600G - Com Whey Protein",
+  "loja": "Amazon",
+  "preco": 39.9,
+  "preco_antes": 59.9,
+  "quando": "2026-10-25T12:08-03:00"
+ },
+ {
+  "nome": "Bombom NESTLÉ Especialidades Caixa 220g",
+  "loja": "Amazon",
+  "preco": 11.99,
+  "preco_antes": 18.73,
+  "quando": "2026-10-25T12:08-03:00"
+ },
+ {
   "nome": "Kit Anasol Protetor Solar FPS 50 Corpo 50g + FPS 50 Kids...",
   "loja": "Amazon",
   "preco": 43.65,
@@ -68,19 +82,5 @@
   "preco": 18.99,
   "preco_antes": 32.74,
   "quando": "2026-10-25T08:33-03:00"
- },
- {
-  "nome": "Shorts Linho Masculino Sandrini Casual",
-  "loja": "Amazon",
-  "preco": 27.0,
-  "preco_antes": 49.0,
-  "quando": "2026-10-25T08:23-03:00"
- },
- {
-  "nome": "Desinfetante Líquido Power Plus Lavanda Harpic 500ml",
-  "loja": "Amazon",
-  "preco": 13.01,
-  "preco_antes": 23.65,
-  "quando": "2026-10-25T08:22-03:00"
  }
 ]
