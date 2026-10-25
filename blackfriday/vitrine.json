@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Kit Anasol Protetor Solar FPS 50 Corpo 50g + FPS 50 Kids...",
+  "loja": "Amazon",
+  "preco": 43.65,
+  "preco_antes": 59.79,
+  "quando": "2026-10-25T12:02-03:00"
+ },
+ {
+  "nome": "Creme Preventivo de Assaduras Para Bebês Bepantol Baby, 100g",
+  "loja": "Amazon",
+  "preco": 39.51,
+  "preco_antes": 59.86,
+  "quando": "2026-10-25T12:01-03:00"
+ },
+ {
+  "nome": "RECORRÊNCIA] Kit Morte Súbita - Shampoo, Condicionador e...",
+  "loja": "Amazon",
+  "preco": 73.8,
+  "preco_antes": 119.03,
+  "quando": "2026-10-25T12:00-03:00"
+ },
+ {
+  "nome": "Gabinete Gamer Gamdias Talos E3 Mesh ATX Micro-ATX Mini-I...",
+  "loja": "Amazon",
+  "preco": 270.9,
+  "preco_antes": 398.38,
+  "quando": "2026-10-25T12:00-03:00"
+ },
+ {
   "nome": "Garrafa De Tinta Original Epson Ecotank T544 Preto - T544122",
   "loja": "Amazon",
   "preco": 33.0,
@@ -54,33 +82,5 @@
   "preco": 13.01,
   "preco_antes": 23.65,
   "quando": "2026-10-25T08:22-03:00"
- },
- {
-  "nome": "Scalibor Coleira Antiparasitária",
-  "loja": "Amazon",
-  "preco": 45.73,
-  "preco_antes": 120.34,
-  "quando": "2026-10-25T07:56-03:00"
- },
- {
-  "nome": "Mixer de mão Electrolux Preto 400W com Tecnologia TruFlow...",
-  "loja": "Amazon",
-  "preco": 94.05,
-  "preco_antes": 167.95,
-  "quando": "2026-10-25T07:55-03:00"
- },
- {
-  "nome": "Kit com 10 Pote De Vidro Marmita Hermético 640ml",
-  "loja": "Mercado Livre",
-  "preco": 75.0,
-  "preco_antes": 149.0,
-  "quando": "2026-10-25T07:54-03:00"
- },
- {
-  "nome": "Extrator de Sucos E-10 Turbo Premium Com Potência",
-  "loja": "Mercado Livre",
-  "preco": 136.0,
-  "preco_antes": 302.0,
-  "quando": "2026-10-25T07:54-03:00"
  }
 ]
