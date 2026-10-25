@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Mixer Mallory Trikxer Pratic 3 EM 1 127V",
+  "loja": "Amazon",
+  "preco": 124.26,
+  "preco_antes": 0,
+  "quando": "2026-10-25T11:50-03:00"
+ },
+ {
   "nome": "Wella Óleo Capilar Oil Reflections 30ml",
   "loja": "Amazon",
   "preco": 55.1,
@@ -75,12 +82,5 @@
   "preco": 75.0,
   "preco_antes": 139.0,
   "quando": "2026-10-14T15:04-03:00"
- },
- {
-  "nome": "Conjunto Fitness Top + Legging Feminino - Manalinda",
-  "loja": "Mercado Livre",
-  "preco": 119.0,
-  "preco_antes": 224.0,
-  "quando": "2026-10-14T09:03-03:00"
  }
 ]
