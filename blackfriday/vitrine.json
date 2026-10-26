@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Everlast Regata Essentials Big Logo Masculino",
+  "loja": "Amazon",
+  "preco": 55.7,
+  "preco_antes": 139.25,
+  "quando": "2026-10-26T09:01-03:00"
+ },
+ {
+  "nome": "Kit 5 Balões Bandeira do Brasil 18 Polegadas 45cm Metaliz...",
+  "loja": "Amazon",
+  "preco": 11.89,
+  "preco_antes": 29.73,
+  "quando": "2026-10-26T09:00-03:00"
+ },
+ {
+  "nome": "Whisky Johnnie Walker Blonde 750ml",
+  "loja": "Amazon",
+  "preco": 44.9,
+  "preco_antes": 115.13,
+  "quando": "2026-10-26T09:00-03:00"
+ },
+ {
+  "nome": "Kit com 10 Cápsulas Nescafé Dolce Gusto Kopenhagen Língua...",
+  "loja": "Amazon",
+  "preco": 17.9,
+  "preco_antes": 26.32,
+  "quando": "2026-10-26T08:59-03:00"
+ },
+ {
+  "nome": "Apple iPhone 16 (128 GB) - Branco - Distribuidor Autorizado",
+  "loja": "Mercado Livre",
+  "preco": 4699.5,
+  "preco_antes": 8650.5,
+  "quando": "2026-10-26T08:58-03:00"
+ },
+ {
   "nome": "Kit de Gloss Labial e Lápis Labial Fran Love by Franciny...",
   "loja": "Amazon",
   "preco": 45.0,
@@ -47,40 +82,5 @@
   "preco": 29.0,
   "preco_antes": 69.0,
   "quando": "2026-10-26T08:50-03:00"
- },
- {
-  "nome": "Mochila Masculina Woosh Grande Impermeável para Notebook",
-  "loja": "Mercado Livre",
-  "preco": 38.0,
-  "preco_antes": 120.0,
-  "quando": "2026-10-26T08:50-03:00"
- },
- {
-  "nome": "Fralda Pom Pom Protek Proteção de Mãe Jumbo XXG com 18 Un...",
-  "loja": "Amazon",
-  "preco": 19.07,
-  "preco_antes": 29.8,
-  "quando": "2026-10-25T23:10-03:00"
- },
- {
-  "nome": "Fralda Pom Pom Protek Proteção de Mãe Mega XG com 38 Unid...",
-  "loja": "Amazon",
-  "preco": 37.9,
-  "preco_antes": 50.53,
-  "quando": "2026-10-25T21:09-03:00"
- },
- {
-  "nome": "Kit 2 Travesseiros 70x50 Antialérgico Lavável Fibra Silic...",
-  "loja": "Mercado Livre",
-  "preco": 35.0,
-  "preco_antes": 63.0,
-  "quando": "2026-10-25T21:08-03:00"
- },
- {
-  "nome": "Kit 3 Tapetes De Banheiro Microfibra Bolinha Macio Seca P...",
-  "loja": "Mercado Livre",
-  "preco": 33.25,
-  "preco_antes": 78.9,
-  "quando": "2026-10-25T21:08-03:00"
  }
 ]
