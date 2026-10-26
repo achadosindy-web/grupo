@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Kit 02 un. Loção Hidratante Corporal Nivea Milk 400ml",
+  "loja": "Amazon",
+  "preco": 30.02,
+  "preco_antes": 44.15,
+  "quando": "2026-10-26T18:11-03:00"
+ },
+ {
+  "nome": "Cápsula Café Filtrado TRES 3 Corações (10 unidades)",
+  "loja": "Amazon",
+  "preco": 15.1,
+  "preco_antes": 25.17,
+  "quando": "2026-10-26T18:10-03:00"
+ },
+ {
+  "nome": "Wafer Proteico 40g 10g Proteína Snack Avelã - BOLD",
+  "loja": "Amazon",
+  "preco": 78.0,
+  "preco_antes": 179.0,
+  "quando": "2026-10-26T18:09-03:00"
+ },
+ {
+  "nome": "Oral-B Escova de Dente Elétrica iO4, 1 Cabo + 2 Refis + C...",
+  "loja": "Amazon",
+  "preco": 319.99,
+  "preco_antes": 999.97,
+  "quando": "2026-10-26T18:09-03:00"
+ },
+ {
+  "nome": "Samsung Galaxy A27 5G 128GB 6GB, Amoled 6.7'', Câmera Tri...",
+  "loja": "Mercado Livre",
+  "preco": 1299.0,
+  "preco_antes": 2855.71,
+  "quando": "2026-10-26T18:08-03:00"
+ },
+ {
   "nome": "Biscoito Pedigree Biscrok Para Cães Adultos Raças Pequena...",
   "loja": "Amazon",
   "preco": 23.34,
@@ -47,40 +82,5 @@
   "preco": 199.9,
   "preco_antes": 349.99,
   "quando": "2026-10-26T14:23-03:00"
- },
- {
-  "nome": "Tênis Adidas Super (38 ao 43)",
-  "loja": "Mercado Livre",
-  "preco": 353.0,
-  "preco_antes": 599.0,
-  "quando": "2026-10-26T14:22-03:00"
- },
- {
-  "nome": "Aparador De Pelos Supergroom-10 Mondial Bivolt Bg-10",
-  "loja": "Mercado Livre",
-  "preco": 88.0,
-  "preco_antes": 166.0,
-  "quando": "2026-10-26T14:22-03:00"
- },
- {
-  "nome": "Kit Starlink MINI Internet Via Satélite",
-  "loja": "Mercado Livre",
-  "preco": 453.56,
-  "preco_antes": 1399.0,
-  "quando": "2026-10-26T14:21-03:00"
- },
- {
-  "nome": "Cereal Matinal Chocolate Kitkat Caixa 210g",
-  "loja": "Amazon",
-  "preco": 9.0,
-  "preco_antes": 16.0,
-  "quando": "2026-10-26T12:56-03:00"
- },
- {
-  "nome": "Bermuda Shorts Masculina Sandrini Linho Casual",
-  "loja": "Amazon",
-  "preco": 27.9,
-  "preco_antes": 49.82,
-  "quando": "2026-10-26T12:55-03:00"
  }
 ]
