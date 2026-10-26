@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Serra Circular, Vermelho, 1500W, 220V - FSC-04 MONDIAL",
+  "loja": "Amazon",
+  "preco": 258.38,
+  "preco_antes": 549.9,
+  "quando": "2026-10-26T09:57-03:00"
+ },
+ {
+  "nome": "Protetor Solar Facial Neutrogena Sun Fresh Derm Care Sem...",
+  "loja": "Amazon",
+  "preco": 44.22,
+  "preco_antes": 83.43,
+  "quando": "2026-10-26T09:56-03:00"
+ },
+ {
+  "nome": "Casaco Masculino Fila Letter Outline Light, Cinza Medio, G",
+  "loja": "Amazon",
+  "preco": 98.21,
+  "preco_antes": 228.4,
+  "quando": "2026-10-26T09:56-03:00"
+ },
+ {
+  "nome": "oferta regional (verifique se está disponível pra você)",
+  "loja": "Amazon",
+  "preco": 140.65,
+  "preco_antes": 293.02,
+  "quando": "2026-10-26T09:55-03:00"
+ },
+ {
+  "nome": "ELG Câmera Robô Wi-Fi Full HD 360° com Rastreamento de Mo...",
+  "loja": "Amazon",
+  "preco": 189.99,
+  "preco_antes": 542.83,
+  "quando": "2026-10-26T09:54-03:00"
+ },
+ {
   "nome": "Shampoo de Glicerina Johnson's Baby, 750ml",
   "loja": "Amazon",
   "preco": 33.01,
@@ -47,40 +82,5 @@
   "preco": 44.9,
   "preco_antes": 115.13,
   "quando": "2026-10-26T09:00-03:00"
- },
- {
-  "nome": "Kit com 10 Cápsulas Nescafé Dolce Gusto Kopenhagen Língua...",
-  "loja": "Amazon",
-  "preco": 17.9,
-  "preco_antes": 26.32,
-  "quando": "2026-10-26T08:59-03:00"
- },
- {
-  "nome": "Apple iPhone 16 (128 GB) - Branco - Distribuidor Autorizado",
-  "loja": "Mercado Livre",
-  "preco": 4699.5,
-  "preco_antes": 8650.5,
-  "quando": "2026-10-26T08:58-03:00"
- },
- {
-  "nome": "Kit de Gloss Labial e Lápis Labial Fran Love by Franciny...",
-  "loja": "Amazon",
-  "preco": 45.0,
-  "preco_antes": 129.0,
-  "quando": "2026-10-26T08:54-03:00"
- },
- {
-  "nome": "Figura Transformers Kurama e Gamakichi",
-  "loja": "Amazon",
-  "preco": 165.11,
-  "preco_antes": 579.99,
-  "quando": "2026-10-26T08:53-03:00"
- },
- {
-  "nome": "Caixa de Som PartyBox AIWA PB-07 Bluetooth 8H RGB USB TWS...",
-  "loja": "Amazon",
-  "preco": 549.9,
-  "preco_antes": 1195.43,
-  "quando": "2026-10-26T08:53-03:00"
  }
 ]
