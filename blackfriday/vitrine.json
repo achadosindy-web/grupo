@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Cereal Matinal Chocolate Kitkat Caixa 210g",
+  "loja": "Amazon",
+  "preco": 9.0,
+  "preco_antes": 16.0,
+  "quando": "2026-10-26T12:56-03:00"
+ },
+ {
+  "nome": "Bermuda Shorts Masculina Sandrini Linho Casual",
+  "loja": "Amazon",
+  "preco": 27.9,
+  "preco_antes": 49.82,
+  "quando": "2026-10-26T12:55-03:00"
+ },
+ {
+  "nome": "Repelente de Insetos em Loção OFF! Family, 200ml",
+  "loja": "Amazon",
+  "preco": 15.66,
+  "preco_antes": 29.32,
+  "quando": "2026-10-26T12:54-03:00"
+ },
+ {
+  "nome": "Hidratante Facial Neutrogena Hydro Boost 50g",
+  "loja": "Amazon",
+  "preco": 59.75,
+  "preco_antes": 103.02,
+  "quando": "2026-10-26T12:54-03:00"
+ },
+ {
+  "nome": "Motorola Moto G15 256gb 4GB RAM + 8GB RAM Boost Camera 50...",
+  "loja": "Mercado Livre",
+  "preco": 977.31,
+  "preco_antes": 1599.0,
+  "quando": "2026-10-26T12:53-03:00"
+ },
+ {
   "nome": "Pampers Refil Sabonete Líquido Glicerina 350ml",
   "loja": "Amazon",
   "preco": 22.49,
@@ -47,40 +82,5 @@
   "preco": 96.52,
   "preco_antes": 199.9,
   "quando": "2026-10-26T12:12-03:00"
- },
- {
-  "nome": "Mop Spray com Gatilho e Dispenser Powermaid",
-  "loja": "Amazon",
-  "preco": 38.4,
-  "preco_antes": 60.95,
-  "quando": "2026-10-26T12:11-03:00"
- },
- {
-  "nome": "Shampoo Nutri Preenchedor L’Oréal Paris Elseve 400ml",
-  "loja": "Amazon",
-  "preco": 19.79,
-  "preco_antes": 35.98,
-  "quando": "2026-10-26T12:11-03:00"
- },
- {
-  "nome": "Liquidificador Philco 3L 1200W 110v",
-  "loja": "Amazon",
-  "preco": 109.9,
-  "preco_antes": 228.96,
-  "quando": "2026-10-26T12:10-03:00"
- },
- {
-  "nome": "Serra Circular, Vermelho, 1500W, 220V - FSC-04 MONDIAL",
-  "loja": "Amazon",
-  "preco": 258.38,
-  "preco_antes": 549.9,
-  "quando": "2026-10-26T09:57-03:00"
- },
- {
-  "nome": "Protetor Solar Facial Neutrogena Sun Fresh Derm Care Sem...",
-  "loja": "Amazon",
-  "preco": 44.22,
-  "preco_antes": 83.43,
-  "quando": "2026-10-26T09:56-03:00"
  }
 ]
