@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Pampers Refil Sabonete Líquido Glicerina 350ml",
+  "loja": "Amazon",
+  "preco": 22.49,
+  "preco_antes": 29.99,
+  "quando": "2026-10-26T12:24-03:00"
+ },
+ {
+  "nome": "Widi Care Condicionador Hidro-Nutritivo Condicionando a J...",
+  "loja": "Amazon",
+  "preco": 40.8,
+  "preco_antes": 71.6,
+  "quando": "2026-10-26T12:24-03:00"
+ },
+ {
+  "nome": "03 un. Lâminas de Reposição + 2 pentes Philips OneBlade",
+  "loja": "Amazon",
+  "preco": 116.91,
+  "preco_antes": 238.59,
+  "quando": "2026-10-26T12:23-03:00"
+ },
+ {
+  "nome": "Neutrogena Hidratante Facial Hydro Boost Water Gel Refil,...",
+  "loja": "Amazon",
+  "preco": 45.12,
+  "preco_antes": 80.57,
+  "quando": "2026-10-26T12:22-03:00"
+ },
+ {
+  "nome": "Fechadura digital de sobrepor Abertura por senha ou tag E...",
+  "loja": "Amazon",
+  "preco": 236.28,
+  "preco_antes": 492.25,
+  "quando": "2026-10-26T12:22-03:00"
+ },
+ {
   "nome": "Kit 12 Potes Herméticos Electrolux c/ Tampa",
   "loja": "Amazon",
   "preco": 80.9,
@@ -47,40 +82,5 @@
   "preco": 44.22,
   "preco_antes": 83.43,
   "quando": "2026-10-26T09:56-03:00"
- },
- {
-  "nome": "Casaco Masculino Fila Letter Outline Light, Cinza Medio, G",
-  "loja": "Amazon",
-  "preco": 98.21,
-  "preco_antes": 228.4,
-  "quando": "2026-10-26T09:56-03:00"
- },
- {
-  "nome": "oferta regional (verifique se está disponível pra você)",
-  "loja": "Amazon",
-  "preco": 140.65,
-  "preco_antes": 293.02,
-  "quando": "2026-10-26T09:55-03:00"
- },
- {
-  "nome": "ELG Câmera Robô Wi-Fi Full HD 360° com Rastreamento de Mo...",
-  "loja": "Amazon",
-  "preco": 189.99,
-  "preco_antes": 542.83,
-  "quando": "2026-10-26T09:54-03:00"
- },
- {
-  "nome": "Shampoo de Glicerina Johnson's Baby, 750ml",
-  "loja": "Amazon",
-  "preco": 33.01,
-  "preco_antes": 62.28,
-  "quando": "2026-10-26T09:09-03:00"
- },
- {
-  "nome": "WAP Pulverizador Manual 5 Litros Borrifador Com Compressã...",
-  "loja": "Amazon",
-  "preco": 67.0,
-  "preco_antes": 148.89,
-  "quando": "2026-10-26T09:08-03:00"
  }
 ]
