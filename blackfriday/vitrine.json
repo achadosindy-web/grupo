@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Biscoito Pedigree Biscrok Para Cães Adultos Raças Pequena...",
+  "loja": "Amazon",
+  "preco": 23.34,
+  "preco_antes": 38.9,
+  "quando": "2026-10-26T15:13-03:00"
+ },
+ {
+  "nome": "disponíveis nas cores branco e preto",
+  "loja": "Amazon",
+  "preco": 59.9,
+  "preco_antes": 108.91,
+  "quando": "2026-10-26T15:12-03:00"
+ },
+ {
+  "nome": "Kit 03 un. L'Oréal Paris Elseve Collagen Lifter Shampoo 4...",
+  "loja": "Amazon",
+  "preco": 75.99,
+  "preco_antes": 122.56,
+  "quando": "2026-10-26T15:12-03:00"
+ },
+ {
+  "nome": "Bundle Controle sem fio DualSense® Edição Limitada Gran T...",
+  "loja": "Amazon",
+  "preco": 650.0,
+  "preco_antes": 999.8,
+  "quando": "2026-10-26T15:11-03:00"
+ },
+ {
+  "nome": "iPhone 16 Apple 128GB, Câmera Dupla de 48MP, Tela 6.1\", B...",
+  "loja": "Amazon",
+  "preco": 4699.0,
+  "preco_antes": 7831.67,
+  "quando": "2026-10-26T15:10-03:00"
+ },
+ {
   "nome": "Pasta de Dente 3D White Brilliant Fresh Oral-B 3 Unidades...",
   "loja": "Amazon",
   "preco": 13.96,
@@ -47,40 +82,5 @@
   "preco": 27.9,
   "preco_antes": 49.82,
   "quando": "2026-10-26T12:55-03:00"
- },
- {
-  "nome": "Repelente de Insetos em Loção OFF! Family, 200ml",
-  "loja": "Amazon",
-  "preco": 15.66,
-  "preco_antes": 29.32,
-  "quando": "2026-10-26T12:54-03:00"
- },
- {
-  "nome": "Hidratante Facial Neutrogena Hydro Boost 50g",
-  "loja": "Amazon",
-  "preco": 59.75,
-  "preco_antes": 103.02,
-  "quando": "2026-10-26T12:54-03:00"
- },
- {
-  "nome": "Motorola Moto G15 256gb 4GB RAM + 8GB RAM Boost Camera 50...",
-  "loja": "Mercado Livre",
-  "preco": 977.31,
-  "preco_antes": 1599.0,
-  "quando": "2026-10-26T12:53-03:00"
- },
- {
-  "nome": "Pampers Refil Sabonete Líquido Glicerina 350ml",
-  "loja": "Amazon",
-  "preco": 22.49,
-  "preco_antes": 29.99,
-  "quando": "2026-10-26T12:24-03:00"
- },
- {
-  "nome": "Widi Care Condicionador Hidro-Nutritivo Condicionando a J...",
-  "loja": "Amazon",
-  "preco": 40.8,
-  "preco_antes": 71.6,
-  "quando": "2026-10-26T12:24-03:00"
  }
 ]
