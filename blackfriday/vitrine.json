@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Fralda Pom Pom Protek Proteção de Mãe Mega XG com 38 Unid...",
+  "loja": "Amazon",
+  "preco": 37.9,
+  "preco_antes": 50.53,
+  "quando": "2026-10-25T21:09-03:00"
+ },
+ {
+  "nome": "Kit 2 Travesseiros 70x50 Antialérgico Lavável Fibra Silic...",
+  "loja": "Mercado Livre",
+  "preco": 35.0,
+  "preco_antes": 63.0,
+  "quando": "2026-10-25T21:08-03:00"
+ },
+ {
+  "nome": "Kit 3 Tapetes De Banheiro Microfibra Bolinha Macio Seca P...",
+  "loja": "Mercado Livre",
+  "preco": 33.25,
+  "preco_antes": 78.9,
+  "quando": "2026-10-25T21:08-03:00"
+ },
+ {
   "nome": "Fralda Pom Pom Protek Proteção de Mãe Jumbo G com 24 Unid...",
   "loja": "Amazon",
   "preco": 21.76,
@@ -61,26 +82,5 @@
   "preco": 41.49,
   "preco_antes": 59.27,
   "quando": "2026-10-25T20:17-03:00"
- },
- {
-  "nome": "Lava-Roupas Líquido Omo Ciclo Rápido Ação Cuidado Frasco...",
-  "loja": "Amazon",
-  "preco": 11.76,
-  "preco_antes": 16.11,
-  "quando": "2026-10-25T20:16-03:00"
- },
- {
-  "nome": "Panela De Pressão Elétrica Philco Ppp01p 6L 110V",
-  "loja": "Amazon",
-  "preco": 379.0,
-  "preco_antes": 684.0,
-  "quando": "2026-10-25T20:15-03:00"
- },
- {
-  "nome": "Fritadeira Air Fryer Philips Walita Série 1000 XL 1700W 6...",
-  "loja": "Amazon",
-  "preco": 330.6,
-  "preco_antes": 612.22,
-  "quando": "2026-10-25T20:15-03:00"
  }
 ]
