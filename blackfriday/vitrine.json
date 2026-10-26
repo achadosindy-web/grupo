@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Fralda Pom Pom Protek Proteção de Mãe Jumbo XXG com 18 Un...",
+  "loja": "Amazon",
+  "preco": 19.07,
+  "preco_antes": 29.8,
+  "quando": "2026-10-25T23:10-03:00"
+ },
+ {
   "nome": "Fralda Pom Pom Protek Proteção de Mãe Mega XG com 38 Unid...",
   "loja": "Amazon",
   "preco": 37.9,
@@ -75,12 +82,5 @@
   "preco": 188.0,
   "preco_antes": 543.0,
   "quando": "2026-10-25T20:55-03:00"
- },
- {
-  "nome": "Widi Care Creme de Pentear Encaracolando a Juba 500ml",
-  "loja": "Amazon",
-  "preco": 41.49,
-  "preco_antes": 59.27,
-  "quando": "2026-10-25T20:17-03:00"
  }
 ]
