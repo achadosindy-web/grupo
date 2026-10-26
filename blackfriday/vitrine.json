@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Exclusivo para membros prime, O desconto aparece na etapa...",
+  "loja": "Amazon",
+  "preco": 91.0,
+  "preco_antes": 129.0,
+  "quando": "2026-10-26T19:08-03:00"
+ },
+ {
   "nome": "Kit 02 un. Loção Hidratante Corporal Nivea Milk 400ml",
   "loja": "Amazon",
   "preco": 30.02,
@@ -75,12 +82,5 @@
   "preco": 13.96,
   "preco_antes": 24.49,
   "quando": "2026-10-26T14:24-03:00"
- },
- {
-  "nome": "Tenis Feminino New Balance 413v3",
-  "loja": "Amazon",
-  "preco": 199.9,
-  "preco_antes": 349.99,
-  "quando": "2026-10-26T14:23-03:00"
  }
 ]
