@@ -153,11 +153,11 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
     <label>Link do produto <small>(o SEU link de afiliado: amzn.to, meli.la, s.shopee… ou o link normal da Amazon)</small>
       <input id="vi-link" type="url" inputmode="url" required placeholder="https://…"></label>
     <span class="loja-detectada" id="vi-loja"></span>
-    <label>Nome do produto
-      <input id="vi-nome" type="text" required maxlength="90" placeholder="Ex.: Air Fryer Mondial 4L"></label>
+    <label>Nome do produto <small>(opcional: se deixar vazio, eu pego na loja)</small>
+      <input id="vi-nome" type="text" maxlength="90" placeholder="Ex.: Air Fryer Mondial 4L"></label>
     <div class="dois">
-      <label>Preço agora
-        <input id="vi-preco" type="text" inputmode="decimal" required placeholder="49,90"></label>
+      <label>Preço agora <small>(se souber)</small>
+        <input id="vi-preco" type="text" inputmode="decimal" placeholder="49,90"></label>
       <label>Preço antes <small>(opcional)</small>
         <input id="vi-antes" type="text" inputmode="decimal" placeholder="89,90"></label>
     </div>
@@ -308,7 +308,7 @@ async function enviarAgora(oferta) {
       body: JSON.stringify({ ref: "main", inputs: Object.assign({ perfil: PERFIL }, oferta || {}) }) });
     if (r.status === 204) {
       gravarLocal(chaveP("envio-ultimo"), Date.now());
-      avisoEnvio(oferta ? `✅ "${oferta.nome}" está indo pro grupo. Em 2 a 3 minutos aparece lá.`
+      avisoEnvio(oferta ? `✅ ${oferta.nome ? "\"" + oferta.nome + "\"" : "A oferta"} está indo pro grupo. Em 2 a 3 minutos aparece lá.`
                         : "🚀 Robô acionado! Em 2 a 3 minutos o que vocês aprovaram vai pro grupo.", 9000);
       travarBotao();
       return;
@@ -362,7 +362,6 @@ document.getElementById("form-vi").addEventListener("submit", e => {
   const val = id => document.getElementById(id).value.trim();
   const preco = val("vi-preco").replace(/[^\d,.]/g, ""), antes = val("vi-antes").replace(/[^\d,.]/g, "");
   if (!/^https?:\/\//.test(val("vi-link"))) { avisoEnvio("⚠️ Cole o link completo, começando com https://"); return; }
-  if (!preco) { avisoEnvio("⚠️ Falta o preço de agora."); return; }
   const oferta = { link: val("vi-link"), nome: val("vi-nome"), preco, preco_antes: antes, cupom: val("vi-cupom").toUpperCase() };
   document.getElementById("folha-vi").hidden = true;
   document.getElementById("form-vi").reset(); document.getElementById("vi-loja").textContent = "";
