@@ -1,5 +1,61 @@
 [
  {
+  "nome": "Kit de Gloss Labial e Lápis Labial Fran Love by Franciny...",
+  "loja": "Amazon",
+  "preco": 45.0,
+  "preco_antes": 129.0,
+  "quando": "2026-10-26T08:54-03:00"
+ },
+ {
+  "nome": "Figura Transformers Kurama e Gamakichi",
+  "loja": "Amazon",
+  "preco": 165.11,
+  "preco_antes": 579.99,
+  "quando": "2026-10-26T08:53-03:00"
+ },
+ {
+  "nome": "Caixa de Som PartyBox AIWA PB-07 Bluetooth 8H RGB USB TWS...",
+  "loja": "Amazon",
+  "preco": 549.9,
+  "preco_antes": 1195.43,
+  "quando": "2026-10-26T08:53-03:00"
+ },
+ {
+  "nome": "MONDIAL Caixa de Som Party Box, Luzes Multicores, Bluetoo...",
+  "loja": "Amazon",
+  "preco": 279.9,
+  "preco_antes": 823.24,
+  "quando": "2026-10-26T08:52-03:00"
+ },
+ {
+  "nome": "Colete De Hidratação Ajustável - Kalyon",
+  "loja": "Mercado Livre",
+  "preco": 36.0,
+  "preco_antes": 62.0,
+  "quando": "2026-10-26T08:52-03:00"
+ },
+ {
+  "nome": "Mala de Bordo Rígida ABS Preto Sweet Studio com Rodas Dup...",
+  "loja": "Mercado Livre",
+  "preco": 164.6,
+  "preco_antes": 289.9,
+  "quando": "2026-10-26T08:51-03:00"
+ },
+ {
+  "nome": "Camiseta Dry-fit Preta Caveira Unisex Dark Lab",
+  "loja": "Mercado Livre",
+  "preco": 29.0,
+  "preco_antes": 69.0,
+  "quando": "2026-10-26T08:50-03:00"
+ },
+ {
+  "nome": "Mochila Masculina Woosh Grande Impermeável para Notebook",
+  "loja": "Mercado Livre",
+  "preco": 38.0,
+  "preco_antes": 120.0,
+  "quando": "2026-10-26T08:50-03:00"
+ },
+ {
   "nome": "Fralda Pom Pom Protek Proteção de Mãe Jumbo XXG com 18 Un...",
   "loja": "Amazon",
   "preco": 19.07,
@@ -26,61 +82,5 @@
   "preco": 33.25,
   "preco_antes": 78.9,
   "quando": "2026-10-25T21:08-03:00"
- },
- {
-  "nome": "Fralda Pom Pom Protek Proteção de Mãe Jumbo G com 24 Unid...",
-  "loja": "Amazon",
-  "preco": 21.76,
-  "preco_antes": 29.81,
-  "quando": "2026-10-25T20:59-03:00"
- },
- {
-  "nome": "Fralda Personal Baby Protect & Sec G com 78 Unidades",
-  "loja": "Amazon",
-  "preco": 62.99,
-  "preco_antes": 89.99,
-  "quando": "2026-10-25T20:58-03:00"
- },
- {
-  "nome": "Fralda Pom Pom Protek Proteção de Mãe Jumbo XG com 20 Uni...",
-  "loja": "Amazon",
-  "preco": 20.77,
-  "preco_antes": 30.1,
-  "quando": "2026-10-25T20:58-03:00"
- },
- {
-  "nome": "Fone de Ouvido Bluetooth JBL Wave Buds 2",
-  "loja": "Amazon",
-  "preco": 234.99,
-  "preco_antes": 460.76,
-  "quando": "2026-10-25T20:57-03:00"
- },
- {
-  "nome": "Fralda Huggies Tripla Proteção P com 46 Unidades",
-  "loja": "Amazon",
-  "preco": 41.63,
-  "preco_antes": 55.51,
-  "quando": "2026-10-25T20:57-03:00"
- },
- {
-  "nome": "Escova Elétrica de Limpeza DeckCasa JY-6010 3000mAh 137 cm",
-  "loja": "Mercado Livre",
-  "preco": 55.0,
-  "preco_antes": 77.0,
-  "quando": "2026-10-25T20:56-03:00"
- },
- {
-  "nome": "Fralda Turma da Mônica Baby Jumbo M com 28 Unidades",
-  "loja": "Amazon",
-  "preco": 19.94,
-  "preco_antes": 28.49,
-  "quando": "2026-10-25T20:55-03:00"
- },
- {
-  "nome": "Parafusadeira E Furadeira De Impacto WAP K21 ID03 Sem Fio...",
-  "loja": "Mercado Livre",
-  "preco": 188.0,
-  "preco_antes": 543.0,
-  "quando": "2026-10-25T20:55-03:00"
  }
 ]
