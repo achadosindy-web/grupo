@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Shampoo de Glicerina Johnson's Baby, 750ml",
+  "loja": "Amazon",
+  "preco": 33.01,
+  "preco_antes": 62.28,
+  "quando": "2026-10-26T09:09-03:00"
+ },
+ {
+  "nome": "WAP Pulverizador Manual 5 Litros Borrifador Com Compressã...",
+  "loja": "Amazon",
+  "preco": 67.0,
+  "preco_antes": 148.89,
+  "quando": "2026-10-26T09:08-03:00"
+ },
+ {
+  "nome": "Liquidificador Série 5000 Jarra Inquebrável Philips Walit...",
+  "loja": "Amazon",
+  "preco": 265.0,
+  "preco_antes": 358.11,
+  "quando": "2026-10-26T09:08-03:00"
+ },
+ {
+  "nome": "Lenços Umedecidos Johnson's Baby Proteção da Pele com 96...",
+  "loja": "Amazon",
+  "preco": 17.0,
+  "preco_antes": 36.17,
+  "quando": "2026-10-26T09:07-03:00"
+ },
+ {
   "nome": "Everlast Regata Essentials Big Logo Masculino",
   "loja": "Amazon",
   "preco": 55.7,
@@ -54,33 +82,5 @@
   "preco": 549.9,
   "preco_antes": 1195.43,
   "quando": "2026-10-26T08:53-03:00"
- },
- {
-  "nome": "MONDIAL Caixa de Som Party Box, Luzes Multicores, Bluetoo...",
-  "loja": "Amazon",
-  "preco": 279.9,
-  "preco_antes": 823.24,
-  "quando": "2026-10-26T08:52-03:00"
- },
- {
-  "nome": "Colete De Hidratação Ajustável - Kalyon",
-  "loja": "Mercado Livre",
-  "preco": 36.0,
-  "preco_antes": 62.0,
-  "quando": "2026-10-26T08:52-03:00"
- },
- {
-  "nome": "Mala de Bordo Rígida ABS Preto Sweet Studio com Rodas Dup...",
-  "loja": "Mercado Livre",
-  "preco": 164.6,
-  "preco_antes": 289.9,
-  "quando": "2026-10-26T08:51-03:00"
- },
- {
-  "nome": "Camiseta Dry-fit Preta Caveira Unisex Dark Lab",
-  "loja": "Mercado Livre",
-  "preco": 29.0,
-  "preco_antes": 69.0,
-  "quando": "2026-10-26T08:50-03:00"
  }
 ]
