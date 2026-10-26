@@ -66,6 +66,7 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
 .corpo{padding:10px 10px 12px;display:flex;flex-direction:column;gap:6px;flex:1}
 .meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:11px;color:var(--texto-2)}
 .loja{font-weight:700;letter-spacing:.02em}
+.via-zap{font-size:11.5px;font-weight:700;color:#1f9d55;margin-top:2px}
 .loja.Amazon{color:var(--amazon)} .loja.Mercado{color:var(--ml)} .loja.Shopee{color:var(--shopee)}
 .nome{font-size:13px;font-weight:600;line-height:1.35;color:var(--texto);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.7em}
 .precos{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
@@ -270,7 +271,7 @@ function cartao(i) {
   return `<article class="card ${i.aprovado ? "aprovado" : ""}">
     <div class="foto">${foto}${i.desconto ? `<span class="off">-${i.desconto}%</span>` : ""}${i.aprovado ? `<span class="selo-ok">✓</span>` : ""}</div>
     <div class="corpo">
-      <div class="meta"><span class="loja ${lojaCls}">${esc(i.loja)}</span>·<span>${esc(i.categoria)}</span>·<span>${ha(i.achado_em || i.quando)}</span></div>
+      <div class="meta"><span class="loja ${lojaCls}">${esc(i.loja)}</span>·<span>${esc(i.categoria)}</span>·<span>${ha(i.achado_em || i.quando)}</span></div>${(i.fonte || "").startsWith("@WhatsApp") ? `<div class="via-zap">via ${esc(i.fonte.slice(1))}</div>` : ""}
       <div class="nome">${esc(i.nome)}</div>
       <div class="precos"><span class="preco">${brl(i.preco)}</span>${i.preco_antes ? `<span class="de">${brl(i.preco_antes)}</span>` : ""}</div>
       ${i.cupom ? `<div class="cupom">Cupom: ${esc(i.cupom)}</div>` : ""}
