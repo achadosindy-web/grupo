@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Pasta de Dente 3D White Brilliant Fresh Oral-B 3 Unidades...",
+  "loja": "Amazon",
+  "preco": 13.96,
+  "preco_antes": 24.49,
+  "quando": "2026-10-26T14:24-03:00"
+ },
+ {
+  "nome": "Tenis Feminino New Balance 413v3",
+  "loja": "Amazon",
+  "preco": 199.9,
+  "preco_antes": 349.99,
+  "quando": "2026-10-26T14:23-03:00"
+ },
+ {
+  "nome": "Tênis Adidas Super (38 ao 43)",
+  "loja": "Mercado Livre",
+  "preco": 353.0,
+  "preco_antes": 599.0,
+  "quando": "2026-10-26T14:22-03:00"
+ },
+ {
+  "nome": "Aparador De Pelos Supergroom-10 Mondial Bivolt Bg-10",
+  "loja": "Mercado Livre",
+  "preco": 88.0,
+  "preco_antes": 166.0,
+  "quando": "2026-10-26T14:22-03:00"
+ },
+ {
+  "nome": "Kit Starlink MINI Internet Via Satélite",
+  "loja": "Mercado Livre",
+  "preco": 453.56,
+  "preco_antes": 1399.0,
+  "quando": "2026-10-26T14:21-03:00"
+ },
+ {
   "nome": "Cereal Matinal Chocolate Kitkat Caixa 210g",
   "loja": "Amazon",
   "preco": 9.0,
@@ -47,40 +82,5 @@
   "preco": 40.8,
   "preco_antes": 71.6,
   "quando": "2026-10-26T12:24-03:00"
- },
- {
-  "nome": "03 un. Lâminas de Reposição + 2 pentes Philips OneBlade",
-  "loja": "Amazon",
-  "preco": 116.91,
-  "preco_antes": 238.59,
-  "quando": "2026-10-26T12:23-03:00"
- },
- {
-  "nome": "Neutrogena Hidratante Facial Hydro Boost Water Gel Refil,...",
-  "loja": "Amazon",
-  "preco": 45.12,
-  "preco_antes": 80.57,
-  "quando": "2026-10-26T12:22-03:00"
- },
- {
-  "nome": "Fechadura digital de sobrepor Abertura por senha ou tag E...",
-  "loja": "Amazon",
-  "preco": 236.28,
-  "preco_antes": 492.25,
-  "quando": "2026-10-26T12:22-03:00"
- },
- {
-  "nome": "Kit 12 Potes Herméticos Electrolux c/ Tampa",
-  "loja": "Amazon",
-  "preco": 80.9,
-  "preco_antes": 128.41,
-  "quando": "2026-10-26T12:13-03:00"
- },
- {
-  "nome": "Parafusadeira e Furadeira Impacto WAP 3/8\" WF 700FE W2, L...",
-  "loja": "Amazon",
-  "preco": 96.52,
-  "preco_antes": 199.9,
-  "quando": "2026-10-26T12:12-03:00"
  }
 ]
