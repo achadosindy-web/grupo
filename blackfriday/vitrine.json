@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Bota Massageadora de Compressão Multifuncional com aqueci...",
+  "loja": "Amazon",
+  "preco": 244.55,
+  "preco_antes": 329.0,
+  "quando": "2026-10-27T12:34-03:00"
+ },
+ {
+  "nome": "Pack 08 un. Sabonete Em Barra Dove Original 90g",
+  "loja": "Amazon",
+  "preco": 31.34,
+  "preco_antes": 44.77,
+  "quando": "2026-10-27T12:33-03:00"
+ },
+ {
+  "nome": "Lip Oil Shine Flowers Rosa Magnífica Eudora Niina Secrets...",
+  "loja": "Amazon",
+  "preco": 35.89,
+  "preco_antes": 53.57,
+  "quando": "2026-10-27T12:32-03:00"
+ },
+ {
+  "nome": "Pack 80 un. Carefree Protetor Diário c/ Fragrância",
+  "loja": "Amazon",
+  "preco": 19.49,
+  "preco_antes": 33.03,
+  "quando": "2026-10-27T12:32-03:00"
+ },
+ {
   "nome": "Medidor Digital de Pressão Para Pneus, MDP 155",
   "loja": "Amazon",
   "preco": 47.95,
@@ -54,33 +82,5 @@
   "preco": 31.11,
   "preco_antes": 64.81,
   "quando": "2026-10-27T11:23-03:00"
- },
- {
-  "nome": "o desconto é aplicado SOMENTE na finalização da compra ⚠",
-  "loja": "Amazon",
-  "preco": 35.0,
-  "preco_antes": 76.0,
-  "quando": "2026-10-27T11:23-03:00"
- },
- {
-  "nome": "Apple iPhone 18 Pro Max de 256 GB Glacial",
-  "loja": "Amazon",
-  "preco": 1000.0,
-  "preco_antes": 12599.0,
-  "quando": "2026-10-27T11:22-03:00"
- },
- {
-  "nome": "Fritadeira Air Fryer Oven 12L Digital Midea 220V - Potênc...",
-  "loja": "Amazon",
-  "preco": 458.1,
-  "preco_antes": 699.0,
-  "quando": "2026-10-27T09:09-03:00"
- },
- {
-  "nome": "Veja Limpador para Limpeza Pesada Cloro Ativo 2 em 1 - 1L",
-  "loja": "Amazon",
-  "preco": 9.0,
-  "preco_antes": 25.0,
-  "quando": "2026-10-27T09:08-03:00"
  }
 ]
