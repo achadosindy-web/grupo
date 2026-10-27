@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Mochila para Notebook de 15.6\" Executiva com USB  Expansí...",
+  "loja": "Mercado Livre",
+  "preco": 89.09,
+  "preco_antes": 289.0,
+  "quando": "2026-10-27T13:11-03:00"
+ },
+ {
   "nome": "Kit 02 un. Hidratante Corporal Neutrogena Body Care Hidra...",
   "loja": "Amazon",
   "preco": 43.87,
@@ -75,12 +82,5 @@
   "preco": 75.99,
   "preco_antes": 0,
   "quando": "2026-10-22T13:47-03:00"
- },
- {
-  "nome": "Desodorante Corporal Aerossol Rexona All Body, Fresh Citr...",
-  "loja": "Amazon",
-  "preco": 17.0,
-  "preco_antes": 0,
-  "quando": "2026-10-22T13:46-03:00"
  }
 ]
