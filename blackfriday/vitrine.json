@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Protetor Diário Carefree Extra Longo (60 Unidades)",
+  "loja": "Amazon",
+  "preco": 23.39,
+  "preco_antes": 34.91,
+  "quando": "2026-10-27T14:23-03:00"
+ },
+ {
+  "nome": "Listerine Enxaguante Bucal Melancia & Hortelã 1L",
+  "loja": "Amazon",
+  "preco": 24.0,
+  "preco_antes": 40.0,
+  "quando": "2026-10-27T14:22-03:00"
+ },
+ {
+  "nome": "Tablet Samsung Galaxy Tab A11+, 128gb, 6gb Ram, Tela De 1...",
+  "loja": "Mercado Livre",
+  "preco": 1503.25,
+  "preco_antes": 2549.0,
+  "quando": "2026-10-27T14:21-03:00"
+ },
+ {
+  "nome": "Fritadeira Air Fryer 5,5L Cyclone Midea",
+  "loja": "Mercado Livre",
+  "preco": 179.0,
+  "preco_antes": 377.0,
+  "quando": "2026-10-27T14:20-03:00"
+ },
+ {
   "nome": "Bota Massageadora de Compressão Multifuncional com aqueci...",
   "loja": "Amazon",
   "preco": 244.55,
@@ -54,33 +82,5 @@
   "preco": 27.99,
   "preco_antes": 45.65,
   "quando": "2026-10-27T12:09-03:00"
- },
- {
-  "nome": "Kit Varal Retrátil Dobrável Aço Reforçado 4m Suporta 90kg...",
-  "loja": "Amazon",
-  "preco": 130.61,
-  "preco_antes": 199.26,
-  "quando": "2026-10-27T12:09-03:00"
- },
- {
-  "nome": "Neutrogena Hidratante Corporal Intensivo Norwegian 400ml",
-  "loja": "Amazon",
-  "preco": 59.0,
-  "preco_antes": 101.0,
-  "quando": "2026-10-27T11:24-03:00"
- },
- {
-  "nome": "Karsten Jogo de Cama Tom Bege Rose King 100% Algodão 4 pe...",
-  "loja": "Amazon",
-  "preco": 272.28,
-  "preco_antes": 549.99,
-  "quando": "2026-10-27T11:24-03:00"
- },
- {
-  "nome": "Máscara Super Hidratante Lola Cosmetics Morte Súbita 450g",
-  "loja": "Amazon",
-  "preco": 31.11,
-  "preco_antes": 64.81,
-  "quando": "2026-10-27T11:23-03:00"
  }
 ]
