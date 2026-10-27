@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Fritadeira Air Fryer Oven 12L Digital Midea 220V - Potênc...",
+  "loja": "Amazon",
+  "preco": 458.1,
+  "preco_antes": 699.0,
+  "quando": "2026-10-27T09:09-03:00"
+ },
+ {
+  "nome": "Veja Limpador para Limpeza Pesada Cloro Ativo 2 em 1 - 1L",
+  "loja": "Amazon",
+  "preco": 9.0,
+  "preco_antes": 25.0,
+  "quando": "2026-10-27T09:08-03:00"
+ },
+ {
+  "nome": "Fritadeira Air Fryer Oven 12l Digital Midea 127v",
+  "loja": "Mercado Livre",
+  "preco": 458.1,
+  "preco_antes": 649.0,
+  "quando": "2026-10-27T09:07-03:00"
+ },
+ {
+  "nome": "ESSA CAMISA VAI BEM COM TUDO - várias cores",
+  "loja": "Mercado Livre",
+  "preco": 50.0,
+  "preco_antes": 89.0,
+  "quando": "2026-10-27T09:07-03:00"
+ },
+ {
+  "nome": "Mini Mixer Misturador De Bebidas Elétrico 2 Em 1 Portátil",
+  "loja": "Mercado Livre",
+  "preco": 19.0,
+  "preco_antes": 49.0,
+  "quando": "2026-10-27T09:06-03:00"
+ },
+ {
   "nome": "ELG Suporte Articulado para Monitor 17 a 35 Polegadas Pis...",
   "loja": "Amazon",
   "preco": 120.39,
@@ -47,40 +82,5 @@
   "preco": 549.99,
   "preco_antes": 810.9,
   "quando": "2026-10-26T21:03-03:00"
- },
- {
-  "nome": "Exclusivo para membros prime, O desconto aparece na etapa...",
-  "loja": "Amazon",
-  "preco": 91.0,
-  "preco_antes": 129.0,
-  "quando": "2026-10-26T19:08-03:00"
- },
- {
-  "nome": "Kit 02 un. Loção Hidratante Corporal Nivea Milk 400ml",
-  "loja": "Amazon",
-  "preco": 30.02,
-  "preco_antes": 44.15,
-  "quando": "2026-10-26T18:11-03:00"
- },
- {
-  "nome": "Cápsula Café Filtrado TRES 3 Corações (10 unidades)",
-  "loja": "Amazon",
-  "preco": 15.1,
-  "preco_antes": 25.17,
-  "quando": "2026-10-26T18:10-03:00"
- },
- {
-  "nome": "Wafer Proteico 40g 10g Proteína Snack Avelã - BOLD",
-  "loja": "Amazon",
-  "preco": 78.0,
-  "preco_antes": 179.0,
-  "quando": "2026-10-26T18:09-03:00"
- },
- {
-  "nome": "Oral-B Escova de Dente Elétrica iO4, 1 Cabo + 2 Refis + C...",
-  "loja": "Amazon",
-  "preco": 319.99,
-  "preco_antes": 999.97,
-  "quando": "2026-10-26T18:09-03:00"
  }
 ]
