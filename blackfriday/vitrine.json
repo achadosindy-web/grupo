@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Pokémon TCG, Celebração de 30 anos – Box Pokémon Coleção...",
+  "loja": "Amazon",
+  "preco": 149.99,
+  "preco_antes": 249.0,
+  "quando": "2026-10-26T21:05-03:00"
+ },
+ {
+  "nome": "Lacta Bis Laka - Chocolate Branco Kit 3 Unidades 100,8g",
+  "loja": "Amazon",
+  "preco": 12.74,
+  "preco_antes": 23.29,
+  "quando": "2026-10-26T21:04-03:00"
+ },
+ {
+  "nome": "Camiseta Puma Essentials No. 1 Logo Masculina",
+  "loja": "Amazon",
+  "preco": 67.0,
+  "preco_antes": 129.0,
+  "quando": "2026-10-26T21:03-03:00"
+ },
+ {
+  "nome": "Monitor Gamer SuperFrame Precision Ultra V4, 23.6 Pol, Cu...",
+  "loja": "Amazon",
+  "preco": 549.99,
+  "preco_antes": 810.9,
+  "quando": "2026-10-26T21:03-03:00"
+ },
+ {
   "nome": "Exclusivo para membros prime, O desconto aparece na etapa...",
   "loja": "Amazon",
   "preco": 91.0,
@@ -54,33 +82,5 @@
   "preco": 59.9,
   "preco_antes": 108.91,
   "quando": "2026-10-26T15:12-03:00"
- },
- {
-  "nome": "Kit 03 un. L'Oréal Paris Elseve Collagen Lifter Shampoo 4...",
-  "loja": "Amazon",
-  "preco": 75.99,
-  "preco_antes": 122.56,
-  "quando": "2026-10-26T15:12-03:00"
- },
- {
-  "nome": "Bundle Controle sem fio DualSense® Edição Limitada Gran T...",
-  "loja": "Amazon",
-  "preco": 650.0,
-  "preco_antes": 999.8,
-  "quando": "2026-10-26T15:11-03:00"
- },
- {
-  "nome": "iPhone 16 Apple 128GB, Câmera Dupla de 48MP, Tela 6.1\", B...",
-  "loja": "Amazon",
-  "preco": 4699.0,
-  "preco_antes": 7831.67,
-  "quando": "2026-10-26T15:10-03:00"
- },
- {
-  "nome": "Pasta de Dente 3D White Brilliant Fresh Oral-B 3 Unidades...",
-  "loja": "Amazon",
-  "preco": 13.96,
-  "preco_antes": 24.49,
-  "quando": "2026-10-26T14:24-03:00"
  }
 ]
