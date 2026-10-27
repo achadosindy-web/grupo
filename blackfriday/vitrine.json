@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Johnson's Baby Shampoo Infantil Para Cabelos Cacheados Ca...",
+  "loja": "Amazon",
+  "preco": 16.81,
+  "preco_antes": 25.09,
+  "quando": "2026-10-27T18:13-03:00"
+ },
+ {
+  "nome": "Água Micelar Garnier SkinActive Pele Sensível 400ml",
+  "loja": "Amazon",
+  "preco": 34.2,
+  "preco_antes": 68.4,
+  "quando": "2026-10-27T18:13-03:00"
+ },
+ {
+  "nome": "Whisky Ballantine's Finest Blended Escocês - 750 Ml",
+  "loja": "Amazon",
+  "preco": 59.99,
+  "preco_antes": 84.49,
+  "quando": "2026-10-27T18:12-03:00"
+ },
+ {
+  "nome": "Gel de Limpeza Facial Neutrogena Deep Clean Intensive Gra...",
+  "loja": "Amazon",
+  "preco": 21.0,
+  "preco_antes": 49.0,
+  "quando": "2026-10-27T18:12-03:00"
+ },
+ {
+  "nome": "Desodorante Bozzano Aerossol Antitranspirante Masculino I...",
+  "loja": "Amazon",
+  "preco": 4.75,
+  "preco_antes": 31.24,
+  "quando": "2026-10-27T18:11-03:00"
+ },
+ {
   "nome": "Protetor Diário Carefree Extra Longo (60 Unidades)",
   "loja": "Amazon",
   "preco": 23.39,
@@ -47,40 +82,5 @@
   "preco": 35.89,
   "preco_antes": 53.57,
   "quando": "2026-10-27T12:32-03:00"
- },
- {
-  "nome": "Pack 80 un. Carefree Protetor Diário c/ Fragrância",
-  "loja": "Amazon",
-  "preco": 19.49,
-  "preco_antes": 33.03,
-  "quando": "2026-10-27T12:32-03:00"
- },
- {
-  "nome": "Medidor Digital de Pressão Para Pneus, MDP 155",
-  "loja": "Amazon",
-  "preco": 47.95,
-  "preco_antes": 76.62,
-  "quando": "2026-10-27T12:11-03:00"
- },
- {
-  "nome": "Caixa Amplificada Xsound, Mondial, Preto, 220W RMS, Bivol...",
-  "loja": "Amazon",
-  "preco": 189.05,
-  "preco_antes": 304.9,
-  "quando": "2026-10-27T12:11-03:00"
- },
- {
-  "nome": "Kit com 5 Potes de Vidro Gato Panda, 640 ml, Retangular,...",
-  "loja": "Amazon",
-  "preco": 47.32,
-  "preco_antes": 69.0,
-  "quando": "2026-10-27T12:10-03:00"
- },
- {
-  "nome": "Dove Óleo e Sérum Bifásico UV Repair & Glow + Ferúlico 110ml",
-  "loja": "Amazon",
-  "preco": 27.99,
-  "preco_antes": 45.65,
-  "quando": "2026-10-27T12:09-03:00"
  }
 ]
