@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Kit 02 un. Hidratante Corporal Neutrogena Body Care Hidra...",
+  "loja": "Amazon",
+  "preco": 43.87,
+  "preco_antes": 0,
+  "quando": "2026-10-27T13:07-03:00"
+ },
+ {
+  "nome": "06 un. Sabonete Em Barra NIVEA Hidratante Leite 85g",
+  "loja": "Amazon",
+  "preco": 11.61,
+  "preco_antes": 0,
+  "quando": "2026-10-27T13:07-03:00"
+ },
+ {
+  "nome": "Neutrogena Hidratante Facial Hydro Boost Water Gel Refil,...",
+  "loja": "Amazon",
+  "preco": 29.32,
+  "preco_antes": 0,
+  "quando": "2026-10-27T13:06-03:00"
+ },
+ {
   "nome": "Kit Principia Gel De Limpeza GI-03 + Sérum Facial Mix-01",
   "loja": "Mercado Livre",
   "preco": 83.3,
@@ -61,26 +82,5 @@
   "preco": 17.0,
   "preco_antes": 0,
   "quando": "2026-10-22T13:46-03:00"
- },
- {
-  "nome": "Kit 2 Macaquinho Fitness Feminino - Karma Wear",
-  "loja": "Mercado Livre",
-  "preco": 58.0,
-  "preco_antes": 149.0,
-  "quando": "2026-10-22T09:03-03:00"
- },
- {
-  "nome": "Conjunto Fitness Top + Short Suplex Feminino - Vert Sport...",
-  "loja": "Mercado Livre",
-  "preco": 76.0,
-  "preco_antes": 114.0,
-  "quando": "2026-10-21T10:25-03:00"
- },
- {
-  "nome": "CONJUNTO ACADEMIA ESPORTE FEMININO",
-  "loja": "Mercado Livre",
-  "preco": 78.54,
-  "preco_antes": 130.9,
-  "quando": "2026-10-21T10:24-03:00"
  }
 ]
