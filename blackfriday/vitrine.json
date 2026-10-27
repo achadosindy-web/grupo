@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Neutrogena Hidratante Corporal Intensivo Norwegian 400ml",
+  "loja": "Amazon",
+  "preco": 59.0,
+  "preco_antes": 101.0,
+  "quando": "2026-10-27T11:24-03:00"
+ },
+ {
+  "nome": "Karsten Jogo de Cama Tom Bege Rose King 100% Algodão 4 pe...",
+  "loja": "Amazon",
+  "preco": 272.28,
+  "preco_antes": 549.99,
+  "quando": "2026-10-27T11:24-03:00"
+ },
+ {
+  "nome": "Máscara Super Hidratante Lola Cosmetics Morte Súbita 450g",
+  "loja": "Amazon",
+  "preco": 31.11,
+  "preco_antes": 64.81,
+  "quando": "2026-10-27T11:23-03:00"
+ },
+ {
+  "nome": "o desconto é aplicado SOMENTE na finalização da compra ⚠",
+  "loja": "Amazon",
+  "preco": 35.0,
+  "preco_antes": 76.0,
+  "quando": "2026-10-27T11:23-03:00"
+ },
+ {
+  "nome": "Apple iPhone 18 Pro Max de 256 GB Glacial",
+  "loja": "Amazon",
+  "preco": 1000.0,
+  "preco_antes": 12599.0,
+  "quando": "2026-10-27T11:22-03:00"
+ },
+ {
   "nome": "Fritadeira Air Fryer Oven 12L Digital Midea 220V - Potênc...",
   "loja": "Amazon",
   "preco": 458.1,
@@ -47,40 +82,5 @@
   "preco": 169.9,
   "preco_antes": 326.73,
   "quando": "2026-10-26T23:10-03:00"
- },
- {
-  "nome": "LEGO Minecraft A Batalha de Lava no Nether 21266",
-  "loja": "Amazon",
-  "preco": 51.0,
-  "preco_antes": 89.0,
-  "quando": "2026-10-26T21:15-03:00"
- },
- {
-  "nome": "Pokémon TCG, Celebração de 30 anos – Box Pokémon Coleção...",
-  "loja": "Amazon",
-  "preco": 149.99,
-  "preco_antes": 249.0,
-  "quando": "2026-10-26T21:05-03:00"
- },
- {
-  "nome": "Lacta Bis Laka - Chocolate Branco Kit 3 Unidades 100,8g",
-  "loja": "Amazon",
-  "preco": 12.74,
-  "preco_antes": 23.29,
-  "quando": "2026-10-26T21:04-03:00"
- },
- {
-  "nome": "Camiseta Puma Essentials No. 1 Logo Masculina",
-  "loja": "Amazon",
-  "preco": 67.0,
-  "preco_antes": 129.0,
-  "quando": "2026-10-26T21:03-03:00"
- },
- {
-  "nome": "Monitor Gamer SuperFrame Precision Ultra V4, 23.6 Pol, Cu...",
-  "loja": "Amazon",
-  "preco": 549.99,
-  "preco_antes": 810.9,
-  "quando": "2026-10-26T21:03-03:00"
  }
 ]
