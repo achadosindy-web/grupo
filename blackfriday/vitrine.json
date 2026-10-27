@@ -1,5 +1,12 @@
 [
  {
+  "nome": "LEGO Minecraft A Batalha de Lava no Nether 21266",
+  "loja": "Amazon",
+  "preco": 51.0,
+  "preco_antes": 89.0,
+  "quando": "2026-10-26T21:15-03:00"
+ },
+ {
   "nome": "Pokémon TCG, Celebração de 30 anos – Box Pokémon Coleção...",
   "loja": "Amazon",
   "preco": 149.99,
@@ -75,12 +82,5 @@
   "preco": 23.34,
   "preco_antes": 38.9,
   "quando": "2026-10-26T15:13-03:00"
- },
- {
-  "nome": "disponíveis nas cores branco e preto",
-  "loja": "Amazon",
-  "preco": 59.9,
-  "preco_antes": 108.91,
-  "quando": "2026-10-26T15:12-03:00"
  }
 ]
