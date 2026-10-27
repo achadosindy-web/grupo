@@ -1,5 +1,19 @@
 [
  {
+  "nome": "ELG Suporte Articulado para Monitor 17 a 35 Polegadas Pis...",
+  "loja": "Amazon",
+  "preco": 120.39,
+  "preco_antes": 218.89,
+  "quando": "2026-10-26T23:10-03:00"
+ },
+ {
+  "nome": "Mixer Elétrico 3 em 1 Wap 1000W",
+  "loja": "Amazon",
+  "preco": 169.9,
+  "preco_antes": 326.73,
+  "quando": "2026-10-26T23:10-03:00"
+ },
+ {
   "nome": "LEGO Minecraft A Batalha de Lava no Nether 21266",
   "loja": "Amazon",
   "preco": 51.0,
@@ -68,19 +82,5 @@
   "preco": 319.99,
   "preco_antes": 999.97,
   "quando": "2026-10-26T18:09-03:00"
- },
- {
-  "nome": "Samsung Galaxy A27 5G 128GB 6GB, Amoled 6.7'', Câmera Tri...",
-  "loja": "Mercado Livre",
-  "preco": 1299.0,
-  "preco_antes": 2855.71,
-  "quando": "2026-10-26T18:08-03:00"
- },
- {
-  "nome": "Biscoito Pedigree Biscrok Para Cães Adultos Raças Pequena...",
-  "loja": "Amazon",
-  "preco": 23.34,
-  "preco_antes": 38.9,
-  "quando": "2026-10-26T15:13-03:00"
  }
 ]
