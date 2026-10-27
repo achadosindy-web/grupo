@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Medidor Digital de Pressão Para Pneus, MDP 155",
+  "loja": "Amazon",
+  "preco": 47.95,
+  "preco_antes": 76.62,
+  "quando": "2026-10-27T12:11-03:00"
+ },
+ {
+  "nome": "Caixa Amplificada Xsound, Mondial, Preto, 220W RMS, Bivol...",
+  "loja": "Amazon",
+  "preco": 189.05,
+  "preco_antes": 304.9,
+  "quando": "2026-10-27T12:11-03:00"
+ },
+ {
+  "nome": "Kit com 5 Potes de Vidro Gato Panda, 640 ml, Retangular,...",
+  "loja": "Amazon",
+  "preco": 47.32,
+  "preco_antes": 69.0,
+  "quando": "2026-10-27T12:10-03:00"
+ },
+ {
+  "nome": "Dove Óleo e Sérum Bifásico UV Repair & Glow + Ferúlico 110ml",
+  "loja": "Amazon",
+  "preco": 27.99,
+  "preco_antes": 45.65,
+  "quando": "2026-10-27T12:09-03:00"
+ },
+ {
+  "nome": "Kit Varal Retrátil Dobrável Aço Reforçado 4m Suporta 90kg...",
+  "loja": "Amazon",
+  "preco": 130.61,
+  "preco_antes": 199.26,
+  "quando": "2026-10-27T12:09-03:00"
+ },
+ {
   "nome": "Neutrogena Hidratante Corporal Intensivo Norwegian 400ml",
   "loja": "Amazon",
   "preco": 59.0,
@@ -47,40 +82,5 @@
   "preco": 9.0,
   "preco_antes": 25.0,
   "quando": "2026-10-27T09:08-03:00"
- },
- {
-  "nome": "Fritadeira Air Fryer Oven 12l Digital Midea 127v",
-  "loja": "Mercado Livre",
-  "preco": 458.1,
-  "preco_antes": 649.0,
-  "quando": "2026-10-27T09:07-03:00"
- },
- {
-  "nome": "ESSA CAMISA VAI BEM COM TUDO - várias cores",
-  "loja": "Mercado Livre",
-  "preco": 50.0,
-  "preco_antes": 89.0,
-  "quando": "2026-10-27T09:07-03:00"
- },
- {
-  "nome": "Mini Mixer Misturador De Bebidas Elétrico 2 Em 1 Portátil",
-  "loja": "Mercado Livre",
-  "preco": 19.0,
-  "preco_antes": 49.0,
-  "quando": "2026-10-27T09:06-03:00"
- },
- {
-  "nome": "ELG Suporte Articulado para Monitor 17 a 35 Polegadas Pis...",
-  "loja": "Amazon",
-  "preco": 120.39,
-  "preco_antes": 218.89,
-  "quando": "2026-10-26T23:10-03:00"
- },
- {
-  "nome": "Mixer Elétrico 3 em 1 Wap 1000W",
-  "loja": "Amazon",
-  "preco": 169.9,
-  "preco_antes": 326.73,
-  "quando": "2026-10-26T23:10-03:00"
  }
 ]
