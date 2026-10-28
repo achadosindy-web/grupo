@@ -1,7 +1,28 @@
 {
- "atualizado": "2026-10-28T17:22-03:00",
+ "atualizado": "2026-10-28T17:44-03:00",
  "bot": "achadinhosdaindy_bot",
  "itens": [
+  {
+   "gid": "a4b114",
+   "id": "radar-B07ZQLXVN6",
+   "loja": "Amazon",
+   "nome": "Brilhante Sabão Líquido Limpeza Total Refil 900 Ml",
+   "preco": 8.45,
+   "preco_antes": 0,
+   "desconto": 0,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/XLbsabXE0P7bYcN3HW_BrF_CWvBA_xDEsAaAYOYEgNyBj3McOV1kfUbjRnHvIkZ52aNNKSOKHQf4hebItow5_c-GqFQKND5__uL-awmFTpdBE819vYrlMRRCiC8VzOzXCFLbqu75rWS4BYCtqwpxncifZkhf09ns49eKOauZfYSlPctaTdHobPmher5oPXx7qcnwnCSMsPIJz05aaj8YRQjbSQcFqD7Jtjzj6zrIe5tep0zttl_pMj71LuEj4asEYbWVdEElr0aPp69acY2NcMQyfROPwbMGA6BKpilSmyTtDsKYa4PL_6CLstpZmZmKhW-i6ElgXmRUZ3pXhMUJtg.jpg",
+   "link": "https://www.amazon.com.br/dp/B07ZQLXVN6?tag=achadinh084ca-20",
+   "abrir": "",
+   "checado": false,
+   "converter": true,
+   "categoria": "Casa",
+   "fonte": "@pobregram",
+   "post": "https://t.me/pobregram/42671",
+   "quando": "2026-10-28T14:02:34+00:00",
+   "achado_em": "2026-10-28T17:44-03:00",
+   "aprovado": false
+  },
   {
    "gid": "59ceac",
    "id": "radar-B091V73RF5",
