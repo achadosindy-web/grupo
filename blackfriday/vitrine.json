@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Mertto Smartwatch Fone De Ouvido Bluetooth E Modo Esportivo",
+  "loja": "Mercado Livre",
+  "preco": 234.0,
+  "preco_antes": 396.0,
+  "quando": "2026-10-28T18:58-03:00"
+ },
+ {
+  "nome": "Colchão Inflável Queen Com C/ Bomba Bivolt Usb+2 Travesseiro",
+  "loja": "Mercado Livre",
+  "preco": 329.65,
+  "preco_antes": 559.99,
+  "quando": "2026-10-28T18:57-03:00"
+ },
+ {
   "nome": "Fralda Huggies Supreme Care Roupinha G com 60",
   "loja": "Amazon",
   "preco": 65.99,
@@ -68,19 +82,5 @@
   "preco": 13.0,
   "preco_antes": 24.0,
   "quando": "2026-10-28T14:27-03:00"
- },
- {
-  "nome": "Smartwatch, HUAWEI WATCH GT 6 Pro 46mm, Bateria com Auton...",
-  "loja": "Amazon",
-  "preco": 1367.0,
-  "preco_antes": 2499.0,
-  "quando": "2026-10-28T12:10-03:00"
- },
- {
-  "nome": "Philips Colgate Refil Branqueadora para Escova de Dente E...",
-  "loja": "Amazon",
-  "preco": 61.99,
-  "preco_antes": 116.96,
-  "quando": "2026-10-28T12:10-03:00"
  }
 ]
