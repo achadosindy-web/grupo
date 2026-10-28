@@ -1,7 +1,28 @@
 {
- "atualizado": "2026-10-28T17:44-03:00",
+ "atualizado": "2026-10-28T18:02-03:00",
  "bot": "achadinhosdaindy_bot",
  "itens": [
+  {
+   "gid": "1881e1",
+   "id": "radar-B0DCZYWC2J",
+   "loja": "Amazon",
+   "nome": "super oferta] COMFORT BOOM CRISTAIS DE PERFUME",
+   "preco": 12.9,
+   "preco_antes": 18.48,
+   "desconto": 30,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/I7-r4z3LxK3StEfCX_RLxQqcg17lOApB_LKl5pUyJbL9W93HOVp6kFzI2f3CWaGk1Szp-9PzSEsG_ZMnpueC8hMal32u-THLMq246ZjSsEWxRWAptHfxUsEOzbMALsMeQFgI6MXFRHQNmfN0imClZBfYyRmK2EjC7ZIMfPo34zfHV54gPcYPgZhi5fSBQvgrnNdynzV_HFK_774Sib4XIbDX9cd8ZUg9Ac5Eeenp4PoSTp_wrST3iZkQAXfDp0M4BiQqYylCKpwOw8a10vgwake6vt2nAc6yUiNQC22tKlua1CT9pc9hv7kZ1XTlldmSS2Il8FV-c4ObqkvYo2FAXg.jpg",
+   "link": "https://www.amazon.com.br/dp/B0DCZYWC2J?tag=achadinh084ca-20",
+   "abrir": "",
+   "checado": false,
+   "converter": true,
+   "categoria": "Beleza",
+   "fonte": "@achadinhosdavava",
+   "post": "https://t.me/achadinhosdavava/11775",
+   "quando": "2026-10-28T20:46:15+00:00",
+   "achado_em": "2026-10-28T18:02-03:00",
+   "aprovado": false
+  },
   {
    "gid": "a4b114",
    "id": "radar-B07ZQLXVN6",
