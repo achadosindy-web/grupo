@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Fralda Pampers Supersequinha G com 80 unidades",
+  "loja": "Amazon",
+  "preco": 75.71,
+  "preco_antes": 109.72,
+  "quando": "2026-10-27T21:06-03:00"
+ },
+ {
+  "nome": "Vo2 Protein Bar Chocolate - 12un - Integralmedica",
+  "loja": "Amazon",
+  "preco": 58.0,
+  "preco_antes": 89.0,
+  "quando": "2026-10-27T21:06-03:00"
+ },
+ {
+  "nome": "Enxaguante Bucal Colgate Plax Fresh Mint 750ml",
+  "loja": "Amazon",
+  "preco": 14.39,
+  "preco_antes": 22.14,
+  "quando": "2026-10-27T21:05-03:00"
+ },
+ {
+  "nome": "Recorrente] Johnson's Baby Shampoo Infantil Cheirinho Pro...",
+  "loja": "Amazon",
+  "preco": 16.43,
+  "preco_antes": 24.89,
+  "quando": "2026-10-27T21:04-03:00"
+ },
+ {
+  "nome": "Eudora SIàge Promopack Glow Expert",
+  "loja": "Amazon",
+  "preco": 51.73,
+  "preco_antes": 76.07,
+  "quando": "2026-10-27T21:04-03:00"
+ },
+ {
   "nome": "Pack Nestlé Purina Friskies Ração Para Gatos Adultos Fran...",
   "loja": "Amazon",
   "preco": 34.0,
@@ -47,40 +82,5 @@
   "preco": 4.75,
   "preco_antes": 31.24,
   "quando": "2026-10-27T18:11-03:00"
- },
- {
-  "nome": "Protetor Diário Carefree Extra Longo (60 Unidades)",
-  "loja": "Amazon",
-  "preco": 23.39,
-  "preco_antes": 34.91,
-  "quando": "2026-10-27T14:23-03:00"
- },
- {
-  "nome": "Listerine Enxaguante Bucal Melancia & Hortelã 1L",
-  "loja": "Amazon",
-  "preco": 24.0,
-  "preco_antes": 40.0,
-  "quando": "2026-10-27T14:22-03:00"
- },
- {
-  "nome": "Tablet Samsung Galaxy Tab A11+, 128gb, 6gb Ram, Tela De 1...",
-  "loja": "Mercado Livre",
-  "preco": 1503.25,
-  "preco_antes": 2549.0,
-  "quando": "2026-10-27T14:21-03:00"
- },
- {
-  "nome": "Fritadeira Air Fryer 5,5L Cyclone Midea",
-  "loja": "Mercado Livre",
-  "preco": 179.0,
-  "preco_antes": 377.0,
-  "quando": "2026-10-27T14:20-03:00"
- },
- {
-  "nome": "Bota Massageadora de Compressão Multifuncional com aqueci...",
-  "loja": "Amazon",
-  "preco": 244.55,
-  "preco_antes": 329.0,
-  "quando": "2026-10-27T12:34-03:00"
  }
 ]
