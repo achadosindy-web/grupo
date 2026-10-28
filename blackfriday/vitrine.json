@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Kit 2x Melatonina Sabor Morango 2x60 - Fini Dr Good",
+  "loja": "Amazon",
+  "preco": 89.0,
+  "preco_antes": 179.0,
+  "quando": "2026-10-28T14:29-03:00"
+ },
+ {
+  "nome": "Shampoo Danos Vorazes Lola Cosmetics 250ml",
+  "loja": "Amazon",
+  "preco": 22.12,
+  "preco_antes": 40.22,
+  "quando": "2026-10-28T14:28-03:00"
+ },
+ {
+  "nome": "Oral-B Escova de Dente Elétrica PRO Series 1, 1 Unidade",
+  "loja": "Amazon",
+  "preco": 109.99,
+  "preco_antes": 249.98,
+  "quando": "2026-10-28T14:28-03:00"
+ },
+ {
+  "nome": "Gshield Carregador Sem Fio Wireless Discovery 3 em 1 Tipo...",
+  "loja": "Amazon",
+  "preco": 84.07,
+  "preco_antes": 129.34,
+  "quando": "2026-10-28T14:27-03:00"
+ },
+ {
+  "nome": "o preço ajusta na tela de selecionar o método de pagamento",
+  "loja": "Amazon",
+  "preco": 13.0,
+  "preco_antes": 24.0,
+  "quando": "2026-10-28T14:27-03:00"
+ },
+ {
   "nome": "Smartwatch, HUAWEI WATCH GT 6 Pro 46mm, Bateria com Auton...",
   "loja": "Amazon",
   "preco": 1367.0,
@@ -47,40 +82,5 @@
   "preco": 174.59,
   "preco_antes": 349.0,
   "quando": "2026-10-28T11:28-03:00"
- },
- {
-  "nome": "Sérum Hidratante Neutrogena Hydro Boost 30ml",
-  "loja": "Amazon",
-  "preco": 66.0,
-  "preco_antes": 137.0,
-  "quando": "2026-10-28T11:27-03:00"
- },
- {
-  "nome": "Perfume adidas Vibes Power Zone Eau de Parfum 100ml",
-  "loja": "Amazon",
-  "preco": 85.87,
-  "preco_antes": 186.67,
-  "quando": "2026-10-28T11:27-03:00"
- },
- {
-  "nome": "Geladeira Frost Free Duplex 394l Inverter Branca Midea",
-  "loja": "Mercado Livre",
-  "preco": 2365.4,
-  "preco_antes": 3199.0,
-  "quando": "2026-10-28T11:26-03:00"
- },
- {
-  "nome": "Camisets Raglan Proteção Uv Térmica Dry Fit - Voker (3 Co...",
-  "loja": "Mercado Livre",
-  "preco": 36.0,
-  "preco_antes": 52.0,
-  "quando": "2026-10-28T09:09-03:00"
- },
- {
-  "nome": "Mala De Bordo Compacta 10 Kg Deslocamento Suave Extensor",
-  "loja": "Mercado Livre",
-  "preco": 179.99,
-  "preco_antes": 299.9,
-  "quando": "2026-10-28T09:09-03:00"
  }
 ]
