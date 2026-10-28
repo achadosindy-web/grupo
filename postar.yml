@@ -1,0 +1,220 @@
+# Roda o agente nos servidores do GitHub.
+# Quem chama no horário certo é o cron-job.org (9h, 12h, 15h, 19h e 21h de Brasília).
+# Também dá pra rodar na mão: Actions > Postar achadinhos > Run workflow.
+#
+# Perfis no mesmo robô:
+#   ingrid      -> grupo Achadinhos da Indy (segredos de sempre, arquivos na raiz). Posta só o que vocês aprovam.
+#   blackfriday -> grupo Black Friday da Indy: SÓ produtos com 40% OFF ou mais, qualquer categoria.
+#                  Posta sozinho. Segredos _BF, arquivos em perfis/blackfriday/.
+#   geral       -> DESLIGADO por enquanto (o grupo que era "Achadinhos geral" virou o Black Friday).
+#                  Pra religar um dia: troque LIGAR_GERAL pra "sim" lá embaixo.
+name: Postar achadinhos
+
+on:
+  # Rodadas EXTRAS só do Black Friday (além das 5 do cron-job.org):
+  # 10h30, 13h30, 17h30, 20h30 e 22h30 de Brasília (o GitHub usa horário UTC, +3h).
+  # O GitHub às vezes atrasa alguns minutos essas rodadas; é normal.
+  schedule:
+    - cron: "30 13,16,20,23 * * *"
+    - cron: "30 1 * * *"
+  workflow_dispatch:
+    inputs:
+      perfil:
+        description: "Qual perfil rodar"
+        type: choice
+        options: [todos, ingrid, geral, blackfriday]
+        default: todos
+      # Formulário "Postar algo que vi" do painel (vai pro grupo do perfil escolhido)
+      link:
+        description: "Link do produto (opcional)"
+        required: false
+        default: ""
+      nome:
+        description: "Nome do produto"
+        required: false
+        default: ""
+      preco:
+        description: "Preço atual (ex: 49,90)"
+        required: false
+        default: ""
+      preco_antes:
+        description: "Preço antigo (opcional)"
+        required: false
+        default: ""
+      cupom:
+        description: "Cupom (opcional)"
+        required: false
+        default: ""
+      modo:
+        description: "Formulário: agora = posta só este produto; guardar = vai pra fila do painel"
+        required: false
+        default: "agora"
+        type: choice
+        options: [agora, guardar]
+
+# Nunca roda duas rodadas ao mesmo tempo (a segunda espera a primeira terminar)
+concurrency:
+  group: postar
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  postar:
+    runs-on: ubuntu-latest
+    env:
+      TEM_PAGINA: ${{ secrets.PAGINA_TOKEN != '' }}
+      TEM_GERAL: ${{ secrets.TELEGRAM_TOKEN_GERAL != '' }}
+      TEM_BF: ${{ secrets.TELEGRAM_TOKEN_BF != '' }}
+      LIGAR_GERAL: "nao"          # "sim" pra voltar a rodar o perfil geral
+      PERFIL_PEDIDO: ${{ github.event_name == 'schedule' && 'blackfriday' || inputs.perfil || 'todos' }}
+    steps:
+      # Sempre pega a versão MAIS NOVA (com o histórico da rodada anterior),
+      # mesmo se esta rodada ficou esperando na fila.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      # ---------------- Perfil Ingrid (fitness) ----------------
+      - name: Postar ofertas (Ingrid)
+        if: env.PERFIL_PEDIDO == 'todos' || env.PERFIL_PEDIDO == 'ingrid'
+        continue-on-error: true
+        env:
+          PERFIL: ingrid
+          OFERTA_LINK: ${{ inputs.perfil == 'ingrid' && inputs.link || '' }}
+          OFERTA_NOME: ${{ inputs.perfil == 'ingrid' && inputs.nome || '' }}
+          OFERTA_PRECO: ${{ inputs.perfil == 'ingrid' && inputs.preco || '' }}
+          OFERTA_PRECO_ANTES: ${{ inputs.perfil == 'ingrid' && inputs.preco_antes || '' }}
+          OFERTA_CUPOM: ${{ inputs.perfil == 'ingrid' && inputs.cupom || '' }}
+          OFERTA_MODO: ${{ inputs.perfil == 'ingrid' && inputs.modo || '' }}
+          SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+          SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CANAL: ${{ secrets.TELEGRAM_CANAL }}
+          TELEGRAM_MEU_CHAT: ${{ secrets.TELEGRAM_MEU_CHAT }}
+          AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
+          WHATSAPP_GRUPO: ${{ secrets.WHATSAPP_GRUPO }}
+          GREEN_ID: ${{ secrets.GREEN_ID }}
+          GREEN_TOKEN: ${{ secrets.GREEN_TOKEN }}
+          GREEN_URL: ${{ secrets.GREEN_URL }}
+          OFERTAS_POR_RODADA: "2"
+          RADAR_MODO: "painel"      # painel | aprovar | auto | desligado
+          RADAR_CANAIS: "urubupromo,pobregram,pelandobr,promotop,Postou_Achou,fitcomestilo_ofertas,ofertafitness,grupodeachadinhos,achadinhosdavava,achadoscasaedecor,achadosfitnessbr,achadosshopebrasil,guerradealsfit"
+        run: python bot.py
+
+      # ---------------- Perfil Geral (achadinhos em geral) ----------------
+      # Segredos próprios terminados em _GERAL. Os que não existirem usam os da Ingrid
+      # (Shopee, Amazon, Green-API e seu chat do Telegram podem ser os mesmos).
+      - name: Postar ofertas (Geral)
+        if: env.LIGAR_GERAL == 'sim' && (env.PERFIL_PEDIDO == 'todos' || env.PERFIL_PEDIDO == 'geral') && env.TEM_GERAL == 'true'
+        continue-on-error: true
+        env:
+          PERFIL: geral
+          SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+          SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN_GERAL }}
+          TELEGRAM_CANAL: ${{ secrets.TELEGRAM_CANAL_GERAL }}
+          TELEGRAM_MEU_CHAT: ${{ secrets.TELEGRAM_MEU_CHAT_GERAL || secrets.TELEGRAM_MEU_CHAT }}
+          AMAZON_TAG: ${{ secrets.AMAZON_TAG_GERAL || secrets.AMAZON_TAG }}
+          WHATSAPP_GRUPO: ${{ secrets.WHATSAPP_GRUPO_GERAL }}
+          GREEN_ID: ${{ secrets.GREEN_ID_GERAL || secrets.GREEN_ID }}
+          GREEN_TOKEN: ${{ secrets.GREEN_TOKEN_GERAL || secrets.GREEN_TOKEN }}
+          GREEN_URL: ${{ secrets.GREEN_URL_GERAL || secrets.GREEN_URL }}
+          OFERTAS_POR_RODADA: "3"
+          RADAR_MODO: "automatico"  # posta sozinho o que já tem o link de vocês; o resto fica no painel
+          RADAR_NICHO: "tudo"
+          CATEGORIAS_FORA: "Eletrodomésticos,Eletrônicos"   # eletro vai pro grupo de eletro
+          PALAVRAS: "organizador casa,utensilios cozinha,garrafa termica,kit ferramentas,luminaria led,mochila,perfume,brinquedo infantil,toalha de banho,jogo de cama,pote hermetico,kit maquiagem,tapete sala,mala de viagem,suporte celular"
+          RADAR_CANAIS: "urubupromo,pobregram,pelandobr,promotop,Postou_Achou,grupodeachadinhos,achadosshopebrasil,achadoscasaedecor"
+        run: python bot.py
+
+      # ---------------- Perfil Black Friday: só produtos com 40% OFF ou mais ----------------
+      - name: Postar ofertas (Black Friday)
+        if: (env.PERFIL_PEDIDO == 'todos' || env.PERFIL_PEDIDO == 'blackfriday') && env.TEM_BF == 'true'
+        continue-on-error: true
+        env:
+          PERFIL: blackfriday
+          OFERTA_LINK: ${{ inputs.perfil == 'blackfriday' && inputs.link || '' }}
+          OFERTA_NOME: ${{ inputs.perfil == 'blackfriday' && inputs.nome || '' }}
+          OFERTA_PRECO: ${{ inputs.perfil == 'blackfriday' && inputs.preco || '' }}
+          OFERTA_PRECO_ANTES: ${{ inputs.perfil == 'blackfriday' && inputs.preco_antes || '' }}
+          OFERTA_CUPOM: ${{ inputs.perfil == 'blackfriday' && inputs.cupom || '' }}
+          OFERTA_MODO: ${{ inputs.perfil == 'blackfriday' && inputs.modo || '' }}
+          SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+          SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN_BF }}
+          TELEGRAM_CANAL: ${{ secrets.TELEGRAM_CANAL_BF }}
+          TELEGRAM_MEU_CHAT: ${{ secrets.TELEGRAM_MEU_CHAT_BF || secrets.TELEGRAM_MEU_CHAT }}
+          AMAZON_TAG: ${{ secrets.AMAZON_TAG_BF || secrets.AMAZON_TAG }}
+          WHATSAPP_GRUPO: ${{ secrets.WHATSAPP_GRUPO_BF }}
+          GREEN_ID: ${{ secrets.GREEN_ID_BF || secrets.GREEN_ID }}
+          GREEN_TOKEN: ${{ secrets.GREEN_TOKEN_BF || secrets.GREEN_TOKEN }}
+          GREEN_URL: ${{ secrets.GREEN_URL_BF || secrets.GREEN_URL }}
+          OFERTAS_POR_RODADA: "5"    # automáticas por rodada
+          MAX_TOTAL_RODADA: "5"      # no máximo 5 posts por envio, somando aprovadas + automáticas (aprovadas saem primeiro)
+          RADAR_MODO: "painel"      # 28/10: nada sai sozinho; o robô garimpa e o Yuri escolhe no painel
+          LEMBRETE_PAINEL: "sim"    # avisa no Telegram quando tiver achado novo pra escolher
+          RADAR_NICHO: "tudo"
+          DESCONTO_GARIMPO: "25"    # só entra no garimpo o que tiver 25% OFF ou mais (Yuri ajustou em 25/10)
+          CATEGORIAS_GARIMPO: "Eletrodomésticos,Eletrônicos"   # o grupo da Black só recebe eletro (pedido do Yuri, 28/10)
+          CATEGORIAS_PRIORIDADE: "Eletrodomésticos,Eletrônicos"   # eletrodomésticos saem primeiro
+          PRECO_MINIMO: "80"        # nada abaixo de R$ 80 (corta carregador, pilha, acessório barato)
+          AMAZON_CHECAR_DESCONTO: "sim"   # quando o canal não diz o preço antigo, olha o desconto na página da Amazon
+          # Grupos de WhatsApp que o número do robô lê como fonte (formato Nome=codigo@g.us). Fica no segredo RADAR_GRUPOS_ZAP.
+          RADAR_GRUPOS_ZAP: ${{ secrets.RADAR_GRUPOS_ZAP }}
+          PALAVRAS: "air fryer,smart tv,fone bluetooth,smartwatch,celular,notebook,aspirador robo,cafeteira,perfume,kit maquiagem,tenis feminino,organizador casa,jogo de panelas,jogo de cama,mala de viagem,brinquedo infantil"
+          # Só canais que o robô consegue ler (os que davam "0 posts lidos" saíram em 24/10).
+          # Eletro/casa: gtOFERTAS, promo_imperdivel, vrlofertas, ctofertaseletroetv (CT Ofertas Eletro e TV),
+          # ofertas_harpyja (eletroportáteis Amazon), escolhasegura, cacadoresofertas, cupons_desconto (Promobit)
+          # 28/10: só canais fortes em eletro/eletrônicos (os de achadinho geral saíram). Fonte principal: grupo Eletro em Oferta.
+          RADAR_CANAIS: "ctofertaseletroetv,ofertas_harpyja,promo_imperdivel,vrlofertas,gtOFERTAS,escolhasegura,cacadoresofertas,nerdofertas,pelandobr,urubupromo,cupons_desconto"
+        run: python bot.py
+
+      - name: Guardar histórico (evita repetir oferta)
+        if: always()
+        run: |
+          git config user.name "achadinhos-bot"
+          git config user.email "bot@users.noreply.github.com"
+          for f in historico.json ofertas.csv vitrine.json garimpo.json; do if [ -f "$f" ]; then git add "$f"; fi; done
+          if [ -d perfis ]; then git add perfis; fi
+          git diff --cached --quiet || git commit -m "histórico de postagens"
+          # Tenta salvar até 5 vezes; se alguém mexeu no repositório nesse meio-tempo,
+          # junta as mudanças antes (o histórico desta rodada tem prioridade).
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin main && git push origin HEAD:main && break
+            echo "não consegui salvar o histórico (tentativa $i), tentando de novo..."
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
+
+      # Atualiza a página e os painéis (repositório público "grupo").
+      # Ingrid: raiz do site. Outros perfis: pasta com o nome do perfil (geral/, blackfriday/).
+      # Só roda se o segredo PAGINA_TOKEN existir; se falhar, não atrapalha as postagens.
+      - name: Abrir repositório da página
+        if: always() && env.TEM_PAGINA == 'true'
+        continue-on-error: true
+        uses: actions/checkout@v4
+        with:
+          repository: achadosindy-web/grupo
+          token: ${{ secrets.PAGINA_TOKEN }}
+          path: pagina
+      - name: Publicar vitrine e garimpo
+        if: always() && env.TEM_PAGINA == 'true'
+        continue-on-error: true
+        run: |
+          for f in vitrine.json garimpo.json; do if [ -f "$f" ]; then cp "$f" pagina/; fi; done
+          for d in perfis/*/; do
+            [ -d "$d" ] || continue
+            nome=$(basename "$d"); mkdir -p "pagina/$nome"
+            for f in vitrine.json garimpo.json; do if [ -f "$d$f" ]; then cp "$d$f" "pagina/$nome/"; fi; done
+          done
+          cd pagina
+          git config user.name "achadinhos-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "vitrine e garimpo atualizados" && git push)
