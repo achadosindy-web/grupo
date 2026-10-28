@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Tênis de Basquete Masculino Under Armour JET 21",
+  "loja": "Amazon",
+  "preco": 229.99,
+  "preco_antes": 449.9,
+  "quando": "2026-10-28T11:29-03:00"
+ },
+ {
+  "nome": "Aquecedor Mondial Termo Ceramica",
+  "loja": "Amazon",
+  "preco": 174.59,
+  "preco_antes": 349.0,
+  "quando": "2026-10-28T11:28-03:00"
+ },
+ {
+  "nome": "Sérum Hidratante Neutrogena Hydro Boost 30ml",
+  "loja": "Amazon",
+  "preco": 66.0,
+  "preco_antes": 137.0,
+  "quando": "2026-10-28T11:27-03:00"
+ },
+ {
+  "nome": "Perfume adidas Vibes Power Zone Eau de Parfum 100ml",
+  "loja": "Amazon",
+  "preco": 85.87,
+  "preco_antes": 186.67,
+  "quando": "2026-10-28T11:27-03:00"
+ },
+ {
+  "nome": "Geladeira Frost Free Duplex 394l Inverter Branca Midea",
+  "loja": "Mercado Livre",
+  "preco": 2365.4,
+  "preco_antes": 3199.0,
+  "quando": "2026-10-28T11:26-03:00"
+ },
+ {
   "nome": "Camisets Raglan Proteção Uv Térmica Dry Fit - Voker (3 Co...",
   "loja": "Mercado Livre",
   "preco": 36.0,
@@ -47,40 +82,5 @@
   "preco": 32.4,
   "preco_antes": 45.63,
   "quando": "2026-10-27T23:20-03:00"
- },
- {
-  "nome": "Lacta Oreo - Wafer Recheado Sabor Chocolate Pacote 540g",
-  "loja": "Amazon",
-  "preco": 35.01,
-  "preco_antes": 50.74,
-  "quando": "2026-10-27T21:19-03:00"
- },
- {
-  "nome": "Vichy Dercos Energy+ Refil Estimulante Antiqueda Energy 2...",
-  "loja": "Amazon",
-  "preco": 56.69,
-  "preco_antes": 84.61,
-  "quando": "2026-10-27T21:18-03:00"
- },
- {
-  "nome": "Glade Aromatizador de Ambiente Lavanda 360ml",
-  "loja": "Amazon",
-  "preco": 11.0,
-  "preco_antes": 16.92,
-  "quando": "2026-10-27T21:17-03:00"
- },
- {
-  "nome": "JBL, Fone de Ouvido Com Fio, JBL, Quantum 100M2, Headset...",
-  "loja": "Amazon",
-  "preco": 200.44,
-  "preco_antes": 299.16,
-  "quando": "2026-10-27T21:16-03:00"
- },
- {
-  "nome": "Fralda Pampers Supersequinha G com 80 unidades",
-  "loja": "Amazon",
-  "preco": 75.71,
-  "preco_antes": 109.72,
-  "quando": "2026-10-27T21:06-03:00"
  }
 ]
