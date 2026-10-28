@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Fralda Huggies Supreme Care Roupinha G com 60",
+  "loja": "Amazon",
+  "preco": 65.99,
+  "preco_antes": 111.85,
+  "quando": "2026-10-28T15:13-03:00"
+ },
+ {
+  "nome": "Protetor Solar Corporal em Loção Neutrogena Sun Fresh FPS...",
+  "loja": "Amazon",
+  "preco": 57.77,
+  "preco_antes": 90.27,
+  "quando": "2026-10-28T15:13-03:00"
+ },
+ {
+  "nome": "OMO Lava-Roupas Líquido Omo Ultra Power Frasco 1 8L",
+  "loja": "Amazon",
+  "preco": 22.78,
+  "preco_antes": 33.01,
+  "quando": "2026-10-28T15:12-03:00"
+ },
+ {
+  "nome": "Hidratante Corporal Neutrogena Body Care Hidrata & Repara...",
+  "loja": "Amazon",
+  "preco": 28.49,
+  "preco_antes": 48.29,
+  "quando": "2026-10-28T15:11-03:00"
+ },
+ {
+  "nome": "Escova de Dente Elétrica Philips Colgate SonicPro 10 | Re...",
+  "loja": "Amazon",
+  "preco": 129.99,
+  "preco_antes": 265.29,
+  "quando": "2026-10-28T15:10-03:00"
+ },
+ {
   "nome": "Kit 2x Melatonina Sabor Morango 2x60 - Fini Dr Good",
   "loja": "Amazon",
   "preco": 89.0,
@@ -47,40 +82,5 @@
   "preco": 61.99,
   "preco_antes": 116.96,
   "quando": "2026-10-28T12:10-03:00"
- },
- {
-  "nome": "Brilhante Sabão Liquido Limpeza Total Refil 900 Ml",
-  "loja": "Amazon",
-  "preco": 8.0,
-  "preco_antes": 12.0,
-  "quando": "2026-10-28T12:09-03:00"
- },
- {
-  "nome": "Sabonete Líquido de Glicerina Johnson's Baby Da Cabeça ao...",
-  "loja": "Amazon",
-  "preco": 21.0,
-  "preco_antes": 40.0,
-  "quando": "2026-10-28T12:09-03:00"
- },
- {
-  "nome": "Havit Headphone Fone de Ouvido H2002d Red, Gamer, com Mic...",
-  "loja": "Amazon",
-  "preco": 161.47,
-  "preco_antes": 227.42,
-  "quando": "2026-10-28T12:08-03:00"
- },
- {
-  "nome": "Tênis de Basquete Masculino Under Armour JET 21",
-  "loja": "Amazon",
-  "preco": 229.99,
-  "preco_antes": 449.9,
-  "quando": "2026-10-28T11:29-03:00"
- },
- {
-  "nome": "Aquecedor Mondial Termo Ceramica",
-  "loja": "Amazon",
-  "preco": 174.59,
-  "preco_antes": 349.0,
-  "quando": "2026-10-28T11:28-03:00"
  }
 ]
