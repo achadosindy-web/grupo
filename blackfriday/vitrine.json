@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Smartwatch, HUAWEI WATCH GT 6 Pro 46mm, Bateria com Auton...",
+  "loja": "Amazon",
+  "preco": 1367.0,
+  "preco_antes": 2499.0,
+  "quando": "2026-10-28T12:10-03:00"
+ },
+ {
+  "nome": "Philips Colgate Refil Branqueadora para Escova de Dente E...",
+  "loja": "Amazon",
+  "preco": 61.99,
+  "preco_antes": 116.96,
+  "quando": "2026-10-28T12:10-03:00"
+ },
+ {
+  "nome": "Brilhante Sabão Liquido Limpeza Total Refil 900 Ml",
+  "loja": "Amazon",
+  "preco": 8.0,
+  "preco_antes": 12.0,
+  "quando": "2026-10-28T12:09-03:00"
+ },
+ {
+  "nome": "Sabonete Líquido de Glicerina Johnson's Baby Da Cabeça ao...",
+  "loja": "Amazon",
+  "preco": 21.0,
+  "preco_antes": 40.0,
+  "quando": "2026-10-28T12:09-03:00"
+ },
+ {
+  "nome": "Havit Headphone Fone de Ouvido H2002d Red, Gamer, com Mic...",
+  "loja": "Amazon",
+  "preco": 161.47,
+  "preco_antes": 227.42,
+  "quando": "2026-10-28T12:08-03:00"
+ },
+ {
   "nome": "Tênis de Basquete Masculino Under Armour JET 21",
   "loja": "Amazon",
   "preco": 229.99,
@@ -47,40 +82,5 @@
   "preco": 179.99,
   "preco_antes": 299.9,
   "quando": "2026-10-28T09:09-03:00"
- },
- {
-  "nome": "Kit com 2 Saco Para Lavar Sapatos Na Máquina De Lavar",
-  "loja": "Mercado Livre",
-  "preco": 28.0,
-  "preco_antes": 47.0,
-  "quando": "2026-10-28T09:08-03:00"
- },
- {
-  "nome": "Massageador Eletrico Cinta Para Alíviar Dor Cólica Menstrual",
-  "loja": "Mercado Livre",
-  "preco": 45.9,
-  "preco_antes": 78.9,
-  "quando": "2026-10-28T09:07-03:00"
- },
- {
-  "nome": "Aparelho de Jantar e Chá 20 Peças Off White e Marrom Oxford",
-  "loja": "Mercado Livre",
-  "preco": 254.0,
-  "preco_antes": 599.0,
-  "quando": "2026-10-28T09:07-03:00"
- },
- {
-  "nome": "Cx Goma de Mascar Trident Morango Sem Açúcar 21 un. 8g",
-  "loja": "Amazon",
-  "preco": 35.41,
-  "preco_antes": 49.87,
-  "quando": "2026-10-27T23:20-03:00"
- },
- {
-  "nome": "24 un. Papel Higiênico Personal Vip Folha Dupla",
-  "loja": "Amazon",
-  "preco": 32.4,
-  "preco_antes": 45.63,
-  "quando": "2026-10-27T23:20-03:00"
  }
 ]
