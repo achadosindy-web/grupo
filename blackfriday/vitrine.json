@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Camisets Raglan Proteção Uv Térmica Dry Fit - Voker (3 Co...",
+  "loja": "Mercado Livre",
+  "preco": 36.0,
+  "preco_antes": 52.0,
+  "quando": "2026-10-28T09:09-03:00"
+ },
+ {
+  "nome": "Mala De Bordo Compacta 10 Kg Deslocamento Suave Extensor",
+  "loja": "Mercado Livre",
+  "preco": 179.99,
+  "preco_antes": 299.9,
+  "quando": "2026-10-28T09:09-03:00"
+ },
+ {
+  "nome": "Kit com 2 Saco Para Lavar Sapatos Na Máquina De Lavar",
+  "loja": "Mercado Livre",
+  "preco": 28.0,
+  "preco_antes": 47.0,
+  "quando": "2026-10-28T09:08-03:00"
+ },
+ {
+  "nome": "Massageador Eletrico Cinta Para Alíviar Dor Cólica Menstrual",
+  "loja": "Mercado Livre",
+  "preco": 45.9,
+  "preco_antes": 78.9,
+  "quando": "2026-10-28T09:07-03:00"
+ },
+ {
+  "nome": "Aparelho de Jantar e Chá 20 Peças Off White e Marrom Oxford",
+  "loja": "Mercado Livre",
+  "preco": 254.0,
+  "preco_antes": 599.0,
+  "quando": "2026-10-28T09:07-03:00"
+ },
+ {
   "nome": "Cx Goma de Mascar Trident Morango Sem Açúcar 21 un. 8g",
   "loja": "Amazon",
   "preco": 35.41,
@@ -47,40 +82,5 @@
   "preco": 75.71,
   "preco_antes": 109.72,
   "quando": "2026-10-27T21:06-03:00"
- },
- {
-  "nome": "Vo2 Protein Bar Chocolate - 12un - Integralmedica",
-  "loja": "Amazon",
-  "preco": 58.0,
-  "preco_antes": 89.0,
-  "quando": "2026-10-27T21:06-03:00"
- },
- {
-  "nome": "Enxaguante Bucal Colgate Plax Fresh Mint 750ml",
-  "loja": "Amazon",
-  "preco": 14.39,
-  "preco_antes": 22.14,
-  "quando": "2026-10-27T21:05-03:00"
- },
- {
-  "nome": "Recorrente] Johnson's Baby Shampoo Infantil Cheirinho Pro...",
-  "loja": "Amazon",
-  "preco": 16.43,
-  "preco_antes": 24.89,
-  "quando": "2026-10-27T21:04-03:00"
- },
- {
-  "nome": "Eudora SIàge Promopack Glow Expert",
-  "loja": "Amazon",
-  "preco": 51.73,
-  "preco_antes": 76.07,
-  "quando": "2026-10-27T21:04-03:00"
- },
- {
-  "nome": "Pack Nestlé Purina Friskies Ração Para Gatos Adultos Fran...",
-  "loja": "Amazon",
-  "preco": 34.0,
-  "preco_antes": 56.67,
-  "quando": "2026-10-27T19:11-03:00"
  }
 ]
