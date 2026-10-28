@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Lacta Oreo - Wafer Recheado Sabor Chocolate Pacote 540g",
+  "loja": "Amazon",
+  "preco": 35.01,
+  "preco_antes": 50.74,
+  "quando": "2026-10-27T21:19-03:00"
+ },
+ {
+  "nome": "Vichy Dercos Energy+ Refil Estimulante Antiqueda Energy 2...",
+  "loja": "Amazon",
+  "preco": 56.69,
+  "preco_antes": 84.61,
+  "quando": "2026-10-27T21:18-03:00"
+ },
+ {
+  "nome": "Glade Aromatizador de Ambiente Lavanda 360ml",
+  "loja": "Amazon",
+  "preco": 11.0,
+  "preco_antes": 16.92,
+  "quando": "2026-10-27T21:17-03:00"
+ },
+ {
+  "nome": "JBL, Fone de Ouvido Com Fio, JBL, Quantum 100M2, Headset...",
+  "loja": "Amazon",
+  "preco": 200.44,
+  "preco_antes": 299.16,
+  "quando": "2026-10-27T21:16-03:00"
+ },
+ {
   "nome": "Fralda Pampers Supersequinha G com 80 unidades",
   "loja": "Amazon",
   "preco": 75.71,
@@ -54,33 +82,5 @@
   "preco": 16.81,
   "preco_antes": 25.09,
   "quando": "2026-10-27T18:13-03:00"
- },
- {
-  "nome": "Água Micelar Garnier SkinActive Pele Sensível 400ml",
-  "loja": "Amazon",
-  "preco": 34.2,
-  "preco_antes": 68.4,
-  "quando": "2026-10-27T18:13-03:00"
- },
- {
-  "nome": "Whisky Ballantine's Finest Blended Escocês - 750 Ml",
-  "loja": "Amazon",
-  "preco": 59.99,
-  "preco_antes": 84.49,
-  "quando": "2026-10-27T18:12-03:00"
- },
- {
-  "nome": "Gel de Limpeza Facial Neutrogena Deep Clean Intensive Gra...",
-  "loja": "Amazon",
-  "preco": 21.0,
-  "preco_antes": 49.0,
-  "quando": "2026-10-27T18:12-03:00"
- },
- {
-  "nome": "Desodorante Bozzano Aerossol Antitranspirante Masculino I...",
-  "loja": "Amazon",
-  "preco": 4.75,
-  "preco_antes": 31.24,
-  "quando": "2026-10-27T18:11-03:00"
  }
 ]
