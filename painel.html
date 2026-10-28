@@ -267,7 +267,8 @@ function cartao(i) {
   } else {
     const c = colados[i.gid] || "";
     const cod = codigoDoLink(c);
-    acoes = `<a class="btn sec" href="${esc(i.link)}" target="_blank" rel="noopener">1. Abrir e gerar meu link</a>
+    const abrir = linkParaAbrir(i);
+    acoes = `<a class="btn sec" href="${esc(abrir.url)}" target="_blank" rel="noopener">1. Abrir e gerar meu link</a>${abrir.busca ? `<span class="dica">Abre a busca do Mercado Livre: confira se é o mesmo produto e preço</span>` : ""}
       <input class="colar" type="url" inputmode="url" id="c-${i.gid}" data-colar="${i.gid}" placeholder="2. Cole aqui o seu link" value="${esc(c)}">
       <span class="dica ${c && !cod ? "erro" : ""}" id="d-${i.gid}">${c && !cod ? "Esse link não parece ser meli.la, shopee ou amzn.to" : "O link que começa com meli.la/…"}</span>
       <div class="linha-btn"><a class="btn postar" id="p-${i.gid}" href="${cod ? tg(cod.tipo + "_" + i.gid + "_" + cod.codigo) : "#"}" aria-disabled="${!cod}" target="_blank" rel="noopener" data-postar="${i.gid}">3. Postar</a><button class="btn sec" type="button" data-desc="${i.gid}">Descartar</button></div>`;
@@ -299,6 +300,17 @@ function travarBotao() {
     b.disabled = true; b.textContent = "⏳ Enviando…";
     setTimeout(travarBotao, Math.min(falta, 30e3));
   } else { b.disabled = false; b.textContent = "🚀 Enviar agora"; }
+}
+/* Link de outro afiliado (meli.la) abre a vitrine DELE, com outro produto em cima.
+   Então: página do produto se o robô achou; se não, busca pelo nome no Mercado Livre. */
+function linkParaAbrir(i) {
+  if (i.abrir) return { url: i.abrir, busca: false };
+  if (i.loja === "Mercado Livre" && /meli\.la/i.test(i.link || "")) {
+    const termo = (i.nome || "").split(/[,(|–-]/)[0].normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase().replace(/[^a-z0-9 ]+/g, " ").trim().split(/\s+/).slice(0, 8).join("-");
+    if (termo) return { url: "https://lista.mercadolivre.com.br/" + termo, busca: true };
+  }
+  return { url: i.link, busca: false };
 }
 let pendente = null;   /* oferta do formulário esperando a chave */
 async function enviarAgora(oferta) {
