@@ -78,6 +78,8 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
 .btn.postar{background:var(--cafe);color:var(--papel)}
 .btn.postar[aria-disabled="true"]{opacity:.45;pointer-events:none}
 .btn.sec{background:var(--campo);color:var(--cafe);border:1px solid var(--fio)}
+.vi-ajuda{margin:10px 0 0;font-size:12.5px;line-height:1.45;color:var(--texto-2)}
+.vi-cancelar{width:100%;margin-top:10px;background:none;border:0}
 .linha-btn{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px}
 .linha-btn .btn{min-width:0;padding-inline:6px}
 .colar{border:1px dashed var(--caramelo);background:var(--campo);color:var(--texto);border-radius:10px;padding:8px 10px;font-size:12.5px;width:100%;min-width:0}
@@ -150,7 +152,7 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
 <div class="folha" id="folha-vi" hidden>
   <form role="dialog" aria-modal="true" aria-labelledby="t-vi" id="form-vi">
     <h2 id="t-vi">Postar algo que vi</h2>
-    <p class="js-vi-destino">Vai direto pro grupo, em 2 a 3 minutos.</p>
+    <p class="js-vi-destino">Escolha embaixo se sai agora ou se guarda.</p>
     <label>Link do produto <small>(o SEU link de afiliado: amzn.to, meli.la, s.shopee… ou o link normal da Amazon)</small>
       <input id="vi-link" type="url" inputmode="url" required placeholder="https://…"></label>
     <span class="loja-detectada" id="vi-loja"></span>
@@ -164,7 +166,9 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
     </div>
     <label>Cupom <small>(opcional)</small>
       <input id="vi-cupom" type="text" maxlength="30" placeholder="ACHADO10"></label>
-    <div class="linha-btn"><button class="btn sec" type="button" id="vi-cancelar">Cancelar</button><button class="btn postar" type="submit" id="vi-postar">Postar no grupo</button></div>
+    <div class="linha-btn"><button class="btn postar" type="submit" id="vi-postar" data-modo="agora">Postar só este agora</button><button class="btn sec" type="submit" id="vi-guardar" data-modo="guardar">Guardar pra depois</button></div>
+    <p class="vi-ajuda"><b>Postar só este agora:</b> sai somente este produto; os que vocês já aprovaram continuam esperando o horário deles.<br><b>Guardar pra depois:</b> entra na fila e sai junto com os aprovados no próximo horário (ou quando tocar em 🚀 Enviar agora).</p>
+    <button class="btn sec vi-cancelar" type="button" id="vi-cancelar">Cancelar</button>
   </form>
 </div>
 <div class="folha" id="folha-chave" hidden>
@@ -309,7 +313,9 @@ async function enviarAgora(oferta) {
       body: JSON.stringify({ ref: "main", inputs: Object.assign({ perfil: PERFIL }, oferta || {}) }) });
     if (r.status === 204) {
       gravarLocal(chaveP("envio-ultimo"), Date.now());
-      avisoEnvio(oferta ? `✅ ${oferta.nome ? "\"" + oferta.nome + "\"" : "A oferta"} está indo pro grupo. Em 2 a 3 minutos aparece lá.`
+      const qual = oferta && oferta.nome ? "\"" + oferta.nome + "\"" : "A oferta";
+      avisoEnvio(oferta && oferta.modo === "guardar" ? `📥 ${qual} foi pra fila. Sai junto com os aprovados no próximo horário.`
+               : oferta ? `✅ Só ${qual} está indo pro grupo. Em 2 a 3 minutos aparece lá.`
                         : "🚀 Robô acionado! Em 2 a 3 minutos o que vocês aprovaram vai pro grupo.", 9000);
       travarBotao();
       return;
@@ -349,7 +355,7 @@ function lojaDoLink(u) {
 }
 document.getElementById("vi").addEventListener("click", e => {
   e.preventDefault();
-  document.querySelector(".js-vi-destino").innerHTML = `Vai direto pro grupo <b>${esc(NOME_GRUPO[PERFIL] || "")}</b>, em 2 a 3 minutos.`;
+  document.querySelector(".js-vi-destino").innerHTML = `Grupo <b>${esc(NOME_GRUPO[PERFIL] || "")}</b>. Escolha embaixo se sai agora ou se guarda.`;
   document.getElementById("folha-vi").hidden = false;
   document.getElementById("vi-link").focus();
 });
@@ -363,7 +369,8 @@ document.getElementById("form-vi").addEventListener("submit", e => {
   const val = id => document.getElementById(id).value.trim();
   const preco = val("vi-preco").replace(/[^\d,.]/g, ""), antes = val("vi-antes").replace(/[^\d,.]/g, "");
   if (!/^https?:\/\//.test(val("vi-link"))) { avisoEnvio("⚠️ Cole o link completo, começando com https://"); return; }
-  const oferta = { link: val("vi-link"), nome: val("vi-nome"), preco, preco_antes: antes, cupom: val("vi-cupom").toUpperCase() };
+  const modo = (e.submitter && e.submitter.dataset.modo) || "agora";
+  const oferta = { link: val("vi-link"), nome: val("vi-nome"), preco, preco_antes: antes, cupom: val("vi-cupom").toUpperCase(), modo };
   document.getElementById("folha-vi").hidden = true;
   document.getElementById("form-vi").reset(); document.getElementById("vi-loja").textContent = "";
   enviarAgora(oferta);
