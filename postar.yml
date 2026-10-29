@@ -51,6 +51,10 @@ on:
         default: "agora"
         type: choice
         options: [agora, guardar]
+      horario:
+        description: "Formulário: hora em que o post sai (9, 12, 15, 19 ou 21). Vazio = próximo horário"
+        required: false
+        default: ""
 
 # Nunca roda duas rodadas ao mesmo tempo (a segunda espera a primeira terminar)
 concurrency:
@@ -92,6 +96,7 @@ jobs:
           OFERTA_PRECO_ANTES: ${{ inputs.perfil == 'ingrid' && inputs.preco_antes || '' }}
           OFERTA_CUPOM: ${{ inputs.perfil == 'ingrid' && inputs.cupom || '' }}
           OFERTA_MODO: ${{ inputs.perfil == 'ingrid' && inputs.modo || '' }}
+          OFERTA_HORARIO: ${{ inputs.perfil == 'ingrid' && inputs.horario || '' }}
           SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
           SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
@@ -145,6 +150,7 @@ jobs:
           OFERTA_PRECO_ANTES: ${{ inputs.perfil == 'blackfriday' && inputs.preco_antes || '' }}
           OFERTA_CUPOM: ${{ inputs.perfil == 'blackfriday' && inputs.cupom || '' }}
           OFERTA_MODO: ${{ inputs.perfil == 'blackfriday' && inputs.modo || '' }}
+          OFERTA_HORARIO: ${{ inputs.perfil == 'blackfriday' && inputs.horario || '' }}
           SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
           SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN_BF }}
@@ -161,9 +167,10 @@ jobs:
           LEMBRETE_PAINEL: "sim"    # avisa no Telegram quando tiver achado novo pra escolher
           RADAR_NICHO: "tudo"
           DESCONTO_GARIMPO: "25"    # só entra no garimpo o que tiver 25% OFF ou mais (Yuri ajustou em 25/10)
-          CATEGORIAS_GARIMPO: "Eletrodomésticos,Eletrônicos"   # o grupo da Black só recebe eletro (pedido do Yuri, 28/10)
+          # 28/10 17h30: painel volta a mostrar todas as categorias; o Yuri escolhe o que vai pro grupo.
+          # (pra voltar a ser só eletro: CATEGORIAS_GARIMPO: "Eletrodomésticos,Eletrônicos")
           CATEGORIAS_PRIORIDADE: "Eletrodomésticos,Eletrônicos"   # eletrodomésticos saem primeiro
-          PRECO_MINIMO: "80"        # nada abaixo de R$ 80 (corta carregador, pilha, acessório barato)
+          # PRECO_MINIMO: "80"      # 28/10 18h: tirado, o Yuri escolhe tudo no painel
           AMAZON_CHECAR_DESCONTO: "sim"   # quando o canal não diz o preço antigo, olha o desconto na página da Amazon
           # Grupos de WhatsApp que o número do robô lê como fonte (formato Nome=codigo@g.us). Fica no segredo RADAR_GRUPOS_ZAP.
           RADAR_GRUPOS_ZAP: ${{ secrets.RADAR_GRUPOS_ZAP }}
@@ -171,8 +178,9 @@ jobs:
           # Só canais que o robô consegue ler (os que davam "0 posts lidos" saíram em 24/10).
           # Eletro/casa: gtOFERTAS, promo_imperdivel, vrlofertas, ctofertaseletroetv (CT Ofertas Eletro e TV),
           # ofertas_harpyja (eletroportáteis Amazon), escolhasegura, cacadoresofertas, cupons_desconto (Promobit)
-          # 28/10: só canais fortes em eletro/eletrônicos (os de achadinho geral saíram). Fonte principal: grupo Eletro em Oferta.
-          RADAR_CANAIS: "ctofertaseletroetv,ofertas_harpyja,promo_imperdivel,vrlofertas,gtOFERTAS,escolhasegura,cacadoresofertas,nerdofertas,pelandobr,urubupromo,cupons_desconto"
+          # 28/10 18h: voltaram todos os canais (painel cheio; o Yuri escolhe o que vai pro grupo).
+          # 28/10 18h40: saiu descontos_top: os links dele do ML/Shopee abrem a vitrine do canal, não o produto.
+          RADAR_CANAIS: "urubupromo,pobregram,pelandobr,promotop,Postou_Achou,grupodeachadinhos,achadosshopebrasil,achadoscasaedecor,guerradealsfit,nerdofertas,cuponsjersu,promocoesecuponsglobais,gtOFERTAS,promo_imperdivel,vrlofertas,ctofertaseletroetv,ofertas_harpyja,escolhasegura,cacadoresofertas,cupons_desconto"
         run: python bot.py
 
       - name: Guardar histórico (evita repetir oferta)
