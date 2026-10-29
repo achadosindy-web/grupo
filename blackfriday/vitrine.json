@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Jogo De Toalha Banho E Rosto 4 Pç 100% Algodão Macia Felpuda",
+  "loja": "Mercado Livre",
+  "preco": 89.9,
+  "preco_antes": 124.9,
+  "quando": "2026-10-29T08:41-03:00"
+ },
+ {
+  "nome": "Loja: #MercadoLivre",
+  "loja": "Mercado Livre",
+  "preco": 251.0,
+  "preco_antes": 379.0,
+  "quando": "2026-10-29T08:41-03:00"
+ },
+ {
+  "nome": "Purificador de água colormaq",
+  "loja": "Mercado Livre",
+  "preco": 559.69,
+  "preco_antes": 1079.96,
+  "quando": "2026-10-29T08:40-03:00"
+ },
+ {
   "nome": "Kit 10 Pote De Vidro Marmita Hermético 370ml Freezer Fitn...",
   "loja": "Mercado Livre",
   "preco": 67.0,
@@ -61,26 +82,5 @@
   "preco": 28.49,
   "preco_antes": 48.29,
   "quando": "2026-10-28T15:11-03:00"
- },
- {
-  "nome": "Escova de Dente Elétrica Philips Colgate SonicPro 10 | Re...",
-  "loja": "Amazon",
-  "preco": 129.99,
-  "preco_antes": 265.29,
-  "quando": "2026-10-28T15:10-03:00"
- },
- {
-  "nome": "Kit 2x Melatonina Sabor Morango 2x60 - Fini Dr Good",
-  "loja": "Amazon",
-  "preco": 89.0,
-  "preco_antes": 179.0,
-  "quando": "2026-10-28T14:29-03:00"
- },
- {
-  "nome": "Shampoo Danos Vorazes Lola Cosmetics 250ml",
-  "loja": "Amazon",
-  "preco": 22.12,
-  "preco_antes": 40.22,
-  "quando": "2026-10-28T14:28-03:00"
  }
 ]
