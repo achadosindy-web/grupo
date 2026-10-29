@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Garrafa Térmica Aerolight Transit Stanley 591ml",
+  "loja": "Amazon",
+  "preco": 165.9,
+  "preco_antes": 255.23,
+  "quando": "2026-10-29T13:07-03:00"
+ },
+ {
+  "nome": "Ative as notificações para avisarmos quando tem oferta ch...",
+  "loja": "Amazon",
+  "preco": 75.94,
+  "preco_antes": 138.07,
+  "quando": "2026-10-29T13:06-03:00"
+ },
+ {
+  "nome": "Mixer de Mão 200W Elgin Compacto e Leve",
+  "loja": "Amazon",
+  "preco": 48.59,
+  "preco_antes": 97.18,
+  "quando": "2026-10-29T13:06-03:00"
+ },
+ {
   "nome": "Pipoqueira Po Cine Pp02 Vermelho Com Dosador 1200w 220v A...",
   "loja": "Amazon",
   "preco": 88.31,
@@ -61,26 +82,5 @@
   "preco": 67.0,
   "preco_antes": 159.0,
   "quando": "2026-10-28T21:35-03:00"
- },
- {
-  "nome": "Jogo com 6 Taças Vidro Diamond 340ml",
-  "loja": "Mercado Livre",
-  "preco": 30.0,
-  "preco_antes": 79.0,
-  "quando": "2026-10-28T21:34-03:00"
- },
- {
-  "nome": "Kit com 10 Pares Meias Mash Invisível",
-  "loja": "Mercado Livre",
-  "preco": 47.0,
-  "preco_antes": 127.0,
-  "quando": "2026-10-28T21:34-03:00"
- },
- {
-  "nome": "Mertto Smartwatch Fone De Ouvido Bluetooth E Modo Esportivo",
-  "loja": "Mercado Livre",
-  "preco": 234.0,
-  "preco_antes": 396.0,
-  "quando": "2026-10-28T18:58-03:00"
  }
 ]
