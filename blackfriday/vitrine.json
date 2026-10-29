@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Pipoqueira Po Cine Pp02 Vermelho Com Dosador 1200w 220v A...",
+  "loja": "Amazon",
+  "preco": 88.31,
+  "preco_antes": 127.99,
+  "quando": "2026-10-29T12:57-03:00"
+ },
+ {
+  "nome": "Kit com 3 Potes Hermético 1040ml com Divisória",
+  "loja": "Mercado Livre",
+  "preco": 52.0,
+  "preco_antes": 81.0,
+  "quando": "2026-10-29T12:57-03:00"
+ },
+ {
+  "nome": "Kit 2 Cobertor Casal Manta Mantinha Cobertores Microfibra...",
+  "loja": "Mercado Livre",
+  "preco": 32.0,
+  "preco_antes": 75.0,
+  "quando": "2026-10-29T12:56-03:00"
+ },
+ {
   "nome": "Cafeteira Tres Corações Lov Automática",
   "loja": "Amazon",
   "preco": 346.42,
@@ -61,26 +82,5 @@
   "preco": 234.0,
   "preco_antes": 396.0,
   "quando": "2026-10-28T18:58-03:00"
- },
- {
-  "nome": "Colchão Inflável Queen Com C/ Bomba Bivolt Usb+2 Travesseiro",
-  "loja": "Mercado Livre",
-  "preco": 329.65,
-  "preco_antes": 559.99,
-  "quando": "2026-10-28T18:57-03:00"
- },
- {
-  "nome": "Fralda Huggies Supreme Care Roupinha G com 60",
-  "loja": "Amazon",
-  "preco": 65.99,
-  "preco_antes": 111.85,
-  "quando": "2026-10-28T15:13-03:00"
- },
- {
-  "nome": "Protetor Solar Corporal em Loção Neutrogena Sun Fresh FPS...",
-  "loja": "Amazon",
-  "preco": 57.77,
-  "preco_antes": 90.27,
-  "quando": "2026-10-28T15:13-03:00"
  }
 ]
