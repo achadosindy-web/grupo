@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Sapateira de Metal 12 Pares com Cabideiro",
+  "loja": "Mercado Livre",
+  "preco": 35.0,
+  "preco_antes": 49.0,
+  "quando": "2026-10-29T17:37-03:00"
+ },
+ {
+  "nome": "Espelho Redondo 30cm C/ Led Para Parede Quarto Banheiro Sala",
+  "loja": "Mercado Livre",
+  "preco": 45.0,
+  "preco_antes": 69.0,
+  "quando": "2026-10-29T17:36-03:00"
+ },
+ {
+  "nome": "WAP Aspirador de Cinzas Frias GTW ASH para Churrasqueira,...",
+  "loja": "Amazon",
+  "preco": 104.89,
+  "preco_antes": 276.03,
+  "quando": "2026-10-29T17:36-03:00"
+ },
+ {
+  "nome": "Poltrona Decorativa Opala Suede Para Sala Arapongas Luxo",
+  "loja": "Mercado Livre",
+  "preco": 187.84,
+  "preco_antes": 549.9,
+  "quando": "2026-10-29T17:35-03:00"
+ },
+ {
   "nome": "Garrafa Térmica Aerolight Transit Stanley 591ml",
   "loja": "Amazon",
   "preco": 165.9,
@@ -54,33 +82,5 @@
   "preco": 29.0,
   "preco_antes": 78.0,
   "quando": "2026-10-29T09:17-03:00"
- },
- {
-  "nome": "Jogo De Toalha Banho E Rosto 4 Pç 100% Algodão Macia Felpuda",
-  "loja": "Mercado Livre",
-  "preco": 89.9,
-  "preco_antes": 124.9,
-  "quando": "2026-10-29T08:41-03:00"
- },
- {
-  "nome": "Loja: #MercadoLivre",
-  "loja": "Mercado Livre",
-  "preco": 251.0,
-  "preco_antes": 379.0,
-  "quando": "2026-10-29T08:41-03:00"
- },
- {
-  "nome": "Purificador de água colormaq",
-  "loja": "Mercado Livre",
-  "preco": 559.69,
-  "preco_antes": 1079.96,
-  "quando": "2026-10-29T08:40-03:00"
- },
- {
-  "nome": "Kit 10 Pote De Vidro Marmita Hermético 370ml Freezer Fitn...",
-  "loja": "Mercado Livre",
-  "preco": 67.0,
-  "preco_antes": 159.0,
-  "quando": "2026-10-28T21:35-03:00"
  }
 ]
