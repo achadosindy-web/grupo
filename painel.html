@@ -344,7 +344,7 @@ function desenharAgenda() {
   const conta = q => ag.filter(a => (a.quando || "") === q).length;
   document.getElementById("chips-hora").innerHTML =
     `<button class="chip" type="button" data-hora="" aria-pressed="${horaEscolhida === ""}">Próximo horário</button>` +
-    HORAS.map(h => { const n = conta(quandoDe(h)); return `<button class="chip" type="button" data-hora="${h}" aria-pressed="${String(horaEscolhida) === String(h)}">${rotuloQuando(quandoDe(h)).replace(" · ", " ")} (${n}/${porHora()})</button>`; }).join("");
+    HORAS.slice().sort((a, b) => quandoDe(a).localeCompare(quandoDe(b))).map(h => { const n = conta(quandoDe(h)); return `<button class="chip" type="button" data-hora="${h}" aria-pressed="${String(horaEscolhida) === String(h)}">${rotuloQuando(quandoDe(h)).replace(" · ", " ")} (${n}/${porHora()})</button>`; }).join("");
   document.querySelectorAll("[data-hora]").forEach(b => b.addEventListener("click", () => {
     horaEscolhida = b.dataset.hora; gravarLocal(chaveP("garimpo-hora"), horaEscolhida); desenhar();
   }));

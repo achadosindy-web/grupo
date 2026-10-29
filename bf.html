@@ -39,6 +39,13 @@ li b{color:var(--ouro)}
 @keyframes pulsa{50%{box-shadow:0 14px 44px rgba(37,211,102,.6)}}
 @media (prefers-reduced-motion:reduce){.btn{animation:none}}
 </style>
+<!-- Pixel da Meta: mede quem abre esta página e quem toca em "Entrar no grupo" -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '656636698266843');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=656636698266843&ev=PageView&noscript=1"></noscript>
 </head>
 <body>
 <main>
@@ -55,7 +62,17 @@ li b{color:var(--ouro)}
     Entrar no grupo grátis
   </a>
   <p class="nota">Abre direto no WhatsApp. Você sai quando quiser.</p>
-  <p class="rodape">Os links do grupo são de afiliado: comprando por eles você paga o mesmo preço e a gente ganha uma pequena comissão. Preços e estoque podem mudar a qualquer momento.<br><a href="index.html">Links da Indy</a></p>
+  <p class="rodape">Os links do grupo são de afiliado: comprando por eles você paga o mesmo preço e a gente ganha uma pequena comissão. Preços e estoque podem mudar a qualquer momento. Esta página usa o pixel da Meta só para medir o anúncio.<br><a href="index.html">Links da Indy</a></p>
 </main>
+<script>
+/* Toque no botão = evento "Lead" no pixel; o WhatsApp abre logo em seguida mesmo se o pixel estiver bloqueado */
+document.getElementById("entrar").addEventListener("click", function (e) {
+  var destino = this.href, foi = false;
+  function ir() { if (!foi) { foi = true; window.location.href = destino; } }
+  try {
+    if (window.fbq) { e.preventDefault(); fbq("track", "Lead", { content_name: "Grupo Black Friday" }); setTimeout(ir, 350); }
+  } catch (err) { ir(); }
+});
+</script>
 </body>
 </html>
