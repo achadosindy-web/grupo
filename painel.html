@@ -55,6 +55,15 @@ h1{font-family:var(--f-titulo);font-weight:600;font-size:22px;color:var(--cafe);
 
 main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
 .resumo{font-size:12.5px;color:var(--texto-2);margin:0 0 12px}
+.agenda{background:var(--papel);border:1px solid var(--fio);border-radius:14px;padding:12px 14px;margin:0 0 14px;display:grid;gap:10px}
+.agenda-topo{display:grid;gap:8px}
+.agenda-topo b{font-size:13.5px;color:var(--cafe)}
+.agenda-topo small{font-size:12px;color:var(--texto-2)}
+.agenda details summary{cursor:pointer;font-size:13px;font-weight:700;color:var(--cafe)}
+.agenda-hora{margin:10px 0 4px;font-size:12px;font-weight:700;color:var(--texto-2);text-transform:uppercase;letter-spacing:.04em}
+.agenda-item{display:flex;justify-content:space-between;gap:10px;font-size:13px;padding:6px 0;border-top:1px solid var(--fio)}
+.agenda-item span:first-child{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.agenda-item span:last-child{flex:none;color:var(--texto-2)}
 .grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
 .card{background:var(--papel);border:1px solid var(--fio);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
 .card.aprovado{border-color:var(--ok)}
@@ -101,7 +110,7 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
 .folha h2{font-family:var(--f-titulo);font-size:19px;font-weight:600;color:var(--cafe);margin:0}
 .folha p,.folha ol{margin:0;font-size:13px;color:var(--texto-2)}
 .folha ol{padding-left:18px;display:grid;gap:3px}
-.folha input{border:1px solid var(--fio);background:var(--campo);color:var(--texto);border-radius:10px;padding:10px 12px;font-size:13px;width:100%;min-width:0}
+.folha input,.folha select{border:1px solid var(--fio);background:var(--campo);color:var(--texto);border-radius:10px;padding:10px 12px;font-size:13px;width:100%;min-width:0}
 .folha .linha-btn .btn{padding:11px 8px}
 .folha label{display:grid;gap:4px;font-size:12.5px;font-weight:600;color:var(--texto)}
 .folha label small{font-weight:500;color:var(--texto-2)}
@@ -139,6 +148,14 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
 
 <main>
   <div class="exemplo" id="aviso-exemplo" hidden>Prévia com achados de exemplo. No celular, o painel de verdade mostra o que o robô garimpou de fato.</div>
+  <section class="agenda" aria-label="Agenda de posts">
+    <div class="agenda-topo">
+      <b>Programar para</b>
+      <div class="chips" id="chips-hora" role="group" aria-label="Horário do post"></div>
+      <small id="hora-dica">Escolha o horário e depois toque em Postar nos produtos. Cada horário leva até 5.</small>
+    </div>
+    <details id="agenda-lista"><summary id="agenda-resumo">📅 Programados</summary><div id="agenda-itens"></div></details>
+  </section>
   <p class="resumo" id="resumo"></p>
   <div class="grade" id="grade"></div>
   <div class="vazio" id="vazio" hidden>
@@ -166,8 +183,10 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
     </div>
     <label>Cupom <small>(opcional)</small>
       <input id="vi-cupom" type="text" maxlength="30" placeholder="ACHADO10"></label>
-    <div class="linha-btn"><button class="btn postar" type="submit" id="vi-postar" data-modo="agora">Postar só este agora</button><button class="btn sec" type="submit" id="vi-guardar" data-modo="guardar">Guardar pra depois</button></div>
-    <p class="vi-ajuda"><b>Postar só este agora:</b> sai somente este produto; os que vocês já aprovaram continuam esperando o horário deles.<br><b>Guardar pra depois:</b> entra na fila e sai junto com os aprovados no próximo horário (ou quando tocar em 🚀 Enviar agora).</p>
+    <label>Quando postar <small>(se não for agora)</small>
+      <select id="vi-hora"><option value="">Próximo horário do robô</option><option value="9">9h</option><option value="12">12h</option><option value="15">15h</option><option value="19">19h</option><option value="21">21h</option></select></label>
+    <div class="linha-btn"><button class="btn postar" type="submit" id="vi-postar" data-modo="agora">Postar só este agora</button><button class="btn sec" type="submit" id="vi-guardar" data-modo="guardar">Programar</button></div>
+    <p class="vi-ajuda"><b>Postar só este agora:</b> sai somente este produto; os programados continuam esperando o horário deles.<br><b>Programar:</b> sai no horário escolhido acima (ou no próximo horário do robô).</p>
     <button class="btn sec vi-cancelar" type="button" id="vi-cancelar">Cancelar</button>
   </form>
 </div>
@@ -262,7 +281,7 @@ function cartao(i) {
   if (i.aprovado) {
     acoes = `<div class="aprovado-txt">✓ Aprovado, vai pro grupo</div>`;
   } else if (i.converter) {
-    acoes = `<a class="btn postar" href="${tg("ok_" + i.gid)}" target="_blank" rel="noopener" data-postar="${i.gid}">Postar no grupo</a>
+    acoes = `<a class="btn postar" href="${tg("ok_" + i.gid + sufixoHora())}" target="_blank" rel="noopener" data-postar="${i.gid}">Postar no grupo</a>
       <div class="linha-btn"><a class="btn sec" href="${esc(i.link)}" target="_blank" rel="noopener">Ver produto</a><button class="btn sec" type="button" data-desc="${i.gid}">Descartar</button></div>`;
   } else {
     const c = colados[i.gid] || "";
@@ -271,7 +290,7 @@ function cartao(i) {
     acoes = `<a class="btn sec" href="${esc(abrir.url)}" target="_blank" rel="noopener">1. Abrir e gerar meu link</a>
       <input class="colar" type="url" inputmode="url" id="c-${i.gid}" data-colar="${i.gid}" placeholder="2. Cole aqui o seu link" value="${esc(c)}">
       <span class="dica ${c && !cod ? "erro" : ""}" id="d-${i.gid}">${c && !cod ? "Esse link não parece ser meli.la, shopee ou amzn.to" : "O link que começa com meli.la/…"}</span>
-      <div class="linha-btn"><a class="btn postar" id="p-${i.gid}" href="${cod ? tg(cod.tipo + "_" + i.gid + "_" + cod.codigo) : "#"}" aria-disabled="${!cod}" target="_blank" rel="noopener" data-postar="${i.gid}">3. Postar</a><button class="btn sec" type="button" data-desc="${i.gid}">Descartar</button></div>`;
+      <div class="linha-btn"><a class="btn postar" id="p-${i.gid}" href="${cod ? tg(cod.tipo + "_" + i.gid + "_" + cod.codigo + sufixoHora()) : "#"}" aria-disabled="${!cod}" target="_blank" rel="noopener" data-postar="${i.gid}">3. Postar</a><button class="btn sec" type="button" data-desc="${i.gid}">Descartar</button></div>`;
   }
   return `<article class="card ${i.aprovado ? "aprovado" : ""}">
     <div class="foto">${foto}${i.desconto ? `<span class="off">-${i.desconto}%</span>` : ""}${i.aprovado ? `<span class="selo-ok">✓</span>` : ""}</div>
@@ -302,6 +321,47 @@ function travarBotao() {
   } else { b.disabled = false; b.textContent = "🚀 Enviar agora"; }
 }
 /* O robô guarda em "abrir" a página do produto (o link de outro canal abria a vitrine/cupom dele). */
+/* ===== Agenda: horário de cada post ===== */
+const HORAS = [9, 12, 15, 19, 21];
+const porHora = () => PERFIL === "blackfriday" ? 5 : 10;   /* o robô posta até isso por rodada */
+let horaEscolhida = "";
+const sufixoHora = () => horaEscolhida ? "-h" + horaEscolhida : "";
+function doisDig(n) { return String(n).padStart(2, "0"); }
+function diaISO(d) { return `${d.getFullYear()}-${doisDig(d.getMonth() + 1)}-${doisDig(d.getDate())}`; }
+/* Igual ao robô: hora que já passou hoje = amanhã nesse horário */
+function quandoDe(h) {
+  const agora = new Date(), d = new Date(agora);
+  if (h <= agora.getHours()) d.setDate(d.getDate() + 1);
+  return `${diaISO(d)}T${doisDig(h)}:00`;
+}
+function rotuloQuando(q) {
+  if (!q) return "Próximo horário";
+  const [dia, hora] = q.split("T"), hoje = diaISO(new Date());
+  return `${dia === hoje ? "Hoje" : dia > hoje ? "Amanhã" : dia.split("-").reverse().join("/")} · ${Number(hora.slice(0, 2))}h`;
+}
+function desenharAgenda() {
+  const ag = (dados.agenda || []).slice();
+  const conta = q => ag.filter(a => (a.quando || "") === q).length;
+  document.getElementById("chips-hora").innerHTML =
+    `<button class="chip" type="button" data-hora="" aria-pressed="${horaEscolhida === ""}">Próximo horário</button>` +
+    HORAS.map(h => { const n = conta(quandoDe(h)); return `<button class="chip" type="button" data-hora="${h}" aria-pressed="${String(horaEscolhida) === String(h)}">${rotuloQuando(quandoDe(h)).replace(" · ", " ")} (${n}/${porHora()})</button>`; }).join("");
+  document.querySelectorAll("[data-hora]").forEach(b => b.addEventListener("click", () => {
+    horaEscolhida = b.dataset.hora; gravarLocal(chaveP("garimpo-hora"), horaEscolhida); desenhar();
+  }));
+  const n = horaEscolhida ? conta(quandoDe(Number(horaEscolhida))) : 0;
+  document.getElementById("hora-dica").textContent = horaEscolhida
+    ? (n >= porHora() ? `Esse horário já tem ${n}. O que passar de ${porHora()} sai na rodada seguinte.` : `Os produtos que você postar agora saem ${rotuloQuando(quandoDe(Number(horaEscolhida))).toLowerCase()}.`)
+    : `Escolha o horário e depois toque em Postar nos produtos. Cada horário leva até ${porHora()}.`;
+  ag.sort((a, b) => (a.quando || "").localeCompare(b.quando || ""));
+  document.getElementById("agenda-resumo").textContent = ag.length ? `📅 Programados (${ag.length})` : "📅 Nada programado ainda";
+  let html = "", ultimo = null;
+  for (const a of ag) {
+    const q = a.quando || "";
+    if (q !== ultimo) { html += `<p class="agenda-hora">${esc(rotuloQuando(q))}</p>`; ultimo = q; }
+    html += `<div class="agenda-item"><span>${esc(a.produto)}</span><span>${a.preco ? brl(a.preco) : ""}</span></div>`;
+  }
+  document.getElementById("agenda-itens").innerHTML = html || `<p class="agenda-hora">Toque em Postar nos produtos para programar.</p>`;
+}
 function linkParaAbrir(i) { return { url: i.abrir || i.link, busca: false }; }
 let pendente = null;   /* oferta do formulário esperando a chave */
 async function enviarAgora(oferta) {
@@ -317,7 +377,7 @@ async function enviarAgora(oferta) {
     if (r.status === 204) {
       gravarLocal(chaveP("envio-ultimo"), Date.now());
       const qual = oferta && oferta.nome ? "\"" + oferta.nome + "\"" : "A oferta";
-      avisoEnvio(oferta && oferta.modo === "guardar" ? `📥 ${qual} foi pra fila. Sai junto com os aprovados no próximo horário.`
+      avisoEnvio(oferta && oferta.modo === "guardar" ? `📅 ${qual} programado: sai ${oferta.horario ? rotuloQuando(quandoDe(Number(oferta.horario))).toLowerCase() : "no próximo horário"}.`
                : oferta ? `✅ Só ${qual} está indo pro grupo. Em 2 a 3 minutos aparece lá.`
                         : "🚀 Robô acionado! Em 2 a 3 minutos o que vocês aprovaram vai pro grupo.", 9000);
       travarBotao();
@@ -373,7 +433,8 @@ document.getElementById("form-vi").addEventListener("submit", e => {
   const preco = val("vi-preco").replace(/[^\d,.]/g, ""), antes = val("vi-antes").replace(/[^\d,.]/g, "");
   if (!/^https?:\/\//.test(val("vi-link"))) { avisoEnvio("⚠️ Cole o link completo, começando com https://"); return; }
   const modo = (e.submitter && e.submitter.dataset.modo) || "agora";
-  const oferta = { link: val("vi-link"), nome: val("vi-nome"), preco, preco_antes: antes, cupom: val("vi-cupom").toUpperCase(), modo };
+  const hora = modo === "guardar" ? document.getElementById("vi-hora").value : "";
+  const oferta = { link: val("vi-link"), nome: val("vi-nome"), preco, preco_antes: antes, cupom: val("vi-cupom").toUpperCase(), modo, horario: hora };
   document.getElementById("folha-vi").hidden = true;
   document.getElementById("form-vi").reset(); document.getElementById("vi-loja").textContent = "";
   enviarAgora(oferta);
@@ -388,6 +449,7 @@ function desenhar() {
   document.getElementById("vazio").hidden = l.length > 0;
   const total = dados.itens.length, aprov = dados.itens.filter(i => i.aprovado).length;
   document.getElementById("resumo").textContent = `${l.length} de ${total} achados · ${aprov} aprovados · toque em Postar e depois em "Iniciar" no Telegram`;
+  desenharAgenda();
   ligarCartoes();
 }
 
@@ -399,7 +461,7 @@ function ligarCartoes() {
     const gid = inp.dataset.colar, cod = codigoDoLink(inp.value);
     colados[gid] = inp.value; gravarLocal("garimpo-colados", colados);
     const p = document.getElementById("p-" + gid), d = document.getElementById("d-" + gid);
-    p.href = cod ? tg(cod.tipo + "_" + gid + "_" + cod.codigo) : "#";
+    p.href = cod ? tg(cod.tipo + "_" + gid + "_" + cod.codigo + sufixoHora()) : "#";
     p.setAttribute("aria-disabled", String(!cod));
     d.textContent = inp.value && !cod ? "Esse link não parece ser meli.la, shopee ou amzn.to" : (cod ? "Pronto: toque em Postar" : "O link que começa com meli.la/…");
     d.classList.toggle("erro", !!inp.value && !cod);
@@ -407,7 +469,11 @@ function ligarCartoes() {
   document.querySelectorAll("[data-postar]").forEach(a => a.addEventListener("click", e => {
     if (a.getAttribute("aria-disabled") === "true" || a.getAttribute("href") === "#") { e.preventDefault(); return; }
     const i = dados.itens.find(x => x.gid === a.dataset.postar);
-    if (i) { i.aprovado = true; setTimeout(desenhar, 400); }
+    if (i) {
+      i.aprovado = true;
+      (dados.agenda = dados.agenda || []).push({ produto: i.nome, loja: i.loja, preco: i.preco, quando: horaEscolhida ? quandoDe(Number(horaEscolhida)) : "" });
+      setTimeout(desenhar, 400);
+    }
   }));
 }
 
