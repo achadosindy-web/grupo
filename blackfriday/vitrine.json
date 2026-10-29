@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Cafeteira Tres Corações Lov Automática",
+  "loja": "Amazon",
+  "preco": 346.42,
+  "preco_antes": 599.0,
+  "quando": "2026-10-29T09:18-03:00"
+ },
+ {
+  "nome": "Capa Protetora Colchão Box",
+  "loja": "Mercado Livre",
+  "preco": 29.0,
+  "preco_antes": 78.0,
+  "quando": "2026-10-29T09:17-03:00"
+ },
+ {
   "nome": "Jogo De Toalha Banho E Rosto 4 Pç 100% Algodão Macia Felpuda",
   "loja": "Mercado Livre",
   "preco": 89.9,
@@ -68,19 +82,5 @@
   "preco": 57.77,
   "preco_antes": 90.27,
   "quando": "2026-10-28T15:13-03:00"
- },
- {
-  "nome": "OMO Lava-Roupas Líquido Omo Ultra Power Frasco 1 8L",
-  "loja": "Amazon",
-  "preco": 22.78,
-  "preco_antes": 33.01,
-  "quando": "2026-10-28T15:12-03:00"
- },
- {
-  "nome": "Hidratante Corporal Neutrogena Body Care Hidrata & Repara...",
-  "loja": "Amazon",
-  "preco": 28.49,
-  "preco_antes": 48.29,
-  "quando": "2026-10-28T15:11-03:00"
  }
 ]

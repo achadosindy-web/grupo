@@ -1,7 +1,73 @@
 {
- "atualizado": "2026-10-29T09:05-03:00",
+ "atualizado": "2026-10-29T09:16-03:00",
  "bot": "achadinhosbf_indy_bot",
  "itens": [
+  {
+   "gid": "1ddabc",
+   "id": "radar-B08BXBFCTN",
+   "loja": "Amazon",
+   "nome": "Ative as notificações para avisarmos quando tem oferta chegando",
+   "preco": 75.94,
+   "preco_antes": 138.07,
+   "desconto": 45,
+   "cupom": "",
+   "imagem": "https://cdn4.telesco.pe/file/mGeAeLsgHzgkGJdWyNPaV1ud--3y28rairHjFMPfr_GNkW6dT8FUijiYTWz-tQ-vu3n5C61FWnj2Js0vmllSUdLdZckJWiY3IS7PmztGaVdrVPJV_3fS7Z5r0kGqdVgb2QZLkjXnE8ffafgUOUAo3QxD0Nm1B8o32Rxk2vOUMErvFlt3c08NirXf9VdTGkMgUXciD7HIAsQkiTR6v9AB6RT48r2Znl9qW9BApFm-w4glOHrAjE0mPtl894kGiaDCOjfdafS0YjazkNZTk46vdrxdfjorYbz2lPJ7ONb0rjQJwFNRtP3JjdxuOPzI6XCp8cfiaJZ4JPxIFad6OjvGCA.jpg",
+   "link": "https://www.amazon.com.br/dp/B08BXBFCTN?tag=achadinh084ca-20",
+   "abrir": "",
+   "checado": false,
+   "preco_conferido": false,
+   "converter": true,
+   "categoria": "Eletrodomésticos",
+   "fonte": "@cupons_desconto",
+   "post": "https://t.me/cupons_desconto/84122",
+   "quando": "2026-10-29T00:40:15+00:00",
+   "achado_em": "2026-10-29T09:16-03:00",
+   "aprovado": false
+  },
+  {
+   "gid": "8a47d2",
+   "id": "garimpo-guardaroupacasal6portaseasyslimamendoacl",
+   "loja": "Shopee",
+   "nome": "Guarda Roupa Casal 6 Portas Easy Slim Amendoa Clean/off White",
+   "preco": 629.02,
+   "preco_antes": 1399.0,
+   "desconto": 55,
+   "cupom": "",
+   "imagem": "https://down-br.img.susercontent.com/file/br-11134258-7r98o-mcthnseudliq8d",
+   "link": "https://s.shopee.com.br/4B16IfQLFe?lp=aff",
+   "abrir": "",
+   "checado": true,
+   "preco_conferido": false,
+   "converter": false,
+   "categoria": "Outros",
+   "fonte": "@promocoesecuponsglobais",
+   "post": "https://t.me/promocoesecuponsglobais/432392",
+   "quando": "2026-10-29T12:09:00+00:00",
+   "achado_em": "2026-10-29T09:16-03:00",
+   "aprovado": false
+  },
+  {
+   "gid": "5c3bc8",
+   "id": "garimpo-airfryerovenphilco11l8funçõesvisor1800wp",
+   "loja": "Shopee",
+   "nome": "Air Fryer Oven Philco 11L 8 Funções Visor 1800W PAF11B",
+   "preco": 340.01,
+   "preco_antes": 478.89,
+   "desconto": 29,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/rEsqERAPA5zPC-QHGFcOtILhbYzcQOFIrjIV0W-g2zrzIEqtJ-wudmd8jPWEm331IQOjBytR9E7KkfsTLmTNUdx5Jb7Fm-uggYtszp3bolQlCeGofXxzB8kPYy9xmlNaeA-PFDP5qsFwX1Lwnbfk5_SwQmPMcH9COMSh-29Be-TL6u3cGjWabXmg5A5HuF8KWPWx0-gZLaUxiLPuwimpNMBo_Y_oBVNnGJmQjo3kAFZLC2yqf_q5ggvm6A-sCEHsOtbPwU4mi-Hlv9mnzYry_S7S9uVznKcM0WboqnR5D_x4KzO88FAl_uZPZmCEAx_WnHqeDWo-JoGKOo0Rl0XQmQ.jpg",
+   "link": "https://s.shopee.com.br/7VHYH32zog?lp=aff",
+   "abrir": "",
+   "checado": true,
+   "preco_conferido": false,
+   "converter": false,
+   "categoria": "Eletrodomésticos",
+   "fonte": "@promocoesecuponsglobais",
+   "post": "https://t.me/promocoesecuponsglobais/432399",
+   "quando": "2026-10-29T12:12:11+00:00",
+   "achado_em": "2026-10-29T09:16-03:00",
+   "aprovado": false
+  },
   {
    "gid": "6938c6",
    "id": "radar-B0CBCRP3BS",
@@ -220,7 +286,7 @@
    "post": "https://t.me/promo_imperdivel/149209",
    "quando": "2026-10-29T01:12:43+00:00",
    "achado_em": "2026-10-29T08:40-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "9e148c",
@@ -1865,7 +1931,7 @@
    "post": "https://t.me/promo_imperdivel/149133",
    "quando": "2026-10-28T19:00:24+00:00",
    "achado_em": "2026-10-28T18:34-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "45bd70",
