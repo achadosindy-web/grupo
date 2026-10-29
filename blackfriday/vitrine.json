@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Kit 10 Pote De Vidro Marmita Hermético 370ml Freezer Fitn...",
+  "loja": "Mercado Livre",
+  "preco": 67.0,
+  "preco_antes": 159.0,
+  "quando": "2026-10-28T21:35-03:00"
+ },
+ {
+  "nome": "Jogo com 6 Taças Vidro Diamond 340ml",
+  "loja": "Mercado Livre",
+  "preco": 30.0,
+  "preco_antes": 79.0,
+  "quando": "2026-10-28T21:34-03:00"
+ },
+ {
+  "nome": "Kit com 10 Pares Meias Mash Invisível",
+  "loja": "Mercado Livre",
+  "preco": 47.0,
+  "preco_antes": 127.0,
+  "quando": "2026-10-28T21:34-03:00"
+ },
+ {
   "nome": "Mertto Smartwatch Fone De Ouvido Bluetooth E Modo Esportivo",
   "loja": "Mercado Livre",
   "preco": 234.0,
@@ -61,26 +82,5 @@
   "preco": 22.12,
   "preco_antes": 40.22,
   "quando": "2026-10-28T14:28-03:00"
- },
- {
-  "nome": "Oral-B Escova de Dente Elétrica PRO Series 1, 1 Unidade",
-  "loja": "Amazon",
-  "preco": 109.99,
-  "preco_antes": 249.98,
-  "quando": "2026-10-28T14:28-03:00"
- },
- {
-  "nome": "Gshield Carregador Sem Fio Wireless Discovery 3 em 1 Tipo...",
-  "loja": "Amazon",
-  "preco": 84.07,
-  "preco_antes": 129.34,
-  "quando": "2026-10-28T14:27-03:00"
- },
- {
-  "nome": "o preço ajusta na tela de selecionar o método de pagamento",
-  "loja": "Amazon",
-  "preco": 13.0,
-  "preco_antes": 24.0,
-  "quando": "2026-10-28T14:27-03:00"
  }
 ]
