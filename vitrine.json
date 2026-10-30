@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Secador de Cabelo Britânia 1450W 220V",
+  "loja": "Amazon",
+  "preco": 346.65,
+  "preco_antes": 0,
+  "quando": "2026-10-30T19:04-03:00"
+ },
+ {
   "nome": "Video Jaqueta Feminina de Verão Nova Branca Solta Manga L...",
   "loja": "Shein",
   "preco": 83.12,
@@ -75,12 +82,5 @@
   "preco": 124.26,
   "preco_antes": 0,
   "quando": "2026-10-25T11:50-03:00"
- },
- {
-  "nome": "Wella Óleo Capilar Oil Reflections 30ml",
-  "loja": "Amazon",
-  "preco": 55.1,
-  "preco_antes": 0,
-  "quando": "2026-10-24T17:21-03:00"
  }
 ]
