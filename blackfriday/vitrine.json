@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Philco Sanduicheira e Grill Acabamento em Inox 750W PGR27...",
+  "loja": "Amazon",
+  "preco": 91.1,
+  "preco_antes": 121.47,
+  "quando": "2026-10-30T15:12-03:00"
+ },
+ {
+  "nome": "Caneca mixer magnética",
+  "loja": "Mercado Livre",
+  "preco": 44.45,
+  "preco_antes": 59.99,
+  "quando": "2026-10-30T15:11-03:00"
+ },
+ {
+  "nome": "Kit com 2 Travesseiros 70x50cm Pena De Ganso",
+  "loja": "Mercado Livre",
+  "preco": 29.0,
+  "preco_antes": 44.0,
+  "quando": "2026-10-30T15:11-03:00"
+ },
+ {
   "nome": "Kit 6 Pote Vidro Porta Temperos Hermético Cozinha Organiza",
   "loja": "Mercado Livre",
   "preco": 35.61,
@@ -61,26 +82,5 @@
   "preco": 494.7,
   "preco_antes": 1199.0,
   "quando": "2026-10-30T09:07-03:00"
- },
- {
-  "nome": "Aparelho De Jantar Oxford Cerâmica Folk 20 Peças",
-  "loja": "Mercado Livre",
-  "preco": 159.0,
-  "preco_antes": 349.0,
-  "quando": "2026-10-29T20:43-03:00"
- },
- {
-  "nome": "oferta exclusiva prime",
-  "loja": "Amazon",
-  "preco": 89.49,
-  "preco_antes": 198.87,
-  "quando": "2026-10-29T20:42-03:00"
- },
- {
-  "nome": "Sapateira de Metal 12 Pares com Cabideiro",
-  "loja": "Mercado Livre",
-  "preco": 35.0,
-  "preco_antes": 49.0,
-  "quando": "2026-10-29T17:37-03:00"
  }
 ]

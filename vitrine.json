@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Mixer Magnética automática inox",
+  "loja": "Mercado Livre",
+  "preco": 44.45,
+  "preco_antes": 59.99,
+  "quando": "2026-10-30T15:04-03:00"
+ },
+ {
+  "nome": "Kit 6 Pares Meias Puma Sapatilha",
+  "loja": "Mercado Livre",
+  "preco": 45.0,
+  "preco_antes": 89.0,
+  "quando": "2026-10-30T15:03-03:00"
+ },
+ {
   "nome": "Mochila para Notebook de 15.6\" Executiva com USB  Expansí...",
   "loja": "Mercado Livre",
   "preco": 89.09,
@@ -68,19 +82,5 @@
   "preco": 12.33,
   "preco_antes": 0,
   "quando": "2026-10-24T12:27-03:00"
- },
- {
-  "nome": "Kit 2 Short Duplo Compressão Feminino - .mm",
-  "loja": "Mercado Livre",
-  "preco": 63.0,
-  "preco_antes": 99.0,
-  "quando": "2026-10-24T12:26-03:00"
- },
- {
-  "nome": "Kit Elseve Colágeno Shampoo 400ml + Condicionador 400ml e...",
-  "loja": "Amazon",
-  "preco": 75.99,
-  "preco_antes": 0,
-  "quando": "2026-10-22T13:47-03:00"
  }
 ]
