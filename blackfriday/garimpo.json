@@ -5500,5 +5500,12 @@
    "aprovado": false
   }
  ],
- "agenda": []
+ "agenda": [
+  {
+   "produto": "Kit 6 Pote Vidro Porta Temperos Hermético Cozinha Organiza",
+   "loja": "Mercado Livre",
+   "preco": 35.61,
+   "quando": ""
+  }
+ ]
 }
