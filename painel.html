@@ -76,7 +76,7 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
 .meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:11px;color:var(--texto-2)}
 .loja{font-weight:700;letter-spacing:.02em}
 .via-zap{font-size:11.5px;font-weight:700;color:#1f9d55;margin-top:2px}
-.loja.Amazon{color:var(--amazon)} .loja.Mercado{color:var(--ml)} .loja.Shopee{color:var(--shopee)}
+.loja.Amazon{color:var(--amazon)} .loja.Mercado{color:var(--ml)} .loja.Shopee{color:var(--shopee)} .loja.Shein{color:var(--texto)}
 .nome{font-size:13px;font-weight:600;line-height:1.35;color:var(--texto);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.7em}
 .precos{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
 .preco{font-size:17px;font-weight:700;color:var(--cafe);font-variant-numeric:tabular-nums}
@@ -206,7 +206,7 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
 
 <script>
 const EXEMPLO = null;
-const LOJAS = ["Todas", "Amazon", "Mercado Livre", "Shopee"];
+const LOJAS = ["Todas", "Amazon", "Mercado Livre", "Shopee", "Shein"];
 const CATS = ["Todas", "Fitness", "Moda", "Casa", "Beleza", "Eletrodomésticos", "Eletrônicos", "Outros"];
 const PREFIXO = { "meli.la": "ml", "s.shopee.com.br": "sp", "shope.ee": "sp", "amzn.to": "az" };
 const estado = { loja: "Todas", cat: "Todas", desc20: false, esconder: false, q: "", ordem: "novos", mulher: false };
@@ -244,9 +244,14 @@ function ha(iso) {
 const tg = start => dados.bot ? `https://t.me/${dados.bot}${start ? "?start=" + start : ""}` : "#";
 
 function codigoDoLink(texto) {
-  const m = String(texto).trim().match(/https?:\/\/(meli\.la|s\.shopee\.com\.br|shope\.ee|amzn\.to)\/([A-Za-z0-9]+)/i);
-  return m ? { tipo: PREFIXO[m[1].toLowerCase()], codigo: m[2] } : null;
+  const t = String(texto).trim();
+  const m = t.match(/https?:\/\/(meli\.la|s\.shopee\.com\.br|shope\.ee|amzn\.to)\/([A-Za-z0-9]+)/i);
+  if (m) return { tipo: PREFIXO[m[1].toLowerCase()], codigo: m[2] };
+  /* Shein: o link não cabe no Telegram; vai direto pro robô pelo GitHub, como o "Postar algo que vi" */
+  const s = t.match(/https?:\/\/[^\s]*shein\.[a-z.]+\/[^\s]+/i);
+  return s ? { tipo: "shein", url: s[0] } : null;
 }
+const linkPostar = (cod, gid) => !cod ? "#" : cod.tipo === "shein" ? "#shein" : tg(cod.tipo + "_" + gid + "_" + cod.codigo + sufixoHora());
 
 function chips(id, valores, chave) {
   const el = document.getElementById(id);
@@ -289,8 +294,8 @@ function cartao(i) {
     const abrir = linkParaAbrir(i);
     acoes = `<a class="btn sec" href="${esc(abrir.url)}" target="_blank" rel="noopener">1. Abrir e gerar meu link</a>
       <input class="colar" type="url" inputmode="url" id="c-${i.gid}" data-colar="${i.gid}" placeholder="2. Cole aqui o seu link" value="${esc(c)}">
-      <span class="dica ${c && !cod ? "erro" : ""}" id="d-${i.gid}">${c && !cod ? "Esse link não parece ser meli.la, shopee ou amzn.to" : "O link que começa com meli.la/…"}</span>
-      <div class="linha-btn"><a class="btn postar" id="p-${i.gid}" href="${cod ? tg(cod.tipo + "_" + i.gid + "_" + cod.codigo + sufixoHora()) : "#"}" aria-disabled="${!cod}" target="_blank" rel="noopener" data-postar="${i.gid}">3. Postar</a><button class="btn sec" type="button" data-desc="${i.gid}">Descartar</button></div>`;
+      <span class="dica ${c && !cod ? "erro" : ""}" id="d-${i.gid}">${c && !cod ? "Esse link não parece ser meli.la, shopee, shein ou amzn.to" : "O link que começa com meli.la/…"}</span>
+      <div class="linha-btn"><a class="btn postar" id="p-${i.gid}" href="${linkPostar(cod, i.gid)}" aria-disabled="${!cod}" target="_blank" rel="noopener" data-postar="${i.gid}">3. Postar</a><button class="btn sec" type="button" data-desc="${i.gid}">Descartar</button></div>`;
   }
   return `<article class="card ${i.aprovado ? "aprovado" : ""}">
     <div class="foto">${foto}${i.desconto ? `<span class="off">-${i.desconto}%</span>` : ""}${i.aprovado ? `<span class="selo-ok">✓</span>` : ""}</div>
@@ -413,6 +418,7 @@ function lojaDoLink(u) {
   if (/amzn\.|amazon\./.test(u)) return "Amazon";
   if (/meli\.la|mercadolivre|mercadolibre/.test(u)) return "Mercado Livre";
   if (/shopee|shope\.ee/.test(u)) return "Shopee";
+  if (/shein/.test(u)) return "Shein";
   if (/magalu|magazinevoce|magazineluiza/.test(u)) return "Magalu";
   return "";
 }
@@ -461,14 +467,21 @@ function ligarCartoes() {
     const gid = inp.dataset.colar, cod = codigoDoLink(inp.value);
     colados[gid] = inp.value; gravarLocal("garimpo-colados", colados);
     const p = document.getElementById("p-" + gid), d = document.getElementById("d-" + gid);
-    p.href = cod ? tg(cod.tipo + "_" + gid + "_" + cod.codigo + sufixoHora()) : "#";
+    p.href = linkPostar(cod, gid);
     p.setAttribute("aria-disabled", String(!cod));
-    d.textContent = inp.value && !cod ? "Esse link não parece ser meli.la, shopee ou amzn.to" : (cod ? "Pronto: toque em Postar" : "O link que começa com meli.la/…");
+    d.textContent = inp.value && !cod ? "Esse link não parece ser meli.la, shopee, shein ou amzn.to" : (cod ? "Pronto: toque em Postar" : "O link que começa com meli.la/…");
     d.classList.toggle("erro", !!inp.value && !cod);
   }));
   document.querySelectorAll("[data-postar]").forEach(a => a.addEventListener("click", e => {
     if (a.getAttribute("aria-disabled") === "true" || a.getAttribute("href") === "#") { e.preventDefault(); return; }
     const i = dados.itens.find(x => x.gid === a.dataset.postar);
+    if (a.getAttribute("href") === "#shein") {
+      e.preventDefault();
+      const cod = codigoDoLink(colados[a.dataset.postar] || "");
+      if (!i || !cod) return;
+      enviarAgora({ link: cod.url, nome: i.nome, preco: String(i.preco), preco_antes: i.preco_antes ? String(i.preco_antes) : "",
+                    cupom: /^[A-Z0-9]{4,20}$/.test(i.cupom || "") ? i.cupom : "", modo: "guardar", horario: horaEscolhida });
+    }
     if (i) {
       i.aprovado = true;
       (dados.agenda = dados.agenda || []).push({ produto: i.nome, loja: i.loja, preco: i.preco, quando: horaEscolhida ? quandoDe(Number(horaEscolhida)) : "" });
