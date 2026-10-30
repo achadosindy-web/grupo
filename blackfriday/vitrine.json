@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Tênis Nike Revolution 8 Feminino",
+  "loja": "Mercado Livre",
+  "preco": 279.0,
+  "preco_antes": 399.0,
+  "quando": "2026-10-30T20:04-03:00"
+ },
+ {
+  "nome": "Aparador de Pelos Kemei KM-6511 Nariz Orelhas Sem Fio Preto",
+  "loja": "Mercado Livre",
+  "preco": 27.0,
+  "preco_antes": 39.0,
+  "quando": "2026-10-30T20:04-03:00"
+ },
+ {
+  "nome": "Aparelho de Jantar e Chá Biona Donna Folk, Marfim/Preto",
+  "loja": "Amazon",
+  "preco": 199.9,
+  "preco_antes": 298.36,
+  "quando": "2026-10-30T20:03-03:00"
+ },
+ {
   "nome": "Philco Sanduicheira e Grill Acabamento em Inox 750W PGR27...",
   "loja": "Amazon",
   "preco": 91.1,
@@ -61,26 +82,5 @@
   "preco": 97.1,
   "preco_antes": 147.0,
   "quando": "2026-10-30T09:08-03:00"
- },
- {
-  "nome": "Kit 4 Camiseta Dry Fit Masculina - Parvori",
-  "loja": "Mercado Livre",
-  "preco": 71.0,
-  "preco_antes": 149.0,
-  "quando": "2026-10-30T09:08-03:00"
- },
- {
-  "nome": "Jogo De Ferramentas 200 Peças Profissional Com Maleta",
-  "loja": "Mercado Livre",
-  "preco": 70.0,
-  "preco_antes": 160.0,
-  "quando": "2026-10-30T09:07-03:00"
- },
- {
-  "nome": "Esteira Elétrica Redfin Ideal IDL-227 Dobrável, 2.5 HP e...",
-  "loja": "Mercado Livre",
-  "preco": 494.7,
-  "preco_antes": 1199.0,
-  "quando": "2026-10-30T09:07-03:00"
  }
 ]
