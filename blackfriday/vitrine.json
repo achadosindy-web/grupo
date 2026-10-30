@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Ferro A Vapor Cerâmica Oster Linha Aeroceramic Compacto",
+  "loja": "Mercado Livre",
+  "preco": 140.48,
+  "preco_antes": 299.99,
+  "quando": "2026-10-30T20:49-03:00"
+ },
+ {
   "nome": "Purificador Água E-due Equilibrium Grafite Ibbl Bivolt",
   "loja": "Mercado Livre",
   "preco": 448.0,
@@ -74,13 +81,6 @@
   "loja": "Mercado Livre",
   "preco": 31.92,
   "preco_antes": 49.8,
-  "quando": "2026-10-30T12:09-03:00"
- },
- {
-  "nome": "Camiseta Light T-shirt Insider Masculino - várias cores",
-  "loja": "Mercado Livre",
-  "preco": 58.0,
-  "preco_antes": 189.0,
   "quando": "2026-10-30T12:09-03:00"
  }
 ]
