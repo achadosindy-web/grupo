@@ -1,7 +1,29 @@
 {
- "atualizado": "2026-10-30T12:08-03:00",
+ "atualizado": "2026-10-30T12:17-03:00",
  "bot": "achadinhosbf_indy_bot",
  "itens": [
+  {
+   "gid": "87d552",
+   "id": "garimpo-colôniakaiakoceanofemininovaidaronda100m",
+   "loja": "Mercado Livre",
+   "nome": "Colônia Kaiak Oceano Feminino Vai Dar Onda 100 Ml",
+   "preco": 98.0,
+   "preco_antes": 189.0,
+   "desconto": 48,
+   "cupom": "",
+   "imagem": "https://cdn4.telesco.pe/file/YQ1t8I5o6UqTld50AYB8NQvoIOAbuH2VpKcpMjZi9tFaYV-7_ZaEFFIjmYWahK2V3uVC1gzMQeu9VvZ7QkyUSGE1dtz_JYbpvxAnAqfdJvN8BsnxyjXzX5cVxixkPRCRTpaFSTiVQaxFxPkHzbst2w4i1oYGI0CIUf44NkWMVeHwYHGFXynqbCEciYH6jeng034fCt2NT2WpYjJJDcd9dKtdSXnJ9FKw4P3rdp4u8SL6iHKIDaDk9D5KW1t-0SFZ41HHR2q8---4pKHuuMjwch5etf16T0Fk5WR6Fq-AqQQmZGP3BWnppAzTSPKcueuLNkwCmS00oL3MR4VyjD2SbA.jpg",
+   "link": "https://meli.la/1Z45nNJ",
+   "abrir": "",
+   "checado": true,
+   "preco_conferido": false,
+   "converter": false,
+   "categoria": "Outros",
+   "fonte": "@promocoesecuponsglobais",
+   "post": "https://t.me/promocoesecuponsglobais/434739",
+   "quando": "2026-10-30T15:09:12+00:00",
+   "achado_em": "2026-10-30T12:17-03:00",
+   "aprovado": false
+  },
   {
    "gid": "31df61",
    "id": "radar-B008S5ICJ0",
@@ -5474,27 +5496,6 @@
    "fonte": "@guerradealsfit",
    "post": "https://t.me/guerradealsfit/13334",
    "quando": "2026-10-28T14:41:39+00:00",
-   "achado_em": "2026-10-28T18:34-03:00",
-   "aprovado": false
-  },
-  {
-   "gid": "90fae3",
-   "id": "garimpo-pretreinoraze300gdarklab2sabores",
-   "loja": "Mercado Livre",
-   "nome": "Pre Treino Raze 300g - Dark Lab (2 Sabores)",
-   "preco": 78.0,
-   "preco_antes": 189.0,
-   "desconto": 59,
-   "cupom": "",
-   "imagem": "https://cdn1.telesco.pe/file/ncu5esiKlFwwldZ_8SKGav5g1vMiWakKbB1fiC_3RU1N37M83BbNkNIgon4LOtOB2BfqjU3l-Flu7tNh05nTg0CozC1Px1JaUGdCeepW2kNLZx3iYFu8RdPytXMTpvojMZRp6CTuT4XaDQZ-mZPkGBC4EmdjqZ7iVACID-Ujnv6i-MWWUNz-EiD7Oo2EqoLOUHIE21WqsfDMkIu7Dy_vzW152DCGdmMbCPIRfr7p4p4UqcKjlogZLb0cAtvvbMR0IxbeQT__hBmkN6j0Lj6keGiOMe6qBOV6jjizYRtl52xyxixaEmCApXy_EO97WpA7xGly5jvA2US8u5aNWqRQKg.jpg",
-   "link": "https://meli.la/2D9TYNW",
-   "abrir": "",
-   "checado": true,
-   "converter": false,
-   "categoria": "Fitness",
-   "fonte": "@guerradealsfit",
-   "post": "https://t.me/guerradealsfit/13338",
-   "quando": "2026-10-28T16:25:43+00:00",
    "achado_em": "2026-10-28T18:34-03:00",
    "aprovado": false
   }
