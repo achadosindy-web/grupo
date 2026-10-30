@@ -5452,5 +5452,18 @@
    "aprovado": false
   }
  ],
- "agenda": []
+ "agenda": [
+  {
+   "produto": "Kit 6 Pares Meias Puma Sapatilha",
+   "loja": "Mercado Livre",
+   "preco": 45.0,
+   "quando": ""
+  },
+  {
+   "produto": "Mixer Magnética automática inox",
+   "loja": "Mercado Livre",
+   "preco": 44.45,
+   "quando": ""
+  }
+ ]
 }
