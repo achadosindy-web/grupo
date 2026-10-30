@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Purificador Água E-due Equilibrium Grafite Ibbl Bivolt",
+  "loja": "Mercado Livre",
+  "preco": 448.0,
+  "preco_antes": 499.0,
+  "quando": "2026-10-30T20:48-03:00"
+ },
+ {
   "nome": "Tênis Nike Revolution 8 Feminino",
   "loja": "Mercado Livre",
   "preco": 279.0,
@@ -75,12 +82,5 @@
   "preco": 58.0,
   "preco_antes": 189.0,
   "quando": "2026-10-30T12:09-03:00"
- },
- {
-  "nome": "Power Bank Turbo 50.000mah Carregador Portátil Digital Us...",
-  "loja": "Mercado Livre",
-  "preco": 97.1,
-  "preco_antes": 147.0,
-  "quando": "2026-10-30T09:08-03:00"
  }
 ]
