@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Bolsa Academia Feminina 30L Grande Capacidade com Compart...",
+  "loja": "Shopee",
+  "preco": 39.99,
+  "preco_antes": 0,
+  "quando": "2026-10-30T15:42-03:00"
+ },
+ {
   "nome": "Mixer Magnética automática inox",
   "loja": "Mercado Livre",
   "preco": 44.45,
@@ -75,12 +82,5 @@
   "preco": 24.52,
   "preco_antes": 33.99,
   "quando": "2026-10-24T17:20-03:00"
- },
- {
-  "nome": "NIVEA Hidratante Labial Morango Shine 4,8g",
-  "loja": "Amazon",
-  "preco": 12.33,
-  "preco_antes": 0,
-  "quando": "2026-10-24T12:27-03:00"
  }
 ]
