@@ -5477,5 +5477,12 @@
    "aprovado": false
   }
  ],
- "agenda": []
+ "agenda": [
+  {
+   "produto": "Secador de Cabelo Britânia 1450W 220V",
+   "loja": "Amazon",
+   "preco": 346.65,
+   "quando": "2026-10-30T19:00"
+  }
+ ]
 }

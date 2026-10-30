@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Video Jaqueta Feminina de Verão Nova Branca Solta Manga L...",
+  "loja": "Shein",
+  "preco": 83.12,
+  "preco_antes": 103.9,
+  "quando": "2026-10-30T16:24-03:00"
+ },
+ {
   "nome": "Bolsa Academia Feminina 30L Grande Capacidade com Compart...",
   "loja": "Shopee",
   "preco": 39.99,
@@ -75,12 +82,5 @@
   "preco": 55.1,
   "preco_antes": 0,
   "quando": "2026-10-24T17:21-03:00"
- },
- {
-  "nome": "VASENOL GELEIA DE VASELINA HIDRATANTE",
-  "loja": "Amazon",
-  "preco": 24.52,
-  "preco_antes": 33.99,
-  "quando": "2026-10-24T17:20-03:00"
  }
 ]
