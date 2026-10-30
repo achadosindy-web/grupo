@@ -5503,5 +5503,24 @@
    "aprovado": false
   }
  ],
- "agenda": []
+ "agenda": [
+  {
+   "produto": "Philco Sanduicheira e Grill Acabamento em Inox 750W PGR27A - 127V",
+   "loja": "Amazon",
+   "preco": 91.1,
+   "quando": "2026-10-30T15:00"
+  },
+  {
+   "produto": "Kit com 2 Travesseiros 70x50cm Pena De Ganso",
+   "loja": "Mercado Livre",
+   "preco": 29.0,
+   "quando": "2026-10-30T15:00"
+  },
+  {
+   "produto": "Caneca mixer magnética",
+   "loja": "Mercado Livre",
+   "preco": 44.45,
+   "quando": ""
+  }
+ ]
 }
