@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Power Bank Turbo 50.000mah Carregador Portátil Digital Us...",
+  "loja": "Mercado Livre",
+  "preco": 97.1,
+  "preco_antes": 147.0,
+  "quando": "2026-10-30T09:08-03:00"
+ },
+ {
+  "nome": "Kit 4 Camiseta Dry Fit Masculina - Parvori",
+  "loja": "Mercado Livre",
+  "preco": 71.0,
+  "preco_antes": 149.0,
+  "quando": "2026-10-30T09:08-03:00"
+ },
+ {
+  "nome": "Jogo De Ferramentas 200 Peças Profissional Com Maleta",
+  "loja": "Mercado Livre",
+  "preco": 70.0,
+  "preco_antes": 160.0,
+  "quando": "2026-10-30T09:07-03:00"
+ },
+ {
+  "nome": "Esteira Elétrica Redfin Ideal IDL-227 Dobrável, 2.5 HP e...",
+  "loja": "Mercado Livre",
+  "preco": 494.7,
+  "preco_antes": 1199.0,
+  "quando": "2026-10-30T09:07-03:00"
+ },
+ {
   "nome": "Aparelho De Jantar Oxford Cerâmica Folk 20 Peças",
   "loja": "Mercado Livre",
   "preco": 159.0,
@@ -54,33 +82,5 @@
   "preco": 75.94,
   "preco_antes": 138.07,
   "quando": "2026-10-29T13:06-03:00"
- },
- {
-  "nome": "Mixer de Mão 200W Elgin Compacto e Leve",
-  "loja": "Amazon",
-  "preco": 48.59,
-  "preco_antes": 97.18,
-  "quando": "2026-10-29T13:06-03:00"
- },
- {
-  "nome": "Pipoqueira Po Cine Pp02 Vermelho Com Dosador 1200w 220v A...",
-  "loja": "Amazon",
-  "preco": 88.31,
-  "preco_antes": 127.99,
-  "quando": "2026-10-29T12:57-03:00"
- },
- {
-  "nome": "Kit com 3 Potes Hermético 1040ml com Divisória",
-  "loja": "Mercado Livre",
-  "preco": 52.0,
-  "preco_antes": 81.0,
-  "quando": "2026-10-29T12:57-03:00"
- },
- {
-  "nome": "Kit 2 Cobertor Casal Manta Mantinha Cobertores Microfibra...",
-  "loja": "Mercado Livre",
-  "preco": 32.0,
-  "preco_antes": 75.0,
-  "quando": "2026-10-29T12:56-03:00"
  }
 ]
