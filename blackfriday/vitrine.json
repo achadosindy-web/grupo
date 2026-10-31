@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Chaleira Elétrica Agratto 1 8L 220v",
+  "loja": "Amazon",
+  "preco": 49.46,
+  "preco_antes": 117.76,
+  "quando": "2026-10-30T21:44-03:00"
+ },
+ {
   "nome": "Ferro A Vapor Cerâmica Oster Linha Aeroceramic Compacto",
   "loja": "Mercado Livre",
   "preco": 140.48,
@@ -75,12 +82,5 @@
   "preco": 836.0,
   "preco_antes": 1299.0,
   "quando": "2026-10-30T12:10-03:00"
- },
- {
-  "nome": "Guarda Chuva Automático Reforçado Proteção Solar Sombrinha",
-  "loja": "Mercado Livre",
-  "preco": 31.92,
-  "preco_antes": 49.8,
-  "quando": "2026-10-30T12:09-03:00"
  }
 ]
