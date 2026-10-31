@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Escova Secadora Britânia 1300W Soft Bivolt",
+  "loja": "Mercado Livre",
+  "preco": 89.0,
+  "preco_antes": 139.0,
+  "quando": "2026-10-31T15:11-03:00"
+ },
+ {
+  "nome": "Projetor Portátil 4k Hd Wifi Bluetooth",
+  "loja": "Mercado Livre",
+  "preco": 150.0,
+  "preco_antes": 279.0,
+  "quando": "2026-10-31T15:11-03:00"
+ },
+ {
+  "nome": "Relógio Chroma Masculino Preto Saint Germain Clássico Cai...",
+  "loja": "Mercado Livre",
+  "preco": 130.0,
+  "preco_antes": 259.0,
+  "quando": "2026-10-31T15:10-03:00"
+ },
+ {
   "nome": "Lavadora alta pressão karcher",
   "loja": "Mercado Livre",
   "preco": 295.0,
@@ -61,26 +82,5 @@
   "preco": 77.0,
   "preco_antes": 109.0,
   "quando": "2026-10-31T10:46-03:00"
- },
- {
-  "nome": "Cooktop De Indução 5 Bocas Eos 90cm 9500w Preto Eci05epf",
-  "loja": "Mercado Livre",
-  "preco": 1.68,
-  "preco_antes": 4.0,
-  "quando": "2026-10-31T10:42-03:00"
- },
- {
-  "nome": "Aspirador de Pó Vertical e Portátil WAP High Speed Plus 1...",
-  "loja": "Mercado Livre",
-  "preco": 143.46,
-  "preco_antes": 207.0,
-  "quando": "2026-10-31T10:35-03:00"
- },
- {
-  "nome": "Ar Condicionado Split Hw Gree G-side 9000 Btus Frio 220v",
-  "loja": "Mercado Livre",
-  "preco": 1909.0,
-  "preco_antes": 2359.0,
-  "quando": "2026-10-31T10:29-03:00"
  }
 ]
