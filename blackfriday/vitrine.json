@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Monito AOC 24 polegadas",
+  "loja": "Mercado Livre",
+  "preco": 459.78,
+  "preco_antes": 679.0,
+  "quando": "2026-10-31T11:44-03:00"
+ },
+ {
   "nome": "Multiprocessador e Triturador de Alimentos Viacruz 2 Litr...",
   "loja": "Mercado Livre",
   "preco": 77.0,
@@ -75,12 +82,5 @@
   "preco": 49.46,
   "preco_antes": 117.76,
   "quando": "2026-10-31T09:08-03:00"
- },
- {
-  "nome": "Secador de Cabelo Britânia 1450W 220V",
-  "loja": "Amazon",
-  "preco": 346.65,
-  "preco_antes": 866.62,
-  "quando": "2026-10-31T09:07-03:00"
  }
 ]
