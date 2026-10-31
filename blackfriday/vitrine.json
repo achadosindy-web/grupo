@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Lavadora alta pressão karcher",
+  "loja": "Mercado Livre",
+  "preco": 295.0,
+  "preco_antes": 550.0,
+  "quando": "2026-10-31T13:02-03:00"
+ },
+ {
   "nome": "Kit 2 Saco Para Lavar Sapatos Na Máquina De Lavar Prático",
   "loja": "Mercado Livre",
   "preco": 27.0,
@@ -75,12 +82,5 @@
   "preco": 1909.0,
   "preco_antes": 2359.0,
   "quando": "2026-10-31T10:29-03:00"
- },
- {
-  "nome": "Balança Digital Bioimpedância Profissional smart imc 180k...",
-  "loja": "Mercado Livre",
-  "preco": 28.95,
-  "preco_antes": 84.9,
-  "quando": "2026-10-31T10:16-03:00"
  }
 ]
