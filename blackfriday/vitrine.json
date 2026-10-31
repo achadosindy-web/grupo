@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Aspirador de Pó Vertical e Portátil WAP High Speed Plus 1...",
+  "loja": "Mercado Livre",
+  "preco": 143.46,
+  "preco_antes": 207.0,
+  "quando": "2026-10-31T10:35-03:00"
+ },
+ {
   "nome": "Ar Condicionado Split Hw Gree G-side 9000 Btus Frio 220v",
   "loja": "Mercado Livre",
   "preco": 1909.0,
@@ -75,12 +82,5 @@
   "preco": 140.48,
   "preco_antes": 299.99,
   "quando": "2026-10-30T20:49-03:00"
- },
- {
-  "nome": "Purificador Água E-due Equilibrium Grafite Ibbl Bivolt",
-  "loja": "Mercado Livre",
-  "preco": 448.0,
-  "preco_antes": 499.0,
-  "quando": "2026-10-30T20:48-03:00"
  }
 ]
