@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Cadeira de Escritório Diretor Giratória Preta",
+  "loja": "Shopee",
+  "preco": 84.55,
+  "preco_antes": 139.44,
+  "quando": "2026-10-31T19:12-03:00"
+ },
+ {
+  "nome": "Organizador Prateleira Diamante Acrílico Porta Maquiagem...",
+  "loja": "Shopee",
+  "preco": 27.9,
+  "preco_antes": 49.82,
+  "quando": "2026-10-31T19:12-03:00"
+ },
+ {
+  "nome": "Câmera Inteligente iM3 C Black Intelbras",
+  "loja": "Mercado Livre",
+  "preco": 135.0,
+  "preco_antes": 248.0,
+  "quando": "2026-10-31T19:11-03:00"
+ },
+ {
   "nome": "Fone de ouvido JBL tune 530bt",
   "loja": "Mercado Livre",
   "preco": 234.12,
@@ -61,26 +82,5 @@
   "preco": 229.0,
   "preco_antes": 394.83,
   "quando": "2026-10-31T12:12-03:00"
- },
- {
-  "nome": "Fritadeira Air Fryer 8,5l Widemax Com Cesto Antiaderente...",
-  "loja": "Mercado Livre",
-  "preco": 314.0,
-  "preco_antes": 549.0,
-  "quando": "2026-10-31T12:11-03:00"
- },
- {
-  "nome": "Multiprocessador turbo chef 5 em1 mondial",
-  "loja": "Mercado Livre",
-  "preco": 230.85,
-  "preco_antes": 462.9,
-  "quando": "2026-10-31T12:10-03:00"
- },
- {
-  "nome": "Kit 2 tapetes mágico banheiro",
-  "loja": "Mercado Livre",
-  "preco": 32.0,
-  "preco_antes": 59.0,
-  "quando": "2026-10-31T11:46-03:00"
  }
 ]
