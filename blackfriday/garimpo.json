@@ -5503,5 +5503,30 @@
    "aprovado": false
   }
  ],
- "agenda": []
+ "agenda": [
+  {
+   "produto": "Secador de Cabelo Britânia 1450W 220V",
+   "loja": "Amazon",
+   "preco": 346.65,
+   "quando": "2026-10-31T09:00"
+  },
+  {
+   "produto": "Pipoqueira Eletrica Po Cine Agratto 1200W",
+   "loja": "Amazon",
+   "preco": 89.0,
+   "quando": "2026-10-31T09:00"
+  },
+  {
+   "produto": "Chaleira Elétrica Agratto 1,8L 220v",
+   "loja": "Amazon",
+   "preco": 49.46,
+   "quando": "2026-10-31T09:00"
+  },
+  {
+   "produto": "Jogo de lençol queen 4 peças 400 fios",
+   "loja": "Mercado Livre",
+   "preco": 34.9,
+   "quando": "2026-10-31T09:00"
+  }
+ ]
 }
