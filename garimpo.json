@@ -1,7 +1,29 @@
 {
- "atualizado": "2026-10-30T21:39-03:00",
+ "atualizado": "2026-10-30T21:52-03:00",
  "bot": "achadinhosdaindy_bot",
  "itens": [
+  {
+   "gid": "6692d1",
+   "id": "radar-B0GZWH9D3W",
+   "loja": "Amazon",
+   "nome": "Kit 02 un. Morte Súbita Shampoo e Máscara Lola From Rio",
+   "preco": 56.28,
+   "preco_antes": 89.33,
+   "desconto": 37,
+   "cupom": "na página do produto",
+   "imagem": "https://cdn1.telesco.pe/file/LehvTnPtg1u3faWwmYOEJTXNe4-JquT-wTumKSXw7MfoAoVmXbarERjPELpDlLbXiyKXr6Lhqv4mbXySLNJ_1jafdGC2nBPK8uXqulobO2k43CQh-XuiLjGP09oxV4pwdlNMM2T5DmUES9W421rL9w6kotLfk2w3ikQt9eUB4Zjamxng3w-EKf78_Wl9e7K_QzmZ47mCaLCo3VDjSgkUacZu9lAq0WXVHksi6yAt5mxg0OBtdnIlUo4LJmRZzgP_PZAgB9t1zOjKThToY_mpQ1lAzCALXio1-y6lg9MThIboxu7JgL8v6kUHxaStcAEdrMIqp2ZVZv-vqArKGRD8bw.jpg",
+   "link": "https://www.amazon.com.br/dp/B0GZWH9D3W?tag=achadinh084ca-20",
+   "abrir": "",
+   "checado": false,
+   "preco_conferido": false,
+   "converter": true,
+   "categoria": "Beleza",
+   "fonte": "@pobregram",
+   "post": "https://t.me/pobregram/42831",
+   "quando": "2026-10-30T22:11:47+00:00",
+   "achado_em": "2026-10-30T21:52-03:00",
+   "aprovado": false
+  },
   {
    "gid": "6b113e",
    "id": "radar-B0CXJQB3FL",
