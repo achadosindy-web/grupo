@@ -1,7 +1,51 @@
 {
- "atualizado": "2026-10-30T21:13-03:00",
+ "atualizado": "2026-10-30T21:26-03:00",
  "bot": "achadinhosdaindy_bot",
  "itens": [
+  {
+   "gid": "f71ff6",
+   "id": "radar-B0H96XW8TW",
+   "loja": "Amazon",
+   "nome": "Kit 3 Pastas de Dente Oral-B 3D White Carvão – 70g cada",
+   "preco": 20.99,
+   "preco_antes": 0,
+   "desconto": 0,
+   "cupom": "OUTLETPRIME",
+   "imagem": "https://cdn1.telesco.pe/file/NK7iSJLWyJT7hYr2fjNIi5izGvfAcy_rgLp38OAFFcOkp3PuHwKK7R3PQIfXIdjqgVDVxYxCemN4vSndQ4SgqBhEZ0JBdPVwZ1J01NQ4aPI3jT-uJf7gQsV36Js6fLKRFRVPScUwNilk66t1Fn4iyviXTejBbBpUvD2bP8o9H99VTtnDdBUY3sz2YgHHO3nqr6t1x9Gliy5bguIPvB5EbBNv-ARuMgm0HcDIQ2WrLMG9XQ3meNTekGaFEQZjfVK-DYQzjlJrYuDB0zuxwsruvDTjrmCNDtx4i381pcXlkEdT3E_l8qaLv6sWKICmBh3Z30WLvJrW0ICFL25NGuNLyQ.jpg",
+   "link": "https://www.amazon.com.br/dp/B0H96XW8TW?tag=achadinh084ca-20",
+   "abrir": "",
+   "checado": false,
+   "preco_conferido": false,
+   "converter": true,
+   "categoria": "Outros",
+   "fonte": "@urubupromo",
+   "post": "https://t.me/urubupromo/42376",
+   "quando": "2026-10-30T23:38:15+00:00",
+   "achado_em": "2026-10-30T21:26-03:00",
+   "aprovado": false
+  },
+  {
+   "gid": "a6b69c",
+   "id": "garimpo-kit2shortduplocompressãofemininomm",
+   "loja": "Mercado Livre",
+   "nome": "Kit 2 Short Duplo Compressão Feminino - .mm",
+   "preco": 58.0,
+   "preco_antes": 99.0,
+   "desconto": 41,
+   "cupom": "",
+   "imagem": "https://cdn1.telesco.pe/file/vC0Ge_jtHMdwgau3nSy5QOGog4zYtDtWz4ZYRLB74ttZ0fstm_ThHGz6SHuiu04WZRXXrksZcenmJN1PtemfPHPiUyCQmDuynmkTK2rAYAIMX2eZa7TTQLUwfP9B0H8tkbcJGuMKRKhccy6BB0QzWGtB8O7ZTi9BrFb3_R1fSGJUJcOEdAkWVbZBSdYnGIi2qCZTgiNdaHFJWExX_l6AZUAEN12Y9stx0N6exWjNGZZvlmYOPfgxeAxJ8JWg24SjWt3GVEkwdM-_lY5VGSv7dtvyu0kRu15ymUwgB19WU7_ZXHTE3LnVlzZlN8_ixAokkWHKZDybKXC2LiALDScpcw.jpg",
+   "link": "https://meli.la/2CUcr7r",
+   "abrir": "",
+   "checado": true,
+   "preco_conferido": false,
+   "converter": false,
+   "categoria": "Fitness",
+   "fonte": "@guerradealsfit",
+   "post": "https://t.me/guerradealsfit/13416",
+   "quando": "2026-10-31T00:19:59+00:00",
+   "achado_em": "2026-10-30T21:26-03:00",
+   "aprovado": true
+  },
   {
    "gid": "740f09",
    "id": "radar-B0GCC5LNLM",
@@ -418,7 +462,7 @@
    "post": "https://t.me/achadinhosdavava/11834",
    "quando": "2026-10-30T20:13:46+00:00",
    "achado_em": "2026-10-30T19:03-03:00",
-   "aprovado": false
+   "aprovado": true
   },
   {
    "gid": "311ecf",
@@ -5261,5 +5305,12 @@
    "aprovado": false
   }
  ],
- "agenda": []
+ "agenda": [
+  {
+   "produto": "PINK CHEEKS BLUSH 3 EM 1 MULTIFUNCIONAL PINK BERRY",
+   "loja": "Amazon",
+   "preco": 61.65,
+   "quando": "2026-10-31T21:00"
+  }
+ ]
 }
