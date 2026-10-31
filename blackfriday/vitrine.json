@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Ar Condicionado Split Hw Gree G-side 9000 Btus Frio 220v",
+  "loja": "Mercado Livre",
+  "preco": 1909.0,
+  "preco_antes": 2359.0,
+  "quando": "2026-10-31T10:29-03:00"
+ },
+ {
   "nome": "Balança Digital Bioimpedância Profissional smart imc 180k...",
   "loja": "Mercado Livre",
   "preco": 28.95,
@@ -75,12 +82,5 @@
   "preco": 448.0,
   "preco_antes": 499.0,
   "quando": "2026-10-30T20:48-03:00"
- },
- {
-  "nome": "Tênis Nike Revolution 8 Feminino",
-  "loja": "Mercado Livre",
-  "preco": 279.0,
-  "preco_antes": 399.0,
-  "quando": "2026-10-30T20:04-03:00"
  }
 ]
