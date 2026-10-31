@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Ventilador De Teto C/ Controle 6 Vel. Fenix Ventisol",
+  "loja": "Mercado Livre",
+  "preco": 260.13,
+  "preco_antes": 339.0,
+  "quando": "2026-10-31T10:13-03:00"
+ },
+ {
   "nome": "Cooktop 4 Bocas Atlas Agile Up Mesa Vidro Mega Chama Bivolt",
   "loja": "Mercado Livre",
   "preco": 282.65,
@@ -75,12 +82,5 @@
   "preco": 199.9,
   "preco_antes": 298.36,
   "quando": "2026-10-30T20:03-03:00"
- },
- {
-  "nome": "Philco Sanduicheira e Grill Acabamento em Inox 750W PGR27...",
-  "loja": "Amazon",
-  "preco": 91.1,
-  "preco_antes": 121.47,
-  "quando": "2026-10-30T15:12-03:00"
  }
 ]
