@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Fone de ouvido JBL tune 530bt",
+  "loja": "Mercado Livre",
+  "preco": 234.12,
+  "preco_antes": 299.0,
+  "quando": "2026-10-31T18:09-03:00"
+ },
+ {
   "nome": "PHILIPS  Fone de Ouvido Sem Fio TWS  TAT1109BK/00  Blueto...",
   "loja": "Amazon",
   "preco": 94.02,
@@ -75,12 +82,5 @@
   "preco": 32.0,
   "preco_antes": 59.0,
   "quando": "2026-10-31T11:46-03:00"
- },
- {
-  "nome": "Monito AOC 24 polegadas",
-  "loja": "Mercado Livre",
-  "preco": 459.78,
-  "preco_antes": 679.0,
-  "quando": "2026-10-31T11:44-03:00"
  }
 ]
