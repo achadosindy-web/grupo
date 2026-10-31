@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Tablet Samsung Tab A11",
+  "loja": "Mercado Livre",
+  "preco": 1487.06,
+  "preco_antes": 2349.0,
+  "quando": "2026-10-31T19:32-03:00"
+ },
+ {
   "nome": "Tramontina Jogo de Panelas Veronese em Alumínio com Reves...",
   "loja": "Mercado Livre",
   "preco": 342.0,
@@ -74,13 +81,6 @@
   "loja": "Mercado Livre",
   "preco": 27.0,
   "preco_antes": 44.0,
-  "quando": "2026-10-31T12:13-03:00"
- },
- {
-  "nome": "Kit 3 Pares Meias New Balance Cano Longo Unissex",
-  "loja": "Mercado Livre",
-  "preco": 41.0,
-  "preco_antes": 69.0,
   "quando": "2026-10-31T12:13-03:00"
  }
 ]
