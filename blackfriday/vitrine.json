@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Synco Xtalk Xpro2 Intercom Sem Fio Headset 2 Pessoas 500m",
+  "loja": "Mercado Livre",
+  "preco": 1354.51,
+  "preco_antes": 1999.99,
+  "quando": "2026-10-31T10:42-03:00"
+ },
+ {
   "nome": "Aspirador de Pó Vertical e Portátil WAP High Speed Plus 1...",
   "loja": "Mercado Livre",
   "preco": 143.46,
@@ -75,12 +82,5 @@
   "preco": 119.9,
   "preco_antes": 176.32,
   "quando": "2026-10-30T21:45-03:00"
- },
- {
-  "nome": "Ferro A Vapor Cerâmica Oster Linha Aeroceramic Compacto",
-  "loja": "Mercado Livre",
-  "preco": 140.48,
-  "preco_antes": 299.99,
-  "quando": "2026-10-30T20:49-03:00"
  }
 ]
