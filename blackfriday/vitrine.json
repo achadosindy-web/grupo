@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Multiprocessador e Triturador de Alimentos Viacruz 2 Litr...",
+  "loja": "Mercado Livre",
+  "preco": 77.0,
+  "preco_antes": 109.0,
+  "quando": "2026-10-31T10:46-03:00"
+ },
+ {
   "nome": "Cooktop De Indução 5 Bocas Eos 90cm 9500w Preto Eci05epf",
   "loja": "Mercado Livre",
   "preco": 1.68,
@@ -75,12 +82,5 @@
   "preco": 346.65,
   "preco_antes": 866.62,
   "quando": "2026-10-31T09:07-03:00"
- },
- {
-  "nome": "Grill e Sanduicheira Philco Inox 1000W 220v",
-  "loja": "Amazon",
-  "preco": 119.9,
-  "preco_antes": 176.32,
-  "quando": "2026-10-30T21:45-03:00"
  }
 ]
