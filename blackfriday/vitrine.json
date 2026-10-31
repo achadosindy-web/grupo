@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Kit 2 Saco Para Lavar Sapatos Na Máquina De Lavar Prático",
+  "loja": "Mercado Livre",
+  "preco": 27.0,
+  "preco_antes": 44.0,
+  "quando": "2026-10-31T12:13-03:00"
+ },
+ {
+  "nome": "Kit 3 Pares Meias New Balance Cano Longo Unissex",
+  "loja": "Mercado Livre",
+  "preco": 41.0,
+  "preco_antes": 69.0,
+  "quando": "2026-10-31T12:13-03:00"
+ },
+ {
+  "nome": "Samsung Galaxy Buds Core",
+  "loja": "Amazon",
+  "preco": 229.0,
+  "preco_antes": 394.83,
+  "quando": "2026-10-31T12:12-03:00"
+ },
+ {
+  "nome": "Fritadeira Air Fryer 8,5l Widemax Com Cesto Antiaderente...",
+  "loja": "Mercado Livre",
+  "preco": 314.0,
+  "preco_antes": 549.0,
+  "quando": "2026-10-31T12:11-03:00"
+ },
+ {
+  "nome": "Multiprocessador turbo chef 5 em1 mondial",
+  "loja": "Mercado Livre",
+  "preco": 230.85,
+  "preco_antes": 462.9,
+  "quando": "2026-10-31T12:10-03:00"
+ },
+ {
   "nome": "Kit 2 tapetes mágico banheiro",
   "loja": "Mercado Livre",
   "preco": 32.0,
@@ -47,40 +82,5 @@
   "preco": 28.95,
   "preco_antes": 84.9,
   "quando": "2026-10-31T10:16-03:00"
- },
- {
-  "nome": "Cozedor De Ovos Automático Panela A Vapor Elétrica Legume...",
-  "loja": "Mercado Livre",
-  "preco": 37.98,
-  "preco_antes": 51.4,
-  "quando": "2026-10-31T10:15-03:00"
- },
- {
-  "nome": "Ventilador De Teto C/ Controle 6 Vel. Fenix Ventisol",
-  "loja": "Mercado Livre",
-  "preco": 260.13,
-  "preco_antes": 339.0,
-  "quando": "2026-10-31T10:13-03:00"
- },
- {
-  "nome": "Cooktop 4 Bocas Atlas Agile Up Mesa Vidro Mega Chama Bivolt",
-  "loja": "Mercado Livre",
-  "preco": 282.65,
-  "preco_antes": 483.25,
-  "quando": "2026-10-31T10:00-03:00"
- },
- {
-  "nome": "Jogo de lençol queen 4 peças 400 fios",
-  "loja": "Mercado Livre",
-  "preco": 34.9,
-  "preco_antes": 0,
-  "quando": "2026-10-31T09:09-03:00"
- },
- {
-  "nome": "Pipoqueira Eletrica Po Cine Agratto 1200W",
-  "loja": "Amazon",
-  "preco": 89.0,
-  "preco_antes": 127.14,
-  "quando": "2026-10-31T09:09-03:00"
  }
 ]
