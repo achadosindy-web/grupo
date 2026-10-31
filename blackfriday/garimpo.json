@@ -5503,5 +5503,24 @@
    "aprovado": false
   }
  ],
- "agenda": []
+ "agenda": [
+  {
+   "produto": "Cadeira de Escritório Diretor Giratória Preta",
+   "loja": "Shopee",
+   "preco": 84.55,
+   "quando": "2026-10-31T19:00"
+  },
+  {
+   "produto": "Câmera Inteligente iM3 C Black Intelbras",
+   "loja": "Mercado Livre",
+   "preco": 135.0,
+   "quando": "2026-10-31T19:00"
+  },
+  {
+   "produto": "Organizador Prateleira Diamante Acrílico Porta Maquiagem Beleza linhas - Kaziva",
+   "loja": "Shopee",
+   "preco": 27.9,
+   "quando": "2026-10-31T19:00"
+  }
+ ]
 }

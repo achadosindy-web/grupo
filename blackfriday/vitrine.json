@@ -1,5 +1,12 @@
 [
  {
+  "nome": "PHILIPS  Fone de Ouvido Sem Fio TWS  TAT1109BK/00  Blueto...",
+  "loja": "Amazon",
+  "preco": 94.02,
+  "preco_antes": 142.45,
+  "quando": "2026-10-31T17:59-03:00"
+ },
+ {
   "nome": "Escova Secadora Britânia 1300W Soft Bivolt",
   "loja": "Mercado Livre",
   "preco": 89.0,
@@ -75,12 +82,5 @@
   "preco": 459.78,
   "preco_antes": 679.0,
   "quando": "2026-10-31T11:44-03:00"
- },
- {
-  "nome": "Multiprocessador e Triturador de Alimentos Viacruz 2 Litr...",
-  "loja": "Mercado Livre",
-  "preco": 77.0,
-  "preco_antes": 109.0,
-  "quando": "2026-10-31T10:46-03:00"
  }
 ]
