@@ -1,5 +1,12 @@
 [
  {
+  "nome": "L'Oréal Paris Base BB Cream FPS 20 Dermo Expertise Cor Mé...",
+  "loja": "Amazon",
+  "preco": 35.99,
+  "preco_antes": 63.49,
+  "quando": "2026-10-30T21:26-03:00"
+ },
+ {
   "nome": "Secador de Cabelo Britânia 1450W 220V",
   "loja": "Amazon",
   "preco": 346.65,
@@ -75,12 +82,5 @@
   "preco": 56.0,
   "preco_antes": 78.0,
   "quando": "2026-10-25T19:56-03:00"
- },
- {
-  "nome": "Mixer Mallory Trikxer Pratic 3 EM 1 127V",
-  "loja": "Amazon",
-  "preco": 124.26,
-  "preco_antes": 0,
-  "quando": "2026-10-25T11:50-03:00"
  }
 ]
