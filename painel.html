@@ -85,6 +85,10 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
 .acoes{display:grid;gap:6px;margin-top:auto;padding-top:4px}
 .btn{display:flex;align-items:center;justify-content:center;gap:6px;border-radius:10px;padding:9px 10px;font-weight:700;font-size:13px;text-decoration:none;border:0;cursor:pointer;text-align:center}
 .btn.postar{background:var(--cafe);color:var(--papel)}
+button.btn.postar[aria-disabled="true"]{opacity:.45}
+.acoes .mini{display:flex;justify-content:center;gap:14px;padding:2px 0}
+.acoes .mini a,.acoes .mini button{font:inherit;font-size:12px;color:var(--texto-2);background:none;border:0;text-decoration:underline;cursor:pointer;padding:4px 2px}
+.btn.sec[aria-disabled="true"]{opacity:.45;pointer-events:none}
 .btn.postar[aria-disabled="true"]{opacity:.45;pointer-events:none}
 .btn.sec{background:var(--campo);color:var(--cafe);border:1px solid var(--fio)}
 .vi-ajuda{margin:10px 0 0;font-size:12.5px;line-height:1.45;color:var(--texto-2)}
@@ -286,8 +290,9 @@ function cartao(i) {
   if (i.aprovado) {
     acoes = `<div class="aprovado-txt">✓ Aprovado, vai pro grupo</div>`;
   } else if (i.converter) {
-    acoes = `<a class="btn postar" href="${tg("ok_" + i.gid + sufixoHora())}" target="_blank" rel="noopener" data-postar="${i.gid}">Postar no grupo</a>
-      <div class="linha-btn"><a class="btn sec" href="${esc(i.link)}" target="_blank" rel="noopener">Ver produto</a><button class="btn sec" type="button" data-desc="${i.gid}">Descartar</button></div>`;
+    acoes = `<button class="btn postar" type="button" data-agora="${i.gid}">⚡ Postar agora</button>
+      <a class="btn sec" href="${tg("ok_" + i.gid + sufixoHora())}" target="_blank" rel="noopener" data-postar="${i.gid}">⏱ ${rotuloProgramar()}</a>
+      <div class="mini"><a href="${esc(i.link)}" target="_blank" rel="noopener">Ver produto</a><button type="button" data-desc="${i.gid}">Descartar</button></div>`;
   } else {
     const c = colados[i.gid] || "";
     const cod = codigoDoLink(c);
@@ -295,7 +300,9 @@ function cartao(i) {
     acoes = `<a class="btn sec" href="${esc(abrir.url)}" target="_blank" rel="noopener">1. Abrir e gerar meu link</a>
       <input class="colar" type="url" inputmode="url" id="c-${i.gid}" data-colar="${i.gid}" placeholder="2. Cole aqui o seu link" value="${esc(c)}">
       <span class="dica ${c && !cod ? "erro" : ""}" id="d-${i.gid}">${c && !cod ? "Esse link não parece ser meli.la, shopee, shein ou amzn.to" : "O link que começa com meli.la/…"}</span>
-      <div class="linha-btn"><a class="btn postar" id="p-${i.gid}" href="${linkPostar(cod, i.gid)}" aria-disabled="${!cod}" target="_blank" rel="noopener" data-postar="${i.gid}">3. Postar</a><button class="btn sec" type="button" data-desc="${i.gid}">Descartar</button></div>`;
+      <button class="btn postar" type="button" id="a-${i.gid}" data-agora="${i.gid}" aria-disabled="${!cod}">⚡ Postar agora</button>
+      <a class="btn sec" id="p-${i.gid}" href="${linkPostar(cod, i.gid)}" aria-disabled="${!cod}" target="_blank" rel="noopener" data-postar="${i.gid}">⏱ ${rotuloProgramar()}</a>
+      <div class="mini"><button type="button" data-desc="${i.gid}">Descartar</button></div>`;
   }
   return `<article class="card ${i.aprovado ? "aprovado" : ""}">
     <div class="foto">${foto}${i.desconto ? `<span class="off">-${i.desconto}%</span>` : ""}${i.aprovado ? `<span class="selo-ok">✓</span>` : ""}</div>
@@ -331,6 +338,7 @@ const HORAS = [9, 12, 15, 19, 21];
 const porHora = () => PERFIL === "blackfriday" ? 5 : 10;   /* o robô posta até isso por rodada */
 let horaEscolhida = "";
 const sufixoHora = () => horaEscolhida ? "-h" + horaEscolhida : "";
+const rotuloProgramar = () => horaEscolhida ? `Programar ${horaEscolhida}h` : "Programar";
 function doisDig(n) { return String(n).padStart(2, "0"); }
 function diaISO(d) { return `${d.getFullYear()}-${doisDig(d.getMonth() + 1)}-${doisDig(d.getDate())}`; }
 /* Igual ao robô: hora que já passou hoje = amanhã nesse horário */
@@ -460,6 +468,16 @@ function desenhar() {
 }
 
 function ligarCartoes() {
+  document.querySelectorAll("[data-agora]").forEach(b => b.addEventListener("click", () => {
+    if (b.getAttribute("aria-disabled") === "true") { avisoEnvio("Cole o seu link primeiro (passo 2) pra poder postar."); return; }
+    const i = dados.itens.find(x => x.gid === b.dataset.agora);
+    if (!i) return;
+    let link = i.link;
+    if (!i.converter) { const m = String(colados[i.gid] || "").match(/https?:\/\/\S+/); if (!m) return; link = m[0]; }
+    enviarAgora({ link, nome: i.nome, preco: String(i.preco), preco_antes: i.preco_antes ? String(i.preco_antes) : "",
+                  cupom: /^[A-Z0-9]{4,20}$/.test(i.cupom || "") ? i.cupom : "", modo: "agora" });
+    i.aprovado = true; setTimeout(desenhar, 400);
+  }));
   document.querySelectorAll("[data-desc]").forEach(b => b.addEventListener("click", () => {
     descartados.add(b.dataset.desc); gravarLocal("garimpo-descartados", [...descartados].slice(-600)); desenhar();
   }));
@@ -468,6 +486,7 @@ function ligarCartoes() {
     colados[gid] = inp.value; gravarLocal("garimpo-colados", colados);
     const p = document.getElementById("p-" + gid), d = document.getElementById("d-" + gid);
     p.href = linkPostar(cod, gid);
+    const ag = document.getElementById("a-" + gid); if (ag) ag.setAttribute("aria-disabled", String(!cod));
     p.setAttribute("aria-disabled", String(!cod));
     d.textContent = inp.value && !cod ? "Esse link não parece ser meli.la, shopee, shein ou amzn.to" : (cod ? "Pronto: toque em Postar" : "O link que começa com meli.la/…");
     d.classList.toggle("erro", !!inp.value && !cod);
