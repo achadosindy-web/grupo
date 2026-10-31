@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Cozedor De Ovos Automático Panela A Vapor Elétrica Legume...",
+  "loja": "Mercado Livre",
+  "preco": 37.98,
+  "preco_antes": 51.4,
+  "quando": "2026-10-31T10:15-03:00"
+ },
+ {
   "nome": "Ventilador De Teto C/ Controle 6 Vel. Fenix Ventisol",
   "loja": "Mercado Livre",
   "preco": 260.13,
@@ -75,12 +82,5 @@
   "preco": 27.0,
   "preco_antes": 39.0,
   "quando": "2026-10-30T20:04-03:00"
- },
- {
-  "nome": "Aparelho de Jantar e Chá Biona Donna Folk, Marfim/Preto",
-  "loja": "Amazon",
-  "preco": 199.9,
-  "preco_antes": 298.36,
-  "quando": "2026-10-30T20:03-03:00"
  }
 ]
