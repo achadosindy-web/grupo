@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Jogo de lençol queen 4 peças 400 fios",
+  "loja": "Mercado Livre",
+  "preco": 34.9,
+  "preco_antes": 0,
+  "quando": "2026-10-31T09:09-03:00"
+ },
+ {
+  "nome": "Pipoqueira Eletrica Po Cine Agratto 1200W",
+  "loja": "Amazon",
+  "preco": 89.0,
+  "preco_antes": 127.14,
+  "quando": "2026-10-31T09:09-03:00"
+ },
+ {
+  "nome": "Chaleira Elétrica Agratto 1,8L 220v",
+  "loja": "Amazon",
+  "preco": 49.46,
+  "preco_antes": 117.76,
+  "quando": "2026-10-31T09:08-03:00"
+ },
+ {
+  "nome": "Secador de Cabelo Britânia 1450W 220V",
+  "loja": "Amazon",
+  "preco": 346.65,
+  "preco_antes": 866.62,
+  "quando": "2026-10-31T09:07-03:00"
+ },
+ {
   "nome": "Grill e Sanduicheira Philco Inox 1000W 220v",
   "loja": "Amazon",
   "preco": 119.9,
@@ -54,33 +82,5 @@
   "preco": 44.45,
   "preco_antes": 59.99,
   "quando": "2026-10-30T15:11-03:00"
- },
- {
-  "nome": "Kit com 2 Travesseiros 70x50cm Pena De Ganso",
-  "loja": "Mercado Livre",
-  "preco": 29.0,
-  "preco_antes": 44.0,
-  "quando": "2026-10-30T15:11-03:00"
- },
- {
-  "nome": "Kit 6 Pote Vidro Porta Temperos Hermético Cozinha Organiza",
-  "loja": "Mercado Livre",
-  "preco": 35.61,
-  "preco_antes": 74.67,
-  "quando": "2026-10-30T14:21-03:00"
- },
- {
-  "nome": "Relógio Masculino Luxo Poedagar Old Money Aço Quartzo",
-  "loja": "Mercado Livre",
-  "preco": 94.0,
-  "preco_antes": 145.0,
-  "quando": "2026-10-30T12:10-03:00"
- },
- {
-  "nome": "Smart TV Hisense HD 32\" Polegadas 32A4NV com HDR10, DTS V...",
-  "loja": "Mercado Livre",
-  "preco": 836.0,
-  "preco_antes": 1299.0,
-  "quando": "2026-10-30T12:10-03:00"
  }
 ]

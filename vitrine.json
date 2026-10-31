@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Super Coffee Desincoffee 220g Café Energético Chocolate S...",
+  "loja": "Mercado Livre",
+  "preco": 83.57,
+  "preco_antes": 139.9,
+  "quando": "2026-10-31T09:03-03:00"
+ },
+ {
+  "nome": "Kit 2 Calças Legging Flare Zero Transparência Leg Grossa",
+  "loja": "Mercado Livre",
+  "preco": 67.79,
+  "preco_antes": 139.9,
+  "quando": "2026-10-31T09:02-03:00"
+ },
+ {
   "nome": "L'Oréal Paris Base BB Cream FPS 20 Dermo Expertise Cor Mé...",
   "loja": "Amazon",
   "preco": 35.99,
@@ -68,19 +82,5 @@
   "preco": 29.32,
   "preco_antes": 0,
   "quando": "2026-10-27T13:06-03:00"
- },
- {
-  "nome": "Kit Principia Gel De Limpeza GI-03 + Sérum Facial Mix-01",
-  "loja": "Mercado Livre",
-  "preco": 83.3,
-  "preco_antes": 98.0,
-  "quando": "2026-10-25T19:57-03:00"
- },
- {
-  "nome": "Shorts de Compressão Feminino - Ciclico (4 Cores)",
-  "loja": "Mercado Livre",
-  "preco": 56.0,
-  "preco_antes": 78.0,
-  "quando": "2026-10-25T19:56-03:00"
  }
 ]
