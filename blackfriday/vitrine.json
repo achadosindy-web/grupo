@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Mochila sem gênero  impermeável  reforçada  com capacidad...",
+  "loja": "Mercado Livre",
+  "preco": 64.9,
+  "preco_antes": 216.0,
+  "quando": "2026-11-01T11:53-03:00"
+ },
+ {
   "nome": "Stanley Copo Térmico Stacking Ash 473ml",
   "loja": "Amazon",
   "preco": 77.0,
@@ -75,12 +82,5 @@
   "preco": 177.0,
   "preco_antes": 239.0,
   "quando": "2026-11-01T09:39-03:00"
- },
- {
-  "nome": "Varal Dobrável De Chão 3 Andares De Roupas Grande Com Rod...",
-  "loja": "Mercado Livre",
-  "preco": 69.2,
-  "preco_antes": 129.99,
-  "quando": "2026-11-01T09:38-03:00"
  }
 ]
