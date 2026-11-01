@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Headset Havit H2232d  Gamer  Iluminação RGB  com Microfone",
+  "loja": "Amazon",
+  "preco": 107.46,
+  "preco_antes": 167.91,
+  "quando": "2026-11-01T09:20-03:00"
+ },
+ {
   "nome": "Tablet Android 14",
   "loja": "Mercado Livre",
   "preco": 765.0,
@@ -75,12 +82,5 @@
   "preco": 94.02,
   "preco_antes": 142.45,
   "quando": "2026-10-31T17:59-03:00"
- },
- {
-  "nome": "Escova Secadora Britânia 1300W Soft Bivolt",
-  "loja": "Mercado Livre",
-  "preco": 89.0,
-  "preco_antes": 139.0,
-  "quando": "2026-10-31T15:11-03:00"
  }
 ]
