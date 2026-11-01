@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Air Fryer Widemax 4,5L: refeições crocantes e saudáveis! 🍟",
+  "loja": "Mercado Livre",
+  "preco": 203.31,
+  "preco_antes": 289.0,
+  "quando": "2026-11-01T19:12-03:00"
+ },
+ {
+  "nome": "Multiprocessador Turbo Chef 5 em 1 Mondial 1000W MPN-01-B",
+  "loja": "Mercado Livre",
+  "preco": 219.0,
+  "preco_antes": 462.0,
+  "quando": "2026-11-01T19:11-03:00"
+ },
+ {
   "nome": "WAP Parafusadeira e Furadeira Impacto 1/2\" WF 700 FE13, L...",
   "loja": "Amazon",
   "preco": 92.53,
@@ -68,19 +82,5 @@
   "preco": 1916.0,
   "preco_antes": 2899.0,
   "quando": "2026-11-01T11:47-03:00"
- },
- {
-  "nome": "Conjunto 6 Taças Diamond Gamma 340ml Transparente Premium",
-  "loja": "Mercado Livre",
-  "preco": 31.5,
-  "preco_antes": 0,
-  "quando": "2026-11-01T11:15-03:00"
- },
- {
-  "nome": "Câmera Tripla Segurança Externa Wifi Ip66 Áudio Bidirecional",
-  "loja": "Mercado Livre",
-  "preco": 232.0,
-  "preco_antes": 319.0,
-  "quando": "2026-11-01T11:05-03:00"
  }
 ]
