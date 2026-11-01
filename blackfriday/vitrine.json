@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Monitor Gamer Curvo AOC AGON G4Z 27\" 300Hz 0 3ms HDR10 Ba...",
+  "loja": "Amazon",
+  "preco": 1129.55,
+  "preco_antes": 1590.92,
+  "quando": "2026-11-01T11:47-03:00"
+ },
+ {
   "nome": "Conjunto 6 Taças Diamond Gamma 340ml Transparente Premium",
   "loja": "Mercado Livre",
   "preco": 31.5,
@@ -75,12 +82,5 @@
   "preco": 107.46,
   "preco_antes": 167.91,
   "quando": "2026-11-01T09:20-03:00"
- },
- {
-  "nome": "Tablet Android 14",
-  "loja": "Mercado Livre",
-  "preco": 765.0,
-  "preco_antes": 1099.0,
-  "quando": "2026-11-01T09:06-03:00"
  }
 ]
