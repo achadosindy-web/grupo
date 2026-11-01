@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Cooktop 4 Bocas De Indução Midea Built In Even Pro",
+  "loja": "Amazon",
+  "preco": 1139.05,
+  "preco_antes": 1675.07,
+  "quando": "2026-11-01T08:22-03:00"
+ },
+ {
   "nome": "PHILIPS  Headphone Bluetooth  TAH2300BK/00  Com Microfone...",
   "loja": "Amazon",
   "preco": 107.86,
@@ -75,12 +82,5 @@
   "preco": 150.0,
   "preco_antes": 279.0,
   "quando": "2026-10-31T15:11-03:00"
- },
- {
-  "nome": "Relógio Chroma Masculino Preto Saint Germain Clássico Cai...",
-  "loja": "Mercado Livre",
-  "preco": 130.0,
-  "preco_antes": 259.0,
-  "quando": "2026-10-31T15:10-03:00"
  }
 ]
