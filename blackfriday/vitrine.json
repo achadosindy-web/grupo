@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Mini Umidificador de Ar e Aromatizador de Ambientes Tipo...",
+  "loja": "Shopee",
+  "preco": 18.88,
+  "preco_antes": 55.53,
+  "quando": "2026-11-01T14:25-03:00"
+ },
+ {
   "nome": "MONDIAL Sanduicheira Fast Grill & Sandwich  Preto  750W...",
   "loja": "Amazon",
   "preco": 73.2,
@@ -75,12 +82,5 @@
   "preco": 159.08,
   "preco_antes": 217.92,
   "quando": "2026-11-01T11:01-03:00"
- },
- {
-  "nome": "Kit 6 Potes Herméticos Quadrados Haushop para Armazenamen...",
-  "loja": "Mercado Livre",
-  "preco": 55.9,
-  "preco_antes": 89.9,
-  "quando": "2026-11-01T11:00-03:00"
  }
 ]
