@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Aspirador de Pó Turbo Cycle Mondial 1100W AP-36 127V",
+  "loja": "Mercado Livre",
+  "preco": 125.11,
+  "preco_antes": 316.9,
+  "quando": "2026-11-01T20:19-03:00"
+ },
+ {
   "nome": "Air Fryer Widemax 4,5L: refeições crocantes e saudáveis! 🍟",
   "loja": "Mercado Livre",
   "preco": 203.31,
@@ -75,12 +82,5 @@
   "preco": 77.0,
   "preco_antes": 159.0,
   "quando": "2026-11-01T11:52-03:00"
- },
- {
-  "nome": "Smart TV TCL 50 Polegadas QLED 4K P7L",
-  "loja": "Amazon",
-  "preco": 1916.0,
-  "preco_antes": 2899.0,
-  "quando": "2026-11-01T11:47-03:00"
  }
 ]
