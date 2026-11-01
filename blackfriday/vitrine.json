@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Conjunto 6 Taças Diamond Gamma 340ml Transparente Premium",
+  "loja": "Mercado Livre",
+  "preco": 31.5,
+  "preco_antes": 0,
+  "quando": "2026-11-01T11:15-03:00"
+ },
+ {
   "nome": "Câmera Tripla Segurança Externa Wifi Ip66 Áudio Bidirecional",
   "loja": "Mercado Livre",
   "preco": 232.0,
@@ -75,12 +82,5 @@
   "preco": 765.0,
   "preco_antes": 1099.0,
   "quando": "2026-11-01T09:06-03:00"
- },
- {
-  "nome": "Cooktop 4 Bocas De Indução Midea Built In Even Pro",
-  "loja": "Amazon",
-  "preco": 1139.05,
-  "preco_antes": 1675.07,
-  "quando": "2026-11-01T08:22-03:00"
  }
 ]
