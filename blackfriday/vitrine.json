@@ -1,5 +1,12 @@
 [
  {
+  "nome": "TERMOLAR Garrafa Térmica Lumina 500ml Pressão Inox",
+  "loja": "Amazon",
+  "preco": 63.9,
+  "preco_antes": 98.31,
+  "quando": "2026-11-01T11:52-03:00"
+ },
+ {
   "nome": "Smart TV TCL 50 Polegadas QLED 4K P7L",
   "loja": "Amazon",
   "preco": 1916.0,
@@ -75,12 +82,5 @@
   "preco": 69.2,
   "preco_antes": 129.99,
   "quando": "2026-11-01T09:38-03:00"
- },
- {
-  "nome": "Headset Havit H2232d  Gamer  Iluminação RGB  com Microfone",
-  "loja": "Amazon",
-  "preco": 107.46,
-  "preco_antes": 167.91,
-  "quando": "2026-11-01T09:20-03:00"
  }
 ]
