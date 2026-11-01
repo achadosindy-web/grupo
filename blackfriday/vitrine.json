@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Kit 6 Potes Herméticos Quadrados Haushop para Armazenamen...",
+  "loja": "Mercado Livre",
+  "preco": 55.9,
+  "preco_antes": 89.9,
+  "quando": "2026-11-01T11:00-03:00"
+ },
+ {
   "nome": "Philco Fritadeira Air Fryer 12L Pt PFR2200P 220V",
   "loja": "Amazon",
   "preco": 419.0,
@@ -75,12 +82,5 @@
   "preco": 1487.06,
   "preco_antes": 2349.0,
   "quando": "2026-10-31T19:32-03:00"
- },
- {
-  "nome": "Tramontina Jogo de Panelas Veronese em Alumínio com Reves...",
-  "loja": "Mercado Livre",
-  "preco": 342.0,
-  "preco_antes": 622.0,
-  "quando": "2026-10-31T19:19-03:00"
  }
 ]
