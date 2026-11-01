@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Massageador Pescoço Ombro Recarregável Maozinha Deep 3d",
+  "loja": "Mercado Livre",
+  "preco": 75.88,
+  "preco_antes": 240.0,
+  "quando": "2026-11-01T12:03-03:00"
+ },
+ {
   "nome": "Kit 3 Cestos Organizadores de Bambu Retangulares com Forr...",
   "loja": "Mercado Livre",
   "preco": 41.25,
@@ -75,12 +82,5 @@
   "preco": 45.0,
   "preco_antes": 89.0,
   "quando": "2026-10-30T15:03-03:00"
- },
- {
-  "nome": "Mochila para Notebook de 15.6\" Executiva com USB  Expansí...",
-  "loja": "Mercado Livre",
-  "preco": 89.09,
-  "preco_antes": 289.0,
-  "quando": "2026-10-27T13:11-03:00"
  }
 ]

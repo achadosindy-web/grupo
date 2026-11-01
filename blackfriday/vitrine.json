@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Electrolux micro-ondas Me23p Efficient Preto 23l",
+  "loja": "Mercado Livre",
+  "preco": 549.0,
+  "preco_antes": 0,
+  "quando": "2026-11-01T12:10-03:00"
+ },
+ {
+  "nome": "Ventilador Mallory Turbo 6 Pás 30cm Compacto 220V",
+  "loja": "Amazon",
+  "preco": 89.0,
+  "preco_antes": 149.0,
+  "quando": "2026-11-01T12:10-03:00"
+ },
+ {
+  "nome": "Fone De Ouvido Bluetooth TWS Dapon F25",
+  "loja": "Mercado Livre",
+  "preco": 65.0,
+  "preco_antes": 140.0,
+  "quando": "2026-11-01T12:09-03:00"
+ },
+ {
   "nome": "Mochila sem gênero  impermeável  reforçada  com capacidad...",
   "loja": "Mercado Livre",
   "preco": 64.9,
@@ -61,26 +82,5 @@
   "preco": 419.0,
   "preco_antes": 1197.14,
   "quando": "2026-11-01T10:22-03:00"
- },
- {
-  "nome": "Câmera instax mini 13 Dreamy Purple",
-  "loja": "Amazon",
-  "preco": 455.82,
-  "preco_antes": 670.32,
-  "quando": "2026-11-01T09:58-03:00"
- },
- {
-  "nome": "Fogão 5 Bocas Atlas Mônaco Top Glass Automático Mesa De V...",
-  "loja": "Mercado Livre",
-  "preco": 1198.99,
-  "preco_antes": 2333.17,
-  "quando": "2026-11-01T09:47-03:00"
- },
- {
-  "nome": "Mesa Dobrável Portátil Alumínio 120x60cm + 4 Banquetas",
-  "loja": "Mercado Livre",
-  "preco": 177.0,
-  "preco_antes": 239.0,
-  "quando": "2026-11-01T09:39-03:00"
  }
 ]
