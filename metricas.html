@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#5A4032">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="logo-indy.png">
+<title>Métricas da Indy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap">
+<style>
+/* Atalhos pros painéis de afiliado de cada loja, com o caminho de onde tocar. Mesma paleta do Garimpo. */
+:root{
+  --bg:#F4EFE7; --papel:#FFFDF9; --fio:#E4DACB; --campo:#F7F3EC;
+  --cafe:#5A4032; --caramelo:#A9784F; --salvia:#8E9880;
+  --texto:#2B2420; --texto-2:#6B5F57; --alerta:#B4442A; --alerta-claro:#FBE9E3;
+  --ml:#C99A1E; --amazon:#1F2937; --shopee:#C2410C; --shein:#2B2420;
+  --f-titulo:"Playfair Display",Georgia,serif;
+  --f-texto:"Montserrat",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#1A1714; --papel:#25201C; --fio:#3A322B; --campo:#2E2823;
+  --cafe:#EBDCCB; --caramelo:#D9A77C; --salvia:#A9B39A;
+  --texto:#EFE6DC; --texto-2:#B4A79B; --alerta:#F09A80; --alerta-claro:#3A241E;
+  --ml:#E8C14F; --amazon:#E5E7EB; --shopee:#FDBA74; --shein:#EFE6DC; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1A1714; --papel:#25201C; --fio:#3A322B; --campo:#2E2823;
+  --cafe:#EBDCCB; --caramelo:#D9A77C; --salvia:#A9B39A;
+  --texto:#EFE6DC; --texto-2:#B4A79B; --alerta:#F09A80; --alerta-claro:#3A241E;
+  --ml:#E8C14F; --amazon:#E5E7EB; --shopee:#FDBA74; --shein:#EFE6DC; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--texto);font-family:var(--f-texto);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased;
+  padding:calc(18px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) calc(40px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--caramelo);outline-offset:2px}
+main{max-width:640px;margin:0 auto;display:grid;gap:16px}
+.topo{display:flex;align-items:center;justify-content:space-between;gap:12px}
+h1{font-family:var(--f-titulo);font-weight:600;font-size:26px;color:var(--cafe);margin:0}
+.voltar{font-size:13px;font-weight:600;color:var(--texto-2);text-decoration:underline}
+.intro{margin:0;color:var(--texto-2);font-size:13.5px}
+
+.ganhos{display:flex;align-items:center;gap:12px;background:var(--cafe);color:var(--papel);text-decoration:none;border-radius:16px;padding:16px}
+.ganhos b{display:block;font-size:16px}
+.ganhos span{font-size:13px;opacity:.85}
+.ganhos .seta{margin-left:auto;font-size:22px;font-weight:700}
+
+.loja{background:var(--papel);border:1px solid var(--fio);border-radius:16px;padding:16px;display:grid;gap:12px}
+.loja-topo{display:flex;align-items:center;gap:10px}
+.marca{width:12px;height:12px;border-radius:4px;flex:none}
+.loja h2{margin:0;font-size:17px;font-weight:700}
+.btn{display:block;text-align:center;background:var(--campo);color:var(--cafe);border:1px solid var(--fio);border-radius:12px;padding:13px;font-weight:700;text-decoration:none}
+ol{margin:0;padding-left:20px;display:grid;gap:5px;font-size:14px}
+ol b{color:var(--cafe)}
+.dica{margin:0;font-size:13px;color:var(--texto-2);background:var(--campo);border-radius:10px;padding:9px 11px}
+.atencao{margin:0;font-size:13px;color:var(--alerta);background:var(--alerta-claro);border-radius:10px;padding:9px 11px;font-weight:600}
+.rodape{font-size:12.5px;color:var(--texto-2);text-align:center;margin:4px 0 0}
+</style>
+</head>
+<body>
+<main>
+  <div class="topo">
+    <h1>Métricas</h1>
+    <a class="voltar" href="painel.html">← Garimpo</a>
+  </div>
+  <p class="intro">Abra o painel de cada loja, veja o ganho da semana e lance no painel de ganhos. O login de cada loja é com você.</p>
+
+  <a class="ganhos" href="https://claude.ai/artifact/LxgstL11mYrCVmwLVzfydr" target="_blank" rel="noopener">
+    <div><b>Lançar ganhos da semana</b><span>Histórico por semana, mês e loja</span></div>
+    <span class="seta" aria-hidden="true">→</span>
+  </a>
+
+  <section class="loja" aria-labelledby="t-ml">
+    <div class="loja-topo"><span class="marca" style="background:var(--ml)"></span><h2 id="t-ml">Mercado Livre</h2></div>
+    <a class="btn" href="https://www.mercadolivre.com.br/afiliados" target="_blank" rel="noopener">Abrir painel de afiliados</a>
+    <ol>
+      <li>Entre na conta de afiliado.</li>
+      <li>No painel, ajuste o <b>período</b> pra semana.</li>
+      <li>Em <b>Detalhe dos ganhos</b> aparece o total, separado em parceria do Mercado Livre, ganho patrocinado por marca e parceria do vendedor.</li>
+    </ol>
+    <p class="dica">Lance o total das três partes somadas.</p>
+  </section>
+
+  <section class="loja" aria-labelledby="t-az">
+    <div class="loja-topo"><span class="marca" style="background:var(--amazon)"></span><h2 id="t-az">Amazon</h2></div>
+    <a class="btn" href="https://associados.amazon.com.br/home/reports" target="_blank" rel="noopener">Abrir relatórios do Associados</a>
+    <ol>
+      <li>Entre na conta de associado.</li>
+      <li>Vá em <b>Relatórios → Resumo</b> e escolha o período.</li>
+      <li>O valor de cima soma <b>Comissões</b> e <b>Recompensas</b>. Toque em Comissões pra ver os produtos que venderam.</li>
+    </ol>
+    <p class="dica">Cliques, pedidos e conversão ficam logo abaixo do gráfico.</p>
+  </section>
+
+  <section class="loja" aria-labelledby="t-sp">
+    <div class="loja-topo"><span class="marca" style="background:var(--shopee)"></span><h2 id="t-sp">Shopee</h2></div>
+    <a class="btn" href="https://affiliate.shopee.com.br/" target="_blank" rel="noopener">Abrir Shopee Afiliados</a>
+    <ol>
+      <li>Entre na conta de afiliado (ou no app: <b>Eu → Programa de Afiliados</b>).</li>
+      <li>Ajuste o <b>Período dos dados</b>.</li>
+      <li>Veja <b>Comissão est.</b> nas métricas principais. Pedido por pedido fica no relatório de conversões.</li>
+    </ol>
+    <p class="atencao">Falta preencher Informações de Pagamento e Fiscais. Sem isso a Shopee não paga as comissões.</p>
+  </section>
+
+  <section class="loja" aria-labelledby="t-sh">
+    <div class="loja-topo"><span class="marca" style="background:var(--shein)"></span><h2 id="t-sh">Shein</h2></div>
+    <a class="btn" href="https://br.shein.com/affiliate" target="_blank" rel="noopener">Abrir Centro de Afiliados</a>
+    <ol>
+      <li>Entre na conta de afiliado.</li>
+      <li>No painel aparecem cliques, conversões e comissões <b>pendentes</b> e <b>validadas</b>.</li>
+      <li>Escolha o período da semana.</li>
+    </ol>
+    <p class="dica">Lance só o validado: cancelamento e devolução saem do pendente.</p>
+  </section>
+
+  <p class="rodape">Os painéis mudam de vez em quando. Se algum botão não abrir onde deveria, avise o Yuri.</p>
+</main>
+</body>
+</html>
