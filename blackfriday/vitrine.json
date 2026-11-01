@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Britânia Ferro de Passar a Vapor Base em Cerâmica BFV70 220V",
+  "loja": "Amazon",
+  "preco": 119.9,
+  "preco_antes": 173.77,
+  "quando": "2026-11-01T12:51-03:00"
+ },
+ {
   "nome": "Electrolux micro-ondas Me23p Efficient Preto 23l",
   "loja": "Mercado Livre",
   "preco": 549.0,
@@ -75,12 +82,5 @@
   "preco": 55.9,
   "preco_antes": 89.9,
   "quando": "2026-11-01T11:00-03:00"
- },
- {
-  "nome": "Philco Fritadeira Air Fryer 12L Pt PFR2200P 220V",
-  "loja": "Amazon",
-  "preco": 419.0,
-  "preco_antes": 1197.14,
-  "quando": "2026-11-01T10:22-03:00"
  }
 ]
