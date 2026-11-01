@@ -1,5 +1,12 @@
 [
  {
+  "nome": "PINK CHEEKS BLUSH 3 EM 1 MULTIFUNCIONAL PINK BERRY",
+  "loja": "Amazon",
+  "preco": 61.65,
+  "preco_antes": 89.9,
+  "quando": "2026-10-31T21:09-03:00"
+ },
+ {
   "nome": "Kit 03 un. Lola Cosmetics Cronograma Capilar Be(M) Dita G...",
   "loja": "Amazon",
   "preco": 33.77,
@@ -73,13 +80,6 @@
   "nome": "Kit 02 un. Hidratante Corporal Neutrogena Body Care Hidra...",
   "loja": "Amazon",
   "preco": 43.87,
-  "preco_antes": 0,
-  "quando": "2026-10-27T13:07-03:00"
- },
- {
-  "nome": "06 un. Sabonete Em Barra NIVEA Hidratante Leite 85g",
-  "loja": "Amazon",
-  "preco": 11.61,
   "preco_antes": 0,
   "quando": "2026-10-27T13:07-03:00"
  }
