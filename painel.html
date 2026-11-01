@@ -99,6 +99,9 @@ button.btn.postar[aria-disabled="true"]{opacity:.45}
 .dica{font-size:11px;color:var(--texto-2)}
 .dica.erro{color:var(--shopee)}
 .aprovado-txt{font-size:12px;font-weight:700;color:var(--ok);text-align:center;background:var(--ok-claro);border-radius:10px;padding:8px}
+.prog-txt{font-size:12px;font-weight:700;color:var(--cafe);text-align:center;background:var(--campo);border:1px dashed var(--caramelo);border-radius:10px;padding:8px;line-height:1.35}
+.card.programado{border-color:var(--caramelo)}
+.selo-ok.prog{background:var(--caramelo)}
 
 .vazio{background:var(--papel);border:1px dashed var(--fio);border-radius:16px;padding:28px 18px;text-align:center;color:var(--texto-2);display:grid;gap:8px}
 .vazio b{color:var(--cafe);font-size:15px}
@@ -283,12 +286,26 @@ function filtrados() {
   return l;
 }
 
+/* Aprovado = já foi pro grupo OU está na fila esperando o horário.
+   Se ainda está na agenda (fila do robô), é PROGRAMADO; se saiu da agenda, já foi ENVIADO. */
+function situacao(i) {
+  if (!i.aprovado) return null;
+  if (i.enviandoAgora) return { tipo: "enviando" };
+  const ag = (dados.agenda || []).find(a => a.produto === i.nome);
+  return ag ? { tipo: "prog", quando: ag.quando } : { tipo: "env" };
+}
+
 function cartao(i) {
   const lojaCls = i.loja.split(" ")[0];
   const foto = i.imagem ? `<img src="${esc(i.imagem)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'semfoto',textContent:'sem foto'}))">` : `<span class="semfoto">sem foto</span>`;
   let acoes;
-  if (i.aprovado) {
-    acoes = `<div class="aprovado-txt">✓ Aprovado, vai pro grupo</div>`;
+  const sit = situacao(i);
+  if (sit && sit.tipo === "prog") {
+    acoes = `<div class="prog-txt">⏱ Programado<br>sai ${sit.quando ? rotuloQuando(sit.quando).replace(" · ", " às ").toLowerCase() : "no próximo horário"}</div>`;
+  } else if (sit && sit.tipo === "enviando") {
+    acoes = `<div class="aprovado-txt">🚀 Enviando pro grupo agora…</div>`;
+  } else if (sit) {
+    acoes = `<div class="aprovado-txt">✓ Já enviado pro grupo</div>`;
   } else if (i.converter) {
     acoes = `<button class="btn postar" type="button" data-agora="${i.gid}">⚡ Postar agora</button>
       <a class="btn sec" href="${tg("ok_" + i.gid + sufixoHora())}" target="_blank" rel="noopener" data-postar="${i.gid}">⏱ ${rotuloProgramar()}</a>
@@ -304,8 +321,8 @@ function cartao(i) {
       <a class="btn sec" id="p-${i.gid}" href="${linkPostar(cod, i.gid)}" aria-disabled="${!cod}" target="_blank" rel="noopener" data-postar="${i.gid}">⏱ ${rotuloProgramar()}</a>
       <div class="mini"><button type="button" data-desc="${i.gid}">Descartar</button></div>`;
   }
-  return `<article class="card ${i.aprovado ? "aprovado" : ""}">
-    <div class="foto">${foto}${i.desconto ? `<span class="off">-${i.desconto}%</span>` : ""}${i.aprovado ? `<span class="selo-ok">✓</span>` : ""}</div>
+  return `<article class="card ${sit ? (sit.tipo === "prog" ? "programado" : "aprovado") : ""}">
+    <div class="foto">${foto}${i.desconto ? `<span class="off">-${i.desconto}%</span>` : ""}${sit ? (sit.tipo === "prog" ? `<span class="selo-ok prog">⏱</span>` : `<span class="selo-ok">✓</span>`) : ""}</div>
     <div class="corpo">
       <div class="meta"><span class="loja ${lojaCls}">${esc(i.loja)}</span>·<span>${esc(i.categoria)}</span>·<span>${ha(i.achado_em || i.quando)}</span></div>${(i.fonte || "").startsWith("@WhatsApp") ? `<div class="via-zap">via ${esc(i.fonte.slice(1))}</div>` : ""}
       <div class="nome">${esc(i.nome)}</div>
@@ -461,8 +478,9 @@ function desenhar() {
   const l = filtrados();
   document.getElementById("grade").innerHTML = l.map(cartao).join("");
   document.getElementById("vazio").hidden = l.length > 0;
-  const total = dados.itens.length, aprov = dados.itens.filter(i => i.aprovado).length;
-  document.getElementById("resumo").textContent = `${l.length} de ${total} achados · ${aprov} aprovados · toque em Postar e depois em "Iniciar" no Telegram`;
+  const total = dados.itens.length, sits = dados.itens.map(situacao).filter(Boolean);
+  const env = sits.filter(x => x.tipo !== "prog").length, prog = sits.length - env;
+  document.getElementById("resumo").textContent = `${l.length} de ${total} achados · ${env} enviados · ${prog} programados · toque em Postar e depois em "Iniciar" no Telegram`;
   desenharAgenda();
   ligarCartoes();
 }
@@ -476,7 +494,7 @@ function ligarCartoes() {
     if (!i.converter) { const m = String(colados[i.gid] || "").match(/https?:\/\/\S+/); if (!m) return; link = m[0]; }
     enviarAgora({ link, nome: i.nome, preco: String(i.preco), preco_antes: i.preco_antes ? String(i.preco_antes) : "",
                   cupom: /^[A-Z0-9]{4,20}$/.test(i.cupom || "") ? i.cupom : "", modo: "agora" });
-    i.aprovado = true; setTimeout(desenhar, 400);
+    i.aprovado = true; i.enviandoAgora = true; setTimeout(desenhar, 400);
   }));
   document.querySelectorAll("[data-desc]").forEach(b => b.addEventListener("click", () => {
     descartados.add(b.dataset.desc); gravarLocal("garimpo-descartados", [...descartados].slice(-600)); desenhar();
