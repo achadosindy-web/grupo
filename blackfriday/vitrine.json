@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Fogão 5 Bocas Atlas Mônaco Top Glass Automático Mesa De V...",
+  "loja": "Mercado Livre",
+  "preco": 1198.99,
+  "preco_antes": 2333.17,
+  "quando": "2026-11-01T09:47-03:00"
+ },
+ {
   "nome": "Mesa Dobrável Portátil Alumínio 120x60cm + 4 Banquetas",
   "loja": "Mercado Livre",
   "preco": 177.0,
@@ -75,12 +82,5 @@
   "preco": 27.9,
   "preco_antes": 49.82,
   "quando": "2026-10-31T19:12-03:00"
- },
- {
-  "nome": "Câmera Inteligente iM3 C Black Intelbras",
-  "loja": "Mercado Livre",
-  "preco": 135.0,
-  "preco_antes": 248.0,
-  "quando": "2026-10-31T19:11-03:00"
  }
 ]
