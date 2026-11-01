@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Tablet Android 14",
+  "loja": "Mercado Livre",
+  "preco": 765.0,
+  "preco_antes": 1099.0,
+  "quando": "2026-11-01T09:06-03:00"
+ },
+ {
   "nome": "Cooktop 4 Bocas De Indução Midea Built In Even Pro",
   "loja": "Amazon",
   "preco": 1139.05,
@@ -74,13 +81,6 @@
   "loja": "Mercado Livre",
   "preco": 89.0,
   "preco_antes": 139.0,
-  "quando": "2026-10-31T15:11-03:00"
- },
- {
-  "nome": "Projetor Portátil 4k Hd Wifi Bluetooth",
-  "loja": "Mercado Livre",
-  "preco": 150.0,
-  "preco_antes": 279.0,
   "quando": "2026-10-31T15:11-03:00"
  }
 ]
