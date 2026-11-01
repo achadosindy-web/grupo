@@ -1,9 +1,16 @@
 [
  {
-  "nome": "Tênis Puma Darter Pro 2 Unissex  Preto  36",
-  "loja": "Amazon",
-  "preco": 224.42,
-  "preco_antes": 547.37,
+  "nome": "Depilador Feminino 4 Em 1 Recarregável Usb Rosto Axila Br...",
+  "loja": "Mercado Livre",
+  "preco": 45.99,
+  "preco_antes": 93.15,
+  "quando": "2026-10-31T21:05-03:00"
+ },
+ {
+  "nome": "Mala Esportiva Duffel Defender 94L adidas",
+  "loja": "Mercado Livre",
+  "preco": 212.0,
+  "preco_antes": 399.0,
   "quando": "2026-10-31T21:04-03:00"
  },
  {
@@ -75,12 +82,5 @@
   "preco": 130.0,
   "preco_antes": 259.0,
   "quando": "2026-10-31T15:10-03:00"
- },
- {
-  "nome": "Lavadora alta pressão karcher",
-  "loja": "Mercado Livre",
-  "preco": 295.0,
-  "preco_antes": 550.0,
-  "quando": "2026-10-31T13:02-03:00"
  }
 ]
