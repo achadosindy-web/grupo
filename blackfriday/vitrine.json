@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Caixa de Som Speaker AIWA SP-05-LB 30W Bluetooth IPX5",
+  "loja": "Amazon",
+  "preco": 295.0,
+  "preco_antes": 590.0,
+  "quando": "2026-11-01T10:22-03:00"
+ },
+ {
   "nome": "Câmera instax mini 13 Dreamy Purple",
   "loja": "Amazon",
   "preco": 455.82,
@@ -75,12 +82,5 @@
   "preco": 342.0,
   "preco_antes": 622.0,
   "quando": "2026-10-31T19:19-03:00"
- },
- {
-  "nome": "Cadeira de Escritório Diretor Giratória Preta",
-  "loja": "Shopee",
-  "preco": 84.55,
-  "preco_antes": 139.44,
-  "quando": "2026-10-31T19:12-03:00"
  }
 ]
