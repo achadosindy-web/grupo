@@ -5503,5 +5503,12 @@
    "aprovado": true
   }
  ],
- "agenda": []
+ "agenda": [
+  {
+   "produto": "Tablet Android 14",
+   "loja": "Mercado Livre",
+   "preco": 765.0,
+   "quando": ""
+  }
+ ]
 }
