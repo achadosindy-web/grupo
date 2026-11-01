@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Mala Esportiva Duffel Defender 94L adidas",
+  "loja": "Mercado Livre",
+  "preco": 212.0,
+  "preco_antes": 399.0,
+  "quando": "2026-10-31T21:04-03:00"
+ },
+ {
   "nome": "Tablet Samsung Tab A11",
   "loja": "Mercado Livre",
   "preco": 1487.06,
@@ -75,12 +82,5 @@
   "preco": 295.0,
   "preco_antes": 550.0,
   "quando": "2026-10-31T13:02-03:00"
- },
- {
-  "nome": "Kit 2 Saco Para Lavar Sapatos Na Máquina De Lavar Prático",
-  "loja": "Mercado Livre",
-  "preco": 27.0,
-  "preco_antes": 44.0,
-  "quando": "2026-10-31T12:13-03:00"
  }
 ]
