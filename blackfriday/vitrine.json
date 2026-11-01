@@ -1,5 +1,12 @@
 [
  {
+  "nome": "BLACK+DECKER Vaporizador Higienizador de Roupas BDV2100 1...",
+  "loja": "Amazon",
+  "preco": 159.08,
+  "preco_antes": 217.92,
+  "quando": "2026-11-01T11:01-03:00"
+ },
+ {
   "nome": "Kit 6 Potes Herméticos Quadrados Haushop para Armazenamen...",
   "loja": "Mercado Livre",
   "preco": 55.9,
@@ -75,12 +82,5 @@
   "preco": 224.42,
   "preco_antes": 547.37,
   "quando": "2026-10-31T21:04-03:00"
- },
- {
-  "nome": "Tablet Samsung Tab A11",
-  "loja": "Mercado Livre",
-  "preco": 1487.06,
-  "preco_antes": 2349.0,
-  "quando": "2026-10-31T19:32-03:00"
  }
 ]
