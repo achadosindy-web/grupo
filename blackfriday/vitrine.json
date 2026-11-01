@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Fritadeira Sem Óleo Super Cook Fryer Frt410 3 8l Cadence...",
+  "loja": "Mercado Livre",
+  "preco": 189.99,
+  "preco_antes": 306.0,
+  "quando": "2026-11-01T20:20-03:00"
+ },
+ {
   "nome": "Aspirador de Pó Turbo Cycle Mondial 1100W AP-36 127V",
   "loja": "Mercado Livre",
   "preco": 125.11,
@@ -75,12 +82,5 @@
   "preco": 64.9,
   "preco_antes": 216.0,
   "quando": "2026-11-01T11:53-03:00"
- },
- {
-  "nome": "Stanley Copo Térmico Stacking Ash 473ml",
-  "loja": "Amazon",
-  "preco": 77.0,
-  "preco_antes": 159.0,
-  "quando": "2026-11-01T11:52-03:00"
  }
 ]
