@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Kit Acessórios E Abridor De Vinhos Automático Elétrico",
+  "loja": "Mercado Livre",
+  "preco": 33.86,
+  "preco_antes": 79.0,
+  "quando": "2026-11-01T11:03-03:00"
+ },
+ {
   "nome": "BLACK+DECKER Vaporizador Higienizador de Roupas BDV2100 1...",
   "loja": "Amazon",
   "preco": 159.08,
@@ -75,12 +82,5 @@
   "preco": 107.86,
   "preco_antes": 147.75,
   "quando": "2026-10-31T21:06-03:00"
- },
- {
-  "nome": "Tênis Puma Darter Pro 2 Unissex  Preto  36",
-  "loja": "Amazon",
-  "preco": 224.42,
-  "preco_antes": 547.37,
-  "quando": "2026-10-31T21:04-03:00"
  }
 ]
