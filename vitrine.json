@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Top Calvin Klein Regata Fitness Cotton Conforto Original",
+  "loja": "Mercado Livre",
+  "preco": 58.99,
+  "preco_antes": 0,
+  "quando": "2026-11-01T15:03-03:00"
+ },
+ {
   "nome": "Massageador Pescoço Ombro Recarregável Maozinha Deep 3d",
   "loja": "Mercado Livre",
   "preco": 75.88,
@@ -75,12 +82,5 @@
   "preco": 44.45,
   "preco_antes": 59.99,
   "quando": "2026-10-30T15:04-03:00"
- },
- {
-  "nome": "Kit 6 Pares Meias Puma Sapatilha",
-  "loja": "Mercado Livre",
-  "preco": 45.0,
-  "preco_antes": 89.0,
-  "quando": "2026-10-30T15:03-03:00"
  }
 ]

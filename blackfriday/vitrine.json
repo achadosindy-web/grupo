@@ -1,5 +1,19 @@
 [
  {
+  "nome": "WAP Parafusadeira e Furadeira Impacto 1/2\" WF 700 FE13, L...",
+  "loja": "Amazon",
+  "preco": 92.53,
+  "preco_antes": 205.62,
+  "quando": "2026-11-01T15:11-03:00"
+ },
+ {
+  "nome": "Mini Aspirador e Soprador 4 em 1 Recarregável",
+  "loja": "Shopee",
+  "preco": 28.0,
+  "preco_antes": 80.0,
+  "quando": "2026-11-01T15:11-03:00"
+ },
+ {
   "nome": "Mini Umidificador de Ar e Aromatizador de Ambientes Tipo...",
   "loja": "Shopee",
   "preco": 18.88,
@@ -68,19 +82,5 @@
   "preco": 232.0,
   "preco_antes": 319.0,
   "quando": "2026-11-01T11:05-03:00"
- },
- {
-  "nome": "Kit Acessórios E Abridor De Vinhos Automático Elétrico",
-  "loja": "Mercado Livre",
-  "preco": 33.86,
-  "preco_antes": 79.0,
-  "quando": "2026-11-01T11:03-03:00"
- },
- {
-  "nome": "BLACK+DECKER Vaporizador Higienizador de Roupas BDV2100 1...",
-  "loja": "Amazon",
-  "preco": 159.08,
-  "preco_antes": 217.92,
-  "quando": "2026-11-01T11:01-03:00"
  }
 ]
