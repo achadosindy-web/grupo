@@ -1,6 +1,13 @@
 [
  {
-  "nome": "Kit 18 peças Ferro Fundido Esmaltado Vermelho: Cozinhe co...",
+  "nome": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" Grafite",
+  "loja": "Amazon",
+  "preco": 188.0,
+  "preco_antes": 549.0,
+  "quando": "2026-11-02T16:54-03:00"
+ },
+ {
+  "nome": "Lavadora De A.P. Kärcher Prática Black 1500 Psi 1400w 300...",
   "loja": "Mercado Livre",
   "preco": 627.19,
   "preco_antes": 1199.0,
@@ -75,12 +82,5 @@
   "preco": 203.31,
   "preco_antes": 289.0,
   "quando": "2026-11-01T19:12-03:00"
- },
- {
-  "nome": "Multiprocessador Turbo Chef 5 em 1 Mondial 1000W MPN-01-B",
-  "loja": "Mercado Livre",
-  "preco": 219.0,
-  "preco_antes": 462.0,
-  "quando": "2026-11-01T19:11-03:00"
  }
 ]
