@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Sabão Líquido 5L Custo Benefício Concentrado Remove Encar...",
+  "loja": "Shopee",
+  "preco": 62.73,
+  "preco_antes": 80.0,
+  "quando": "2026-11-02T09:03-03:00"
+ },
+ {
+  "nome": "￼Balança Corporal Bioimpedância Profissional Bluetooth",
+  "loja": "Shopee",
+  "preco": 25.92,
+  "preco_antes": 75.9,
+  "quando": "2026-11-02T09:02-03:00"
+ },
+ {
   "nome": "Top Calvin Klein Regata Fitness Cotton Conforto Original",
   "loja": "Mercado Livre",
   "preco": 58.99,
@@ -68,19 +82,5 @@
   "preco": 83.12,
   "preco_antes": 103.9,
   "quando": "2026-10-30T16:24-03:00"
- },
- {
-  "nome": "Bolsa Academia Feminina 30L Grande Capacidade com Compart...",
-  "loja": "Shopee",
-  "preco": 39.99,
-  "preco_antes": 0,
-  "quando": "2026-10-30T15:42-03:00"
- },
- {
-  "nome": "Mixer Magnética automática inox",
-  "loja": "Mercado Livre",
-  "preco": 44.45,
-  "preco_antes": 59.99,
-  "quando": "2026-10-30T15:04-03:00"
  }
 ]

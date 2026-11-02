@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Cadeira Gamer ThunderX3 CORE Smart Loft, Cinza Escuro",
+  "loja": "Amazon",
+  "preco": 1817.49,
+  "preco_antes": 2489.71,
+  "quando": "2026-11-02T09:09-03:00"
+ },
+ {
+  "nome": "Batedeira Planetária Britânia 4L 3 Batedores, 12 Velocida...",
+  "loja": "Amazon",
+  "preco": 372.32,
+  "preco_antes": 564.12,
+  "quando": "2026-11-02T09:08-03:00"
+ },
+ {
+  "nome": "Stanley Garrafa Térmica Quick Flip Frost 710ml",
+  "loja": "Amazon",
+  "preco": 143.0,
+  "preco_antes": 264.81,
+  "quando": "2026-11-02T09:08-03:00"
+ },
+ {
+  "nome": "Tenis Fila Racer Fastpace Masculino, Acid Lime/Aquamarine...",
+  "loja": "Amazon",
+  "preco": 219.9,
+  "preco_antes": 499.77,
+  "quando": "2026-11-02T09:07-03:00"
+ },
+ {
   "nome": "Achadinho do dia",
   "loja": "Shopee",
   "preco": 25.19,
@@ -54,33 +82,5 @@
   "preco": 18.88,
   "preco_antes": 55.53,
   "quando": "2026-11-01T14:25-03:00"
- },
- {
-  "nome": "MONDIAL Sanduicheira Fast Grill & Sandwich  Preto  750W...",
-  "loja": "Amazon",
-  "preco": 73.2,
-  "preco_antes": 143.53,
-  "quando": "2026-11-01T12:51-03:00"
- },
- {
-  "nome": "Electrolux micro-ondas Me23p Efficient Preto 23l",
-  "loja": "Mercado Livre",
-  "preco": 549.0,
-  "preco_antes": 0,
-  "quando": "2026-11-01T12:10-03:00"
- },
- {
-  "nome": "Ventilador Mallory Turbo 6 Pás 30cm Compacto 220V",
-  "loja": "Amazon",
-  "preco": 89.0,
-  "preco_antes": 149.0,
-  "quando": "2026-11-01T12:10-03:00"
- },
- {
-  "nome": "Fone De Ouvido Bluetooth TWS Dapon F25",
-  "loja": "Mercado Livre",
-  "preco": 65.0,
-  "preco_antes": 140.0,
-  "quando": "2026-11-01T12:09-03:00"
  }
 ]
