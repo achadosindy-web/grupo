@@ -3699,5 +3699,18 @@
    "aprovado": false
   }
  ],
- "agenda": []
+ "agenda": [
+  {
+   "produto": "Faqueiro 24 pçs Tramontina Búzios",
+   "loja": "Amazon",
+   "preco": 61.62,
+   "quando": "2026-11-02T21:00"
+  },
+  {
+   "produto": "￼Kit Mesa Posta Bambu Itens Cozinha Jarra Boleira Porta Frios Queijera Pote Hermético",
+   "loja": "Shopee",
+   "preco": 127.31,
+   "quando": ""
+  }
+ ]
 }
