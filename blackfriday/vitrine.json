@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Achadinho do dia",
+  "loja": "Shopee",
+  "preco": 25.19,
+  "preco_antes": 0,
+  "quando": "2026-11-01T21:10-03:00"
+ },
+ {
   "nome": "Fritadeira Sem Óleo Super Cook Fryer Frt410 3 8l Cadence...",
   "loja": "Mercado Livre",
   "preco": 189.99,
@@ -75,12 +82,5 @@
   "preco": 65.0,
   "preco_antes": 140.0,
   "quando": "2026-11-01T12:09-03:00"
- },
- {
-  "nome": "Mochila sem gênero  impermeável  reforçada  com capacidad...",
-  "loja": "Mercado Livre",
-  "preco": 64.9,
-  "preco_antes": 216.0,
-  "quando": "2026-11-01T11:53-03:00"
  }
 ]
