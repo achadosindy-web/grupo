@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Cadeira Gamer ThunderX3 TGC12  Preto | Profissional",
+  "loja": "Amazon",
+  "preco": 978.99,
+  "preco_antes": 1919.59,
+  "quando": "2026-11-02T12:21-03:00"
+ },
+ {
   "nome": "Cadeira Gamer ThunderX3 CORE Smart Loft, Cinza Escuro",
   "loja": "Amazon",
   "preco": 1817.49,
@@ -75,12 +82,5 @@
   "preco": 28.0,
   "preco_antes": 80.0,
   "quando": "2026-11-01T15:11-03:00"
- },
- {
-  "nome": "Mini Umidificador de Ar e Aromatizador de Ambientes Tipo...",
-  "loja": "Shopee",
-  "preco": 18.88,
-  "preco_antes": 55.53,
-  "quando": "2026-11-01T14:25-03:00"
  }
 ]
