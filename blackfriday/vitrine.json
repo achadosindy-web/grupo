@@ -1,5 +1,19 @@
 [
  {
+  "nome": "Purificador Consul CPB34ASVNA: água pura e fresca! 💧✨",
+  "loja": "Mercado Livre",
+  "preco": 450.08,
+  "preco_antes": 639.0,
+  "quando": "2026-11-02T19:14-03:00"
+ },
+ {
+  "nome": "Geladeira Electrolux DC35A Cycle Defrost 260L Super Freez...",
+  "loja": "Mercado Livre",
+  "preco": 1804.0,
+  "preco_antes": 3699.9,
+  "quando": "2026-11-02T19:13-03:00"
+ },
+ {
   "nome": "Cadeira Gamer ThunderX3 TGC12  Preto | Profissional",
   "loja": "Amazon",
   "preco": 978.99,
@@ -68,19 +82,5 @@
   "preco": 189.99,
   "preco_antes": 306.0,
   "quando": "2026-11-01T20:20-03:00"
- },
- {
-  "nome": "Aspirador de Pó Turbo Cycle Mondial 1100W AP-36 127V",
-  "loja": "Mercado Livre",
-  "preco": 125.11,
-  "preco_antes": 316.9,
-  "quando": "2026-11-01T20:19-03:00"
- },
- {
-  "nome": "Air Fryer Widemax 4,5L: refeições crocantes e saudáveis! 🍟",
-  "loja": "Mercado Livre",
-  "preco": 203.31,
-  "preco_antes": 289.0,
-  "quando": "2026-11-01T19:12-03:00"
  }
 ]
