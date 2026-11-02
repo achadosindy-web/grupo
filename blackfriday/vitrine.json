@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Philco Ferro de Passar a Vapor 320ml Base Cerâmica PFV70...",
+  "loja": "Amazon",
+  "preco": 130.52,
+  "preco_antes": 189.16,
+  "quando": "2026-11-02T13:09-03:00"
+ },
+ {
   "nome": "DECART Capa para Kindle Paperwhite 12ª Geração e Kindle C...",
   "loja": "Amazon",
   "preco": 28.39,
@@ -74,13 +81,6 @@
   "loja": "Amazon",
   "preco": 92.53,
   "preco_antes": 205.62,
-  "quando": "2026-11-01T15:11-03:00"
- },
- {
-  "nome": "Mini Aspirador e Soprador 4 em 1 Recarregável",
-  "loja": "Shopee",
-  "preco": 28.0,
-  "preco_antes": 80.0,
   "quando": "2026-11-01T15:11-03:00"
  }
 ]
