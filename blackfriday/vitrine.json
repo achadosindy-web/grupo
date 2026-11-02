@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Lavadora De A.P. Kärcher Prática Black 1500 Psi 1400w 300...",
+  "loja": "Mercado Livre",
+  "preco": 299.0,
+  "preco_antes": 449.0,
+  "quando": "2026-11-02T16:53-03:00"
+ },
+ {
   "nome": "Ar Condicionado Elgin Eco Inverter: Climatização perfeita...",
   "loja": "Mercado Livre",
   "preco": 1999.0,
@@ -75,12 +82,5 @@
   "preco": 219.0,
   "preco_antes": 462.0,
   "quando": "2026-11-01T19:11-03:00"
- },
- {
-  "nome": "WAP Parafusadeira e Furadeira Impacto 1/2\" WF 700 FE13, L...",
-  "loja": "Amazon",
-  "preco": 92.53,
-  "preco_antes": 205.62,
-  "quando": "2026-11-01T15:11-03:00"
  }
 ]
