@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Micro-ondas Mondial Mo-01  21L Potencia 1200w 60hz  127V",
+  "loja": "Amazon",
+  "preco": 378.13,
+  "preco_antes": 640.9,
+  "quando": "2026-11-03T10:01-03:00"
+ },
+ {
   "nome": "Purificador Consul CPB34ASVNA: água pura e fresca! 💧✨",
   "loja": "Mercado Livre",
   "preco": 450.08,
@@ -75,12 +82,5 @@
   "preco": 25.19,
   "preco_antes": 0,
   "quando": "2026-11-01T21:10-03:00"
- },
- {
-  "nome": "Fritadeira Sem Óleo Super Cook Fryer Frt410 3 8l Cadence...",
-  "loja": "Mercado Livre",
-  "preco": 189.99,
-  "preco_antes": 306.0,
-  "quando": "2026-11-01T20:20-03:00"
  }
 ]
