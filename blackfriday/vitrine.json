@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Cozinhe com elegância e rapidez! Cooktop EOS 4 bocas pret...",
+  "loja": "Mercado Livre",
+  "preco": 876.6,
+  "preco_antes": 1999.0,
+  "quando": "2026-11-03T12:46-03:00"
+ },
+ {
   "nome": "WAP Extratora Portátil Spot Cleaner W3 3 em 1 127v/220v",
   "loja": "Amazon",
   "preco": 439.9,
@@ -74,13 +81,6 @@
   "loja": "Amazon",
   "preco": 372.32,
   "preco_antes": 564.12,
-  "quando": "2026-11-02T09:08-03:00"
- },
- {
-  "nome": "Stanley Garrafa Térmica Quick Flip Frost 710ml",
-  "loja": "Amazon",
-  "preco": 143.0,
-  "preco_antes": 264.81,
   "quando": "2026-11-02T09:08-03:00"
  }
 ]
