@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Headset Gamer Havit H2002d, Preto e Vermelho, 3,5mm",
+  "loja": "Amazon",
+  "preco": 120.05,
+  "preco_antes": 187.58,
+  "quando": "2026-11-03T19:15-03:00"
+ },
+ {
+  "nome": "Power Bank ELG Pro 20000mAH",
+  "loja": "Amazon",
+  "preco": 108.78,
+  "preco_antes": 197.78,
+  "quando": "2026-11-03T19:14-03:00"
+ },
+ {
+  "nome": "Kit de Ferramentas SPARTA 129 Peças com Maleta",
+  "loja": "Amazon",
+  "preco": 67.16,
+  "preco_antes": 139.92,
+  "quando": "2026-11-03T19:13-03:00"
+ },
+ {
+  "nome": "Havit Mouse Pad Grande Gamer MP860, 70 X 30 Cm",
+  "loja": "Amazon",
+  "preco": 21.05,
+  "preco_antes": 58.47,
+  "quando": "2026-11-03T19:13-03:00"
+ },
+ {
   "nome": "Kit 16 Potes Herméticos Electrolux c/ Tampa",
   "loja": "Amazon",
   "preco": 99.0,
@@ -54,33 +82,5 @@
   "preco": 978.99,
   "preco_antes": 1919.59,
   "quando": "2026-11-02T16:54-03:00"
- },
- {
-  "nome": "Lavadora De A.P. Kärcher Prática Black 1500 Psi 1400w 300...",
-  "loja": "Mercado Livre",
-  "preco": 627.19,
-  "preco_antes": 1199.0,
-  "quando": "2026-11-02T16:53-03:00"
- },
- {
-  "nome": "Ar Condicionado Elgin Eco Inverter: Climatização perfeita...",
-  "loja": "Mercado Livre",
-  "preco": 1999.0,
-  "preco_antes": 2951.0,
-  "quando": "2026-11-02T13:09-03:00"
- },
- {
-  "nome": "DECART Capa para Kindle Paperwhite 12ª Geração e Kindle C...",
-  "loja": "Amazon",
-  "preco": 28.39,
-  "preco_antes": 79.89,
-  "quando": "2026-11-02T12:21-03:00"
- },
- {
-  "nome": "Cadeira Gamer ThunderX3 CORE Smart Loft, Cinza Escuro",
-  "loja": "Amazon",
-  "preco": 1817.49,
-  "preco_antes": 2489.71,
-  "quando": "2026-11-02T09:09-03:00"
  }
 ]
