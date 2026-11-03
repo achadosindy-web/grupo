@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Escova Elétrica Oral-B PRO Series c/ temporizador + 3 refis",
+  "loja": "Amazon",
+  "preco": 174.89,
+  "preco_antes": 249.84,
+  "quando": "2026-11-03T12:45-03:00"
+ },
+ {
   "nome": "Lavadora Electrolux 14 5kg Efficient Jetclean: roupas imp...",
   "loja": "Mercado Livre",
   "preco": 1700.97,
@@ -75,12 +82,5 @@
   "preco": 143.0,
   "preco_antes": 264.81,
   "quando": "2026-11-02T09:08-03:00"
- },
- {
-  "nome": "Tenis Fila Racer Fastpace Masculino, Acid Lime/Aquamarine...",
-  "loja": "Amazon",
-  "preco": 219.9,
-  "preco_antes": 499.77,
-  "quando": "2026-11-02T09:07-03:00"
  }
 ]
