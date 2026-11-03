@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Sala de Jantar Madu Carraro: 4 Cadeiras Nogal Rosê Rose! ✨",
+  "loja": "Mercado Livre",
+  "preco": 969.99,
+  "preco_antes": 1759.0,
+  "quando": "2026-11-03T10:26-03:00"
+ },
+ {
   "nome": "Chaleira Elétrica Agratto 1 8L 127v",
   "loja": "Amazon",
   "preco": 38.13,
@@ -75,12 +82,5 @@
   "preco": 219.9,
   "preco_antes": 499.77,
   "quando": "2026-11-02T09:07-03:00"
- },
- {
-  "nome": "Achadinho do dia",
-  "loja": "Shopee",
-  "preco": 25.19,
-  "preco_antes": 0,
-  "quando": "2026-11-01T21:10-03:00"
  }
 ]
