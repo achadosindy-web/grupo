@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Cafeteira Cápsulas Delta Q MiniQool",
+  "loja": "Amazon",
+  "preco": 149.85,
+  "preco_antes": 394.34,
+  "quando": "2026-11-03T16:03-03:00"
+ },
+ {
   "nome": "Cozinhe com elegância e rapidez! Cooktop EOS 4 bocas pret...",
   "loja": "Mercado Livre",
   "preco": 876.6,
@@ -75,12 +82,5 @@
   "preco": 1817.49,
   "preco_antes": 2489.71,
   "quando": "2026-11-02T09:09-03:00"
- },
- {
-  "nome": "Batedeira Planetária Britânia 4L 3 Batedores, 12 Velocida...",
-  "loja": "Amazon",
-  "preco": 372.32,
-  "preco_antes": 564.12,
-  "quando": "2026-11-02T09:08-03:00"
  }
 ]
