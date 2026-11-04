@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Sanduicheira Elétrica Cadence Click",
+  "loja": "Amazon",
+  "preco": 75.33,
+  "preco_antes": 156.94,
+  "quando": "2026-11-04T18:13-03:00"
+ },
+ {
   "nome": "Batedeira Planetária Philco 900W 5L Preta 12 Velocidades...",
   "loja": "Mercado Livre",
   "preco": 269.1,
@@ -75,12 +82,5 @@
   "preco": 1909.0,
   "preco_antes": 3199.0,
   "quando": "2026-11-04T09:09-03:00"
- },
- {
-  "nome": "Conforto ergonômico B100 Boston cinza mesh. Costas agrade...",
-  "loja": "Mercado Livre",
-  "preco": 439.9,
-  "preco_antes": 746.12,
-  "quando": "2026-11-03T21:13-03:00"
  }
 ]
