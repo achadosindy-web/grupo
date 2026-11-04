@@ -1,5 +1,40 @@
 [
  {
+  "nome": "Ventilador de Torre WAP Air Silence com Ajuste de 4 Veloc...",
+  "loja": "Mercado Livre",
+  "preco": 489.9,
+  "preco_antes": 592.71,
+  "quando": "2026-11-04T12:13-03:00"
+ },
+ {
+  "nome": "Cooktop 5 Bocas Dako Pratiko com Mesa de Vidro Acendiment...",
+  "loja": "Mercado Livre",
+  "preco": 549.0,
+  "preco_antes": 889.0,
+  "quando": "2026-11-04T12:12-03:00"
+ },
+ {
+  "nome": "TP-Link Tapo C100 Câmera de Segurança Wi-Fi Interna Full...",
+  "loja": "Mercado Livre",
+  "preco": 90.75,
+  "preco_antes": 169.9,
+  "quando": "2026-11-04T12:11-03:00"
+ },
+ {
+  "nome": "Escova Modeladora Britânia 2 em 1 Branca Antiaderente 60W...",
+  "loja": "Mercado Livre",
+  "preco": 59.0,
+  "preco_antes": 119.0,
+  "quando": "2026-11-04T12:11-03:00"
+ },
+ {
+  "nome": "Panela de Arroz Mondial Bianca Rice5 5 Xícaras 110v",
+  "loja": "Amazon",
+  "preco": 101.7,
+  "preco_antes": 226.0,
+  "quando": "2026-11-04T12:10-03:00"
+ },
+ {
   "nome": "Mixer Mallory Pratic 3 em 1 127v",
   "loja": "Amazon",
   "preco": 102.0,
@@ -47,40 +82,5 @@
   "preco": 21.05,
   "preco_antes": 58.47,
   "quando": "2026-11-03T19:13-03:00"
- },
- {
-  "nome": "Kit 16 Potes Herméticos Electrolux c/ Tampa",
-  "loja": "Amazon",
-  "preco": 99.0,
-  "preco_antes": 141.43,
-  "quando": "2026-11-03T16:03-03:00"
- },
- {
-  "nome": "Cozinhe com elegância e rapidez! Cooktop EOS 4 bocas pret...",
-  "loja": "Mercado Livre",
-  "preco": 876.6,
-  "preco_antes": 1999.0,
-  "quando": "2026-11-03T12:46-03:00"
- },
- {
-  "nome": "WAP Extratora Portátil Spot Cleaner W3 3 em 1 127v/220v",
-  "loja": "Amazon",
-  "preco": 439.9,
-  "preco_antes": 845.96,
-  "quando": "2026-11-03T12:45-03:00"
- },
- {
-  "nome": "Lavadora Electrolux 14 5kg Efficient Jetclean: roupas imp...",
-  "loja": "Mercado Livre",
-  "preco": 1700.97,
-  "preco_antes": 2599.0,
-  "quando": "2026-11-03T10:27-03:00"
- },
- {
-  "nome": "Chaleira Elétrica Agratto 1 8L 127v",
-  "loja": "Amazon",
-  "preco": 38.13,
-  "preco_antes": 69.33,
-  "quando": "2026-11-03T10:01-03:00"
  }
 ]
