@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Batedeira Planetária Philco 900W 5L Preta 12 Velocidades...",
+  "loja": "Mercado Livre",
+  "preco": 269.1,
+  "preco_antes": 379.9,
+  "quando": "2026-11-04T15:12-03:00"
+ },
+ {
+  "nome": "Purificador Midea SlimPure: ar puro e saúde para você! 🌬️✨",
+  "loja": "Mercado Livre",
+  "preco": 437.71,
+  "preco_antes": 657.0,
+  "quando": "2026-11-04T15:12-03:00"
+ },
+ {
+  "nome": "Smart TV Samsung 43\" FHD! Imagem incrível em casa! ✨📺",
+  "loja": "Mercado Livre",
+  "preco": 1559.9,
+  "preco_antes": 3200.0,
+  "quando": "2026-11-04T15:11-03:00"
+ },
+ {
+  "nome": "Ventilador Super Power 30cm Turbo 60W: frescor potente e...",
+  "loja": "Mercado Livre",
+  "preco": 118.59,
+  "preco_antes": 290.0,
+  "quando": "2026-11-04T15:11-03:00"
+ },
+ {
   "nome": "Ventilador de Torre WAP Air Silence com Ajuste de 4 Veloc...",
   "loja": "Mercado Livre",
   "preco": 489.9,
@@ -54,33 +82,5 @@
   "preco": 439.9,
   "preco_antes": 746.12,
   "quando": "2026-11-03T21:13-03:00"
- },
- {
-  "nome": "Headset Gamer Havit H2002d, Preto e Vermelho, 3,5mm",
-  "loja": "Amazon",
-  "preco": 120.05,
-  "preco_antes": 187.58,
-  "quando": "2026-11-03T19:15-03:00"
- },
- {
-  "nome": "Power Bank ELG Pro 20000mAH",
-  "loja": "Amazon",
-  "preco": 108.78,
-  "preco_antes": 197.78,
-  "quando": "2026-11-03T19:14-03:00"
- },
- {
-  "nome": "Kit de Ferramentas SPARTA 129 Peças com Maleta",
-  "loja": "Amazon",
-  "preco": 67.16,
-  "preco_antes": 139.92,
-  "quando": "2026-11-03T19:13-03:00"
- },
- {
-  "nome": "Havit Mouse Pad Grande Gamer MP860, 70 X 30 Cm",
-  "loja": "Amazon",
-  "preco": 21.05,
-  "preco_antes": 58.47,
-  "quando": "2026-11-03T19:13-03:00"
  }
 ]
