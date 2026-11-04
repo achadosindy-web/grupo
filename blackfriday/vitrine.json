@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Fogão Electrolux 5 bocas: PerfectCook e vidro! 🔥🍳",
+  "loja": "Mercado Livre",
+  "preco": 1909.0,
+  "preco_antes": 3199.0,
+  "quando": "2026-11-04T09:09-03:00"
+ },
+ {
   "nome": "Conforto ergonômico B100 Boston cinza mesh. Costas agrade...",
   "loja": "Mercado Livre",
   "preco": 439.9,
@@ -75,12 +82,5 @@
   "preco": 450.08,
   "preco_antes": 639.0,
   "quando": "2026-11-02T19:14-03:00"
- },
- {
-  "nome": "Geladeira Electrolux DC35A Cycle Defrost 260L Super Freez...",
-  "loja": "Mercado Livre",
-  "preco": 1804.0,
-  "preco_antes": 3699.9,
-  "quando": "2026-11-02T19:13-03:00"
  }
 ]
