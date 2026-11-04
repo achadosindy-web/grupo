@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Fritadeira Air Fryer 11 Litros 8 Funções 1800w Philco PAF...",
+  "loja": "Mercado Livre",
+  "preco": 350.1,
+  "preco_antes": 530.94,
+  "quando": "2026-11-04T10:12-03:00"
+ },
+ {
   "nome": "Fogão Electrolux 5 bocas: PerfectCook e vidro! 🔥🍳",
   "loja": "Mercado Livre",
   "preco": 1909.0,
@@ -75,12 +82,5 @@
   "preco": 38.13,
   "preco_antes": 69.33,
   "quando": "2026-11-03T10:01-03:00"
- },
- {
-  "nome": "Purificador Consul CPB34ASVNA: água pura e fresca! 💧✨",
-  "loja": "Mercado Livre",
-  "preco": 450.08,
-  "preco_antes": 639.0,
-  "quando": "2026-11-02T19:14-03:00"
  }
 ]
