@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Conforto ergonômico B100 Boston cinza mesh. Costas agrade...",
+  "loja": "Mercado Livre",
+  "preco": 439.9,
+  "preco_antes": 746.12,
+  "quando": "2026-11-03T21:13-03:00"
+ },
+ {
   "nome": "Headset Gamer Havit H2002d, Preto e Vermelho, 3,5mm",
   "loja": "Amazon",
   "preco": 120.05,
@@ -75,12 +82,5 @@
   "preco": 1804.0,
   "preco_antes": 3699.9,
   "quando": "2026-11-02T19:13-03:00"
- },
- {
-  "nome": "Cadeira Gamer ThunderX3 TGC12  Preto | Profissional",
-  "loja": "Amazon",
-  "preco": 978.99,
-  "preco_antes": 1919.59,
-  "quando": "2026-11-02T16:54-03:00"
  }
 ]
