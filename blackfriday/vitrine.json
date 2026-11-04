@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Cafeteira Elétrica 15 Xícaras Elgin Coffee Break",
+  "loja": "Amazon",
+  "preco": 63.94,
+  "preco_antes": 108.37,
+  "quando": "2026-11-04T19:59-03:00"
+ },
+ {
   "nome": "Cafeteira Electrolux 1 5L ECM30 38 xicaras com timer 127/...",
   "loja": "Amazon",
   "preco": 249.0,
@@ -75,12 +82,5 @@
   "preco": 101.7,
   "preco_antes": 226.0,
   "quando": "2026-11-04T12:10-03:00"
- },
- {
-  "nome": "Mixer Mallory Pratic 3 em 1 127v",
-  "loja": "Amazon",
-  "preco": 102.0,
-  "preco_antes": 237.21,
-  "quando": "2026-11-04T10:12-03:00"
  }
 ]
