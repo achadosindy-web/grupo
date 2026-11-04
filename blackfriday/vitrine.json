@@ -1,10 +1,17 @@
 [
  {
-  "nome": "Cooktop de Indução Itatiaia Master 220V",
-  "loja": "Mercado Livre",
-  "preco": 746.91,
-  "preco_antes": 1231.0,
+  "nome": "Cafeteira Electrolux 1 5L ECM30 38 xicaras com timer 127/...",
+  "loja": "Amazon",
+  "preco": 249.0,
+  "preco_antes": 366.18,
   "quando": "2026-11-04T18:14-03:00"
+ },
+ {
+  "nome": "Sanduicheira Elétrica Cadence Click",
+  "loja": "Amazon",
+  "preco": 75.33,
+  "preco_antes": 156.94,
+  "quando": "2026-11-04T18:13-03:00"
  },
  {
   "nome": "Batedeira Planetária Philco 900W 5L Preta 12 Velocidades...",
@@ -75,12 +82,5 @@
   "preco": 102.0,
   "preco_antes": 237.21,
   "quando": "2026-11-04T10:12-03:00"
- },
- {
-  "nome": "Fogão Electrolux 5 bocas: PerfectCook e vidro! 🔥🍳",
-  "loja": "Mercado Livre",
-  "preco": 1909.0,
-  "preco_antes": 3199.0,
-  "quando": "2026-11-04T09:09-03:00"
  }
 ]
