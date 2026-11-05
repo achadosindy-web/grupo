@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Ferro a vapor Philips Walita 5000: roupas impecáveis e se...",
+  "loja": "Mercado Livre",
+  "preco": 265.05,
+  "preco_antes": 519.9,
+  "quando": "2026-11-05T09:41-03:00"
+ },
+ {
   "nome": "Emma Original: 3 camadas de espuma e coluna feliz! ✨😴",
   "loja": "Mercado Livre",
   "preco": 2273.0,
@@ -74,13 +81,6 @@
   "loja": "Mercado Livre",
   "preco": 90.75,
   "preco_antes": 169.9,
-  "quando": "2026-11-04T12:11-03:00"
- },
- {
-  "nome": "Escova Modeladora Britânia 2 em 1 Branca Antiaderente 60W...",
-  "loja": "Mercado Livre",
-  "preco": 59.0,
-  "preco_antes": 119.0,
   "quando": "2026-11-04T12:11-03:00"
  }
 ]
