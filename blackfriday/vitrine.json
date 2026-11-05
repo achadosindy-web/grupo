@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Balança Digital Epsilon Inteligente 180kg",
+  "loja": "Mercado Livre",
+  "preco": 26.0,
+  "preco_antes": 79.0,
+  "quando": "2026-11-05T09:16-03:00"
+ },
+ {
   "nome": "Kit Panelas Cerâmica Mimo Style 10 Peças Mármore! Cozinhe...",
   "loja": "Mercado Livre",
   "preco": 448.0,
@@ -75,12 +82,5 @@
   "preco": 59.0,
   "preco_antes": 119.0,
   "quando": "2026-11-04T12:11-03:00"
- },
- {
-  "nome": "Panela de Arroz Mondial Bianca Rice5 5 Xícaras 110v",
-  "loja": "Amazon",
-  "preco": 101.7,
-  "preco_antes": 226.0,
-  "quando": "2026-11-04T12:10-03:00"
  }
 ]
