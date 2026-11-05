@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Bebedouro Britânia Acqua Bivolt",
+  "loja": "Amazon",
+  "preco": 261.24,
+  "preco_antes": 367.94,
+  "quando": "2026-11-05T19:14-03:00"
+ },
+ {
   "nome": "Ventilador de coluna Mallory Éolo 126W",
   "loja": "Amazon",
   "preco": 157.74,
@@ -75,12 +82,5 @@
   "preco": 489.9,
   "preco_antes": 592.71,
   "quando": "2026-11-04T12:13-03:00"
- },
- {
-  "nome": "Cooktop 5 Bocas Dako Pratiko com Mesa de Vidro Acendiment...",
-  "loja": "Mercado Livre",
-  "preco": 549.0,
-  "preco_antes": 889.0,
-  "quando": "2026-11-04T12:12-03:00"
  }
 ]
