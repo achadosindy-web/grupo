@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Micro-ondas Electrolux 31L Espelhado: Sabor impecável e a...",
+  "loja": "Shopee",
+  "preco": 819.9,
+  "preco_antes": 1301.43,
+  "quando": "2026-11-06T12:16-03:00"
+ },
+ {
+  "nome": "Panela De Pressão Elétrica 4L 900w Fast Cook Elgin Preta",
+  "loja": "Shopee",
+  "preco": 243.67,
+  "preco_antes": 400.77,
+  "quando": "2026-11-06T12:15-03:00"
+ },
+ {
+  "nome": "Máquina de Lavar Electrolux 13kg Branca Essential Care co...",
+  "loja": "Shopee",
+  "preco": 1655.08,
+  "preco_antes": 2830.0,
+  "quando": "2026-11-06T12:15-03:00"
+ },
+ {
+  "nome": "WAP Robot W100: limpeza total sem esforço e sem quedas! ✨🧹",
+  "loja": "Shopee",
+  "preco": 537.99,
+  "preco_antes": 1075.98,
+  "quando": "2026-11-06T12:14-03:00"
+ },
+ {
   "nome": "Lixeira Inteligente Automática Redonda Sensor 16L",
   "loja": "Mercado Livre",
   "preco": 59.0,
@@ -54,33 +82,5 @@
   "preco": 2273.0,
   "preco_antes": 5369.0,
   "quando": "2026-11-05T09:16-03:00"
- },
- {
-  "nome": "Kit Panelas Cerâmica Mimo Style 10 Peças Mármore! Cozinhe...",
-  "loja": "Mercado Livre",
-  "preco": 448.0,
-  "preco_antes": 633.49,
-  "quando": "2026-11-04T19:59-03:00"
- },
- {
-  "nome": "Cafeteira Electrolux 1 5L ECM30 38 xicaras com timer 127/...",
-  "loja": "Amazon",
-  "preco": 249.0,
-  "preco_antes": 366.18,
-  "quando": "2026-11-04T18:14-03:00"
- },
- {
-  "nome": "Sanduicheira Elétrica Cadence Click",
-  "loja": "Amazon",
-  "preco": 75.33,
-  "preco_antes": 156.94,
-  "quando": "2026-11-04T18:13-03:00"
- },
- {
-  "nome": "Batedeira Planetária Philco 900W 5L Preta 12 Velocidades...",
-  "loja": "Mercado Livre",
-  "preco": 269.1,
-  "preco_antes": 379.9,
-  "quando": "2026-11-04T15:12-03:00"
  }
 ]
