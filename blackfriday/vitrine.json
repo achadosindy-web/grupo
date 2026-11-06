@@ -1,5 +1,26 @@
 [
  {
+  "nome": "Sirva com elegância! Kit 30 pçs Stoneware Oceano Porto Br...",
+  "loja": "Mercado Livre",
+  "preco": 648.75,
+  "preco_antes": 990.72,
+  "quando": "2026-11-05T21:15-03:00"
+ },
+ {
+  "nome": "Chaleira Inox 1000w: água quente rápido! 🔥💧",
+  "loja": "Mercado Livre",
+  "preco": 37.67,
+  "preco_antes": 78.9,
+  "quando": "2026-11-05T21:14-03:00"
+ },
+ {
+  "nome": "Fritadeira Air Fryer Britânia Redstone 5,5L 220v",
+  "loja": "Amazon",
+  "preco": 179.9,
+  "preco_antes": 418.37,
+  "quando": "2026-11-05T21:14-03:00"
+ },
+ {
   "nome": "Bebedouro Britânia Acqua Bivolt",
   "loja": "Amazon",
   "preco": 261.24,
@@ -61,26 +82,5 @@
   "preco": 437.71,
   "preco_antes": 657.0,
   "quando": "2026-11-04T15:12-03:00"
- },
- {
-  "nome": "Smart TV Samsung 43\" FHD! Imagem incrível em casa! ✨📺",
-  "loja": "Mercado Livre",
-  "preco": 1559.9,
-  "preco_antes": 3200.0,
-  "quando": "2026-11-04T15:11-03:00"
- },
- {
-  "nome": "Ventilador Super Power 30cm Turbo 60W: frescor potente e...",
-  "loja": "Mercado Livre",
-  "preco": 118.59,
-  "preco_antes": 290.0,
-  "quando": "2026-11-04T15:11-03:00"
- },
- {
-  "nome": "Ventilador de Torre WAP Air Silence com Ajuste de 4 Veloc...",
-  "loja": "Mercado Livre",
-  "preco": 489.9,
-  "preco_antes": 592.71,
-  "quando": "2026-11-04T12:13-03:00"
  }
 ]
