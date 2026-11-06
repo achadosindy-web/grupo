@@ -1,5 +1,33 @@
 [
  {
+  "nome": "Lava e Seca Philco 11kg: suas roupas impecáveis! ✨🧺",
+  "loja": "Shopee",
+  "preco": 2623.65,
+  "preco_antes": 4685.09,
+  "quando": "2026-11-06T15:18-03:00"
+ },
+ {
+  "nome": "Mixer 5 em 1 Inox 1000W Elgin Processador Fatiador Ralado...",
+  "loja": "Shopee",
+  "preco": 213.75,
+  "preco_antes": 381.34,
+  "quando": "2026-11-06T15:17-03:00"
+ },
+ {
+  "nome": "Vídeo porteiro Wi-Fi HD inteligente, segurança total no s...",
+  "loja": "Shopee",
+  "preco": 49.88,
+  "preco_antes": 99.76,
+  "quando": "2026-11-06T15:17-03:00"
+ },
+ {
+  "nome": "Kit 18 Peças Antiaderente Esmaltada Laranja: Cozinhe com...",
+  "loja": "Mercado Livre",
+  "preco": 595.24,
+  "preco_antes": 1199.0,
+  "quando": "2026-11-06T15:16-03:00"
+ },
+ {
   "nome": "Micro-ondas Electrolux 31L Espelhado: Sabor impecável e a...",
   "loja": "Shopee",
   "preco": 819.9,
@@ -54,33 +82,5 @@
   "preco": 179.9,
   "preco_antes": 418.37,
   "quando": "2026-11-05T21:14-03:00"
- },
- {
-  "nome": "Bebedouro Britânia Acqua Bivolt",
-  "loja": "Amazon",
-  "preco": 261.24,
-  "preco_antes": 367.94,
-  "quando": "2026-11-05T19:14-03:00"
- },
- {
-  "nome": "Ventilador de coluna Mallory Éolo 126W",
-  "loja": "Amazon",
-  "preco": 157.74,
-  "preco_antes": 297.62,
-  "quando": "2026-11-05T12:12-03:00"
- },
- {
-  "nome": "Ferro a vapor Philips Walita 5000: roupas impecáveis e se...",
-  "loja": "Mercado Livre",
-  "preco": 265.05,
-  "preco_antes": 519.9,
-  "quando": "2026-11-05T09:41-03:00"
- },
- {
-  "nome": "Emma Original: 3 camadas de espuma e coluna feliz! ✨😴",
-  "loja": "Mercado Livre",
-  "preco": 2273.0,
-  "preco_antes": 5369.0,
-  "quando": "2026-11-05T09:16-03:00"
  }
 ]
