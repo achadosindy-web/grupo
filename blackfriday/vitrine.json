@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Smart TV 43\" Philco QLED HDR10 Roku TV P43KRB",
+  "loja": "Shopee",
+  "preco": 1449.9,
+  "preco_antes": 2196.82,
+  "quando": "2026-11-06T17:44-03:00"
+ },
+ {
   "nome": "Bolsa Pochete Unissex Esportiva Sem Volume Compacta Leve...",
   "loja": "Shopee",
   "preco": 11.98,
@@ -75,12 +82,5 @@
   "preco": 537.99,
   "preco_antes": 1075.98,
   "quando": "2026-11-06T12:14-03:00"
- },
- {
-  "nome": "Lixeira Inteligente Automática Redonda Sensor 16L",
-  "loja": "Mercado Livre",
-  "preco": 59.0,
-  "preco_antes": 157.0,
-  "quando": "2026-11-06T09:54-03:00"
  }
 ]
