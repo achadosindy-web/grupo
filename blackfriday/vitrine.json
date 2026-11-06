@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Parafusadeira Furadeira 1X Bateria 25V Nakasaki Sem Fio P...",
+  "loja": "Shopee",
+  "preco": 89.99,
+  "preco_antes": 299.97,
+  "quando": "2026-11-06T18:39-03:00"
+ },
+ {
   "nome": "Smart TV 43\" Philco QLED HDR10 Roku TV P43KRB",
   "loja": "Shopee",
   "preco": 1449.9,
@@ -75,12 +82,5 @@
   "preco": 1655.08,
   "preco_antes": 2830.0,
   "quando": "2026-11-06T12:15-03:00"
- },
- {
-  "nome": "WAP Robot W100: limpeza total sem esforço e sem quedas! ✨🧹",
-  "loja": "Shopee",
-  "preco": 537.99,
-  "preco_antes": 1075.98,
-  "quando": "2026-11-06T12:14-03:00"
  }
 ]
