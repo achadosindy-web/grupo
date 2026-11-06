@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Lixeira Inteligente Automática Redonda Sensor 16L",
+  "loja": "Mercado Livre",
+  "preco": 59.0,
+  "preco_antes": 157.0,
+  "quando": "2026-11-06T09:54-03:00"
+ },
+ {
   "nome": "Sirva com elegância! Kit 30 pçs Stoneware Oceano Porto Br...",
   "loja": "Mercado Livre",
   "preco": 648.75,
@@ -74,13 +81,6 @@
   "loja": "Mercado Livre",
   "preco": 269.1,
   "preco_antes": 379.9,
-  "quando": "2026-11-04T15:12-03:00"
- },
- {
-  "nome": "Purificador Midea SlimPure: ar puro e saúde para você! 🌬️✨",
-  "loja": "Mercado Livre",
-  "preco": 437.71,
-  "preco_antes": 657.0,
   "quando": "2026-11-04T15:12-03:00"
  }
 ]
