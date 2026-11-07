@@ -1,6 +1,13 @@
 [
  {
-  "nome": "Sanduicheira Grill Elétrica 750W Antiaderente 2 Sanduíche...",
+  "nome": "Batedeira Planetária Britânia BBP760P Power Plus 700W",
+  "loja": "Shopee",
+  "preco": 299.9,
+  "preco_antes": 399.87,
+  "quando": "2026-11-07T11:26-03:00"
+ },
+ {
+  "nome": "Liquidificador Portátil 12 Lâminas Recarregável Alta Potê...",
   "loja": "Shopee",
   "preco": 62.99,
   "preco_antes": 95.44,
@@ -75,12 +82,5 @@
   "preco": 819.9,
   "preco_antes": 1301.43,
   "quando": "2026-11-06T12:16-03:00"
- },
- {
-  "nome": "Panela De Pressão Elétrica 4L 900w Fast Cook Elgin Preta",
-  "loja": "Shopee",
-  "preco": 243.67,
-  "preco_antes": 400.77,
-  "quando": "2026-11-06T12:15-03:00"
  }
 ]
