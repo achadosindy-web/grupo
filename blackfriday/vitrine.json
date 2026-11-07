@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Fritadeira Air Fryer Facilita Fry 3 5 Litros Preta Elgin",
+  "loja": "Shopee",
+  "preco": 219.99,
+  "preco_antes": 301.36,
+  "quando": "2026-11-07T11:25-03:00"
+ },
+ {
   "nome": "Aspirador de Pó Automotivo Car 420ml 180w Wap",
   "loja": "Amazon",
   "preco": 69.9,
@@ -74,13 +81,6 @@
   "loja": "Shopee",
   "preco": 243.67,
   "preco_antes": 400.77,
-  "quando": "2026-11-06T12:15-03:00"
- },
- {
-  "nome": "Máquina de Lavar Electrolux 13kg Branca Essential Care co...",
-  "loja": "Shopee",
-  "preco": 1655.08,
-  "preco_antes": 2830.0,
   "quando": "2026-11-06T12:15-03:00"
  }
 ]
