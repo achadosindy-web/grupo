@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Ar Condicionado Janela Hisense Eletrônico Wi-fi 7.500 Btu...",
+  "loja": "Shopee",
+  "preco": 1376.55,
+  "preco_antes": 2350.0,
+  "quando": "2026-11-07T18:36-03:00"
+ },
+ {
   "nome": "Batedeira Planetária Britânia BBP760P Power Plus 700W",
   "loja": "Shopee",
   "preco": 299.9,
@@ -75,12 +82,5 @@
   "preco": 595.24,
   "preco_antes": 1199.0,
   "quando": "2026-11-06T15:16-03:00"
- },
- {
-  "nome": "Micro-ondas Electrolux 31L Espelhado: Sabor impecável e a...",
-  "loja": "Shopee",
-  "preco": 819.9,
-  "preco_antes": 1301.43,
-  "quando": "2026-11-06T12:16-03:00"
  }
 ]
