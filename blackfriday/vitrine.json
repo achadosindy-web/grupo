@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Cafeteira Italiana Moka 12 Xícaras 600ml em Inox para Caf...",
+  "loja": "Shopee",
+  "preco": 36.99,
+  "preco_antes": 115.59,
+  "quando": "2026-11-08T09:29-03:00"
+ },
+ {
   "nome": "Kit 4 Potes Herméticos Tampa Bambu Organizador Mantimento...",
   "loja": "Shopee",
   "preco": 35.49,
@@ -75,12 +82,5 @@
   "preco": 49.88,
   "preco_antes": 99.76,
   "quando": "2026-11-06T15:17-03:00"
- },
- {
-  "nome": "Kit 18 Peças Antiaderente Esmaltada Laranja: Cozinhe com...",
-  "loja": "Mercado Livre",
-  "preco": 595.24,
-  "preco_antes": 1199.0,
-  "quando": "2026-11-06T15:16-03:00"
  }
 ]
