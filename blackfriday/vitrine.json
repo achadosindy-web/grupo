@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Fone de Ouvido Sem Fio PODSPRO 6 Estereo Com Cancelamento...",
+  "loja": "Shopee",
+  "preco": 42.98,
+  "preco_antes": 99.95,
+  "quando": "2026-11-08T17:02-03:00"
+ },
+ {
   "nome": "Carregador Rápido 50W USB-C Duplo 2 Portas Tipo C Compatí...",
   "loja": "Shopee",
   "preco": 34.9,
@@ -75,12 +82,5 @@
   "preco": 11.98,
   "preco_antes": 25.49,
   "quando": "2026-11-06T16:32-03:00"
- },
- {
-  "nome": "Mini Maquina De Donuts Café Da Manhã Capacidade Para 7 Mi...",
-  "loja": "Shopee",
-  "preco": 62.99,
-  "preco_antes": 0,
-  "quando": "2026-11-06T16:29-03:00"
  }
 ]
