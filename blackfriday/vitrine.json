@@ -1,6 +1,13 @@
 [
  {
-  "nome": "Cafeteira Portátil 3 em 1 Expresso Elétrica Recarregável...",
+  "nome": "Carregador Rápido 50W USB-C Duplo 2 Portas Tipo C Compatí...",
+  "loja": "Shopee",
+  "preco": 34.9,
+  "preco_antes": 49.86,
+  "quando": "2026-11-08T12:22-03:00"
+ },
+ {
+  "nome": "Carregador Portátil Mini Power Bank 10000mAh Com 02 Saída...",
   "loja": "Shopee",
   "preco": 159.99,
   "preco_antes": 499.97,
@@ -75,12 +82,5 @@
   "preco": 62.99,
   "preco_antes": 0,
   "quando": "2026-11-06T16:29-03:00"
- },
- {
-  "nome": "Emma Basics 17: 158x198cm, D28, firmeza e conforto alemão...",
-  "loja": "Mercado Livre",
-  "preco": 1225.0,
-  "preco_antes": 2129.0,
-  "quando": "2026-11-06T16:28-03:00"
  }
 ]
