@@ -1,6 +1,13 @@
 [
  {
-  "nome": "Philco PMO24E 20L Espelhado: praticidade e brilho na sua...",
+  "nome": "Carregador Portátil Mini Power Bank 10000mAh Com 02 Saída...",
+  "loja": "Shopee",
+  "preco": 31.99,
+  "preco_antes": 58.16,
+  "quando": "2026-11-08T12:21-03:00"
+ },
+ {
+  "nome": "Notebook ASUS Vivobook 15  Intel Core 5  8 GB RAM  512GB...",
   "loja": "Amazon",
   "preco": 449.9,
   "preco_antes": 640.0,
@@ -75,12 +82,5 @@
   "preco": 1225.0,
   "preco_antes": 2129.0,
   "quando": "2026-11-06T16:28-03:00"
- },
- {
-  "nome": "Lava e Seca Philco 11kg: suas roupas impecáveis! ✨🧺",
-  "loja": "Shopee",
-  "preco": 2623.65,
-  "preco_antes": 4685.09,
-  "quando": "2026-11-06T15:18-03:00"
  }
 ]
