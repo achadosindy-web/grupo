@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Faqueiro 24 pçs Tramontina Búzios",
+  "loja": "Amazon",
+  "preco": 54.85,
+  "preco_antes": 77.25,
+  "quando": "2026-11-08T12:20-03:00"
+ },
+ {
   "nome": "Relógio inteligente Hancdon H11 Smartwatch masculino 2.01...",
   "loja": "Shopee",
   "preco": 99.8,
@@ -75,12 +82,5 @@
   "preco": 2623.65,
   "preco_antes": 4685.09,
   "quando": "2026-11-06T15:18-03:00"
- },
- {
-  "nome": "Mixer 5 em 1 Inox 1000W Elgin Processador Fatiador Ralado...",
-  "loja": "Shopee",
-  "preco": 213.75,
-  "preco_antes": 381.34,
-  "quando": "2026-11-06T15:17-03:00"
  }
 ]
