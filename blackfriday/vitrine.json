@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Climatizador Smart 4 em 1 Resfria Ventila Umidifica e Pur...",
+  "loja": "Shopee",
+  "preco": 389.9,
+  "preco_antes": 526.89,
+  "quando": "2026-11-09T14:18-03:00"
+ },
+ {
   "nome": "Climatizador Ar Ventisol Portátil Turbo Evaporativo 16 Li...",
   "loja": "Shopee",
   "preco": 439.99,
@@ -75,12 +82,5 @@
   "preco": 69.9,
   "preco_antes": 118.47,
   "quando": "2026-11-06T18:40-03:00"
- },
- {
-  "nome": "Smart TV 43\" Philco QLED HDR10 Roku TV P43KRB",
-  "loja": "Shopee",
-  "preco": 1449.9,
-  "preco_antes": 2196.82,
-  "quando": "2026-11-06T17:44-03:00"
  }
 ]
