@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Fechadura Digital Elsys de Embutir com Biometria ESF-DE2000B",
+  "loja": "Amazon",
+  "preco": 380.0,
+  "preco_antes": 883.72,
+  "quando": "2026-11-10T09:42-03:00"
+ },
+ {
   "nome": "Refrigerador Philco PRF535ID Side By Side 434 Litros 127V",
   "loja": "Amazon",
   "preco": 3216.0,
@@ -74,13 +81,6 @@
   "loja": "Shopee",
   "preco": 299.9,
   "preco_antes": 399.87,
-  "quando": "2026-11-07T11:26-03:00"
- },
- {
-  "nome": "Liquidificador Portátil 12 Lâminas Recarregável Alta Potê...",
-  "loja": "Shopee",
-  "preco": 62.99,
-  "preco_antes": 95.44,
   "quando": "2026-11-07T11:26-03:00"
  }
 ]
