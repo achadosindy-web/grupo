@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Tênis De Corrida Fila Racer Speedzone Manu Cit Feminino",
+  "loja": "Mercado Livre",
+  "preco": 559.0,
+  "preco_antes": 699.0,
+  "quando": "2026-11-11T17:00-03:00"
+ },
+ {
   "nome": "Macacão Fitness Feminino Flare Costa Nua Trançado Decote...",
   "loja": "Shopee",
   "preco": 73.87,
@@ -75,12 +82,5 @@
   "preco": 61.65,
   "preco_antes": 89.9,
   "quando": "2026-10-31T21:09-03:00"
- },
- {
-  "nome": "Kit 03 un. Lola Cosmetics Cronograma Capilar Be(M) Dita G...",
-  "loja": "Amazon",
-  "preco": 33.77,
-  "preco_antes": 0,
-  "quando": "2026-10-31T15:51-03:00"
  }
 ]
