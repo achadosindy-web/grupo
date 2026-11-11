@@ -1,5 +1,12 @@
 [
  {
+  "nome": "￼Ventilador Mondial 30cm Vsp 30 B 60hz Loi",
+  "loja": "Shopee",
+  "preco": 76.87,
+  "preco_antes": 200.0,
+  "quando": "2026-11-11T15:10-03:00"
+ },
+ {
   "nome": "Garrafa Térmica Nórdica Berlim Café 1L Cabo De Madeira Lu...",
   "loja": "Shopee",
   "preco": 59.9,
@@ -75,12 +82,5 @@
   "preco": 449.9,
   "preco_antes": 640.0,
   "quando": "2026-11-08T12:21-03:00"
- },
- {
-  "nome": "Relógio inteligente Hancdon H11 Smartwatch masculino 2.01...",
-  "loja": "Shopee",
-  "preco": 99.8,
-  "preco_antes": 166.33,
-  "quando": "2026-11-08T09:30-03:00"
  }
 ]
