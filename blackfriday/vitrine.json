@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Fritadeira Air Fryer Oven Forno Elétrico Digital Extream...",
+  "loja": "Shopee",
+  "preco": 465.0,
+  "preco_antes": 664.29,
+  "quando": "2026-11-11T07:47-03:00"
+ },
+ {
   "nome": "Fechadura Digital Elsys de Embutir com Biometria ESF-DE2000B",
   "loja": "Amazon",
   "preco": 380.0,
@@ -75,12 +82,5 @@
   "preco": 35.49,
   "preco_antes": 101.4,
   "quando": "2026-11-07T18:37-03:00"
- },
- {
-  "nome": "Batedeira Planetária Britânia BBP760P Power Plus 700W",
-  "loja": "Shopee",
-  "preco": 299.9,
-  "preco_antes": 399.87,
-  "quando": "2026-11-07T11:26-03:00"
  }
 ]
