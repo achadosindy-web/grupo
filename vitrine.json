@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Macacão Fitness Feminino Flare Costa Nua Trançado Decote...",
+  "loja": "Shopee",
+  "preco": 73.87,
+  "preco_antes": 160.59,
+  "quando": "2026-11-11T15:14-03:00"
+ },
+ {
   "nome": "Tênis de Corrida Ultraleves Profissionais com Placa de Ca...",
   "loja": "Shopee",
   "preco": 84.68,
@@ -75,12 +82,5 @@
   "preco": 33.77,
   "preco_antes": 0,
   "quando": "2026-10-31T15:51-03:00"
- },
- {
-  "nome": "Super Coffee Desincoffee 220g Café Energético Chocolate S...",
-  "loja": "Mercado Livre",
-  "preco": 83.57,
-  "preco_antes": 139.9,
-  "quando": "2026-10-31T09:03-03:00"
  }
 ]
