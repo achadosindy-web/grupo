@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Sanduicheira Mondial S-20 Master Grill 750W Antiaderente",
+  "loja": "Shopee",
+  "preco": 90.99,
+  "preco_antes": 227.47,
+  "quando": "2026-11-11T19:11-03:00"
+ },
+ {
   "nome": "￼Ventilador Mondial 30cm Vsp 30 B 60hz Loi",
   "loja": "Shopee",
   "preco": 76.87,
@@ -74,13 +81,6 @@
   "loja": "Shopee",
   "preco": 159.99,
   "preco_antes": 499.97,
-  "quando": "2026-11-08T12:21-03:00"
- },
- {
-  "nome": "Philco PMO24E 20L Espelhado: praticidade e brilho na sua...",
-  "loja": "Amazon",
-  "preco": 449.9,
-  "preco_antes": 640.0,
   "quando": "2026-11-08T12:21-03:00"
  }
 ]
