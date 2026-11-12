@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Batedeira de Mão Elétrica 7 Velocidades 110V com 4 Batedo...",
+  "loja": "Shopee",
+  "preco": 49.99,
+  "preco_antes": 135.11,
+  "quando": "2026-11-12T14:35-03:00"
+ },
+ {
   "nome": "Cafeteira Espresso Digital Oster 220v",
   "loja": "Amazon",
   "preco": 509.52,
@@ -75,12 +82,5 @@
   "preco": 36.72,
   "preco_antes": 59.23,
   "quando": "2026-11-08T17:02-03:00"
- },
- {
-  "nome": "Carregador Rápido 50W USB-C Duplo 2 Portas Tipo C Compatí...",
-  "loja": "Shopee",
-  "preco": 34.9,
-  "preco_antes": 49.86,
-  "quando": "2026-11-08T12:22-03:00"
  }
 ]
