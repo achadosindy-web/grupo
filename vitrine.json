@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Calça Legging Canelada de Cintura Alta Sem Costura Academ...",
+  "loja": "Shopee",
+  "preco": 38.6,
+  "preco_antes": 60.31,
+  "quando": "2026-11-15T09:29-03:00"
+ },
+ {
   "nome": "￼Kit 10 Pote de Vidro com Tampa Hermético Bumper 640ml e...",
   "loja": "Shopee",
   "preco": 81.22,
@@ -75,12 +82,5 @@
   "preco": 25.92,
   "preco_antes": 75.9,
   "quando": "2026-11-02T09:02-03:00"
- },
- {
-  "nome": "Top Calvin Klein Regata Fitness Cotton Conforto Original",
-  "loja": "Mercado Livre",
-  "preco": 58.99,
-  "preco_antes": 0,
-  "quando": "2026-11-01T15:03-03:00"
  }
 ]
