@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Chaleira Elétrica Jarra Café Chá Inox 110v",
+  "loja": "Shopee",
+  "preco": 43.9,
+  "preco_antes": 70.81,
+  "quando": "2026-11-16T12:39-03:00"
+ },
+ {
   "nome": "MONDIAL Climatizador Flash Air  Branco/Preto  80W  110V -...",
   "loja": "Amazon",
   "preco": 279.9,
@@ -75,12 +82,5 @@
   "preco": 380.0,
   "preco_antes": 883.72,
   "quando": "2026-11-10T09:42-03:00"
- },
- {
-  "nome": "Refrigerador Philco PRF535ID Side By Side 434 Litros 127V",
-  "loja": "Amazon",
-  "preco": 3216.0,
-  "preco_antes": 4640.0,
-  "quando": "2026-11-09T14:24-03:00"
  }
 ]
