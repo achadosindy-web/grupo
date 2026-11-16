@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Headphone Fone de Ouvido Philips Bluetooth TAH2300BK/00",
+  "loja": "Amazon",
+  "preco": 105.0,
+  "preco_antes": 0,
+  "quando": "2026-11-16T13:57-03:00"
+ },
+ {
   "nome": "Bermuda Lupo Sport Feminina Zero Transparencia (2 Cores)",
   "loja": "Mercado Livre",
   "preco": 78.0,
@@ -75,12 +82,5 @@
   "preco": 127.31,
   "preco_antes": 149.9,
   "quando": "2026-11-02T21:10-03:00"
- },
- {
-  "nome": "Sabão Líquido 5L Custo Benefício Concentrado Remove Encar...",
-  "loja": "Shopee",
-  "preco": 62.73,
-  "preco_antes": 80.0,
-  "quando": "2026-11-02T09:03-03:00"
  }
 ]
