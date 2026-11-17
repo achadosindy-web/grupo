@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Mini Batedor Elétrico Portátil para Café  Leite  Ovos e B...",
+  "loja": "Shopee",
+  "preco": 11.99,
+  "preco_antes": 39.97,
+  "quando": "2026-11-17T10:10-03:00"
+ },
+ {
   "nome": "Triturador Inox  Processador De Alimentos Carne e Legumes...",
   "loja": "Shopee",
   "preco": 69.99,
@@ -75,12 +82,5 @@
   "preco": 239.34,
   "preco_antes": 379.9,
   "quando": "2026-11-11T09:43-03:00"
- },
- {
-  "nome": "Secador de cabelo profissional 3200W - potente e rápido...",
-  "loja": "Shopee",
-  "preco": 58.88,
-  "preco_antes": 159.14,
-  "quando": "2026-11-11T07:47-03:00"
  }
 ]
