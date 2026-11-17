@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Bicicleta Ergométrica Bike Spinning Para Exercícios Com V...",
+  "loja": "Mercado Livre",
+  "preco": 386.91,
+  "preco_antes": 1111.0,
+  "quando": "2026-11-17T12:10-03:00"
+ },
+ {
   "nome": "Panela De Arroz Elétrica Multi-Camadas/De Dupla Camada Do...",
   "loja": "Shopee",
   "preco": 66.9,
@@ -75,12 +82,5 @@
   "preco": 59.9,
   "preco_antes": 110.93,
   "quando": "2026-11-11T13:24-03:00"
- },
- {
-  "nome": "Kit 2 Travesseiros Nasa Visco Elástico Moldavél 70X50 CM",
-  "loja": "Shopee",
-  "preco": 239.34,
-  "preco_antes": 379.9,
-  "quando": "2026-11-11T09:43-03:00"
  }
 ]
