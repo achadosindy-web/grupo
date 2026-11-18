@@ -27,6 +27,10 @@
   --texto:#EFE6DC; --texto-2:#B4A79B; --ok:#8BC79E; --ok-claro:#21342A;
   --amazon:#E5E7EB; --shopee:#FDBA74; color-scheme:dark}}
 *{box-sizing:border-box}
+/* 18/11: no iPhone, texto comprido fazia a página ficar mais larga que a tela (o Safari diminuía tudo e aumentava a letra) */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+html,body{max-width:100%;overflow-x:hidden}
+.horas,.horas>*{min-width:0;max-width:100%}
 body{margin:0;background:var(--bg);color:var(--texto);font-family:var(--f-texto);font-size:14px;line-height:1.45;-webkit-font-smoothing:antialiased}
 a{color:inherit}
 button,input,select{font:inherit}
