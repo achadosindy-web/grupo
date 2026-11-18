@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Jogo de Lençol 400 Fios Extra Macio c/ Fronhas Ponto Pali...",
+  "loja": "Shopee",
+  "preco": 14.99,
+  "preco_antes": 49.97,
+  "quando": "2026-11-18T13:50-03:00"
+ },
+ {
   "nome": "Samsung Smart TV 75\" Mini LED 4K M75H + Soundbar Samsung...",
   "loja": "Amazon",
   "preco": 4850.0,
@@ -75,12 +82,5 @@
   "preco": 279.9,
   "preco_antes": 595.53,
   "quando": "2026-11-16T12:38-03:00"
- },
- {
-  "nome": "MONDIAL Climatizador Flash Air  Branco/Preto  80W  220V -...",
-  "loja": "Amazon",
-  "preco": 279.9,
-  "preco_antes": 595.53,
-  "quando": "2026-11-15T09:28-03:00"
  }
 ]
