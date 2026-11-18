@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Kit Dupla Renovadores Faciais Kokeshi Pele Porcelana Olho...",
+  "loja": "Shopee",
+  "preco": 34.57,
+  "preco_antes": 50.1,
+  "quando": "2026-11-18T12:14-03:00"
+ },
+ {
   "nome": "Kit Facial Kokeshi Completo 3 Passos Hidratação e Colágeno",
   "loja": "Shopee",
   "preco": 56.91,
@@ -75,12 +82,5 @@
   "preco": 99.98,
   "preco_antes": 714.14,
   "quando": "2026-11-14T09:20-03:00"
- },
- {
-  "nome": "Mixer Power inox 5em1 800W Liquidificador de Mão com Trit...",
-  "loja": "Shopee",
-  "preco": 181.0,
-  "preco_antes": 348.08,
-  "quando": "2026-11-12T14:35-03:00"
  }
 ]
