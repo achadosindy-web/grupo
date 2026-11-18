@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Organizador Giratório Multiuso Bandeja",
+  "loja": "Shopee",
+  "preco": 29.9,
+  "preco_antes": 40.96,
+  "quando": "2026-11-18T16:29-03:00"
+ },
+ {
   "nome": "Batedeira Planetária Philco 900W 5L Preta 12 Velocidades...",
   "loja": "Mercado Livre",
   "preco": 296.0,
@@ -75,12 +82,5 @@
   "preco": 66.9,
   "preco_antes": 99.85,
   "quando": "2026-11-17T10:11-03:00"
- },
- {
-  "nome": "Triturador Inox  Processador De Alimentos Carne e Legumes...",
-  "loja": "Shopee",
-  "preco": 69.99,
-  "preco_antes": 199.97,
-  "quando": "2026-11-16T13:34-03:00"
  }
 ]
