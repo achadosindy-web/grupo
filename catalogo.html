@@ -37,6 +37,8 @@ button,input,select{font:inherit}
 .linha1{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
 h1{font-family:var(--f-titulo);font-weight:600;font-size:22px;color:var(--cafe);margin:0}
 .status{font-size:12px;color:var(--texto-2);text-align:right}
+.atualizar{border:1px solid var(--fio);background:var(--papel);color:var(--cafe);border-radius:999px;padding:6px 12px;font-size:12.5px;font-weight:700;cursor:pointer}
+.atualizar[disabled]{opacity:.6;cursor:default}
 .status a{font-weight:700;color:var(--caramelo);text-decoration:none;margin-left:6px}
 .destino{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--texto-2)}
 .perfis{display:flex;background:var(--papel);border:1px solid var(--fio);border-radius:999px;padding:3px;gap:2px}
@@ -112,6 +114,9 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 40px}
   <div class="linha1">
     <h1>Catálogo Viral</h1>
     <div class="status"><span id="status">carregando…</span><a href="painel.html">Garimpo →</a></div>
+  </div>
+  <div class="linha1" style="justify-content:flex-start">
+    <button type="button" class="atualizar" id="atualizar">🔄 Atualizar</button>
   </div>
   <div class="destino">
     <span>Postar no grupo:</span>
@@ -377,6 +382,47 @@ function ligar() {
     descartados.add(b.dataset.desc); gravarLocal("catalogo-descartados", [...descartados].slice(-1500)); desenhar();
   }));
 }
+
+/* ===== 18/11: botão "🔄 Atualizar": pede pro robô buscar produtos novos (não posta nada) ===== */
+const ATUALIZA_MS = 8 * 60e3;
+function textoAtualizar(b, chaveLocal) {
+  const falta = lerLocal(chaveLocal, 0) + ATUALIZA_MS - Date.now();
+  b.disabled = falta > 0; b.textContent = falta > 0 ? "⏳ Buscando…" : "🔄 Atualizar";
+  if (falta > 0) setTimeout(() => textoAtualizar(b, chaveLocal), Math.min(falta, 30e3));
+}
+async function pedirAtualizacao({ url, inputs, chaveLocal, arquivo, nome, botao, avisar }) {
+  const chave = lerLocal("envio-chave", "");
+  if (!chave) { document.getElementById("folha-chave").hidden = false; document.getElementById("chave").focus(); return; }
+  botao.disabled = true; botao.textContent = "⏳ Chamando…";
+  try {
+    const r = await fetch(url, { method: "POST",
+      headers: { "Authorization": "Bearer " + chave, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
+      body: JSON.stringify(inputs ? { ref: "main", inputs } : { ref: "main" }) });
+    if (r.status === 204) {
+      gravarLocal(chaveLocal, Date.now()); textoAtualizar(botao, chaveLocal);
+      avisar(`🔄 Buscando produtos novos pro ${nome}. Leva uns 5 minutos; a página recarrega sozinha.`, 10000);
+      const antes = dados.atualizado || "", inicio = Date.now();
+      const olhar = async () => {
+        if (Date.now() - inicio > 15 * 60e3) return;
+        try {
+          const n = await (await fetch(arquivo() + "?v=" + Date.now(), { cache: "no-store" })).json();
+          if (n.atualizado && n.atualizado !== antes) { await carregar(); avisar(`✅ ${nome[0].toUpperCase() + nome.slice(1)} atualizado: ${(n.itens || []).length} produtos.`, 8000); return; }
+        } catch (e) {}
+        setTimeout(olhar, 45e3);
+      };
+      setTimeout(olhar, 90e3);
+      return;
+    }
+    if ([401, 403, 404].includes(r.status)) { gravarLocal("envio-chave", ""); avisar("⚠️ A chave não funcionou (venceu ou está errada). Toque de novo e cole a chave nova.", 9000); }
+    else avisar(`⚠️ O GitHub não respondeu direito (erro ${r.status}). Tente de novo em 1 minuto.`);
+  } catch (e) { avisar("⚠️ Sem conexão com o GitHub agora. Tente de novo em 1 minuto."); }
+  textoAtualizar(botao, chaveLocal);
+}
+const WORKFLOW_CATALOGO = "https://api.github.com/repos/achadosindy-web/achadinhosbot/actions/workflows/catalogo.yml/dispatches";
+document.getElementById("atualizar").addEventListener("click", () => pedirAtualizacao({
+  url: WORKFLOW_CATALOGO, inputs: null, chaveLocal: "catalogo-atualizar-ultimo",
+  arquivo: () => "catalogo.json", nome: "catálogo", botao: document.getElementById("atualizar"), avisar: aviso }));
+textoAtualizar(document.getElementById("atualizar"), "catalogo-atualizar-ultimo");
 document.getElementById("chave-cancelar").addEventListener("click", () => { document.getElementById("folha-chave").hidden = true; pendente = null; });
 document.getElementById("chave-salvar").addEventListener("click", () => {
   const v = document.getElementById("chave").value.trim();
