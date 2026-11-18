@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Fone de Ouvido Philips sem Fio TWS",
+  "loja": "Amazon",
+  "preco": 94.0,
+  "preco_antes": 0,
+  "quando": "2026-11-18T11:38-03:00"
+ },
+ {
   "nome": "Kit 4 Potes Herméticos Tampa Bambu Organizador Mantimento...",
   "loja": "Shopee",
   "preco": 39.99,
@@ -75,12 +82,5 @@
   "preco": 181.0,
   "preco_antes": 348.08,
   "quando": "2026-11-12T14:35-03:00"
- },
- {
-  "nome": "Cafeteira Espresso Digital Oster 220v",
-  "loja": "Amazon",
-  "preco": 509.52,
-  "preco_antes": 1084.09,
-  "quando": "2026-11-11T19:12-03:00"
  }
 ]
