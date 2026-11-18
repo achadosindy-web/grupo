@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Suporte Organizador De Ovos Dispenser Para Geladeira Prát...",
+  "loja": "Shopee",
+  "preco": 4.99,
+  "preco_antes": 19.96,
+  "quando": "2026-11-18T11:21-03:00"
+ },
+ {
   "nome": "Principia Gel de Limpeza Suave - GL-02 c/ 200g",
   "loja": "Shopee",
   "preco": 38.7,
@@ -75,12 +82,5 @@
   "preco": 509.52,
   "preco_antes": 1084.09,
   "quando": "2026-11-11T19:12-03:00"
- },
- {
-  "nome": "Espelho Orgânico 120X50cm e 95x40cm Lapidado Moderno Gran...",
-  "loja": "Shopee",
-  "preco": 35.89,
-  "preco_antes": 89.72,
-  "quando": "2026-11-11T19:11-03:00"
  }
 ]
