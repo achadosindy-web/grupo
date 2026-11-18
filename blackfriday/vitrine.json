@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Batedeira Planetária Philco 900W 5L Preta 12 Velocidades...",
+  "loja": "Mercado Livre",
+  "preco": 296.0,
+  "preco_antes": 470.0,
+  "quando": "2026-11-18T16:15-03:00"
+ },
+ {
   "nome": "Celimax The Vita A Retinal Shot Tightening Booster 15ml",
   "loja": "Shopee",
   "preco": 136.5,
@@ -75,12 +82,5 @@
   "preco": 69.99,
   "preco_antes": 199.97,
   "quando": "2026-11-16T13:34-03:00"
- },
- {
-  "nome": "Chaleira Elétrica Jarra Café Chá Inox 110v",
-  "loja": "Shopee",
-  "preco": 43.9,
-  "preco_antes": 70.81,
-  "quando": "2026-11-16T12:39-03:00"
  }
 ]
