@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#5A4032">
+<link rel="icon" href="logo-indy.png">
+<title>Catálogo Viral da Indy</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap">
+<style>
+/* Catálogo Viral: os mais vendidos de cada categoria, com quanto vocês ganham.
+   Mesmo visual do painel do garimpo (paleta "Indy natural"). */
+:root{
+  --bg:#F4EFE7; --papel:#FFFDF9; --fio:#E4DACB; --campo:#F7F3EC;
+  --cafe:#5A4032; --caramelo:#A9784F; --salvia:#8E9880; --salvia-claro:#E6E9DE;
+  --texto:#2B2420; --texto-2:#6B5F57; --ok:#3E7B53; --ok-claro:#E3F0E6;
+  --amazon:#1F2937; --shopee:#C2410C;
+  --f-titulo:"Playfair Display",Georgia,serif;
+  --f-texto:"Montserrat",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#1A1714; --papel:#25201C; --fio:#3A322B; --campo:#2E2823;
+  --cafe:#EBDCCB; --caramelo:#D9A77C; --salvia:#A9B39A; --salvia-claro:#2F3429;
+  --texto:#EFE6DC; --texto-2:#B4A79B; --ok:#8BC79E; --ok-claro:#21342A;
+  --amazon:#E5E7EB; --shopee:#FDBA74; color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--texto);font-family:var(--f-texto);font-size:14px;line-height:1.45;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,input,select{font:inherit}
+:focus-visible{outline:2px solid var(--caramelo);outline-offset:2px}
+
+.topo{background:var(--bg);border-bottom:1px solid var(--fio);padding:calc(12px + env(safe-area-inset-top,0px)) 16px 10px;display:grid;gap:10px}
+.topo>*{min-width:0;max-width:1100px;margin:0 auto;width:100%}
+.linha1{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+h1{font-family:var(--f-titulo);font-weight:600;font-size:22px;color:var(--cafe);margin:0}
+.status{font-size:12px;color:var(--texto-2);text-align:right}
+.status a{font-weight:700;color:var(--caramelo);text-decoration:none;margin-left:6px}
+.destino{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--texto-2)}
+.perfis{display:flex;background:var(--papel);border:1px solid var(--fio);border-radius:999px;padding:3px;gap:2px}
+.perfis button{border:0;background:none;color:var(--texto-2);font-size:13px;font-weight:700;border-radius:999px;padding:7px 13px;white-space:nowrap;cursor:pointer;min-height:36px}
+.perfis button[aria-pressed="true"]{background:var(--caramelo);color:var(--papel)}
+.busca{display:flex;gap:8px}
+.busca input{flex:1;min-width:0;border:1px solid var(--fio);background:var(--papel);color:var(--texto);border-radius:12px;padding:10px 12px}
+.busca select{flex:none;border:1px solid var(--fio);background:var(--papel);color:var(--texto);border-radius:12px;padding:10px 8px;max-width:46%}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--fio);background:var(--papel);color:var(--texto-2);border-radius:999px;padding:6px 12px;font-size:12.5px;font-weight:600;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--cafe);border-color:var(--cafe);color:var(--papel)}
+.sep{flex:none;width:1px;background:var(--fio);margin:4px 2px}
+
+main{max-width:1100px;margin:0 auto;padding:14px 16px 40px}
+.exemplo{background:var(--salvia-claro);color:var(--cafe);border-radius:12px;padding:10px 12px;font-size:12.5px;margin:0 0 12px}
+.horas{background:var(--papel);border:1px solid var(--fio);border-radius:14px;padding:12px 14px;margin:0 0 14px;display:grid;gap:8px}
+.horas b{font-size:13.5px;color:var(--cafe)}
+.horas small{font-size:12px;color:var(--texto-2)}
+.resumo{font-size:12.5px;color:var(--texto-2);margin:0 0 12px}
+.grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:10px}
+.card{background:var(--papel);border:1px solid var(--fio);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.card.feito{border-color:var(--ok)}
+.card.prog{border-color:var(--caramelo)}
+.foto{position:relative;aspect-ratio:1/1;background:var(--campo);display:grid;place-items:center}
+.foto img{width:100%;height:100%;object-fit:contain;display:block}
+.semfoto{font-size:12px;color:var(--texto-2)}
+.off{position:absolute;top:8px;left:8px;background:var(--caramelo);color:#fff;font-weight:700;font-size:12px;border-radius:999px;padding:3px 8px}
+.viral{position:absolute;top:8px;right:8px;background:var(--cafe);color:var(--papel);font-weight:700;font-size:11px;border-radius:999px;padding:3px 8px}
+.corpo{padding:10px 10px 12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.meta{display:flex;align-items:center;gap:5px;flex-wrap:wrap;font-size:11px;color:var(--texto-2)}
+.loja{font-weight:700;letter-spacing:.02em}
+.loja.Amazon{color:var(--amazon)} .loja.Shopee{color:var(--shopee)}
+.nome{font-size:13px;font-weight:600;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.7em}
+.precos{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+.apartir{font-size:11px;color:var(--texto-2)}
+.preco{font-size:17px;font-weight:700;color:var(--cafe);font-variant-numeric:tabular-nums}
+.de{font-size:12px;color:var(--texto-2);text-decoration:line-through}
+.ganho{background:var(--ok-claro);color:var(--ok);border-radius:10px;padding:6px 8px;font-size:12px;font-weight:700;line-height:1.3}
+.ganho small{display:block;font-weight:500;color:var(--texto-2);font-size:11px}
+.ganho.sem{background:var(--campo);color:var(--texto-2);font-weight:600}
+.prova{font-size:11.5px;color:var(--texto-2)}
+.acoes{display:grid;gap:6px;margin-top:auto;padding-top:4px}
+.btn{display:flex;align-items:center;justify-content:center;gap:6px;border-radius:10px;padding:9px 8px;font-weight:700;font-size:13px;text-decoration:none;border:0;cursor:pointer;text-align:center;min-height:40px}
+.btn.copiar{background:var(--salvia);color:#fff}
+.btn.postar{background:var(--cafe);color:var(--papel)}
+.btn.sec{background:var(--campo);color:var(--cafe);border:1px solid var(--fio)}
+.btn.video{background:var(--campo);color:var(--shopee);border:1px solid var(--fio)}
+.mini{display:flex;justify-content:center;gap:14px}
+.mini a,.mini button{font-size:12px;color:var(--texto-2);background:none;border:0;text-decoration:underline;cursor:pointer;padding:4px 2px}
+.feito-txt{font-size:12px;font-weight:700;color:var(--ok);text-align:center;background:var(--ok-claro);border-radius:10px;padding:8px}
+.prog-txt{font-size:12px;font-weight:700;color:var(--cafe);text-align:center;background:var(--campo);border:1px dashed var(--caramelo);border-radius:10px;padding:8px}
+.vazio{background:var(--papel);border:1px dashed var(--fio);border-radius:16px;padding:28px 18px;text-align:center;color:var(--texto-2);display:grid;gap:8px}
+.vazio[hidden]{display:none}
+.vazio b{color:var(--cafe);font-size:15px}
+.mais{display:flex;justify-content:center;margin:16px 0 0}
+.mais button{border:1px solid var(--fio);background:var(--papel);color:var(--cafe);border-radius:999px;padding:11px 22px;font-weight:700;cursor:pointer}
+.aviso{position:fixed;left:16px;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:7;max-width:440px;margin:0 auto;background:var(--texto);color:var(--bg);border-radius:14px;padding:12px 14px;font-size:13px;font-weight:600;box-shadow:0 10px 26px rgba(0,0,0,.25)}
+.folha{position:fixed;inset:0;z-index:8;background:rgba(0,0,0,.45);display:flex;align-items:flex-end;justify-content:center;padding:16px}
+.folha[hidden]{display:none}
+.folha>div{background:var(--papel);color:var(--texto);border-radius:18px;padding:18px 16px calc(16px + env(safe-area-inset-bottom,0px));width:100%;max-width:460px;display:grid;gap:10px}
+.folha h2{font-family:var(--f-titulo);font-size:19px;font-weight:600;color:var(--cafe);margin:0}
+.folha p,.folha ol{margin:0;font-size:13px;color:var(--texto-2)}
+.folha ol{padding-left:18px;display:grid;gap:3px}
+.folha input{border:1px solid var(--fio);background:var(--campo);color:var(--texto);border-radius:10px;padding:10px 12px;font-size:13px;width:100%}
+.linha-btn{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+@media (min-width:700px){.grade{grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}}
+</style>
+</head>
+<body>
+
+<header class="topo">
+  <div class="linha1">
+    <h1>Catálogo Viral</h1>
+    <div class="status"><span id="status">carregando…</span><a href="painel.html">Garimpo →</a></div>
+  </div>
+  <div class="destino">
+    <span>Postar no grupo:</span>
+    <div class="perfis" role="group" aria-label="Grupo de destino">
+      <button type="button" data-perfil="ingrid">Indy</button>
+      <button type="button" data-perfil="blackfriday">Black Friday</button>
+    </div>
+  </div>
+  <div class="busca">
+    <input id="q" type="search" placeholder="Buscar: legging, pote, sérum…" aria-label="Buscar no catálogo">
+    <select id="ordem" aria-label="Ordenar">
+      <option value="vendas">Mais vendidos</option>
+      <option value="ganho">Maior ganho (R$)</option>
+      <option value="pct">Maior comissão (%)</option>
+      <option value="desconto">Maior desconto</option>
+      <option value="preco">Menor preço</option>
+    </select>
+  </div>
+  <div class="chips" id="chips-loja" role="group" aria-label="Loja"></div>
+  <div class="chips" id="chips-cat" role="group" aria-label="Categoria"></div>
+  <div class="chips" id="chips-com" role="group" aria-label="Comissão mínima"></div>
+</header>
+
+<main>
+  <div class="exemplo" id="aviso-exemplo" hidden>Catálogo de EXEMPLO (teste). Os produtos de verdade aparecem depois que o "Atualizar catálogo" rodar no GitHub.</div>
+  <section class="horas" aria-label="Horário do Programar">
+    <b>Programar para</b>
+    <div class="chips" id="chips-dia" role="group" aria-label="Dia"></div>
+    <div class="chips" id="chips-hora" role="group" aria-label="Horário"></div>
+    <small id="hora-dica"></small>
+  </section>
+  <p class="resumo" id="resumo"></p>
+  <div class="grade" id="grade"></div>
+  <div class="mais" id="mais" hidden><button type="button" id="ver-mais">Ver mais produtos</button></div>
+  <div class="vazio" id="vazio" hidden>
+    <b>Nenhum produto com esses filtros</b>
+    <span>O catálogo atualiza às 8h40, 13h40 e 18h40. Tente outra categoria ou baixe a comissão mínima.</span>
+  </div>
+</main>
+
+<div class="aviso" id="aviso" role="status" hidden></div>
+<div class="folha" id="folha-chave" hidden>
+  <div role="dialog" aria-modal="true" aria-labelledby="t-chave">
+    <h2 id="t-chave">Ligar o "Postar"</h2>
+    <p>Só na primeira vez neste celular (é a mesma chave do painel do garimpo; se já salvou lá, nem aparece). A chave fica guardada só aqui.</p>
+    <ol>
+      <li>Peça a chave pro Yuri (começa com <b>github_pat_</b>).</li>
+      <li>Cole aqui embaixo e toque em Salvar.</li>
+    </ol>
+    <input type="password" id="chave" autocomplete="off" placeholder="github_pat_…">
+    <div class="linha-btn"><button class="btn sec" type="button" id="chave-cancelar">Cancelar</button><button class="btn postar" type="button" id="chave-salvar">Salvar e postar</button></div>
+  </div>
+</div>
+
+<script>
+const WORKFLOW = "https://api.github.com/repos/achadosindy-web/achadinhosbot/actions/workflows/postar.yml/dispatches";
+const HORAS = [9, 12, 15, 19, 21];
+const LOJAS = ["Todas", "Shopee", "Amazon"];
+const ORDEM_CATS = ["Fitness", "Moda", "Beleza", "Casa", "Bebê", "Eletrônicos", "Eletrodomésticos", "Outros"];
+const COMISSOES = [0, 5, 8, 10, 15, 20];
+const POR_PAGINA = 40;
+const NOME_GRUPO = { ingrid: "Achadinhos da Indy", blackfriday: "Black Friday da Indy" };
+const CHAMADAS = ["🔥 ACHADINHO DO DIA", "😱 PRECINHO ABSURDO", "⚡ CORRE QUE ACABA", "💥 OFERTA RELÂMPAGO", "🛒 VALE CADA CENTAVO"];
+
+const lerLocal = (k, p) => { try { return JSON.parse(localStorage.getItem(k)) ?? p; } catch { return p; } };
+const gravarLocal = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+const brl = v => Number(v).toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const milhar = n => n >= 1000 ? `+${Math.floor(n / 1000).toLocaleString("pt-BR")} mil` : String(n);
+function ha(iso) {
+  const d = new Date(iso); if (isNaN(d)) return "";
+  const min = Math.max(0, Math.round((Date.now() - d) / 60000));
+  if (min < 60) return `há ${min} min`;
+  const h = Math.round(min / 60); return h < 24 ? `há ${h} h` : `há ${Math.round(h / 24)} d`;
+}
+
+const estado = { loja: "Todas", cat: "Todas", com: 0, q: "", ordem: "vendas", esconder: false, mostrar: POR_PAGINA };
+let PERFIL = lerLocal("catalogo-perfil", "ingrid") === "blackfriday" ? "blackfriday" : "ingrid";
+let horaEscolhida = String(lerLocal("catalogo-hora", "") || "");
+let diaEscolhido = String(lerLocal("catalogo-dia", "") || "");   /* "" = automático; senão "2026-11-20" (até 7 dias) */
+let descartados = new Set(lerLocal("catalogo-descartados", []));
+let feitos = lerLocal("catalogo-feitos", {});      /* { "perfil:id": {tipo, quando, em} } */
+let dados = { itens: [], atualizado: "" };
+
+/* ===== Mensagem pronta (mesmo formato do robô) ===== */
+function mensagem(i) {
+  const nome = i.nome.length <= 90 ? i.nome : i.nome.slice(0, 87) + "...";
+  const l = [CHAMADAS[Math.floor(Math.random() * CHAMADAS.length)], "", `📦 ${nome}`, ""];
+  if (i.preco_antes && i.preco_antes > i.preco) l.push(`❌ De ${brl(i.preco_antes)}`);
+  l.push(`✅ ${i.preco_max ? "A partir de" : "Por"} ${brl(i.preco)}` + (i.desconto ? `  (${i.desconto}% OFF)` : ""));
+  if (i.vendas >= 1000) l.push(`⭐ ${String(i.nota.toFixed(1)).replace(".", ",")} • ${milhar(i.vendas)} vendidos`);
+  l.push("", `🛍️ Comprar na ${i.loja}:`, i.link, "", "⚠️ Preço e estoque podem mudar a qualquer momento.");
+  return l.join("\n");
+}
+async function copiar(texto) {
+  try { await navigator.clipboard.writeText(texto); return true; } catch {}
+  const t = Object.assign(document.createElement("textarea"), { value: texto });
+  t.style.position = "fixed"; t.style.opacity = "0"; document.body.appendChild(t); t.select();
+  let ok = false; try { ok = document.execCommand("copy"); } catch {}
+  t.remove(); return ok;
+}
+
+/* ===== Dia e horário (18/11: dá pra programar até 7 dias) ===== */
+const SEMANA = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
+const dois = n => String(n).padStart(2, "0");
+const diaISO = d => `${d.getFullYear()}-${dois(d.getMonth() + 1)}-${dois(d.getDate())}`;
+function proximosDias() { const l = []; for (let k = 0; k < 7; k++) { const d = new Date(); d.setDate(d.getDate() + k); l.push(diaISO(d)); } return l; }
+function nomeDia(iso) {
+  const [hoje, amanha] = proximosDias();
+  if (iso === hoje) return "hoje";
+  if (iso === amanha) return "amanhã";
+  const [a, m, d] = iso.split("-").map(Number);
+  return `${SEMANA[new Date(a, m - 1, d).getDay()].toLowerCase()} ${dois(d)}/${dois(m)}`;
+}
+const horaPassou = h => diaEscolhido === diaISO(new Date()) && h <= new Date().getHours();
+function quandoDe(h) {
+  if (diaEscolhido) return `${diaEscolhido}T${dois(h)}:00`;
+  const a = new Date(), d = new Date(a); if (h <= a.getHours()) d.setDate(d.getDate() + 1); return `${diaISO(d)}T${dois(h)}:00`;
+}
+function rotuloQuando(q) {
+  if (!q) return "no próximo horário";
+  const [dia, hora] = q.split("T");
+  return `${nomeDia(dia)} às ${Number(hora.slice(0, 2))}h`;
+}
+const horarioEnvio = () => horaEscolhida ? (diaEscolhido ? `${diaEscolhido}T${horaEscolhida}` : String(horaEscolhida)) : "";
+const maiusc = t => t.charAt(0).toUpperCase() + t.slice(1);
+function desenharHoras() {
+  if (diaEscolhido && !proximosDias().includes(diaEscolhido)) diaEscolhido = "";
+  if (horaEscolhida && horaPassou(Number(horaEscolhida))) horaEscolhida = "";
+  const elD = document.getElementById("chips-dia");
+  elD.innerHTML = `<button class="chip" type="button" data-dia="" aria-pressed="${diaEscolhido === ""}">Automático</button>` +
+    proximosDias().map(d => `<button class="chip" type="button" data-dia="${d}" aria-pressed="${diaEscolhido === d}">${maiusc(nomeDia(d))}</button>`).join("");
+  elD.querySelectorAll("[data-dia]").forEach(b => b.addEventListener("click", () => {
+    diaEscolhido = b.dataset.dia;
+    if (diaEscolhido && !horaEscolhida) horaEscolhida = String(HORAS.find(h => !horaPassou(h)) || "");
+    gravarLocal("catalogo-dia", diaEscolhido); gravarLocal("catalogo-hora", horaEscolhida); desenhar();
+  }));
+  const el = document.getElementById("chips-hora");
+  const horas = diaEscolhido ? HORAS.filter(h => !horaPassou(h)) : HORAS.slice().sort((a, b) => quandoDe(a).localeCompare(quandoDe(b)));
+  el.innerHTML = (diaEscolhido ? "" : `<button class="chip" type="button" data-hora="" aria-pressed="${horaEscolhida === ""}">Próximo horário</button>`) +
+    horas.map(h => `<button class="chip" type="button" data-hora="${h}" aria-pressed="${String(horaEscolhida) === String(h)}">${diaEscolhido ? h + "h" : rotuloQuando(quandoDe(h)).replace(" às ", " ")}</button>`).join("") +
+    (diaEscolhido && !horas.length ? `<span class="prova">Os horários de hoje já passaram. Escolha outro dia.</span>` : "");
+  el.querySelectorAll("[data-hora]").forEach(b => b.addEventListener("click", () => { horaEscolhida = b.dataset.hora; gravarLocal("catalogo-hora", horaEscolhida); desenhar(); }));
+  document.getElementById("hora-dica").textContent = horaEscolhida
+    ? `Os produtos que você tocar em "Programar" saem ${rotuloQuando(quandoDe(Number(horaEscolhida)))} no grupo ${NOME_GRUPO[PERFIL]}. Pra ver ou cancelar, abra "Programados" no Garimpo.`
+    : `Toque em "Programar" e o produto sai no próximo horário do robô, no grupo ${NOME_GRUPO[PERFIL]}.`;
+}
+const rotuloProgramar = () => horaEscolhida ? `Programar ${diaEscolhido && diaEscolhido !== diaISO(new Date()) ? nomeDia(diaEscolhido) + " " : ""}${horaEscolhida}h` : "Programar";
+
+/* ===== Filtros ===== */
+function chips(id, valores, chave, rotulo = v => v) {
+  const el = document.getElementById(id);
+  el.innerHTML = valores.map(v => `<button class="chip" type="button" data-v="${esc(v)}" aria-pressed="${String(estado[chave]) === String(v)}">${esc(rotulo(v))}</button>`).join("") +
+    (chave === "com" ? `<span class="sep"></span><button class="chip" type="button" id="f-esc" aria-pressed="${estado.esconder}">Esconder postados</button>` : "");
+  el.querySelectorAll("[data-v]").forEach(b => b.addEventListener("click", () => {
+    estado[chave] = chave === "com" ? Number(b.dataset.v) : b.dataset.v; estado.mostrar = POR_PAGINA; desenhar();
+  }));
+  const f = el.querySelector("#f-esc");
+  if (f) f.addEventListener("click", () => { estado.esconder = !estado.esconder; desenhar(); });
+}
+const feito = i => feitos[PERFIL + ":" + i.id];
+function filtrados() {
+  const q = estado.q.toLowerCase();
+  const l = dados.itens.filter(i => !descartados.has(i.id)
+    && (estado.loja === "Todas" || i.loja === estado.loja)
+    && (estado.cat === "Todas" || i.categoria === estado.cat)
+    && (!estado.com || (i.comissao_pct || 0) >= estado.com)
+    && (!estado.esconder || !feito(i))
+    && (!q || i.nome.toLowerCase().includes(q)));
+  const k = { vendas: i => -(i.vendas || 0), ganho: i => -(i.comissao_rs ?? -1), pct: i => -(i.comissao_pct ?? -1),
+              desconto: i => -(i.desconto || 0), preco: i => i.preco }[estado.ordem];
+  return l.sort((a, b) => k(a) - k(b));
+}
+
+/* ===== Cartão ===== */
+function cartao(i) {
+  const foto = i.imagem ? `<img src="${esc(i.imagem)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'semfoto',textContent:'sem foto'}))">` : `<span class="semfoto">sem foto</span>`;
+  const ganho = i.comissao_rs != null
+    ? `<div class="ganho">Você ganha ~${brl(i.comissao_rs)}<small>${String(i.comissao_pct).replace(".", ",")}% de comissão</small></div>`
+    : `<div class="ganho sem">Comissão pela tabela da ${esc(i.loja)}</div>`;
+  const prova = i.vendas ? `<div class="prova">⭐ ${String((i.nota || 0).toFixed(1)).replace(".", ",")} · ${milhar(i.vendas)} vendidos</div>`
+    : (i.achado_em ? `<div class="prova">achado no radar ${ha(i.achado_em)}</div>` : "");
+  const f = feito(i);
+  let acoes;
+  if (f && f.tipo === "prog") acoes = `<div class="prog-txt">⏱ Programado: sai ${esc(rotuloQuando(f.quando))}</div>
+      <button class="btn sec" type="button" data-prog="${esc(i.id)}">⏱ Programar outro dia/hora</button>`;
+  else if (f) acoes = `<div class="feito-txt">✓ Mandado pro grupo ${ha(f.em)}</div>`;
+  else acoes = `<button class="btn postar" type="button" data-agora="${esc(i.id)}">⚡ Postar agora</button>
+      <button class="btn sec" type="button" data-prog="${esc(i.id)}">⏱ ${rotuloProgramar()}</button>`;
+  return `<article class="card ${f ? (f.tipo === "prog" ? "prog" : "feito") : ""}">
+    <div class="foto">${foto}${i.desconto ? `<span class="off">-${i.desconto}%</span>` : ""}${i.vendas >= 10000 ? `<span class="viral">🔥 viral</span>` : ""}</div>
+    <div class="corpo">
+      <div class="meta"><span class="loja ${esc(i.loja)}">${esc(i.loja)}</span>·<span>${esc(i.categoria)}</span></div>
+      <div class="nome">${esc(i.nome)}</div>
+      <div class="precos">${i.preco_max ? `<span class="apartir">a partir de</span>` : ""}<span class="preco">${brl(i.preco)}</span>${i.preco_antes > i.preco ? `<span class="de">${brl(i.preco_antes)}</span>` : ""}</div>
+      ${prova}
+      ${ganho}
+      <div class="acoes">
+        <button class="btn copiar" type="button" data-copiar="${esc(i.id)}">📋 Copiar</button>
+        ${acoes}
+        ${i.loja === "Shopee" ? `<a class="btn video" href="${esc(i.link)}" target="_blank" rel="noopener">🎬 Ver vídeo</a>` : ""}
+        <div class="mini"><a href="${esc(i.link)}" target="_blank" rel="noopener">Ver produto</a><button type="button" data-desc="${esc(i.id)}">Descartar</button></div>
+      </div>
+    </div>
+  </article>`;
+}
+
+function desenhar() {
+  const cats = ORDEM_CATS.filter(c => dados.itens.some(i => i.categoria === c));
+  chips("chips-loja", LOJAS, "loja");
+  chips("chips-cat", ["Todas", ...cats], "cat");
+  chips("chips-com", COMISSOES, "com", v => v ? `${v}%+ comissão` : "Qualquer comissão");
+  desenharHoras();
+  document.querySelectorAll("[data-perfil]").forEach(b => b.setAttribute("aria-pressed", b.dataset.perfil === PERFIL));
+  const l = filtrados();
+  document.getElementById("grade").innerHTML = l.slice(0, estado.mostrar).map(cartao).join("");
+  document.getElementById("vazio").hidden = l.length > 0;
+  document.getElementById("mais").hidden = l.length <= estado.mostrar;
+  const nShopee = dados.itens.filter(i => i.loja === "Shopee").length, nAmz = dados.itens.length - nShopee;
+  document.getElementById("resumo").textContent = `${l.length} de ${dados.itens.length} produtos · ${nShopee} da Shopee (API) · ${nAmz} da Amazon (radar)`;
+  ligar();
+}
+
+/* ===== Ações ===== */
+function aviso(txt, ms = 7000) {
+  const el = document.getElementById("aviso"); el.textContent = txt; el.hidden = false;
+  clearTimeout(aviso.t); aviso.t = setTimeout(() => { el.hidden = true; }, ms);
+}
+let pendente = null;
+async function mandar(i, modo) {
+  const chave = lerLocal("envio-chave", "");          /* mesma chave do painel do garimpo */
+  if (!chave) { pendente = { i, modo }; document.getElementById("folha-chave").hidden = false; document.getElementById("chave").focus(); return; }
+  const horario = modo === "guardar" ? horarioEnvio() : "";
+  const inputs = { perfil: PERFIL, link: i.link, nome: i.nome.slice(0, 90).replace(/\n/g, " "),
+    preco: i.preco.toFixed(2), preco_antes: i.preco_antes > i.preco ? i.preco_antes.toFixed(2) : "",
+    cupom: "", modo, horario };
+  try {
+    const r = await fetch(WORKFLOW, { method: "POST",
+      headers: { "Authorization": "Bearer " + chave, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
+      body: JSON.stringify({ ref: "main", inputs }) });
+    if (r.status === 204) {
+      const quando = modo === "guardar" ? (horaEscolhida ? quandoDe(Number(horaEscolhida)) : "") : "";
+      feitos[PERFIL + ":" + i.id] = { tipo: modo === "guardar" ? "prog" : "agora", quando, em: new Date().toISOString() };
+      gravarLocal("catalogo-feitos", Object.fromEntries(Object.entries(feitos).slice(-800)));
+      aviso(modo === "guardar" ? `📅 Programado no ${NOME_GRUPO[PERFIL]}: sai ${rotuloQuando(quando)}.`
+                               : `✅ Indo pro ${NOME_GRUPO[PERFIL]}. Em 2 a 3 minutos aparece lá.`, 9000);
+      desenhar();
+      return;
+    }
+    if ([401, 403, 404].includes(r.status)) { gravarLocal("envio-chave", ""); aviso("⚠️ A chave não funcionou (venceu ou está errada). Toque de novo e cole a chave nova.", 9000); }
+    else aviso(`⚠️ O GitHub não respondeu direito (erro ${r.status}). Tente de novo em 1 minuto.`);
+  } catch { aviso("⚠️ Sem conexão com o GitHub agora. Tente de novo em 1 minuto."); }
+}
+function ligar() {
+  const achar = id => dados.itens.find(x => x.id === id);
+  document.querySelectorAll("[data-copiar]").forEach(b => b.addEventListener("click", async () => {
+    const i = achar(b.dataset.copiar); if (!i) return;
+    aviso(await copiar(mensagem(i)) ? "📋 Mensagem copiada! É só colar no grupo ou no status." : "⚠️ Não consegui copiar neste navegador.");
+  }));
+  document.querySelectorAll("[data-agora]").forEach(b => b.addEventListener("click", () => { const i = achar(b.dataset.agora); if (i) mandar(i, "agora"); }));
+  document.querySelectorAll("[data-prog]").forEach(b => b.addEventListener("click", () => { const i = achar(b.dataset.prog); if (i) mandar(i, "guardar"); }));
+  document.querySelectorAll("[data-desc]").forEach(b => b.addEventListener("click", () => {
+    descartados.add(b.dataset.desc); gravarLocal("catalogo-descartados", [...descartados].slice(-1500)); desenhar();
+  }));
+}
+document.getElementById("chave-cancelar").addEventListener("click", () => { document.getElementById("folha-chave").hidden = true; pendente = null; });
+document.getElementById("chave-salvar").addEventListener("click", () => {
+  const v = document.getElementById("chave").value.trim();
+  if (!/^(github_pat_|ghp_)[A-Za-z0-9_]{20,}$/.test(v)) { aviso("⚠️ Essa chave não parece certa. Ela começa com github_pat_"); return; }
+  gravarLocal("envio-chave", v); document.getElementById("chave").value = ""; document.getElementById("folha-chave").hidden = true;
+  const p = pendente; pendente = null; if (p) mandar(p.i, p.modo);
+});
+document.querySelectorAll("[data-perfil]").forEach(b => b.addEventListener("click", () => { PERFIL = b.dataset.perfil; gravarLocal("catalogo-perfil", PERFIL); desenhar(); }));
+document.getElementById("q").addEventListener("input", e => { estado.q = e.target.value; estado.mostrar = POR_PAGINA; desenhar(); });
+document.getElementById("ordem").addEventListener("change", e => { estado.ordem = e.target.value; desenhar(); });
+document.getElementById("ver-mais").addEventListener("click", () => { estado.mostrar += POR_PAGINA; desenhar(); });
+
+async function carregar() {
+  try {
+    const r = await fetch("catalogo.json?v=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) throw new Error(r.status);
+    dados = await r.json();
+  } catch { dados = { itens: [], atualizado: "" }; }
+  dados.itens = dados.itens || [];
+  document.getElementById("aviso-exemplo").hidden = !dados.exemplo;
+  document.getElementById("status").textContent = dados.atualizado ? `atualizado ${ha(dados.atualizado)}` : "sem dados ainda";
+  desenhar();
+}
+carregar();
+</script>
+</body>
+</html>

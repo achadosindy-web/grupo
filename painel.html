@@ -38,14 +38,16 @@ button,input,select{font:inherit}
 
 .topo{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--fio);padding:12px 16px 10px;display:grid;gap:10px}
 .topo>*{min-width:0}
-.linha1{display:flex;align-items:baseline;justify-content:space-between;gap:12px;max-width:1100px;margin:0 auto;width:100%}
+.linha1{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px 10px;max-width:1100px;margin:0 auto;width:100%}
 h1{font-family:var(--f-titulo);font-weight:600;font-size:22px;color:var(--cafe);margin:0}
 .perfis{display:flex;overflow-x:auto;scrollbar-width:none;background:var(--papel);border:1px solid var(--fio);border-radius:999px;padding:3px;gap:2px;width:max-content;max-width:100%}
 .perfis button{border:0;background:none;color:var(--texto-2);font:inherit;font-size:13px;font-weight:700;border-radius:999px;padding:7px 13px;white-space:nowrap;cursor:pointer;min-height:36px}
 .perfis button[aria-pressed="true"]{background:var(--caramelo);color:var(--papel)}
 .status{font-size:12px;color:var(--texto-2);text-align:right}
 .status{margin-left:auto}
+.links-topo{display:flex;gap:6px;flex:none}
 .link-metricas{flex:none;align-self:center;background:var(--papel);border:1px solid var(--fio);color:var(--cafe);border-radius:999px;padding:6px 12px;font-size:12.5px;font-weight:700;text-decoration:none;white-space:nowrap}
+.btn.video{background:var(--campo);color:var(--shopee);border:1px solid var(--fio)}
 .busca{max-width:1100px;margin:0 auto;width:100%;display:flex;gap:8px}
 .busca input{flex:1;min-width:0;border:1px solid var(--fio);background:var(--papel);color:var(--texto);border-radius:12px;padding:10px 12px}
 .busca select{flex:none;border:1px solid var(--fio);background:var(--papel);color:var(--texto);border-radius:12px;padding:10px 8px;max-width:44%}
@@ -63,9 +65,12 @@ main{max-width:1100px;margin:0 auto;padding:14px 16px 110px}
 .agenda-topo small{font-size:12px;color:var(--texto-2)}
 .agenda details summary{cursor:pointer;font-size:13px;font-weight:700;color:var(--cafe)}
 .agenda-hora{margin:10px 0 4px;font-size:12px;font-weight:700;color:var(--texto-2);text-transform:uppercase;letter-spacing:.04em}
-.agenda-item{display:flex;justify-content:space-between;gap:10px;font-size:13px;padding:6px 0;border-top:1px solid var(--fio)}
-.agenda-item span:first-child{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.agenda-item span:last-child{flex:none;color:var(--texto-2)}
+.agenda-item{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:13px;padding:6px 0;border-top:1px solid var(--fio)}
+.agenda-item span:first-child{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
+.agenda-item span.p{flex:none;color:var(--texto-2)}
+.agenda-item button{flex:none;border:1px solid var(--fio);background:var(--campo);color:var(--texto-2);border-radius:999px;width:30px;height:30px;font-size:13px;cursor:pointer;line-height:1}
+.limpar{margin-top:12px;width:100%;border:1px dashed var(--shopee);background:none;color:var(--shopee);border-radius:10px;padding:10px;font-weight:700;cursor:pointer}
+.limpar.confirmar{background:var(--shopee);color:#fff;border-style:solid}
 .grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
 .card{background:var(--papel);border:1px solid var(--fio);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
 .card.aprovado{border-color:var(--ok)}
@@ -106,6 +111,7 @@ button.btn.postar[aria-disabled="true"]{opacity:.45}
 .selo-ok.prog{background:var(--caramelo)}
 
 .vazio{background:var(--papel);border:1px dashed var(--fio);border-radius:16px;padding:28px 18px;text-align:center;color:var(--texto-2);display:grid;gap:8px}
+.vazio[hidden]{display:none}
 .vazio b{color:var(--cafe);font-size:15px}
 
 .barra{position:fixed;left:0;right:0;bottom:0;z-index:6;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:linear-gradient(to top,var(--bg) 70%,transparent);display:flex;justify-content:center;gap:8px}
@@ -137,7 +143,7 @@ button.btn.postar[aria-disabled="true"]{opacity:.45}
   <div class="linha1">
     <h1>Garimpo</h1>
     <div class="status" id="status">carregando…</div>
-    <a class="link-metricas" href="metricas.html">📊 Métricas</a>
+    <div class="links-topo"><a class="link-metricas" href="metricas.html">📊 Métricas</a><a class="link-metricas" href="catalogo.html">🔥 Catálogo</a></div>
   </div>
   <div class="perfis" role="group" aria-label="Qual grupo">
     <button type="button" data-perfil="ingrid">Indy · fitness</button>
@@ -161,8 +167,9 @@ button.btn.postar[aria-disabled="true"]{opacity:.45}
   <section class="agenda" aria-label="Agenda de posts">
     <div class="agenda-topo">
       <b>Programar para</b>
+      <div class="chips" id="chips-dia" role="group" aria-label="Dia do post"></div>
       <div class="chips" id="chips-hora" role="group" aria-label="Horário do post"></div>
-      <small id="hora-dica">Escolha o horário e depois toque em Postar nos produtos. Cada horário leva até 5.</small>
+      <small id="hora-dica">Escolha o dia e o horário e depois toque em Postar nos produtos.</small>
     </div>
     <details id="agenda-lista"><summary id="agenda-resumo">📅 Programados</summary><div id="agenda-itens"></div></details>
   </section>
@@ -193,10 +200,14 @@ button.btn.postar[aria-disabled="true"]{opacity:.45}
     </div>
     <label>Cupom <small>(opcional)</small>
       <input id="vi-cupom" type="text" maxlength="30" placeholder="ACHADO10"></label>
-    <label>Quando postar <small>(se não for agora)</small>
-      <select id="vi-hora"><option value="">Próximo horário do robô</option><option value="9">9h</option><option value="12">12h</option><option value="15">15h</option><option value="19">19h</option><option value="21">21h</option></select></label>
+    <div class="dois">
+      <label>Dia <small>(se não for agora)</small>
+        <select id="vi-dia"></select></label>
+      <label>Horário
+        <select id="vi-hora"><option value="">Próximo horário</option><option value="9">9h</option><option value="12">12h</option><option value="15">15h</option><option value="19">19h</option><option value="21">21h</option></select></label>
+    </div>
     <div class="linha-btn"><button class="btn postar" type="submit" id="vi-postar" data-modo="agora">Postar só este agora</button><button class="btn sec" type="submit" id="vi-guardar" data-modo="guardar">Programar</button></div>
-    <p class="vi-ajuda"><b>Postar só este agora:</b> sai somente este produto; os programados continuam esperando o horário deles.<br><b>Programar:</b> sai no horário escolhido acima (ou no próximo horário do robô).</p>
+    <p class="vi-ajuda"><b>Postar só este agora:</b> sai somente este produto; os programados continuam esperando o horário deles.<br><b>Programar:</b> sai no dia e horário escolhidos acima (ou no próximo horário do robô).</p>
     <button class="btn sec vi-cancelar" type="button" id="vi-cancelar">Cancelar</button>
   </form>
 </div>
@@ -298,6 +309,8 @@ function situacao(i) {
   return ag ? { tipo: "prog", quando: ag.quando } : { tipo: "env" };
 }
 
+/* 18/11: Shopee costuma ter o vídeo do vendedor como primeira mídia do anúncio. Abre direto no produto. */
+const botaoVideo = i => i.loja === "Shopee" ? `<a class="btn video" href="${esc(i.abrir || i.link)}" target="_blank" rel="noopener">🎬 Ver vídeo</a>` : "";
 function cartao(i) {
   const lojaCls = i.loja.split(" ")[0];
   const foto = i.imagem ? `<img src="${esc(i.imagem)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'semfoto',textContent:'sem foto'}))">` : `<span class="semfoto">sem foto</span>`;
@@ -312,6 +325,7 @@ function cartao(i) {
   } else if (i.converter) {
     acoes = `<button class="btn postar" type="button" data-agora="${i.gid}">⚡ Postar agora</button>
       <a class="btn sec" href="${tg("ok_" + i.gid + sufixoHora())}" target="_blank" rel="noopener" data-postar="${i.gid}">⏱ ${rotuloProgramar()}</a>
+      ${botaoVideo(i)}
       <div class="mini"><a href="${esc(i.link)}" target="_blank" rel="noopener">Ver produto</a><button type="button" data-desc="${i.gid}">Descartar</button></div>`;
   } else {
     const c = colados[i.gid] || "";
@@ -322,6 +336,7 @@ function cartao(i) {
       <span class="dica ${c && !cod ? "erro" : ""}" id="d-${i.gid}">${c && !cod ? "Esse link não parece ser meli.la, shopee, shein ou amzn.to" : "O link que começa com meli.la/…"}</span>
       <button class="btn postar" type="button" id="a-${i.gid}" data-agora="${i.gid}" aria-disabled="${!cod}">⚡ Postar agora</button>
       <a class="btn sec" id="p-${i.gid}" href="${linkPostar(cod, i.gid)}" aria-disabled="${!cod}" target="_blank" rel="noopener" data-postar="${i.gid}">⏱ ${rotuloProgramar()}</a>
+      ${botaoVideo(i)}
       <div class="mini"><button type="button" data-desc="${i.gid}">Descartar</button></div>`;
   }
   return `<article class="card ${sit ? (sit.tipo === "prog" ? "programado" : "aprovado") : ""}">
@@ -353,47 +368,107 @@ function travarBotao() {
   } else { b.disabled = false; b.textContent = "🚀 Enviar agora"; }
 }
 /* O robô guarda em "abrir" a página do produto (o link de outro canal abria a vitrine/cupom dele). */
-/* ===== Agenda: horário de cada post ===== */
+/* ===== Agenda: dia e horário de cada post (18/11: dá pra programar até 7 dias) ===== */
 const HORAS = [9, 12, 15, 19, 21];
+const DIAS_A_FRENTE = 7;
+const SEMANA = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
 const porHora = () => PERFIL === "blackfriday" ? 5 : 10;   /* o robô posta até isso por rodada */
 let horaEscolhida = "";
-const sufixoHora = () => horaEscolhida ? "-h" + horaEscolhida : "";
-const rotuloProgramar = () => horaEscolhida ? `Programar ${horaEscolhida}h` : "Programar";
+let diaEscolhido = "";      /* "" = automático (hoje, ou amanhã se a hora já passou); senão "2026-11-20" */
 function doisDig(n) { return String(n).padStart(2, "0"); }
 function diaISO(d) { return `${d.getFullYear()}-${doisDig(d.getMonth() + 1)}-${doisDig(d.getDate())}`; }
-/* Igual ao robô: hora que já passou hoje = amanhã nesse horário */
+function proximosDias() { const l = []; for (let k = 0; k < DIAS_A_FRENTE; k++) { const d = new Date(); d.setDate(d.getDate() + k); l.push(diaISO(d)); } return l; }
+function nomeDia(iso) {
+  const hoje = diaISO(new Date()), amanha = proximosDias()[1];
+  if (iso === hoje) return "Hoje";
+  if (iso === amanha) return "Amanhã";
+  const [a, m, d] = iso.split("-").map(Number);
+  return `${SEMANA[new Date(a, m - 1, d).getDay()]} ${doisDig(d)}/${doisDig(m)}`;
+}
+/* Igual ao robô: sem dia escolhido, hora que já passou hoje = amanhã nesse horário */
 function quandoDe(h) {
+  if (diaEscolhido) return `${diaEscolhido}T${doisDig(h)}:00`;
   const agora = new Date(), d = new Date(agora);
   if (h <= agora.getHours()) d.setDate(d.getDate() + 1);
   return `${diaISO(d)}T${doisDig(h)}:00`;
 }
+const sufixoHora = () => horaEscolhida ? (diaEscolhido ? "-d" + diaEscolhido.replace(/-/g, "") : "") + "-h" + horaEscolhida : "";
+const horarioEnvio = () => horaEscolhida ? (diaEscolhido ? `${diaEscolhido}T${horaEscolhida}` : String(horaEscolhida)) : "";
+const rotuloProgramar = () => horaEscolhida ? `Programar ${diaEscolhido && diaEscolhido !== diaISO(new Date()) ? nomeDia(diaEscolhido).replace("Amanhã", "amanhã") + " " : ""}${horaEscolhida}h` : "Programar";
 function rotuloQuando(q) {
   if (!q) return "Próximo horário";
-  const [dia, hora] = q.split("T"), hoje = diaISO(new Date());
-  return `${dia === hoje ? "Hoje" : dia > hoje ? "Amanhã" : dia.split("-").reverse().join("/")} · ${Number(hora.slice(0, 2))}h`;
+  const [dia, hora] = q.split("T");
+  return `${nomeDia(dia)} · ${Number(hora.slice(0, 2))}h`;
 }
+function horaPassou(h) { return diaEscolhido === diaISO(new Date()) && h <= new Date().getHours(); }
 function desenharAgenda() {
   const ag = (dados.agenda || []).slice();
   const conta = q => ag.filter(a => (a.quando || "") === q).length;
+  if (diaEscolhido && !proximosDias().includes(diaEscolhido)) diaEscolhido = "";
+  if (horaEscolhida && horaPassou(Number(horaEscolhida))) horaEscolhida = "";
+  document.getElementById("chips-dia").innerHTML =
+    proximosDias().map((d, k) => `<button class="chip" type="button" data-dia="${d}" aria-pressed="${diaEscolhido ? diaEscolhido === d : k === 0 && false}">${nomeDia(d)}</button>`).join("");
+  document.getElementById("chips-dia").insertAdjacentHTML("afterbegin",
+    `<button class="chip" type="button" data-dia="" aria-pressed="${diaEscolhido === ""}">Automático</button>`);
+  document.querySelectorAll("[data-dia]").forEach(b => b.addEventListener("click", () => {
+    diaEscolhido = b.dataset.dia;
+    if (diaEscolhido && !horaEscolhida) horaEscolhida = String(HORAS.find(h => !horaPassou(h)) || "");
+    gravarLocal(chaveP("garimpo-dia"), diaEscolhido); gravarLocal(chaveP("garimpo-hora"), horaEscolhida); desenhar();
+  }));
+  const horas = diaEscolhido ? HORAS.filter(h => !horaPassou(h)) : HORAS.slice().sort((a, b) => quandoDe(a).localeCompare(quandoDe(b)));
   document.getElementById("chips-hora").innerHTML =
-    `<button class="chip" type="button" data-hora="" aria-pressed="${horaEscolhida === ""}">Próximo horário</button>` +
-    HORAS.slice().sort((a, b) => quandoDe(a).localeCompare(quandoDe(b))).map(h => { const n = conta(quandoDe(h)); return `<button class="chip" type="button" data-hora="${h}" aria-pressed="${String(horaEscolhida) === String(h)}">${rotuloQuando(quandoDe(h)).replace(" · ", " ")} (${n}/${porHora()})</button>`; }).join("");
+    (diaEscolhido ? "" : `<button class="chip" type="button" data-hora="" aria-pressed="${horaEscolhida === ""}">Próximo horário</button>`) +
+    horas.map(h => { const n = conta(quandoDe(h)); return `<button class="chip" type="button" data-hora="${h}" aria-pressed="${String(horaEscolhida) === String(h)}">${diaEscolhido ? h + "h" : rotuloQuando(quandoDe(h)).replace(" · ", " ")} (${n}/${porHora()})</button>`; }).join("") +
+    (diaEscolhido && !horas.length ? `<span class="dica">Os horários de hoje já passaram. Escolha outro dia.</span>` : "");
   document.querySelectorAll("[data-hora]").forEach(b => b.addEventListener("click", () => {
     horaEscolhida = b.dataset.hora; gravarLocal(chaveP("garimpo-hora"), horaEscolhida); desenhar();
   }));
   const n = horaEscolhida ? conta(quandoDe(Number(horaEscolhida))) : 0;
   document.getElementById("hora-dica").textContent = horaEscolhida
-    ? (n >= porHora() ? `Esse horário já tem ${n}. O que passar de ${porHora()} sai na rodada seguinte.` : `Os produtos que você postar agora saem ${rotuloQuando(quandoDe(Number(horaEscolhida))).toLowerCase()}.`)
-    : `Escolha o horário e depois toque em Postar nos produtos. Cada horário leva até ${porHora()}.`;
+    ? (n >= porHora() ? `Esse horário já tem ${n}. O que passar de ${porHora()} sai na rodada seguinte.` : `Os produtos que você postar agora saem ${rotuloQuando(quandoDe(Number(horaEscolhida))).replace(" · ", " às ").toLowerCase()}.`)
+    : `Escolha o dia e o horário e depois toque em Postar nos produtos. Cada horário leva até ${porHora()}.`;
   ag.sort((a, b) => (a.quando || "").localeCompare(b.quando || ""));
   document.getElementById("agenda-resumo").textContent = ag.length ? `📅 Programados (${ag.length})` : "📅 Nada programado ainda";
   let html = "", ultimo = null;
   for (const a of ag) {
     const q = a.quando || "";
     if (q !== ultimo) { html += `<p class="agenda-hora">${esc(rotuloQuando(q))}</p>`; ultimo = q; }
-    html += `<div class="agenda-item"><span>${esc(a.produto)}</span><span>${a.preco ? brl(a.preco) : ""}</span></div>`;
+    html += `<div class="agenda-item"><span>${esc(a.produto)}</span><span class="p">${a.preco ? brl(a.preco) : ""}</span>${a.fila_id ? `<button type="button" data-cancelar="${esc(a.fila_id)}" aria-label="Cancelar ${esc(a.produto)}">✕</button>` : ""}</div>`;
   }
+  if (ag.length) html += `<button class="limpar" type="button" id="limpar">🗑 Limpar programação (${ag.length})</button>`;
   document.getElementById("agenda-itens").innerHTML = html || `<p class="agenda-hora">Toque em Postar nos produtos para programar.</p>`;
+  document.querySelectorAll("[data-cancelar]").forEach(b => b.addEventListener("click", () => cancelarProg(b.dataset.cancelar)));
+  const lp = document.getElementById("limpar");
+  if (lp) lp.addEventListener("click", () => {
+    if (!lp.classList.contains("confirmar")) {
+      lp.classList.add("confirmar"); lp.textContent = ag.length === 1 ? "Toque de novo pra cancelar o programado" : `Toque de novo pra cancelar os ${ag.length} programados`;
+      setTimeout(() => { if (document.body.contains(lp)) { lp.classList.remove("confirmar"); lp.textContent = `🗑 Limpar programação (${ag.length})`; } }, 5000);
+      return;
+    }
+    cancelarProg("tudo");
+  });
+}
+/* ===== Cancelar programação (um produto ou tudo) ===== */
+async function cancelarProg(qual) {
+  const chave = lerLocal("envio-chave", "");
+  if (!chave) { document.getElementById("folha-chave").hidden = false; document.getElementById("chave").focus(); return; }
+  try {
+    const r = await fetch(WORKFLOW, { method: "POST",
+      headers: { "Authorization": "Bearer " + chave, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
+      body: JSON.stringify({ ref: "main", inputs: { perfil: PERFIL, cancelar: qual } }) });
+    if (r.status === 204) {
+      const nomes = new Set();
+      dados.agenda = (dados.agenda || []).filter(a => { const sai = qual === "tudo" || a.fila_id === qual; if (sai) nomes.add(a.produto); return !sai; });
+      dados.itens.forEach(i => { if (nomes.has(i.nome) && !i.enviandoAgora) i.aprovado = false; });
+      avisoEnvio(qual === "tudo" ? "🗑 Limpando a programação. Em 1 a 2 minutos a lista atualiza." : "✕ Cancelado. Em 1 a 2 minutos a lista atualiza.", 8000);
+      desenhar();
+      return;
+    }
+    if (r.status === 401 || r.status === 403 || r.status === 404) {
+      gravarLocal("envio-chave", "");
+      avisoEnvio("⚠️ A chave não funcionou (venceu ou está errada). Toque de novo e cole a chave nova.", 9000);
+    } else avisoEnvio(`⚠️ O GitHub não respondeu direito (erro ${r.status}). Tente de novo em 1 minuto.`);
+  } catch (e) { avisoEnvio("⚠️ Sem conexão com o GitHub agora. Tente de novo em 1 minuto."); }
 }
 function linkParaAbrir(i) { return { url: i.abrir || i.link, busca: false }; }
 let pendente = null;   /* oferta do formulário esperando a chave */
@@ -409,8 +484,8 @@ async function enviarAgora(oferta) {
       body: JSON.stringify({ ref: "main", inputs: Object.assign({ perfil: PERFIL }, oferta || {}) }) });
     if (r.status === 204) {
       gravarLocal(chaveP("envio-ultimo"), Date.now());
-      const qual = oferta && oferta.nome ? "\"" + oferta.nome + "\"" : "A oferta";
-      avisoEnvio(oferta && oferta.modo === "guardar" ? `📅 ${qual} programado: sai ${oferta.horario ? rotuloQuando(quandoDe(Number(oferta.horario))).toLowerCase() : "no próximo horário"}.`
+      const qual = oferta && oferta.nome ? "\"" + oferta.nome + "\"" : "O produto";
+      avisoEnvio(oferta && oferta.modo === "guardar" ? `📅 ${qual} programado: sai ${oferta.horario ? rotuloDoHorario(oferta.horario) : "no próximo horário"}.`
                : oferta ? `✅ Só ${qual} está indo pro grupo. Em 2 a 3 minutos aparece lá.`
                         : "🚀 Robô acionado! Em 2 a 3 minutos o que vocês aprovaram vai pro grupo.", 9000);
       travarBotao();
@@ -426,6 +501,14 @@ async function enviarAgora(oferta) {
     avisoEnvio("⚠️ Sem conexão com o GitHub agora. Tente de novo em 1 minuto.");
   }
   b.disabled = false; b.textContent = "🚀 Enviar agora";
+}
+/* "19" ou "2026-11-20T19" -> "sex 20/11 às 19h" */
+function rotuloDoHorario(h) {
+  const m = String(h).match(/^(\d{4}-\d{2}-\d{2})T(\d{1,2})$/);
+  if (m) return rotuloQuando(`${m[1]}T${doisDig(m[2])}:00`).replace(" · ", " às ").toLowerCase();
+  const salvo = diaEscolhido; diaEscolhido = "";
+  const r = rotuloQuando(quandoDe(Number(h))).replace(" · ", " às ").toLowerCase();
+  diaEscolhido = salvo; return r;
 }
 document.getElementById("enviar").addEventListener("click", () => enviarAgora());
 document.getElementById("chave-cancelar").addEventListener("click", () => { document.getElementById("folha-chave").hidden = true; });
@@ -453,6 +536,7 @@ function lojaDoLink(u) {
 document.getElementById("vi").addEventListener("click", e => {
   e.preventDefault();
   document.querySelector(".js-vi-destino").innerHTML = `Grupo <b>${esc(NOME_GRUPO[PERFIL] || "")}</b>. Escolha embaixo se sai agora ou se guarda.`;
+  document.getElementById("vi-dia").innerHTML = `<option value="">Automático</option>` + proximosDias().map(d => `<option value="${d}">${nomeDia(d)}</option>`).join("");
   document.getElementById("folha-vi").hidden = false;
   document.getElementById("vi-link").focus();
 });
@@ -467,8 +551,11 @@ document.getElementById("form-vi").addEventListener("submit", e => {
   const preco = val("vi-preco").replace(/[^\d,.]/g, ""), antes = val("vi-antes").replace(/[^\d,.]/g, "");
   if (!/^https?:\/\//.test(val("vi-link"))) { avisoEnvio("⚠️ Cole o link completo, começando com https://"); return; }
   const modo = (e.submitter && e.submitter.dataset.modo) || "agora";
-  const hora = modo === "guardar" ? document.getElementById("vi-hora").value : "";
-  const oferta = { link: val("vi-link"), nome: val("vi-nome"), preco, preco_antes: antes, cupom: val("vi-cupom").toUpperCase(), modo, horario: hora };
+  let hora = modo === "guardar" ? val("vi-hora") : "";
+  const dia = modo === "guardar" ? val("vi-dia") : "";
+  if (dia && !hora) hora = "9";                       /* escolheu só o dia: primeiro horário */
+  const horario = hora ? (dia ? `${dia}T${hora}` : hora) : "";
+  const oferta = { link: val("vi-link"), nome: val("vi-nome"), preco, preco_antes: antes, cupom: val("vi-cupom").toUpperCase(), modo, horario };
   document.getElementById("folha-vi").hidden = true;
   document.getElementById("form-vi").reset(); document.getElementById("vi-loja").textContent = "";
   enviarAgora(oferta);
@@ -520,7 +607,7 @@ function ligarCartoes() {
       const cod = codigoDoLink(colados[a.dataset.postar] || "");
       if (!i || !cod) return;
       enviarAgora({ link: cod.url, nome: i.nome, preco: String(i.preco), preco_antes: i.preco_antes ? String(i.preco_antes) : "",
-                    cupom: /^[A-Z0-9]{4,20}$/.test(i.cupom || "") ? i.cupom : "", modo: "guardar", horario: horaEscolhida });
+                    cupom: /^[A-Z0-9]{4,20}$/.test(i.cupom || "") ? i.cupom : "", modo: "guardar", horario: horarioEnvio() });
     }
     if (i) {
       i.aprovado = true;
@@ -551,6 +638,10 @@ function marcarPerfil() {
   document.title = PERFIS[PERFIL].titulo;
   document.getElementById("q").placeholder = PERFIS[PERFIL].busca;
 }
+function lerHorario() {
+  horaEscolhida = String(lerLocal(chaveP("garimpo-hora"), "") || "");
+  diaEscolhido = String(lerLocal(chaveP("garimpo-dia"), "") || "");
+}
 document.querySelectorAll("[data-perfil]").forEach(b => b.addEventListener("click", () => {
   if (b.dataset.perfil === PERFIL) return;
   PERFIL = b.dataset.perfil;
@@ -558,11 +649,13 @@ document.querySelectorAll("[data-perfil]").forEach(b => b.addEventListener("clic
   history.replaceState(null, "", "?perfil=" + PERFIL);
   estado.mulher = !!lerLocal(chaveP("garimpo-mulher"), false);
   estado.cat = "Todas"; estado.loja = "Todas";
+  lerHorario();
   dados = { itens: [], bot: "", atualizado: "" };
   document.getElementById("status").textContent = "carregando…";
   marcarPerfil(); desenhar(); travarBotao(); carregar();
   window.scrollTo({ top: 0 });
 }));
+lerHorario();
 marcarPerfil();
 carregar();
 </script>
