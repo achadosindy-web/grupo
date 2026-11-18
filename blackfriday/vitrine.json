@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Passadeira 110v Ferro a Vapor Vaporizador de Roupas Tira...",
+  "loja": "Shopee",
+  "preco": 62.99,
+  "preco_antes": 146.49,
+  "quando": "2026-11-18T17:01-03:00"
+ },
+ {
   "nome": "Organizador Giratório Multiuso Bandeja",
   "loja": "Shopee",
   "preco": 29.9,
@@ -75,12 +82,5 @@
   "preco": 386.91,
   "preco_antes": 1111.0,
   "quando": "2026-11-17T12:10-03:00"
- },
- {
-  "nome": "Panela De Arroz Elétrica Multi-Camadas/De Dupla Camada Do...",
-  "loja": "Shopee",
-  "preco": 66.9,
-  "preco_antes": 99.85,
-  "quando": "2026-11-17T10:11-03:00"
  }
 ]
