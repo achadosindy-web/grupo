@@ -307,7 +307,7 @@ function filtrados() {
 function situacao(i) {
   if (!i.aprovado) return null;
   if (i.enviandoAgora) return { tipo: "enviando" };
-  const ag = (dados.agenda || []).find(a => a.produto === i.nome);
+  const ag = agendaValida().find(a => a.produto === i.nome);
   return ag ? { tipo: "prog", quando: ag.quando } : { tipo: "env" };
 }
 
@@ -403,8 +403,14 @@ function rotuloQuando(q) {
   return `${nomeDia(dia)} · ${Number(hora.slice(0, 2))}h`;
 }
 function horaPassou(h) { return diaEscolhido === diaISO(new Date()) && h <= new Date().getHours(); }
+/* 18/11: programado com horário que passou há mais de 6h = vencido (o robô tira da fila sem postar) */
+function agendaValida() {
+  const d = new Date(Date.now() - 6 * 3600e3);
+  const limite = `${diaISO(d)}T${doisDig(d.getHours())}:${doisDig(d.getMinutes())}`;
+  return (dados.agenda || []).filter(a => !a.quando || a.quando >= limite);
+}
 function desenharAgenda() {
-  const ag = (dados.agenda || []).slice();
+  const ag = agendaValida();
   const conta = q => ag.filter(a => (a.quando || "") === q).length;
   if (diaEscolhido && !proximosDias().includes(diaEscolhido)) diaEscolhido = "";
   if (horaEscolhida && horaPassou(Number(horaEscolhida))) horaEscolhida = "";
