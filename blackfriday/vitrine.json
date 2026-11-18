@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Celimax The Vita A Retinal Shot Tightening Booster 15ml",
+  "loja": "Shopee",
+  "preco": 136.5,
+  "preco_antes": 220.16,
+  "quando": "2026-11-18T15:17-03:00"
+ },
+ {
   "nome": "Jogo de Lençol 400 Fios Extra Macio c/ Fronhas Ponto Pali...",
   "loja": "Shopee",
   "preco": 14.99,
@@ -75,12 +82,5 @@
   "preco": 43.9,
   "preco_antes": 70.81,
   "quando": "2026-11-16T12:39-03:00"
- },
- {
-  "nome": "MONDIAL Climatizador Flash Air  Branco/Preto  80W  110V -...",
-  "loja": "Amazon",
-  "preco": 279.9,
-  "preco_antes": 595.53,
-  "quando": "2026-11-16T12:38-03:00"
  }
 ]
