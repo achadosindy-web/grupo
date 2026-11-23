@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Principia Gel de Limpeza Suave - GL-02 c/ 200g",
+  "loja": "Shopee",
+  "preco": 38.7,
+  "preco_antes": 43.0,
+  "quando": "2026-11-23T12:19-03:00"
+ },
+ {
   "nome": "Kit Facial Kokeshi Completo 3 Passos Hidratação e Colágeno",
   "loja": "Shopee",
   "preco": 56.91,
@@ -75,12 +82,5 @@
   "preco": 37.0,
   "preco_antes": 0,
   "quando": "2026-11-05T10:08-03:00"
- },
- {
-  "nome": "Faqueiro 24 pçs Tramontina Búzios",
-  "loja": "Amazon",
-  "preco": 61.62,
-  "preco_antes": 0,
-  "quando": "2026-11-02T21:10-03:00"
  }
 ]
