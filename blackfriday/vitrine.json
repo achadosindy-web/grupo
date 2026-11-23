@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Carregador Sem Fio 5000/10000mAh iPhone",
+  "loja": "Shopee",
+  "preco": 28.85,
+  "preco_antes": 57.7,
+  "quando": "2026-11-23T13:11-03:00"
+ },
+ {
   "nome": "Espelho Orgânico 120X50cm e 95x40cm Lapidado Moderno Gran...",
   "loja": "Shopee",
   "preco": 79.99,
@@ -75,12 +82,5 @@
   "preco": 38.7,
   "preco_antes": 43.0,
   "quando": "2026-11-18T11:17-03:00"
- },
- {
-  "nome": "Climatizador Ar Ventisol Portátil Turbo Evaporativo 16 Li...",
-  "loja": "Shopee",
-  "preco": 449.99,
-  "preco_antes": 803.55,
-  "quando": "2026-11-18T10:12-03:00"
  }
 ]
