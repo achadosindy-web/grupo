@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Batedor Misturador Mixer Elétrico para Bebidas Leite Café...",
+  "loja": "Shopee",
+  "preco": 18.69,
+  "preco_antes": 89.0,
+  "quando": "2026-11-26T16:36-03:00"
+ },
+ {
   "nome": "Celimax The Vita A Retinal Shot Tightening Booster 15ml",
   "loja": "Shopee",
   "preco": 136.5,
@@ -75,12 +82,5 @@
   "preco": 84.68,
   "preco_antes": 169.36,
   "quando": "2026-11-11T14:30-03:00"
- },
- {
-  "nome": "Kit 3 Tops com Bojo Fitness",
-  "loja": "Mercado Livre",
-  "preco": 37.0,
-  "preco_antes": 0,
-  "quando": "2026-11-05T10:08-03:00"
  }
 ]
