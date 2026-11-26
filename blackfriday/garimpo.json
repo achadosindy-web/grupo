@@ -5503,5 +5503,13 @@
    "aprovado": false
   }
  ],
- "agenda": []
+ "agenda": [
+  {
+   "produto": "mini processador de alimentos elétrico picador de alho triturador de pimenta 350ml",
+   "loja": "Shopee",
+   "preco": 25.99,
+   "quando": "2026-11-27T09:00",
+   "fila_id": "1a2195cc5fae00"
+  }
+ ]
 }
