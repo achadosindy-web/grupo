@@ -1,5 +1,12 @@
 [
  {
+  "nome": "Aspirador 3 em 1 De Pó Usb Portátil Completo Premium Carr...",
+  "loja": "Shopee",
+  "preco": 22.99,
+  "preco_antes": 34.83,
+  "quando": "2026-11-26T16:37-03:00"
+ },
+ {
   "nome": "Carregador Sem Fio 5000/10000mAh iPhone",
   "loja": "Shopee",
   "preco": 28.85,
@@ -75,12 +82,5 @@
   "preco": 39.99,
   "preco_antes": 99.97,
   "quando": "2026-11-18T11:21-03:00"
- },
- {
-  "nome": "Principia Gel de Limpeza Suave - GL-02 c/ 200g",
-  "loja": "Shopee",
-  "preco": 38.7,
-  "preco_antes": 43.0,
-  "quando": "2026-11-18T11:17-03:00"
  }
 ]
