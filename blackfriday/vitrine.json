@@ -1,5 +1,12 @@
 [
  {
+  "nome": "TÁ BARATA DEMAIS ESSA QNED MINI LED DA LG",
+  "loja": "Mercado Livre",
+  "preco": 2133.0,
+  "preco_antes": 3199.0,
+  "quando": "2026-11-27T10:20-03:00"
+ },
+ {
   "nome": "Lava e Seca Midea Titanium Slim 11kg: sua roupa impecável...",
   "loja": "Mercado Livre",
   "preco": 3199.0,
@@ -75,12 +82,5 @@
   "preco": 4850.0,
   "preco_antes": 0,
   "quando": "2026-11-18T12:32-03:00"
- },
- {
-  "nome": "Kit Dupla Renovadores Faciais Kokeshi Pele Porcelana Olho...",
-  "loja": "Shopee",
-  "preco": 34.57,
-  "preco_antes": 50.1,
-  "quando": "2026-11-18T12:14-03:00"
  }
 ]
