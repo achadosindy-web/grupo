@@ -1,5 +1,12 @@
 [
  {
+  "nome": "mini processador de alimentos elétrico picador de alho tr...",
+  "loja": "Shopee",
+  "preco": 25.99,
+  "preco_antes": 0,
+  "quando": "2026-11-27T09:10-03:00"
+ },
+ {
   "nome": "Air Fryer Oven Philco 11L 8 Funções Visor 1800W PAF11B",
   "loja": "Shopee",
   "preco": 349.9,
@@ -75,12 +82,5 @@
   "preco": 56.91,
   "preco_antes": 93.3,
   "quando": "2026-11-18T11:53-03:00"
- },
- {
-  "nome": "Kit 4 Potes Herméticos Tampa Bambu Organizador Mantimento...",
-  "loja": "Shopee",
-  "preco": 39.99,
-  "preco_antes": 99.97,
-  "quando": "2026-11-18T11:21-03:00"
  }
 ]
